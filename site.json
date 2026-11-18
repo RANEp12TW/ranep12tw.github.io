@@ -1,5 +1,6 @@
 {
   "releaseBaseUrl": "https://ranep12tw.github.io/updates/",
   "registrationUrl": "https://win-uogu7ifn0g5.tail7f7ad4.ts.net/register.ashx",
-  "playerDownloadUrl": null
+  "playerDownloadUrl": null,
+  "passwordChangeUrl": "https://win-uogu7ifn0g5.tail7f7ad4.ts.net/register.ashx?action=password"
 }

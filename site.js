@@ -23,6 +23,12 @@ async function loadServices() {
     link.hidden = false;
     document.querySelector("#register-status").textContent = "建立帳號後，可用同一組帳密登入遊戲。";
   }
+  const password = secureUrl(settings.passwordChangeUrl);
+  if (password && register && password.origin === register.origin) {
+    const link = document.querySelector("#password-link");
+    link.href = password.href;
+    link.hidden = false;
+  }
   const player = secureUrl(settings.playerDownloadUrl);
   if (player) {
     const link = document.querySelector("#download-link");
