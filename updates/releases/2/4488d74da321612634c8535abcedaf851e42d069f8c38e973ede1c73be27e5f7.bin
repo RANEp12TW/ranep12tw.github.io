@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<TEXT>
+<SENTENSE Ver="1" Id="ALLIANCE_BATTLE_BEGIN">
+<VALUE Lang="tw">%1%'同盟和 '%2%'同盟的 '同盟對戰'開始了.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="ALLIANCE_BATTLE_BEGIN_REFUSE">
+<VALUE Lang="tw">%1%'同盟拒絕了 '%2%'同盟發出的 '同盟對戰'申請.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="ALLIANCE_BATTLE_OVER_ARMISTICE">
+<VALUE Lang="tw">%1%'同盟和 '%2%'同盟的 '同盟對戰'進行休戰.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="ALLIANCE_BATTLE_OVER_ARMISTICE_RESULT">
+<VALUE Lang="tw">休戰結果分數%d : %d</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="ALLIANCE_BATTLE_OVER_DRAW">
+<VALUE Lang="tw">%1%'同盟和 '%2%'同盟在 '同盟對戰'中沒有分出勝負.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="ALLIANCE_BATTLE_OVER_SUBMISSION">
+<VALUE Lang="tw">%1%'同盟已向 '%2%'同盟投降.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="ALLIANCE_BATTLE_OVER_WIN">
+<VALUE Lang="tw">'%1%'同盟在'同盟對戰'中戰勝了 '%2%'同盟.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="ALLIANCE_BATTLE_RESULT">
+<VALUE Lang="tw">同盟對戰進度 : %1% %2%勝 %3%敗 %4%平</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="APPLY_GUID_MAP_EFFECT">
+<VALUE Lang="tw">認證組織獲得了 %1% %2$2.2f%% 效果</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="ATTENDANCE_REWARD_POST_CONTENT">
+<VALUE Lang="tw">此信件為點名簿課程獎勵品</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="ATTENDANCE_REWARD_POST_SENDERNAME">
+<VALUE Lang="tw">Ran Online World</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="ATTENDANCE_REWARD_POST_TITLE">
+<VALUE Lang="tw">點名簿課程獎勵</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CLUB_BANISHMENT_POST_CONTENT">
+<VALUE Lang="tw">已成功退出公會。</VALUE>
+<VALUE Lang="tw">退出後1天內無法再加入其他公會。但是，可創立公會。</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CLUB_BANISHMENT_POST_SENDER_NAME">
+<VALUE Lang="tw">Ran Online World</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CLUB_BANISHMENT_POST_TITLE">
+<VALUE Lang="tw">退出公會訊息</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CLUB_BATTLE_BEGIN">
+<VALUE Lang="tw">%1%'組織和 '%2%'組織的 '組織對戰'開始了.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CLUB_BATTLE_BEGIN_REFUSE">
+<VALUE Lang="tw">%1%'組織拒絕了 '%2%'組織發出的 '組織對戰'申請.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CLUB_BATTLE_OVER_ARMISTICE">
+<VALUE Lang="tw">%1%'組織和 '%2%'組織的 '組織對戰'進行休戰.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CLUB_BATTLE_OVER_ARMISTICE_RESULT">
+<VALUE Lang="tw">休戰結果 比分 %d : %d</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CLUB_BATTLE_OVER_DRAW">
+<VALUE Lang="tw">%1%'組織和 '%2%'組織在 '組織對戰'中沒有分出勝負.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CLUB_BATTLE_OVER_SUBMISSION">
+<VALUE Lang="tw">%1%'組織已向 '%2%'組織投降.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CLUB_BATTLE_OVER_WIN">
+<VALUE Lang="tw">%1%'組織在 '組織對戰'中戰勝了 '%2%'組織.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CLUB_BATTLE_RESULT">
+<VALUE Lang="tw">組織對戰記錄 : %1% %2%勝 %3%敗 %4%和</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CLUB_DEATHMATCH_END_RANKING">
+<VALUE Lang="tw">第%1%名 : '%2%' ( %3% / %4% )</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCONFRONT_END_CDRAWN">
+<VALUE Lang="tw">'在'%1%' '%2%' 對 '%3%' 之間的組織訓練結束了. 沒有分出勝負.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCONFRONT_END_CWIN">
+<VALUE Lang="tw">'在'%1%' '%2%' 對 '%3%' 之間的組織訓練結束了. '%4%' 組織獲勝.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCONFRONT_END_PDRAWN">
+<VALUE Lang="tw">'在'%1%' '%2%' 對 '%3%' 之間的隊伍訓練結束了. 沒有分出勝負.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCONFRONT_END_PWIN">
+<VALUE Lang="tw">'在'%1%' '%2%' 對 '%3%' 之間的隊伍訓練結束了. '%4%' 隊員獲勝.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCONFRONT_START_PARTY">
+<VALUE Lang="tw">在'%1%' '%2%' 對 '%3%' 之間的隊伍訓練開始了.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCROWACT_KNOCK">
+<VALUE Lang="tw">'%1%' 已經在 %2%重生.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCROWACT_REPULSE">
+<VALUE Lang="tw">'%1%' 已經被擊殺.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMGUIDCLUB_CERTIFIED">
+<VALUE Lang="tw">'%1%' 組織獲得 '%2%' 地區的領導組織認證.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="LOTTOSYSTEM_GIVE_MONEY_POST_CONTENT">
+<VALUE Lang="tw">恭喜樂透%1%期%2%獎 中獎。(%2%獎 獎金%3%已發送。請確認背包金額)</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="LOTTOSYSTEM_GIVE_MONEY_POST_SENDERNAME">
+<VALUE Lang="tw">Ran Online World</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="LOTTOSYSTEM_GIVE_MONEY_POST_TITLE">
+<VALUE Lang="tw">樂透第%1%期 %2%獎 中獎通知</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="PARTY_TENDER_POST_CONTENT">
+<VALUE Lang="tw">押注獲得的道具</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="PARTY_TENDER_POST_SENDER_NAME">
+<VALUE Lang="tw">Ran Online World</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="PARTY_TENDER_POST_TITLE">
+<VALUE Lang="tw">押注獲得的道具</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="POSTBOX_CHARGE_CONTENT">
+<VALUE Lang="tw">對方已同意支付物品購買金額，您收到的支付金額如下</VALUE>
+<VALUE Lang="tw">請按下收取按鈕領取金幣</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="POSTBOX_CHARGE_TITLE">
+<VALUE Lang="tw">道具購買金額</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="PRIVATEMARKET_BUY_POST_CONTENT">
+<VALUE Lang="tw">Item purchased from Personal Store.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="PRIVATEMARKET_BUY_POST_SENDERNAME">
+<VALUE Lang="tw">Ran Online World</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="PRIVATEMARKET_BUY_POST_TITLE">
+<VALUE Lang="tw">Item purchased from Personal Store</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="PRIVATEMARKET_ROLLBACK_POST_CONTENT">
+<VALUE Lang="tw">個人商店誤支付的道具費用</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="PRIVATEMARKET_ROLLBACK_POST_SENDERNAME">
+<VALUE Lang="tw">Ran Online World</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="PRIVATEMARKET_ROLLBACK_POST_TITLE">
+<VALUE Lang="tw">個人商店道具回收費用</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="SYSTEM_POST_SENDER_NAME">
+<VALUE Lang="tw">Ran Online World</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="TEXT_FULL_INVENTORY_POST_CONTENTS">
+<VALUE Lang="tw">Skip</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="TEXT_FULL_INVENTORY_POST_TITLE">
+<VALUE Lang="tw">Skip</VALUE>
+  </SENTENSE>
+  <SENTENSE Ver="1" Id="TEXT_RANMOBILE_DAILYREWARD_CONTENTS">
+    <VALUE Lang="tw">『口袋亂』日常獎勵已發送至郵件.</VALUE>
+  </SENTENSE>
+  <SENTENSE Ver="1" Id="TEXT_RANMOBILE_DAILYREWARD_TITLE">
+    <VALUE Lang="tw">『口袋亂』日常獎勵</VALUE>
+  </SENTENSE>
+  <SENTENSE Ver="1" Id="TEXT_SKILLREST_CONTENTS">
+    <VALUE Lang="tw">您的角色技能已初始化,技能球支付結束</VALUE>
+  </SENTENSE>
+  <SENTENSE Ver="1" Id="TEXT_SKILLREST_TITLE">
+    <VALUE Lang="tw">角色技能已轉為初始化狀態</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="WRAPPER_ITEM_RESTORE_POST_CONTENTS">
+<VALUE Lang="tw">Skip</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="WRAPPER_ITEM_RESTORE_POST_TITLE">
+<VALUE Lang="tw">Skip</VALUE>
+</SENTENSE>
+<WORD Ver="1" Id="BRIGHT_EVENT_MSG">
+<VALUE Lang="tw" Index="0">現在正在進行性向活動.</VALUE>
+<VALUE Lang="tw" Index="1">在活動中進行PK時,不會扣角色的屬性點數. </VALUE>
+<VALUE Lang="tw" Index="2">死亡時,裝備的道具不會掉落.</VALUE>
+</WORD>
+<WORD Ver="1" Id="MAP_EFFECT">
+<VALUE Lang="tw" Index="0">提高攻擊速度</VALUE>
+<VALUE Lang="tw" Index="1">提高移動速度</VALUE>
+<VALUE Lang="tw" Index="2">HP最大值提升率</VALUE>
+<VALUE Lang="tw" Index="3">MP最大值提升率</VALUE>
+<VALUE Lang="tw" Index="4">所有恢復率</VALUE>
+<VALUE Lang="tw" Index="5">提升攻擊率</VALUE>
+<VALUE Lang="tw" Index="6">提高防禦力</VALUE>
+</WORD>
+<WORD Ver="1" Id="PRIVATE_MARKET_POINTSHOP_TRADE">
+<VALUE Lang="tw" Index="0">P幣委託販售系統</VALUE>
+<VALUE Lang="tw" Index="1">P幣(原本)</VALUE>
+<VALUE Lang="tw" Index="2">P幣(最新)</VALUE>
+<VALUE Lang="tw" Index="3">販售價格</VALUE>
+<VALUE Lang="tw" Index="4">手續費</VALUE>
+<VALUE Lang="tw" Index="5">Item from %1%</VALUE>
+</WORD>
+<WORD Ver="1" Id="PVP_CTFLAG_UI_TEXT">
+<VALUE Lang="tw" Index="0">目標分數: %1%分</VALUE>
+<VALUE Lang="tw" Index="1">紅隊</VALUE>
+<VALUE Lang="tw" Index="2">藍隊</VALUE>
+</WORD>
+<WORD Ver="1" Id="RN_COMPETITION_RESULT_TAB">
+<VALUE Lang="tw" Index="0">戰鬥結果</VALUE>
+</WORD>
+<WORD Ver="1" Id="RN_COMPETITION_RESULT_TITLE">
+<VALUE Lang="tw" Index="0">名次</VALUE>
+<VALUE Lang="tw" Index="1">學院</VALUE>
+<VALUE Lang="tw" Index="2">職業</VALUE>
+<VALUE Lang="tw" Index="3">角色名稱</VALUE>
+<VALUE Lang="tw" Index="4">公會名稱</VALUE>
+<VALUE Lang="tw" Index="5">獲得pt</VALUE>
+<VALUE Lang="tw" Index="6">防禦量</VALUE>
+<VALUE Lang="tw" Index="7">治癒量</VALUE>
+<VALUE Lang="tw" Index="8">射殺</VALUE>
+<VALUE Lang="tw" Index="9">死亡</VALUE>
+<VALUE Lang="tw" Index="10">復活</VALUE>
+<VALUE Lang="tw" Index="11">獎勵</VALUE>
+<VALUE Lang="tw" Index="12">No.</VALUE>
+<VALUE Lang="tw" Index="13">奪取次數</VALUE>
+<VALUE Lang="tw" Index="14">公會首長名</VALUE>
+<VALUE Lang="tw" Index="15">公會標誌</VALUE>
+<VALUE Lang="tw" Index="16">獲得分數</VALUE>
+<VALUE Lang="tw" Index="17">擁有認證機數</VALUE>
+<VALUE Lang="tw" Index="18">認證成功次數</VALUE>
+<VALUE Lang="tw" Index="19">Flag</VALUE>
+<VALUE Lang="tw" Index="20">Country</VALUE>
+</WORD>
+<WORD Ver="1" Id="RN_COMPETITION_RESULT_TITLE_TOUR">
+<VALUE Lang="tw" Index="0">名次</VALUE>
+<VALUE Lang="tw" Index="1">學院</VALUE>
+<VALUE Lang="tw" Index="2">職業</VALUE>
+<VALUE Lang="tw" Index="3">等級</VALUE>
+<VALUE Lang="tw" Index="4">角色名稱</VALUE>
+<VALUE Lang="tw" Index="5">勝利次數</VALUE>
+<VALUE Lang="tw" Index="6">傷害量</VALUE>
+<VALUE Lang="tw" Index="7">治癒量</VALUE>
+<VALUE Lang="tw" Index="8">獎勵</VALUE>
+</WORD>
+<WORD Ver="1" Id="RNCDM_REJOIN_TEXT">
+<VALUE Lang="tw" Index="0">要接受組織生死鬥的邀請嗎?</VALUE>
+<VALUE Lang="tw" Index="1">確認</VALUE>
+<VALUE Lang="tw" Index="2">取消</VALUE>
+</WORD>
+<WORD Ver="1" Id="SYSTEM_POST_SENDER_CONTENTS">
+<VALUE Lang="tw" Index="0">組織生死鬥第%1%名的獎勵</VALUE>
+<VALUE Lang="tw" Index="1">搶旗戰獲勝獎勵</VALUE>
+<VALUE Lang="tw" Index="2">這是領導組織戰戰勝獎</VALUE>
+<VALUE Lang="tw" Index="3">這是領導組織戰參加獎</VALUE>
+<VALUE Lang="tw" Index="4">Reward for winning the Battle Islands war.</VALUE>
+<VALUE Lang="tw" Index="5">Reward for participating in Battle Islands war.</VALUE>
+<VALUE Lang="tw" Index="6">這是參加搶旗戰的獎勵。</VALUE>
+</WORD>
+<WORD Ver="1" Id="TOURNAMENT_BETTING_WINNER">
+<VALUE Lang="tw" Index="0">恭喜。預測的角色獲得勝利。</VALUE>
+</WORD>
+<WORD Ver="1" Id="TOURNAMENT_PVP_SENDER">
+<VALUE Lang="tw" Index="0">淘汰賽管理員</VALUE>
+</WORD>
+<WORD Ver="1" Id="TOURNAMENT_WIN_MAIL_MESSAGE">
+<VALUE Lang="tw" Index="0">`%s` 優勝者的獎勵</VALUE>
+<VALUE Lang="tw" Index="1">`%s` 準决賽的獎勵</VALUE>
+<VALUE Lang="tw" Index="2">`%s` %d強的獎勵</VALUE>
+</WORD>
+</TEXT>
