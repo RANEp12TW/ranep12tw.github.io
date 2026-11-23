@@ -1,0 +1,4811 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TEXT>
+  <SENTENSE Ver="1" Id="ACTIVE_ACTION_SKILL_TEXT">
+<VALUE Lang="tw">傷害發動 技能效果</VALUE>
+  </SENTENSE>
+  <SENTENSE Ver="1" Id="COPYRIGHT_COMPANY">
+    <VALUE Lang="tw">版權所有(c) 2020 Entertainment Game Service 有限公司，保留所有權利。</VALUE>
+  </SENTENSE>
+  <SENTENSE Ver="1" Id="COPYRIGHT_COMPANY_LOAD">
+    <VALUE Lang="tw">版權所有(c) 2020 Entertainment Game Service 有限公司保留所有權利。</VALUE>
+  </SENTENSE>
+  <SENTENSE Ver="1" Id="DEALY_ACTION_SKILL_TEXT">
+<VALUE Lang="tw">效果延遲</VALUE>
+  </SENTENSE>
+  <SENTENSE Ver="1" Id="DECOMPOSE_RESULTITEM_MSG">
+    <VALUE Lang="tw">成功分解%1%，獲得了%3%個 %2%.</VALUE>
+  </SENTENSE>
+  <SENTENSE Ver="1" Id="DISCOURAGES">
+    <VALUE Lang="tw">非建議選項</VALUE>
+  </SENTENSE>
+  <SENTENSE Ver="1" Id="FLYCAMERACONTROL_WINDOW_TEXT">
+    <VALUE Lang="tw">Skip</VALUE>
+  </SENTENSE>
+  <SENTENSE Ver="1" Id="GATE_ALARM">
+    <VALUE Lang="tw">若要移動，請按'確認移動'。</VALUE>
+  </SENTENSE>
+  <SENTENSE Ver="1" Id="ITEM_DECOMPOSE_OKQUESTION">
+    <VALUE Lang="tw">確定要進行分解嗎？</VALUE>
+  </SENTENSE>
+  <SENTENSE Ver="1" Id="ITEM_USEPREVIEW">
+    <VALUE Lang="tw">按住『Alt』 鍵點選滑鼠左鍵，可預覽道具。</VALUE>
+  </SENTENSE>
+  <SENTENSE Ver="1" Id="ITEM_USEPREVIEW_RN">
+    <VALUE Lang="tw">預覽 : Alt + 滑鼠左鍵</VALUE>
+  </SENTENSE>
+  <SENTENSE Ver="1" Id="ITEMPREVIEW_TITLE">
+    <VALUE Lang="tw">預覽道具</VALUE>
+  </SENTENSE>
+  <SENTENSE Ver="1" Id="MACRO_REMAINTIMEALARM_SENTENSE">
+    <VALUE Lang="tw">自動打怪系統使用時間剩餘 %1%秒.</VALUE>
+  </SENTENSE>
+  <SENTENSE Ver="1" Id="MACRO_RETURNOPTION_ENABLEFAILD">
+    <VALUE Lang="tw">沒有學院傳送卡, 無法進行此操作.</VALUE>
+  </SENTENSE>
+  <SENTENSE Ver="1" Id="MAP_LEFT_MOUSE_CLICK">
+    <VALUE Lang="tw">點選滑鼠右鍵可直接邀請%1%加入隊伍</VALUE>
+  </SENTENSE>
+  <SENTENSE Ver="1" Id="MAP_RIGHT_MOUSE_CLICK">
+    <VALUE Lang="tw">點選滑鼠右鍵可發送密語給%1%玩家</VALUE>
+  </SENTENSE>
+  <SENTENSE Ver="1" Id="MAP_SHORT_SEARCH_EXPLAIN">
+    <VALUE Lang="tw">搜尋關鍵字太少。</VALUE>
+  </SENTENSE>
+  <SENTENSE Ver="1" Id="MULTI_SKILL_TEXT">
+    <VALUE Lang="tw">額外技能特效</VALUE>
+  </SENTENSE>
+  <SENTENSE Ver="1" Id="POSTBOX_PAGE_HISTORY_TEXT_STATIC_DESCRIBE">
+    <VALUE Lang="tw">郵件狀況最多可儲存%d封，</VALUE>
+    <VALUE Lang="tw">超過限制時系統自動刪除最舊的信件</VALUE>
+  </SENTENSE>
+  <SENTENSE Ver="1" Id="POSTBOX_WINDOW_TITLE">
+    <VALUE Lang="tw">信箱</VALUE>
+  </SENTENSE>
+  <SENTENSE Ver="1" Id="STATSRESET_TOPIC_ITEM_RETURN">
+    <VALUE Lang="tw">還原的道具</VALUE>
+  </SENTENSE>
+  <SENTENSE Ver="1" Id="STATSRESET_TOPIC_STATS_CURRENT">
+    <VALUE Lang="tw">目前狀態</VALUE>
+  </SENTENSE>
+  <SENTENSE Ver="1" Id="STATSRESET_TOPIC_STATS_PREVIEW_INFO">
+    <VALUE Lang="tw">還原至先前資料</VALUE>
+  </SENTENSE>
+  <SENTENSE Ver="1" Id="STATSRESET_TOPIC_STATS_PREVIEW_SELECT">
+    <VALUE Lang="tw">還原至先前設定</VALUE>
+  </SENTENSE>
+  <SENTENSE Ver="1" Id="STORAGE_TIMELEFT">
+    <VALUE Lang="tw">%d/%d/%d %02d:%02d為止.</VALUE>
+  </SENTENSE>
+  <WORD Ver="1" Id=" PUBLIC _CANCEL_ BUTTON ">
+    <VALUE Lang="tw" Index="0">取消</VALUE>
+  </WORD>
+  <WORD Ver="1" Id=" PUBLIC _END_ BUTTON  ">
+    <VALUE Lang="tw" Index="0">結束</VALUE>
+  </WORD>
+  <WORD Ver="1" Id=" PUBLIC _NO_ BUTTON  ">
+    <VALUE Lang="tw" Index="0">否</VALUE>
+  </WORD>
+  <WORD Ver="1" Id=" PUBLIC _OK_BUTTON   ">
+    <VALUE Lang="tw" Index="0">確認</VALUE>
+  </WORD>
+  <WORD Ver="1" Id=" PUBLIC _START_ BUTTON    ">
+    <VALUE Lang="tw" Index="0">開始</VALUE>
+  </WORD>
+  <WORD Ver="1" Id=" PUBLIC _YES_ BUTTON   ">
+    <VALUE Lang="tw" Index="0">是</VALUE>
+  </WORD>
+  <WORD Ver="1" Id=" PUBLIC_WINDOW_CLOSE_ BUTTON">
+    <VALUE Lang="tw" Index="0">關閉</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ACADEMY_NAME">
+<VALUE Lang="tw" Index="0">聖門</VALUE>
+<VALUE Lang="tw" Index="1">玄巖</VALUE>
+<VALUE Lang="tw" Index="2">鳳凰</VALUE> 
+<VALUE Lang="tw" Index="3">全部學院</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ACADEMY_NAME_BELONG">
+    <VALUE Lang="tw" Index="0">所屬</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ACTIVE_SKILL_TEXT">
+    <VALUE Lang="tw" Index="0">[傷害激活效果]</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ACTIVITY_HELP_TEXT_TITLE">
+    <VALUE Lang="tw" Index="0">小幫手</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ACTIVITY_SALESITEM_ITEM_TEXT">
+    <VALUE Lang="tw" Index="0">價格：%1%</VALUE>
+<VALUE Lang="tw" Index="1">榮譽點數 : %1% (%2%)</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ACTIVITY_SALESITEM_TITLE">
+    <VALUE Lang="tw" Index="0">特殊任務販賣道具</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ACTIVITY_SALESITEM_WINDOW_BUTTON">
+    <VALUE Lang="tw" Index="0">關閉</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ACTIVITY_STATUS_TEXT">
+    <VALUE Lang="tw" Index="0">(進行狀況：%1%)</VALUE>
+    <VALUE Lang="tw" Index="1">完成！</VALUE>
+    <VALUE Lang="tw" Index="2">不可</VALUE>
+    <VALUE Lang="tw" Index="3">等級</VALUE>
+    <VALUE Lang="tw" Index="4">次</VALUE>
+    <VALUE Lang="tw" Index="5">(依序進行：%1%/%2%)</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ADMIN_NAME">
+    <VALUE Lang="tw" Index="0">GM</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ARROW_TYPE">
+<VALUE Lang="tw" Index="0">箭</VALUE>
+<VALUE Lang="tw" Index="1">符咒</VALUE>
+<VALUE Lang="tw" Index="2">中子彈</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ATTENDANCE_AWARD_TEXT">
+    <VALUE Lang="tw" Index="0">獎勵道具：</VALUE>
+    <VALUE Lang="tw" Index="1">經驗值：%1%</VALUE>
+    <VALUE Lang="tw" Index="2">生活點數：%1%</VALUE>
+<VALUE Lang="tw" Index="3">勇幣: %1%</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ATTENDANCE_BOOK">
+    <VALUE Lang="tw" Index="0">點名簿 </VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ATTENDANCE_DAYLIST_TEXT">
+    <VALUE Lang="tw" Index="0">DAY %1%</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ATTENDANCE_TASK_CAPTION">
+    <VALUE Lang="tw" Index="0">請累計上線時間：</VALUE>
+    <VALUE Lang="tw" Index="1">請與其他同學進行對戰。</VALUE>
+    <VALUE Lang="tw" Index="2">請與其他隊伍進行對戰 :</VALUE>
+    <VALUE Lang="tw" Index="3">請向其他同學發送密語。</VALUE>
+    <VALUE Lang="tw" Index="4">請組隊或是加入隊伍</VALUE>
+    <VALUE Lang="tw" Index="5">請將武器成功研磨至：</VALUE>
+    <VALUE Lang="tw" Index="6">請連續將武器成功研磨至：</VALUE>
+    <VALUE Lang="tw" Index="7">請將防具成功研磨至：</VALUE>
+    <VALUE Lang="tw" Index="8">請連續將防具成功研磨至：</VALUE>
+    <VALUE Lang="tw" Index="9">請將商店購物車的物品金額填滿至 :額數</VALUE>
+    <VALUE Lang="tw" Index="10">寄信給其他同學 :</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ATTENDANCE_TASK_PROGRESS">
+    <VALUE Lang="tw" Index="0">總累計時間：</VALUE>
+    <VALUE Lang="tw" Index="1">總對戰次數：</VALUE>
+    <VALUE Lang="tw" Index="2">總對戰次數：</VALUE>
+    <VALUE Lang="tw" Index="3">總密語：</VALUE>
+    <VALUE Lang="tw" Index="4">總人數：</VALUE>
+    <VALUE Lang="tw" Index="5">研磨成功：</VALUE>
+    <VALUE Lang="tw" Index="6">連續研磨成功：</VALUE>
+    <VALUE Lang="tw" Index="7">研磨成功：</VALUE>
+    <VALUE Lang="tw" Index="8">連續研磨成功：</VALUE>
+    <VALUE Lang="tw" Index="9">總數量：</VALUE>
+    <VALUE Lang="tw" Index="10">總郵件：</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ATTENDANCE_TASK_TEXT">
+    <VALUE Lang="tw" Index="0">領取獎勵</VALUE>
+    <VALUE Lang="tw" Index="1">獎勵發放完成！</VALUE>
+    <VALUE Lang="tw" Index="2">[課程%1%]</VALUE>
+    <VALUE Lang="tw" Index="3">※ 完成%1%課程後才可進行</VALUE>
+    <VALUE Lang="tw" Index="4">請稍後再試</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ATTENDANCE_TASK_VALUETYPE_CASH">
+    <VALUE Lang="tw" Index="0">%1% 元</VALUE>
+    <VALUE Lang="tw" Index="1">%1%/%2% 元</VALUE>
+    <VALUE Lang="tw" Index="2">完成！</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ATTENDANCE_TASK_VALUETYPE_FREQUENCY">
+    <VALUE Lang="tw" Index="0">%2% 次</VALUE>
+    <VALUE Lang="tw" Index="1">%1%/%2% 次</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ATTENDANCE_TASK_VALUETYPE_GOLD">
+<VALUE Lang="tw" Index="0">%2%金幣</VALUE>
+    <VALUE Lang="tw" Index="1">%1%/%2% 金幣</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ATTENDANCE_TASK_VALUETYPE_GROUP">
+    <VALUE Lang="tw" Index="0">%2% 人</VALUE>
+    <VALUE Lang="tw" Index="1">%1%/%2% 人</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ATTENDANCE_TASK_VALUETYPE_ITEM">
+    <VALUE Lang="tw" Index="0">[%1%]</VALUE>
+    <VALUE Lang="tw" Index="1">%1%/%2%</VALUE>
+    <VALUE Lang="tw" Index="2">完成！</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ATTENDANCE_TASK_VALUETYPE_ITEM_NUMS">
+    <VALUE Lang="tw" Index="0">[%1%] X %2%</VALUE>
+    <VALUE Lang="tw" Index="1">%1%/%2%</VALUE>
+    <VALUE Lang="tw" Index="2">完成！</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ATTENDANCE_TASK_VALUETYPE_NONE">
+    <VALUE Lang="tw" Index="0">%2%</VALUE>
+    <VALUE Lang="tw" Index="1">%1%/%2%</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ATTENDANCE_TASK_VALUETYPE_NUMS">
+    <VALUE Lang="tw" Index="0">%2%個</VALUE>
+    <VALUE Lang="tw" Index="1">%1%/%2%個</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ATTENDANCE_TASK_VALUETYPE_PERSONS">
+    <VALUE Lang="tw" Index="0">%2% 名</VALUE>
+    <VALUE Lang="tw" Index="1">%1%/%2% 名</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ATTENDANCE_TASK_VALUETYPE_TIME">
+    <VALUE Lang="tw" Index="0">%1% 小時</VALUE>
+    <VALUE Lang="tw" Index="1">%1% 分</VALUE>
+    <VALUE Lang="tw" Index="2">完成！</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ATTENDANCE_TOOLTIP_TEXT">
+    <VALUE Lang="tw" Index="0">特殊任務及點名簿(%1%)</VALUE>
+    <VALUE Lang="tw" Index="1">點名簿課程已完成！按下%1%鍵領取課程完成獎勵</VALUE>
+    <VALUE Lang="tw" Index="2">連續點名的天數愈多，可獲得的獎勵愈好</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ATTENDANCE_WINDOW_TITLE">
+    <VALUE Lang="tw" Index="0">點名簿 </VALUE>
+  </WORD>
+  <WORD Ver="1" Id="AUTHORITY_PARTY">
+    <VALUE Lang="tw" Index="0">委任</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="AUTO_REBIRTH_ACTION">
+    <VALUE Lang="tw" Index="0">[復活]</VALUE>
+    <VALUE Lang="tw" Index="1">[使用 歸魂珠]</VALUE>
+    <VALUE Lang="tw" Index="2">[經驗值恢復]</VALUE>
+<VALUE Lang="tw" Index="3">[技能 復活]</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="AUTOBIKE">
+    <VALUE Lang="tw" Index="0">摩扥車</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="BASIC_SEX">
+    <VALUE Lang="tw" Index="0">男生</VALUE>
+    <VALUE Lang="tw" Index="1">女生</VALUE>
+  </WORD>
+<WORD Ver="1" Id="BATTLE_LOYAL_ENTER_COUNT">
+<VALUE Lang="tw" Index="0">Skip</VALUE>
+</WORD>
+<WORD Ver="1" Id="BATTLE_LOYAL_RANK_TITLE">
+<VALUE Lang="tw" Index="0">Skip</VALUE>
+<VALUE Lang="tw" Index="1">Skip</VALUE>
+<VALUE Lang="tw" Index="2">Skip</VALUE>
+<VALUE Lang="tw" Index="3">Skip</VALUE>
+<VALUE Lang="tw" Index="4">Skip</VALUE>
+<VALUE Lang="tw" Index="5">Skip</VALUE>
+</WORD>
+<WORD Ver="1" Id="BATTLE_LOYAL_SURVIVOR_COUNT">
+<VALUE Lang="tw" Index="0">Skip</VALUE>
+</WORD>
+  <WORD Ver="1" Id="BETTING_MY_INFO">
+    <VALUE Lang="tw" Index="0">_現押注配額：%d%%</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="BETTING_MY_INFO_MORE">
+    <VALUE Lang="tw" Index="0">優勝者預測 :</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="BIG_FONT">
+    <VALUE Lang="tw" Index="0">1</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="BIKE_BOOST">
+    <VALUE Lang="tw" Index="0">推進器：</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="BIKE_BOOST_LEARNING">
+    <VALUE Lang="tw" Index="0">尚未學習</VALUE>
+    <VALUE Lang="tw" Index="1">學習</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="BIKE_COLOR_CHANGE_TEXT">
+    <VALUE Lang="tw" Index="0">車身</VALUE>
+    <VALUE Lang="tw" Index="1">車燈</VALUE>
+    <VALUE Lang="tw" Index="2">輪胎</VALUE>
+    <VALUE Lang="tw" Index="3">排氣管</VALUE>
+    <VALUE Lang="tw" Index="4">搭乘座墊</VALUE>
+    <VALUE Lang="tw" Index="5">配件</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="BIKE_MENU">
+    <VALUE Lang="tw" Index="0">取消騎乘</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="BUS_TITLE">
+<VALUE Lang="tw" Index="0">區分區域</VALUE>
+    <VALUE Lang="tw" Index="1">公車站</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="BUS_WINDOW_NAME_STATIC">
+    <VALUE Lang="tw" Index="0">公車</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CAHRWINDOW_TITLE">
+    <VALUE Lang="tw" Index="0">無徽章</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CANCEL">
+    <VALUE Lang="tw" Index="0">取消</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CAR_COLOR_CHANGE_TEXT">
+    <VALUE Lang="tw" Index="0">車身</VALUE>
+    <VALUE Lang="tw" Index="1">車燈</VALUE>
+    <VALUE Lang="tw" Index="2">輪胎</VALUE>
+    <VALUE Lang="tw" Index="3">排氣管</VALUE>
+    <VALUE Lang="tw" Index="4">搭乘座墊</VALUE>
+    <VALUE Lang="tw" Index="5">配件</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CDM_RANKING_DISPLAY">
+    <VALUE Lang="tw" Index="0">排名 </VALUE>
+    <VALUE Lang="tw" Index="1">擊殺</VALUE>
+    <VALUE Lang="tw" Index="2">死亡</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CDM_SAFE_TIME">
+    <VALUE Lang="tw" Index="0">復活無敵時間</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CHANGE_SERVER">
+    <VALUE Lang="tw" Index="0">伺服器</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CHARACTER_EXP_STATIC">
+    <VALUE Lang="tw" Index="0">經驗值</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CHARACTER_MOBILE_BUTTON">
+    <VALUE Lang="tw" Index="0">手機號碼註冊</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CHARACTER_NAME_STATIC">
+    <VALUE Lang="tw" Index="0">角色</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CHARACTER_PREMIUM_EXPIRE_DATE">
+    <VALUE Lang="tw" Index="0">%2%-%3%-%1% %4%:%5%</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CHARACTER_PREMIUM_EXPIRE_DATE_STATIC">
+    <VALUE Lang="tw" Index="0">租借截止日</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CHARACTER_RESI_STATIC">
+<VALUE Lang="tw" Index="0">抵抗力</VALUE>
+<VALUE Lang="tw" Index="1">火抵抗</VALUE>
+<VALUE Lang="tw" Index="2">冰抵抗</VALUE>
+<VALUE Lang="tw" Index="3">電抵抗</VALUE>
+<VALUE Lang="tw" Index="4">毒抵抗</VALUE>
+<VALUE Lang="tw" Index="5">氣抵抗</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CHARACTER_SLOT_NAME">
+    <VALUE Lang="tw" Index="0">戰鬥類型A</VALUE>
+    <VALUE Lang="tw" Index="1">戰鬥類型B</VALUE>
+    <VALUE Lang="tw" Index="2">戰鬥類型C</VALUE>
+    <VALUE Lang="tw" Index="3">戰鬥類型D</VALUE>
+    <VALUE Lang="tw" Index="4">戰鬥類型E</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CHARACTER_SOCIAL_STATIC">
+    <VALUE Lang="tw" Index="0">社會屬性</VALUE>
+    <VALUE Lang="tw" Index="1">學院</VALUE>
+    <VALUE Lang="tw" Index="2">生活點數</VALUE>
+    <VALUE Lang="tw" Index="3">名稱</VALUE>
+<VALUE Lang="tw" Index="4">社團</VALUE>
+    <VALUE Lang="tw" Index="5">屬性</VALUE>
+    <VALUE Lang="tw" Index="6">地位</VALUE>
+    <VALUE Lang="tw" Index="7">貢獻度</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CHARACTER_STAT_APPLY">
+    <VALUE Lang="tw" Index="0">套用 </VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CHARACTER_STAT_INIT">
+    <VALUE Lang="tw" Index="0">重置</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CHARACTER_STAT_POINT">
+    <VALUE Lang="tw" Index="0">點數</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CHARACTER_STAT_STATIC">
+    <VALUE Lang="tw" Index="0">力量</VALUE>
+    <VALUE Lang="tw" Index="1">敏捷</VALUE>
+    <VALUE Lang="tw" Index="2">精神</VALUE>
+    <VALUE Lang="tw" Index="3">智力</VALUE>
+    <VALUE Lang="tw" Index="4">體力</VALUE>
+    <VALUE Lang="tw" Index="5">耐力</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CHARACTER_STATUS_STATIC">
+    <VALUE Lang="tw" Index="0">狀態 </VALUE>
+    <VALUE Lang="tw" Index="1">等級</VALUE>
+    <VALUE Lang="tw" Index="2">攻擊力</VALUE>
+    <VALUE Lang="tw" Index="3">防禦力</VALUE>
+    <VALUE Lang="tw" Index="4">格鬥值</VALUE>
+    <VALUE Lang="tw" Index="5">射擊值</VALUE>
+    <VALUE Lang="tw" Index="6">H P</VALUE>
+    <VALUE Lang="tw" Index="7">M P</VALUE>
+    <VALUE Lang="tw" Index="8">S P</VALUE>
+    <VALUE Lang="tw" Index="9">命中率</VALUE>
+    <VALUE Lang="tw" Index="10">迴避率</VALUE>
+    <VALUE Lang="tw" Index="11">氣力值</VALUE>
+    <VALUE Lang="tw" Index="12">結束日</VALUE>
+    <VALUE Lang="tw" Index="13">C P</VALUE>
+    <VALUE Lang="tw" Index="14">最大攻擊力</VALUE>
+    <VALUE Lang="tw" Index="15">最低攻擊力</VALUE>
+    <VALUE Lang="tw" Index="16">爆擊</VALUE>
+    <VALUE Lang="tw" Index="17">強烈打擊</VALUE>
+    <VALUE Lang="tw" Index="18">移動速度</VALUE>
+    <VALUE Lang="tw" Index="19">攻擊速度</VALUE>
+    <VALUE Lang="tw" Index="20">經驗值</VALUE>
+    <VALUE Lang="tw" Index="21">HP恢復率</VALUE>
+    <VALUE Lang="tw" Index="22">MP恢復率</VALUE>
+    <VALUE Lang="tw" Index="23">SP恢復率</VALUE>
+    <VALUE Lang="tw" Index="24">CP增加量</VALUE>
+    <VALUE Lang="tw" Index="25">HP藥水增加量</VALUE>
+    <VALUE Lang="tw" Index="26">MP藥水增加量</VALUE>
+    <VALUE Lang="tw" Index="27">SP藥水增加量</VALUE>
+    <VALUE Lang="tw" Index="28">火</VALUE>
+    <VALUE Lang="tw" Index="29">冰</VALUE>
+    <VALUE Lang="tw" Index="30">電</VALUE>
+    <VALUE Lang="tw" Index="31">毒</VALUE>
+    <VALUE Lang="tw" Index="32">氣</VALUE>
+    <VALUE Lang="tw" Index="33">Boss傷害減少</VALUE>
+    <VALUE Lang="tw" Index="34">Boss固定傷害</VALUE>
+    <VALUE Lang="tw" Index="35">怪物處於虛弱狀態</VALUE>
+    <VALUE Lang="tw" Index="36">Boss處於虛弱狀態</VALUE>
+    <VALUE Lang="tw" Index="37">危急狀態傷害</VALUE>
+    <VALUE Lang="tw" Index="38">遊戲幣掉落</VALUE>
+    <VALUE Lang="tw" Index="39">敵對玩家 物理攻擊</VALUE>
+    <VALUE Lang="tw" Index="40">敵對玩家 物理射擊</VALUE>
+    <VALUE Lang="tw" Index="41">敵對玩家 魔法攻擊</VALUE>
+    <VALUE Lang="tw" Index="42">單人模式時HP增加量</VALUE>
+    <VALUE Lang="tw" Index="43">隊伍模式時HP增加量</VALUE>
+    <VALUE Lang="tw" Index="44">單人模式時攻擊速度</VALUE>
+    <VALUE Lang="tw" Index="45">隊伍模式時攻擊速度</VALUE>
+    <VALUE Lang="tw" Index="46">額外暴擊傷害</VALUE>
+    <VALUE Lang="tw" Index="47">額外強烈打擊傷害</VALUE>
+    <VALUE Lang="tw" Index="48">擊殺時恢復HP</VALUE>
+    <VALUE Lang="tw" Index="49">擊殺時恢復MP</VALUE>
+    <VALUE Lang="tw" Index="50">擊殺時恢復SP</VALUE>
+    <VALUE Lang="tw" Index="51">擊殺時恢復HP+MP+SP</VALUE>
+    <VALUE Lang="tw" Index="52">MP轉攻擊力</VALUE>
+    <VALUE Lang="tw" Index="53">SP轉HP</VALUE>
+    <VALUE Lang="tw" Index="54">命中轉格鬥值</VALUE>
+    <VALUE Lang="tw" Index="55">命中轉射擊值</VALUE>
+    <VALUE Lang="tw" Index="56">命中轉氣力值</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CHARACTER_WINDOW_ADDON_TOOLTIP">
+    <VALUE Lang="tw" Index="0">減少受到Boss攻擊時的傷害. 最多可減少 %1%%.</VALUE>
+    <VALUE Lang="tw" Index="1">提高攻擊Boss時的傷害. 最多可提高 %1%.</VALUE>
+    <VALUE Lang="tw" Index="2">當一般地圖中的怪物HP低於 %1%%時，提高暴擊率. 最多可提高 %2%%.</VALUE>
+    <VALUE Lang="tw" Index="3">當Boss的HP低於 %1%%時，提高暴擊率. 最多可提高 %2%%.</VALUE>
+    <VALUE Lang="tw" Index="4">當角色HP低於 %1%%時，受到的傷害減少. 最多可減少 %2%%.</VALUE>
+    <VALUE Lang="tw" Index="5">消滅一般地圖中的怪物可提高金幣掉落率. 最多可提高 %1%%.</VALUE>
+    <VALUE Lang="tw" Index="6">減少敵方玩家對你造成的物理傷害. 最多可減少 %1%%.</VALUE>
+    <VALUE Lang="tw" Index="7">減少敵方玩家對你造成的物理射擊傷害. 最多可減少 %1%%.</VALUE>
+    <VALUE Lang="tw" Index="8">減少敵方玩家對你造成的魔法傷害. 最多可減少 %1%%.</VALUE>
+    <VALUE Lang="tw" Index="9">當角色不在一個小隊時，提高自身的生命值. 最多可提高 %1%.</VALUE>
+    <VALUE Lang="tw" Index="10">當角色在一個小隊時，提高自身的生命值. 最多可提高 %1%.</VALUE>
+    <VALUE Lang="tw" Index="11">當角色不在一個小隊時，提高自身的攻擊速度. 最多可提高 %1%%.</VALUE>
+    <VALUE Lang="tw" Index="12">當角色在一個小隊時，提高自身的攻擊速度. 最多可提高 %1%%.</VALUE>
+    <VALUE Lang="tw" Index="13">增加暴擊的傷害量. 最多適用 %1%%.</VALUE>
+    <VALUE Lang="tw" Index="14">增加強烈打擊的傷害量. 最多適用 %1%%.</VALUE>
+    <VALUE Lang="tw" Index="15">擊殺怪物時, 恢復 HP. 最多適用 %1%%.</VALUE>
+    <VALUE Lang="tw" Index="16">擊殺怪物時, 恢復 MP. 最多適用 %1%%.</VALUE>
+    <VALUE Lang="tw" Index="17">擊殺怪物時, 恢復 SP. 最多適用 %1%%.</VALUE>
+    <VALUE Lang="tw" Index="18">擊殺怪物時, 恢復 HP+MP+SP. 最多適用 %1%%.</VALUE>
+    <VALUE Lang="tw" Index="19">增加相當於MP效果值的攻擊力. 最多提高 %1%%.</VALUE>
+    <VALUE Lang="tw" Index="20">增加相當於SP效果值的HP. 最多提高 %1%%.</VALUE>
+    <VALUE Lang="tw" Index="21">增加相當於命中效果值的格鬥值. 最多提高 %1%%.</VALUE>
+    <VALUE Lang="tw" Index="22">增加相當於命中效果值的射擊值. 最多提高 %1%%.</VALUE>
+    <VALUE Lang="tw" Index="23">增加相當於命中效果值的氣力值. 最多提高 %1%%.</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CHARINFO_TOOLTIP_WEAPONSWAP">
+    <VALUE Lang="tw" Index="0">武器槽 1</VALUE>
+    <VALUE Lang="tw" Index="1">武器槽 2</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CHAT_CHANNEL_BUTTON">
+    <VALUE Lang="tw" Index="0">全體</VALUE>
+    <VALUE Lang="tw" Index="1">密語</VALUE>
+    <VALUE Lang="tw" Index="2">隊伍</VALUE>
+    <VALUE Lang="tw" Index="3">組織/公會</VALUE>
+    <VALUE Lang="tw" Index="4">系統</VALUE>
+    <VALUE Lang="tw" Index="5">聯盟</VALUE>
+    <VALUE Lang="tw" Index="6">對話 </VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CHAT_GROUP_POP_UP_MENU_BLOCK_REGISTER">
+    <VALUE Lang="tw" Index="0">封鎖</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CHAT_GROUP_POP_UP_MENU_BLOCK_RELEASE">
+    <VALUE Lang="tw" Index="0">解除</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CHAT_GROUP_POP_UP_MENU_FRIEND_REGISTER">
+    <VALUE Lang="tw" Index="0">加入好友</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CHAT_GROUP_POP_UP_MENU_GET_OUT_ROOM">
+    <VALUE Lang="tw" Index="0">強制離開</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CHAT_GROUP_POP_UP_MENU_INFO">
+    <VALUE Lang="tw" Index="0">資訊</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CHAT_GROUP_POP_UP_MENU_INVITE">
+    <VALUE Lang="tw" Index="0">邀請組隊</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CHAT_LINK_PARTY_RECRUIT">
+    <VALUE Lang="tw" Index="0">/召集隊伍</VALUE>
+    <VALUE Lang="tw" Index="1">有人召集隊伍,點我查看詳情</VALUE>
+    <VALUE Lang="tw" Index="2">OK~OK!</VALUE>
+    <VALUE Lang="tw" Index="3">NO~NO!</VALUE>
+    <VALUE Lang="tw" Index="4">SORRY~88!</VALUE>
+    <VALUE Lang="tw" Index="5">GO~GO!</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CHAT_OK_BUTTON">
+    <VALUE Lang="tw" Index="0">OK</VALUE>
+    <VALUE Lang="tw" Index="1">取消</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CHAT_ONOFF">
+    <VALUE Lang="tw" Index="0">一般</VALUE>
+    <VALUE Lang="tw" Index="1">密語</VALUE>
+    <VALUE Lang="tw" Index="2">隊伍</VALUE>
+    <VALUE Lang="tw" Index="3">組織</VALUE>
+    <VALUE Lang="tw" Index="4">系統</VALUE>
+    <VALUE Lang="tw" Index="5">聯盟</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CHAT_OPTION">
+    <VALUE Lang="tw" Index="0">一般</VALUE>
+    <VALUE Lang="tw" Index="1">密語</VALUE>
+    <VALUE Lang="tw" Index="2">隊伍</VALUE>
+    <VALUE Lang="tw" Index="3">公會</VALUE>
+    <VALUE Lang="tw" Index="4">同盟</VALUE>
+    <VALUE Lang="tw" Index="5">地區</VALUE>
+    <VALUE Lang="tw" Index="6">尋找隊伍</VALUE>
+    <VALUE Lang="tw" Index="7">擴音器</VALUE>
+    <VALUE Lang="tw" Index="8">系統</VALUE>
+    <VALUE Lang="tw" Index="9">陣營</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CHAT_OPTION_WINDOW_STATIC">
+    <VALUE Lang="tw" Index="0">對話視窗選項</VALUE>
+    <VALUE Lang="tw" Index="1">一般對話</VALUE>
+    <VALUE Lang="tw" Index="2">頻道對話</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CHAT_TYPE">
+    <VALUE Lang="tw" Index="0">一般 </VALUE>
+    <VALUE Lang="tw" Index="1">給%1%的密語</VALUE>
+    <VALUE Lang="tw" Index="2">隊伍</VALUE>
+    <VALUE Lang="tw" Index="3">公會</VALUE>
+    <VALUE Lang="tw" Index="4">同盟</VALUE>
+    <VALUE Lang="tw" Index="5">地區</VALUE>
+    <VALUE Lang="tw" Index="6">尋找隊伍</VALUE>
+    <VALUE Lang="tw" Index="7">擴音</VALUE>
+    <VALUE Lang="tw" Index="8">系統</VALUE>
+    <VALUE Lang="tw" Index="9">%1% 的密語</VALUE>
+    <VALUE Lang="tw" Index="10">陣營</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CHAT_TYPE_SYMBOL_LOCAL">
+    <VALUE Lang="tw" Index="0">/s</VALUE>
+    <VALUE Lang="tw" Index="1">/w</VALUE>
+    <VALUE Lang="tw" Index="2">/p</VALUE>
+    <VALUE Lang="tw" Index="3">/c</VALUE>
+    <VALUE Lang="tw" Index="4">/u</VALUE>
+    <VALUE Lang="tw" Index="5">/1</VALUE>
+    <VALUE Lang="tw" Index="6">/2</VALUE>
+    <VALUE Lang="tw" Index="7">/y</VALUE>
+    <VALUE Lang="tw" Index="8">/n</VALUE>
+    <VALUE Lang="tw" Index="9">/r</VALUE>
+    <VALUE Lang="tw" Index="10">/3</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CHATMACRO_KEYTEXT">
+    <VALUE Lang="tw" Index="0">Alt + 1</VALUE>
+    <VALUE Lang="tw" Index="1">Alt + 2</VALUE>
+    <VALUE Lang="tw" Index="2">Alt + 3</VALUE>
+    <VALUE Lang="tw" Index="3">Alt + 4</VALUE>
+    <VALUE Lang="tw" Index="4">Alt + 5</VALUE>
+    <VALUE Lang="tw" Index="5">Alt + 6</VALUE>
+    <VALUE Lang="tw" Index="6">Alt + 7</VALUE>
+    <VALUE Lang="tw" Index="7">Alt + 8</VALUE>
+    <VALUE Lang="tw" Index="8">Alt + 9</VALUE>
+    <VALUE Lang="tw" Index="9">Alt + 0</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CHATMACRO_OKBUTTON">
+<VALUE Lang="tw" Index="0">確認</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CHATMACRO_WINDOW_NAME_STATIC">
+    <VALUE Lang="tw" Index="0">聊天巨集</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CHATTYPE_LIST_TEXT">
+    <VALUE Lang="tw" Index="0">一般對話(/s, /say)</VALUE>
+    <VALUE Lang="tw" Index="1">悄悄話(/w 角色名稱, /whisper 角色名稱)</VALUE>
+    <VALUE Lang="tw" Index="2">隊伍對話(/p, /party)</VALUE>
+    <VALUE Lang="tw" Index="3">組織對話(/c, /club)</VALUE>
+    <VALUE Lang="tw" Index="4">同盟對話(/u, /union)</VALUE>
+    <VALUE Lang="tw" Index="5">區域對話(/1)</VALUE>
+    <VALUE Lang="tw" Index="6">尋找隊伍(/2)</VALUE>
+    <VALUE Lang="tw" Index="7">擴音器(/y, /yell)</VALUE>
+    <VALUE Lang="tw" Index="8">陣營聊天(/3)</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CLASS_NAME_NO_SEX">
+    <VALUE Lang="tw" Index="0">格鬥部</VALUE>
+    <VALUE Lang="tw" Index="1">劍道部</VALUE>
+    <VALUE Lang="tw" Index="2">弓箭部</VALUE>
+    <VALUE Lang="tw" Index="3">氣功部</VALUE>
+    <VALUE Lang="tw" Index="4">終極部</VALUE>
+    <VALUE Lang="tw" Index="5">超能部</VALUE>
+    <VALUE Lang="tw" Index="6">忍術部</VALUE>
+    <VALUE Lang="tw" Index="7">魔術部</VALUE>
+    <VALUE Lang="tw" Index="8">其他</VALUE>
+    <VALUE Lang="tw" Index="9">變術部</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CLOSE_BUTTON">
+    <VALUE Lang="tw" Index="0">關閉</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CLUB_BATTLE_MODAL">
+    <VALUE Lang="tw" Index="0">組織名稱</VALUE>
+    <VALUE Lang="tw" Index="1">時間限制</VALUE>
+    <VALUE Lang="tw" Index="2">時間 </VALUE>
+    <VALUE Lang="tw" Index="3">分</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CLUB_BATTLE_MODAL_WINDOW_TITLE">
+    <VALUE Lang="tw" Index="0">申請榮耀組織戰鬥</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CLUB_BATTLE_TIME">
+    <VALUE Lang="tw" Index="0">剩餘時間</VALUE>
+    <VALUE Lang="tw" Index="1">組織領導戰</VALUE>
+    <VALUE Lang="tw" Index="2">組織生死鬥(CDM)</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CLUB_BUTTON">
+    <VALUE Lang="tw" Index="0">驅逐</VALUE>
+    <VALUE Lang="tw" Index="1">解散</VALUE>
+    <VALUE Lang="tw" Index="2">更改</VALUE>
+    <VALUE Lang="tw" Index="3">關閉</VALUE>
+    <VALUE Lang="tw" Index="4">更改別稱</VALUE>
+    <VALUE Lang="tw" Index="5">取消解散</VALUE>
+    <VALUE Lang="tw" Index="6">退出</VALUE>
+    <VALUE Lang="tw" Index="7">成員</VALUE>
+    <VALUE Lang="tw" Index="8">公告</VALUE>
+    <VALUE Lang="tw" Index="9">聯盟</VALUE>
+    <VALUE Lang="tw" Index="10">編寫</VALUE>
+    <VALUE Lang="tw" Index="11">副首長設定</VALUE>
+    <VALUE Lang="tw" Index="12">全數刪除</VALUE>
+    <VALUE Lang="tw" Index="13">敵對</VALUE>
+    <VALUE Lang="tw" Index="14">停戰</VALUE>
+    <VALUE Lang="tw" Index="15">投降</VALUE>
+    <VALUE Lang="tw" Index="16">委任</VALUE>
+    <VALUE Lang="tw" Index="17">召集隊伍</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CLUB_COMMISION_AREA">
+    <VALUE Lang="tw" Index="0">領導組織站稅率區域</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CLUB_COMMISION_AREA_TITLE">
+    <VALUE Lang="tw" Index="0">稅率區域情報</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CLUB_GRADE">
+    <VALUE Lang="tw" Index="0">E</VALUE>
+    <VALUE Lang="tw" Index="1">D</VALUE>
+    <VALUE Lang="tw" Index="2">C</VALUE>
+    <VALUE Lang="tw" Index="3">B</VALUE>
+    <VALUE Lang="tw" Index="4">A</VALUE>
+    <VALUE Lang="tw" Index="5">S</VALUE>
+    <VALUE Lang="tw" Index="6">7</VALUE>
+    <VALUE Lang="tw" Index="7">8</VALUE>
+    <VALUE Lang="tw" Index="8">9</VALUE>
+    <VALUE Lang="tw" Index="9">10</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CLUB_STORAGE_NAME_STATIC">
+    <VALUE Lang="tw" Index="0">組織置物箱</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CLUB_TEXT_STATIC">
+    <VALUE Lang="tw" Index="0">名稱</VALUE>
+    <VALUE Lang="tw" Index="1">等級</VALUE>
+    <VALUE Lang="tw" Index="2">首長</VALUE>
+    <VALUE Lang="tw" Index="3">創建日</VALUE>
+    <VALUE Lang="tw" Index="4">徽章</VALUE>
+    <VALUE Lang="tw" Index="5">解散預定日</VALUE>
+    <VALUE Lang="tw" Index="6">別稱/暱稱</VALUE>
+    <VALUE Lang="tw" Index="7">副首長</VALUE>
+    <VALUE Lang="tw" Index="8">一般</VALUE>
+    <VALUE Lang="tw" Index="9">戰績</VALUE>
+    <VALUE Lang="tw" Index="10">勝</VALUE>
+    <VALUE Lang="tw" Index="11">敗</VALUE>
+    <VALUE Lang="tw" Index="12">平手</VALUE>
+    <VALUE Lang="tw" Index="13">同盟戰績</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CLUB_WINDOW_NAME_STATIC">
+    <VALUE Lang="tw" Index="0">[%1%] 組織</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="COLORSELECTOR_PANNEL_PAGE_BUTTON">
+    <VALUE Lang="tw" Index="0">隨機 </VALUE>
+    <VALUE Lang="tw" Index="1">重設</VALUE>
+    <VALUE Lang="tw" Index="2">取消</VALUE>
+    <VALUE Lang="tw" Index="3">確認</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="COLORSELECTOR_PICKER_PAGE_BUTTON">
+    <VALUE Lang="tw" Index="0">取消</VALUE>
+    <VALUE Lang="tw" Index="1">確認</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="COMEPTITION_NOTIFY_BUTTON">
+    <VALUE Lang="tw" Index="0">%1% 可申請</VALUE>
+    <VALUE Lang="tw" Index="1">等待入場 %1%</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="COMPETITION_BUTTON_TEXT_INFO">
+    <VALUE Lang="tw" Index="0">查看資訊</VALUE>
+    <VALUE Lang="tw" Index="1">查看資訊</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="COMPETITION_CTF_BATTLE_AWARD_TEXT">
+    <VALUE Lang="tw" Index="0">&lt;獎勵&gt;</VALUE>
+    <VALUE Lang="tw" Index="1">佔領者 :</VALUE>
+    <VALUE Lang="tw" Index="2">未佔領者:</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="COMPETITION_CTF_BATTLE_AWARD_TYPE">
+    <VALUE Lang="tw" Index="0">沒有</VALUE>
+    <VALUE Lang="tw" Index="1">個人貢獻點數</VALUE>
+    <VALUE Lang="tw" Index="2">學院貢獻點數</VALUE>
+    <VALUE Lang="tw" Index="3">%1% 隨機Buffs(參賽者)</VALUE>
+    <VALUE Lang="tw" Index="4">隨機Buff 獎勵%1%類型(學院)</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="COMPETITION_CTF_BATTLE_INFO_MAXLEVEL">
+    <VALUE Lang="tw" Index="0">等級%1%以上</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="COMPETITION_CTF_BATTLE_INFO_OBJECTIVE_DESC">
+    <VALUE Lang="tw" Index="0">佔領%1%個據點(結束時佔領2個以上據點)</VALUE>
+    <VALUE Lang="tw" Index="1">(注意！無法使用寵物/HP恢復劑；可使用MP/SP恢復劑)</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="COMPETITION_CTF_BATTLE_INFO_PLAYERS">
+    <VALUE Lang="tw" Index="0">各學院%1%名(依照申請順序入場、其餘則為等候狀態)</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="COMPETITION_CTF_BATTLE_INFO_TEXT">
+    <VALUE Lang="tw" Index="0">&lt;資訊&gt;</VALUE>
+    <VALUE Lang="tw" Index="1">* 目標：</VALUE>
+    <VALUE Lang="tw" Index="2">* 對手：</VALUE>
+    <VALUE Lang="tw" Index="3">vs</VALUE>
+    <VALUE Lang="tw" Index="4">* 參賽人員：</VALUE>
+    <VALUE Lang="tw" Index="5">* 參賽者等級：</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="COMPETITION_CTF_BATTLE_STATIC">
+    <VALUE Lang="tw" Index="0">&lt;下一場學院殊死鬥&gt;</VALUE>
+    <VALUE Lang="tw" Index="1">開始時間</VALUE>
+    <VALUE Lang="tw" Index="2">結束時間</VALUE>
+    <VALUE Lang="tw" Index="3">狀態</VALUE>
+    <VALUE Lang="tw" Index="4">申請狀態</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="COMPETITION_CTF_BATTLE_TEXT">
+    <VALUE Lang="tw" Index="0">參賽</VALUE>
+    <VALUE Lang="tw" Index="1">取消</VALUE>
+    <VALUE Lang="tw" Index="2">放棄</VALUE>
+    <VALUE Lang="tw" Index="3">無法申請</VALUE>
+    <VALUE Lang="tw" Index="4">已參加（進行中）</VALUE>
+    <VALUE Lang="tw" Index="5">等候入場</VALUE>
+    <VALUE Lang="tw" Index="6">可申請參賽</VALUE>
+    <VALUE Lang="tw" Index="7">等候入場</VALUE>
+    <VALUE Lang="tw" Index="8">%02d : %02d 後</VALUE>
+    <VALUE Lang="tw" Index="9">%1% 天後</VALUE>
+    <VALUE Lang="tw" Index="10">請稍候再試</VALUE>
+    <VALUE Lang="tw" Index="11">重新入場</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="COMPETITION_CTF_HISTORY">
+    <VALUE Lang="tw" Index="0">&lt;比賽紀錄&gt;</VALUE>
+    <VALUE Lang="tw" Index="1">時間限制</VALUE>
+    <VALUE Lang="tw" Index="2">勝利者</VALUE>
+    <VALUE Lang="tw" Index="3">獎勵BUFF</VALUE>
+    <VALUE Lang="tw" Index="4">前10名</VALUE>
+    <VALUE Lang="tw" Index="5">沒有</VALUE>
+    <VALUE Lang="tw" Index="6">[NO.%1%] %2%</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="COMPETITION_PAGE">
+    <VALUE Lang="tw" Index="0">學院殊死鬥</VALUE>
+    <VALUE Lang="tw" Index="1">P V E</VALUE>
+    <VALUE Lang="tw" Index="2">P V P 錦標賽</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="COMPETITION_PVE">
+    <VALUE Lang="tw" Index="0">入場 </VALUE>
+    <VALUE Lang="tw" Index="1">解除綁定</VALUE>
+    <VALUE Lang="tw" Index="2">副本清單</VALUE>
+    <VALUE Lang="tw" Index="3">取消</VALUE>
+    <VALUE Lang="tw" Index="4">重新挑戰</VALUE>
+    <VALUE Lang="tw" Index="5">放棄</VALUE>
+    <VALUE Lang="tw" Index="6">入場隊員：%d/%d</VALUE>
+    <VALUE Lang="tw" Index="7">時間 %02d：%02d</VALUE>
+    <VALUE Lang="tw" Index="8">st</VALUE>
+    <VALUE Lang="tw" Index="9">nd</VALUE>
+    <VALUE Lang="tw" Index="10">rd</VALUE>
+    <VALUE Lang="tw" Index="11">th</VALUE>
+    <VALUE Lang="tw" Index="12">任務達成！</VALUE>
+    <VALUE Lang="tw" Index="13">任務失敗！</VALUE>
+    <VALUE Lang="tw" Index="14">等待復活！</VALUE>
+    <VALUE Lang="tw" Index="15">怪物 %d/%d</VALUE>
+    <VALUE Lang="tw" Index="16">強制離開 %02d : %02d</VALUE>
+    <VALUE Lang="tw" Index="17">。+經驗值</VALUE>
+    <VALUE Lang="tw" Index="18">。+錢幣</VALUE>
+    <VALUE Lang="tw" Index="19">全部完成！</VALUE>
+    <VALUE Lang="tw" Index="20">額外獎勵</VALUE>
+    <VALUE Lang="tw" Index="21">[一般]</VALUE>
+    <VALUE Lang="tw" Index="22">[中級]</VALUE>
+    <VALUE Lang="tw" Index="23">高級]</VALUE>
+    <VALUE Lang="tw" Index="24">綁定</VALUE>
+    <VALUE Lang="tw" Index="25">坐標X/Y：%1%/%2%</VALUE>
+    <VALUE Lang="tw" Index="25">抵達：%3%/%4%</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="COMPETITION_PVE_MAPNAME">
+    <VALUE Lang="tw" Index="0">封印之塔</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="COMPETITION_TOPRANKING">
+    <VALUE Lang="tw" Index="0">關閉</VALUE>
+    <VALUE Lang="tw" Index="1">前10名</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="COMPETITION_TOURNAMENT">
+    <VALUE Lang="tw" Index="0">錦標賽 排行榜</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="COMPETITION_WINDOW">
+    <VALUE Lang="tw" Index="0">戰場資訊</VALUE>
+    <VALUE Lang="tw" Index="1">關閉</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="COMPETITIONNOTIFY_BUTTON_MENU">
+<VALUE Lang="tw" Index="0">離開學院殊死鬥</VALUE>
+    <VALUE Lang="tw" Index="1">申請參加學院殊死鬥</VALUE>
+    <VALUE Lang="tw" Index="2">取消申請</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="COMPETITIONNOTIFY_BUTTON_TOOLTIP">
+    <VALUE Lang="tw" Index="0">學院殊死鬥將於%1%小時後開始(U)</VALUE>
+    <VALUE Lang="tw" Index="1">學院殊死鬥將於%1%分鐘後開始(U)</VALUE>
+    <VALUE Lang="tw" Index="2">學院殊死鬥進行中，及%1%分鐘後結束(U)</VALUE>
+    <VALUE Lang="tw" Index="3">學院殊死鬥已結束，請稍候(U)</VALUE>
+    <VALUE Lang="tw" Index="4">&lt;綜合發電廠戰場 [%1%]&gt;</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CONFT_MODAL_CONDITION">
+    <VALUE Lang="tw" Index="0">範圍限制</VALUE>
+    <VALUE Lang="tw" Index="1">恢復劑使用數量</VALUE>
+    <VALUE Lang="tw" Index="2">HP 擴大比率</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CONFT_MODAL_TITLE">
+    <VALUE Lang="tw" Index="0">對戰申請</VALUE>
+    <VALUE Lang="tw" Index="1">對戰申請資料</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CONFT_WAV_BEGIN">
+    <VALUE Lang="tw" Index="0">Fight.WAV</VALUE>
+    <VALUE Lang="tw" Index="1">cd01.WAV</VALUE>
+    <VALUE Lang="tw" Index="2">cd02.WAV</VALUE>
+    <VALUE Lang="tw" Index="3">cd03.WAV</VALUE>
+    <VALUE Lang="tw" Index="4">cd04.WAV</VALUE>
+    <VALUE Lang="tw" Index="5">cd05.WAV</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CONFT_WAV_END">
+    <VALUE Lang="tw" Index="0">Win.wav</VALUE>
+    <VALUE Lang="tw" Index="1">Lost.wav</VALUE>
+    <VALUE Lang="tw" Index="2">Draw.wav</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="COPYRIGHT_TITLE">
+    <VALUE Lang="tw" Index="0">勇 - Online</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="COSTUM_COLOR_STATIC">
+    <VALUE Lang="tw" Index="0">變更顏色</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="COSTUM_MODAL_RANDOM_BUTTON">
+    <VALUE Lang="tw" Index="0">隨機 </VALUE>
+  </WORD>
+  <WORD Ver="1" Id="COSTUM_MODAL_RESET_BUTTON">
+    <VALUE Lang="tw" Index="0">重整</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="COSTUME_STAT_ASSIGN">
+<VALUE Lang="tw" Index="0">服裝能力值注入</VALUE>
+    <VALUE Lang="tw" Index="1">一般效果</VALUE>
+    <VALUE Lang="tw" Index="2">變化率效果</VALUE>
+    <VALUE Lang="tw" Index="3">加成效果</VALUE>
+    <VALUE Lang="tw" Index="4">注入部件</VALUE>
+    <VALUE Lang="tw" Index="5">可用點數</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CREATE">
+    <VALUE Lang="tw" Index="0">創建</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CREATE_CHARACTER_PAGE">
+    <VALUE Lang="tw" Index="0">建立新角色</VALUE>
+    <VALUE Lang="tw" Index="1">角色資料</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CREATE_CHARACTER_PAGE_OKCANCEL">
+<VALUE Lang="tw" Index="0">建立</VALUE>
+    <VALUE Lang="tw" Index="1">取消</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CREATE_CHARACTER_PAGE_STATIC">
+    <VALUE Lang="tw" Index="0">學院</VALUE>
+<VALUE Lang="tw" Index="1">社團</VALUE>
+    <VALUE Lang="tw" Index="2">臉型</VALUE>
+    <VALUE Lang="tw" Index="3">髮型</VALUE>
+    <VALUE Lang="tw" Index="4">名稱</VALUE>
+    <VALUE Lang="tw" Index="5">基本表情</VALUE>
+    <VALUE Lang="tw" Index="6">性別 </VALUE>
+    <VALUE Lang="tw" Index="7">頭髮顏色</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CREATE_COMPLETE">
+    <VALUE Lang="tw" Index="0">完成</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CTF_PROGRESS_SPURT_TEXT">
+    <VALUE Lang="tw" Index="0">以佔領兩個據點！還剩最後一個！</VALUE>
+    <VALUE Lang="tw" Index="1">敵人離勝利不遠了！快阻止他們！</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CTF_PROGRESS_TEXT">
+<VALUE Lang="tw" Index="0">占領戰開始</VALUE>
+<VALUE Lang="tw" Index="1">占領 聖門學院!</VALUE>
+<VALUE Lang="tw" Index="2">占領 玄嚴學院!</VALUE>
+<VALUE Lang="tw" Index="3">占領 鳳凰學院!</VALUE>
+<VALUE Lang="tw" Index="4">占領戰結束</VALUE>
+<VALUE Lang="tw" Index="5">發電廠占領戰將在%1%分鐘後開始</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CTF_RESULT_BUTTON">
+<VALUE Lang="tw" Index="0">全部</VALUE>
+<VALUE Lang="tw" Index="1">聖門學院</VALUE>
+<VALUE Lang="tw" Index="2">玄巖學院</VALUE>
+<VALUE Lang="tw" Index="3">鳳凰學院</VALUE>
+<VALUE Lang="tw" Index="4">離開</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CTF_RESULT_TEXT">
+    <VALUE Lang="tw" Index="0">&lt;獎勵/強制離開 有效時間</VALUE>
+    <VALUE Lang="tw" Index="1">%02d : %02d</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CTF_RESULT_TEXT_BASE">
+    <VALUE Lang="tw" Index="0">排名 </VALUE>
+    <VALUE Lang="tw" Index="1">學院</VALUE>
+    <VALUE Lang="tw" Index="2">職業</VALUE>
+    <VALUE Lang="tw" Index="3">角色名稱</VALUE>
+    <VALUE Lang="tw" Index="4">擊殺</VALUE>
+    <VALUE Lang="tw" Index="5">死亡</VALUE>
+    <VALUE Lang="tw" Index="6">療愈</VALUE>
+    <VALUE Lang="tw" Index="7">復活</VALUE>
+    <VALUE Lang="tw" Index="8">貢獻度</VALUE>
+    <VALUE Lang="tw" Index="9">傷害</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CTI_INFO_NAME_WORD">
+    <VALUE Lang="tw" Index="0">修羅島爭奪戰</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CTI_INFO_PROGRESS_WORD">
+    <VALUE Lang="tw" Index="0">進行中</VALUE>
+    <VALUE Lang="tw" Index="1">結束</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CTI_INFO_WORD">
+    <VALUE Lang="tw" Index="0">目標點數 : %1%P</VALUE>
+    <VALUE Lang="tw" Index="1">剩餘時間 : %1%:%2%</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CTI_RANK_WORD">
+    <VALUE Lang="tw" Index="0">排名</VALUE>
+    <VALUE Lang="tw" Index="1">國家名稱</VALUE>
+    <VALUE Lang="tw" Index="2">點數</VALUE>
+    <VALUE Lang="tw" Index="3">================================</VALUE>
+    <VALUE Lang="tw" Index="4">%1%P</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="DELETE">
+    <VALUE Lang="tw" Index="0">刪除</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="DIALOGUE_RECOMMEND_ITEM_TITLE">
+    <VALUE Lang="tw" Index="0">推薦道具</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="DIALOGUE_TAB_REBUY">
+    <VALUE Lang="tw" Index="0">重新買回</VALUE>
+    <VALUE Lang="tw" Index="1">重新買回 (%1%)</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="DIALOGUE_TALK_BUTTON">
+    <VALUE Lang="tw" Index="0">返回</VALUE>
+    <VALUE Lang="tw" Index="1">結束</VALUE>
+    <VALUE Lang="tw" Index="2">[可完成]</VALUE>
+    <VALUE Lang="tw" Index="3">[可執行的新任務]</VALUE>
+    <VALUE Lang="tw" Index="4">[進行中]</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="DIALOGUE_WINDOW_CLOSE_BUTTON">
+    <VALUE Lang="tw" Index="0">關閉</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="DIALOGUE_WINDOW_STATIC">
+    <VALUE Lang="tw" Index="0">對話</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="DICE_WINDOW_TEXT">
+    <VALUE Lang="tw" Index="0">隨機 </VALUE>
+  </WORD>
+  <WORD Ver="1" Id="DPS_WINDOW_TEXT">
+    <VALUE Lang="tw" Index="0">傷害計量表</VALUE>
+    <VALUE Lang="tw" Index="1">名字</VALUE>
+    <VALUE Lang="tw" Index="2">傷害</VALUE>
+    <VALUE Lang="tw" Index="4">DPS 數據處理系統</VALUE>
+    <VALUE Lang="tw" Index="5">技能</VALUE>
+    <VALUE Lang="tw" Index="6">總數</VALUE>
+    <VALUE Lang="tw" Index="7">率值</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="DURABILITY_ITEM">
+    <VALUE Lang="tw" Index="0">武器增強效果</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMINVEN_LOCKBOX_FB">
+    <VALUE Lang="tw" Index="0">發生了無法確認的錯誤.</VALUE>
+    <VALUE Lang="tw" Index="1">成功解除了鎖定.</VALUE>
+    <VALUE Lang="tw" Index="2">目標以解鎖.</VALUE>
+    <VALUE Lang="tw" Index="3">不能使用此鑰匙.</VALUE>
+    <VALUE Lang="tw" Index="4">鑰匙不是消耗品所以無法使用.</VALUE>
+    <VALUE Lang="tw" Index="5">發生了無法確認的錯誤.</VALUE>
+    <VALUE Lang="tw" Index="6">從以鎖住的箱子成功獲得了'%1%'.</VALUE>
+    <VALUE Lang="tw" Index="7">背包空間已滿.</VALUE>
+    <VALUE Lang="tw" Index="8">目標已被鎖住無法打開.</VALUE>
+    <VALUE Lang="tw" Index="9">發生了無法確認的錯誤.</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMREQ_DECOMPOSE_MESSAGE">
+    <VALUE Lang="tw" Index="0">無法分解.</VALUE>
+    <VALUE Lang="tw" Index="1">分解成功.</VALUE>
+    <VALUE Lang="tw" Index="2">此道具無法進行分解.</VALUE>
+    <VALUE Lang="tw" Index="3">背包空間不足.</VALUE>
+    <VALUE Lang="tw" Index="4">分解所需的費用不足.</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMREQ_PMARKET_SEARCH_CARD_FB">
+    <VALUE Lang="tw" Index="0">個人商店搜尋卡使用失敗。</VALUE>
+    <VALUE Lang="tw" Index="1">已經使用個人商店搜尋卡</VALUE>
+    <VALUE Lang="tw" Index="2">背包沒有個人商店搜尋卡</VALUE>
+    <VALUE Lang="tw" Index="3">個人商店搜尋功能使用中。</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ESC_MENU">
+    <VALUE Lang="tw" Index="0">主要</VALUE>
+    <VALUE Lang="tw" Index="1">伺服器清單</VALUE>
+    <VALUE Lang="tw" Index="2">功能選項</VALUE>
+    <VALUE Lang="tw" Index="3">小幫手</VALUE>
+    <VALUE Lang="tw" Index="4">結束遊戲</VALUE>
+    <VALUE Lang="tw" Index="5">快捷鍵設定</VALUE>
+    <VALUE Lang="tw" Index="6">查看等級 </VALUE>
+    <VALUE Lang="tw" Index="7">客服中心</VALUE>
+    <VALUE Lang="tw" Index="8">進入戰場服務器</VALUE>
+    <VALUE Lang="tw" Index="9">轉移至論壇</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EXCHANGE_SHOP_BUY_BUTTON_TEXT">
+    <VALUE Lang="tw" Index="0">交換</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EXPEDITION_CHECK_READY_TIME">
+    <VALUE Lang="tw" Index="0">確認時間</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EXPEDITION_INFO_SCHOOL_TEXT">
+<VALUE Lang="tw" Index="0">聖門</VALUE>
+<VALUE Lang="tw" Index="1">玄巖</VALUE>
+<VALUE Lang="tw" Index="2">鳳凰</VALUE>
+    <VALUE Lang="tw" Index="3">全部</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EXPEDITION_INVITE_NAME_STATIC">
+<VALUE Lang="tw" Index="0">邀請加入遠征隊</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EXPEDITION_INVITE_TAP_NAME_STATIC">
+    <VALUE Lang="tw" Index="0">好友目錄</VALUE>
+    <VALUE Lang="tw" Index="1">公會目錄</VALUE>
+    <VALUE Lang="tw" Index="2">邀請</VALUE>
+    <VALUE Lang="tw" Index="3">關閉</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EXTERNALW_PVE_MAPNAME">
+<VALUE Lang="tw" Index="0">空中戰場</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="FACE_CHANGE_WINDOW_TITLE">
+    <VALUE Lang="tw" Index="0">變臉卡</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="FACE_NAME_ARCHER">
+    <VALUE Lang="tw" Index="0">類型 A</VALUE>
+    <VALUE Lang="tw" Index="1">類型 B</VALUE>
+    <VALUE Lang="tw" Index="2">類型 C</VALUE>
+    <VALUE Lang="tw" Index="3">類型 D</VALUE>
+    <VALUE Lang="tw" Index="4">類型 E</VALUE>
+    <VALUE Lang="tw" Index="5">類型 F</VALUE>
+    <VALUE Lang="tw" Index="6">類型 G</VALUE>
+    <VALUE Lang="tw" Index="7">類型 H</VALUE>
+    <VALUE Lang="tw" Index="8">類型 I</VALUE>
+    <VALUE Lang="tw" Index="9">類型 J</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="FACE_NAME_ARCHER_M">
+    <VALUE Lang="tw" Index="0">類型 A</VALUE>
+    <VALUE Lang="tw" Index="1">類型 B</VALUE>
+    <VALUE Lang="tw" Index="2">類型 C</VALUE>
+    <VALUE Lang="tw" Index="3">類型 D</VALUE>
+    <VALUE Lang="tw" Index="4">類型 E</VALUE>
+    <VALUE Lang="tw" Index="5">類型 F</VALUE>
+    <VALUE Lang="tw" Index="6">類型 G</VALUE>
+    <VALUE Lang="tw" Index="7">類型 H</VALUE>
+    <VALUE Lang="tw" Index="8">類型 I</VALUE>
+    <VALUE Lang="tw" Index="9">類型 J</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="FACE_NAME_ARMS">
+    <VALUE Lang="tw" Index="0">類型 A</VALUE>
+    <VALUE Lang="tw" Index="1">類型 B</VALUE>
+    <VALUE Lang="tw" Index="2">類型 C</VALUE>
+    <VALUE Lang="tw" Index="3">類型 D</VALUE>
+    <VALUE Lang="tw" Index="4">類型 E</VALUE>
+    <VALUE Lang="tw" Index="5">類型 F</VALUE>
+    <VALUE Lang="tw" Index="6">類型 G</VALUE>
+    <VALUE Lang="tw" Index="7">類型 H</VALUE>
+    <VALUE Lang="tw" Index="8">類型 I</VALUE>
+    <VALUE Lang="tw" Index="9">類型 J</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="FACE_NAME_ARMS_W">
+    <VALUE Lang="tw" Index="0">類型 A</VALUE>
+    <VALUE Lang="tw" Index="1">類型 B</VALUE>
+    <VALUE Lang="tw" Index="2">類型 C</VALUE>
+    <VALUE Lang="tw" Index="3">類型 D</VALUE>
+    <VALUE Lang="tw" Index="4">類型 E</VALUE>
+    <VALUE Lang="tw" Index="5">類型 F</VALUE>
+    <VALUE Lang="tw" Index="6">類型 G</VALUE>
+    <VALUE Lang="tw" Index="7">類型 H</VALUE>
+    <VALUE Lang="tw" Index="8">類型 I</VALUE>
+    <VALUE Lang="tw" Index="9">類型 J</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="FACE_NAME_EXTREME_M">
+    <VALUE Lang="tw" Index="0">類型 A</VALUE>
+    <VALUE Lang="tw" Index="1">類型 B</VALUE>
+    <VALUE Lang="tw" Index="2">類型 C</VALUE>
+    <VALUE Lang="tw" Index="3">類型 D</VALUE>
+    <VALUE Lang="tw" Index="4">類型 E</VALUE>
+    <VALUE Lang="tw" Index="5">類型 F</VALUE>
+    <VALUE Lang="tw" Index="6">類型 G</VALUE>
+    <VALUE Lang="tw" Index="7">類型 H</VALUE>
+    <VALUE Lang="tw" Index="8">類型 I</VALUE>
+    <VALUE Lang="tw" Index="9">類型 J</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="FACE_NAME_EXTREME_W">
+    <VALUE Lang="tw" Index="0">類型 A</VALUE>
+    <VALUE Lang="tw" Index="1">類型 B</VALUE>
+    <VALUE Lang="tw" Index="2">類型 C</VALUE>
+    <VALUE Lang="tw" Index="3">類型 D</VALUE>
+    <VALUE Lang="tw" Index="4">類型 E</VALUE>
+    <VALUE Lang="tw" Index="5">類型 F</VALUE>
+    <VALUE Lang="tw" Index="6">類型 G</VALUE>
+    <VALUE Lang="tw" Index="7">類型 H</VALUE>
+    <VALUE Lang="tw" Index="8">類型 I</VALUE>
+    <VALUE Lang="tw" Index="9">類型 J</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="FACE_NAME_FIGHTER">
+    <VALUE Lang="tw" Index="0">類型 A</VALUE>
+    <VALUE Lang="tw" Index="1">類型 B</VALUE>
+    <VALUE Lang="tw" Index="2">類型 C</VALUE>
+    <VALUE Lang="tw" Index="3">類型 D</VALUE>
+    <VALUE Lang="tw" Index="4">類型 E</VALUE>
+    <VALUE Lang="tw" Index="5">類型 F</VALUE>
+    <VALUE Lang="tw" Index="6">類型 G</VALUE>
+    <VALUE Lang="tw" Index="7">類型 H</VALUE>
+    <VALUE Lang="tw" Index="8">類型 I</VALUE>
+    <VALUE Lang="tw" Index="9">類型 J</VALUE>
+    <VALUE Lang="tw" Index="10">類型 K</VALUE>
+    <VALUE Lang="tw" Index="11">類型 L</VALUE>
+    <VALUE Lang="tw" Index="12">類型 M</VALUE>
+    <VALUE Lang="tw" Index="13">類型 N</VALUE>
+    <VALUE Lang="tw" Index="14">類型 O</VALUE>
+    <VALUE Lang="tw" Index="15">類型 P</VALUE>
+    <VALUE Lang="tw" Index="16">類型 Q</VALUE>
+    <VALUE Lang="tw" Index="17">類型 R</VALUE>
+    <VALUE Lang="tw" Index="18">類型 S</VALUE>
+    <VALUE Lang="tw" Index="19">類型T</VALUE>
+    <VALUE Lang="tw" Index="20">類型U</VALUE>
+    <VALUE Lang="tw" Index="21">類型V</VALUE>
+    <VALUE Lang="tw" Index="22">類型W</VALUE>
+    <VALUE Lang="tw" Index="23">類型X</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="FACE_NAME_FIGHTER_W">
+    <VALUE Lang="tw" Index="0">類型 A</VALUE>
+    <VALUE Lang="tw" Index="1">類型 B</VALUE>
+    <VALUE Lang="tw" Index="2">類型 C</VALUE>
+    <VALUE Lang="tw" Index="3">類型 D</VALUE>
+    <VALUE Lang="tw" Index="4">類型 E</VALUE>
+    <VALUE Lang="tw" Index="5">類型 F</VALUE>
+    <VALUE Lang="tw" Index="6">類型 G</VALUE>
+    <VALUE Lang="tw" Index="7">類型 H</VALUE>
+    <VALUE Lang="tw" Index="8">類型 I</VALUE>
+    <VALUE Lang="tw" Index="9">類型 J</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="FACE_NAME_SPIRIT">
+    <VALUE Lang="tw" Index="0">類型 A</VALUE>
+    <VALUE Lang="tw" Index="1">類型 B</VALUE>
+    <VALUE Lang="tw" Index="2">類型 C</VALUE>
+    <VALUE Lang="tw" Index="3">類型 D</VALUE>
+    <VALUE Lang="tw" Index="4">類型 E</VALUE>
+    <VALUE Lang="tw" Index="5">類型 F</VALUE>
+    <VALUE Lang="tw" Index="6">類型 G</VALUE>
+    <VALUE Lang="tw" Index="7">類型 H</VALUE>
+    <VALUE Lang="tw" Index="8">類型 I</VALUE>
+    <VALUE Lang="tw" Index="9">類型 J</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="FACE_NAME_SPIRIT_M">
+    <VALUE Lang="tw" Index="0">類型 A</VALUE>
+    <VALUE Lang="tw" Index="1">類型 B</VALUE>
+    <VALUE Lang="tw" Index="2">類型 C</VALUE>
+    <VALUE Lang="tw" Index="3">類型 D</VALUE>
+    <VALUE Lang="tw" Index="4">類型 E</VALUE>
+    <VALUE Lang="tw" Index="5">類型 F</VALUE>
+    <VALUE Lang="tw" Index="6">類型 G</VALUE>
+    <VALUE Lang="tw" Index="7">類型 H</VALUE>
+    <VALUE Lang="tw" Index="8">類型 I</VALUE>
+    <VALUE Lang="tw" Index="9">類型 J</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="FLYCAMERACONTROL_BUTTON_TEXT">
+    <VALUE Lang="tw" Index="0">Skip</VALUE>
+    <VALUE Lang="tw" Index="1">Skip</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="FLYCAMERACONTROL_SLOT_NAME">
+<VALUE Lang="tw" Index="0">視角移動速度</VALUE>
+<VALUE Lang="tw" Index="1">視角移動速度</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="FLYCAMERACONTROL_TIMELINE_BUTTON">
+    <VALUE Lang="tw" Index="0">Skip</VALUE>
+<VALUE Lang="tw" Index="1">刪除</VALUE>
+<VALUE Lang="tw" Index="2">撥放</VALUE>
+<VALUE Lang="tw" Index="3">停止</VALUE>
+    <VALUE Lang="tw" Index="4">Skip</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="FLYCAMERACONTROL_TIMELINE_TEXT">
+<VALUE Lang="tw" Index="0">FPS:</VALUE>
+<VALUE Lang="tw" Index="1">KEY:</VALUE>
+<VALUE Lang="tw" Index="2">TOTAL:</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="FLYCAMERAWINDOW_HELPTEXT">
+<VALUE Lang="tw" Index="0">移動: %1%, %2%, %3%, %4%</VALUE>
+<VALUE Lang="tw" Index="1">迴轉: %1%, %2%, %3%, %4%</VALUE>
+<VALUE Lang="tw" Index="2">Skip</VALUE>
+<VALUE Lang="tw" Index="4">Skip</VALUE>
+<VALUE Lang="tw" Index="5">移動速度 增減: %1%, %2%</VALUE>
+<VALUE Lang="tw" Index="6">迴轉速度增減: %1%, %2%</VALUE>
+<VALUE Lang="tw" Index="8">Skip</VALUE>
+<VALUE Lang="tw" Index="9">停止: %1%</VALUE>
+    <VALUE Lang="tw" Index="10">Skip</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="FRIEND_BUTTON">
+    <VALUE Lang="tw" Index="0">新增好友</VALUE>
+    <VALUE Lang="tw" Index="1">刪除</VALUE>
+    <VALUE Lang="tw" Index="2">移動</VALUE>
+    <VALUE Lang="tw" Index="3">解除</VALUE>
+<VALUE Lang="tw" Index="4">遮斷</VALUE>
+    <VALUE Lang="tw" Index="5">名字</VALUE>
+    <VALUE Lang="tw" Index="6">題目</VALUE>
+    <VALUE Lang="tw" Index="7">套用</VALUE>
+    <VALUE Lang="tw" Index="8">開啟</VALUE>
+    <VALUE Lang="tw" Index="9">重新整理</VALUE>
+    <VALUE Lang="tw" Index="10">寄出</VALUE>
+    <VALUE Lang="tw" Index="11">重寫</VALUE>
+    <VALUE Lang="tw" Index="12">傳送SMS</VALUE>
+    <VALUE Lang="tw" Index="13">取消</VALUE>
+    <VALUE Lang="tw" Index="14">收件者：</VALUE>
+    <VALUE Lang="tw" Index="15">SMS</VALUE>
+    <VALUE Lang="tw" Index="16">召集隊伍</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="FRIEND_TAB_BUTTON">
+    <VALUE Lang="tw" Index="0">好友目錄</VALUE>
+    <VALUE Lang="tw" Index="1">封鎖清單</VALUE>
+    <VALUE Lang="tw" Index="2">收到的訊息</VALUE>
+    <VALUE Lang="tw" Index="3">寄出</VALUE>
+    <VALUE Lang="tw" Index="4">傳送訊息</VALUE>
+    <VALUE Lang="tw" Index="5">訊息</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="FRIEND_WINDOW_NAME_STATIC">
+    <VALUE Lang="tw" Index="0">好友</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="FULL_ACADEMY_NAME">
+<VALUE Lang="tw" Index="0">聖門學院</VALUE>
+<VALUE Lang="tw" Index="1">玄巖學院</VALUE>
+<VALUE Lang="tw" Index="2">鳳凰學院</VALUE>
+    <VALUE Lang="tw" Index="3">全部學院</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="GAMBLE_BETGET">
+    <VALUE Lang="tw" Index="0">樂透彩</VALUE>
+    <VALUE Lang="tw" Index="1">獎金</VALUE>
+    <VALUE Lang="tw" Index="2">連勝</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="GAMBLE_NAME_STATIC">
+    <VALUE Lang="tw" Index="0">篩子遊戲（奇數偶數）</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="GAMBLE_OKCANCEL">
+    <VALUE Lang="tw" Index="0">確認</VALUE>
+    <VALUE Lang="tw" Index="1">取消</VALUE>
+    <VALUE Lang="tw" Index="2">重新輸入</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="GAMEMENU">
+    <VALUE Lang="tw" Index="0">背包 (I)</VALUE>
+    <VALUE Lang="tw" Index="1">角色 (C)</VALUE>
+    <VALUE Lang="tw" Index="2">技能 (K)</VALUE>
+    <VALUE Lang="tw" Index="3">隊伍 (P)</VALUE>
+    <VALUE Lang="tw" Index="4">任務 (T)</VALUE>
+    <VALUE Lang="tw" Index="5">組織 (G)</VALUE>
+    <VALUE Lang="tw" Index="6">好友(F)</VALUE>
+    <VALUE Lang="tw" Index="7">地圖 (M)</VALUE>
+    <VALUE Lang="tw" Index="8">道具銀行 (B)</VALUE>
+    <VALUE Lang="tw" Index="9">跑步/走路(R)</VALUE>
+    <VALUE Lang="tw" Index="10">點數商城 (\)</VALUE>
+    <VALUE Lang="tw" Index="11">聊天巨集 (J)</VALUE>
+    <VALUE Lang="tw" Index="12">SNS 選單</VALUE>
+    <VALUE Lang="tw" Index="13">搜尋個人商店(F5)</VALUE>
+    <VALUE Lang="tw" Index="14">MENU</VALUE>
+<VALUE Lang="tw" Index="15">樂透</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="GAMEOPTION_UI_ANTI_ALIASING">
+    <VALUE Lang="tw" Index="0">Anti-aliasing</VALUE>
+    <VALUE Lang="tw" Index="1">無</VALUE>
+    <VALUE Lang="tw" Index="2">Edge AA</VALUE>
+    <VALUE Lang="tw" Index="3">HW FSAA</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="GENDER_CHANGE_WINDOW_TITLE">
+    <VALUE Lang="tw" Index="0">性別變更卡片</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="GROUP_CHAT_CODE_MAX_MEMBERS">
+    <VALUE Lang="tw" Index="0">邀請聊天人數已達上限</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="GROUP_CHAT_CODE_MAX_OPEN_CHAT">
+    <VALUE Lang="tw" Index="0">無法再加入群組聊天</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="GROUP_CHAT_CODE_MEMBER_LOW_LEVEL">
+    <VALUE Lang="tw" Index="0">等級太低，無法加入群組聊天</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="GROUP_CHAT_CODE_OWNER_LOW_LEVEL">
+    <VALUE Lang="tw" Index="0">等級太低，無法加入群組聊天</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="GROUP_CHAT_CODE_ROOM_NOT_EXIST">
+    <VALUE Lang="tw" Index="0">此群組聊天不存在</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="GROUP_MODAL_WINDOW_INVITE_MSG">
+    <VALUE Lang="tw" Index="0">%1% 邀請您加入群組聊天</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="HAIR_NAME_ARCHER">
+    <VALUE Lang="tw" Index="0">類型 A</VALUE>
+    <VALUE Lang="tw" Index="1">類型 B</VALUE>
+    <VALUE Lang="tw" Index="2">類型 C</VALUE>
+    <VALUE Lang="tw" Index="3">類型 D</VALUE>
+    <VALUE Lang="tw" Index="4">類型 E</VALUE>
+    <VALUE Lang="tw" Index="5">類型 F</VALUE>
+    <VALUE Lang="tw" Index="6">類型 G</VALUE>
+<VALUE Lang="tw" Index="7">類型H</VALUE>
+    <VALUE Lang="tw" Index="8">類型 I</VALUE>
+    <VALUE Lang="tw" Index="9">類型 J</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="HAIR_NAME_ARCHER_M">
+    <VALUE Lang="tw" Index="0">類型 A</VALUE>
+    <VALUE Lang="tw" Index="1">類型 B</VALUE>
+    <VALUE Lang="tw" Index="2">類型 C</VALUE>
+    <VALUE Lang="tw" Index="3">類型 D</VALUE>
+    <VALUE Lang="tw" Index="4">類型 E</VALUE>
+    <VALUE Lang="tw" Index="5">類型 F</VALUE>
+    <VALUE Lang="tw" Index="6">類型 G</VALUE>
+    <VALUE Lang="tw" Index="7">類型 H</VALUE>
+    <VALUE Lang="tw" Index="8">類型 I</VALUE>
+    <VALUE Lang="tw" Index="9">類型 J</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="HAIR_NAME_ARMS">
+    <VALUE Lang="tw" Index="0">類型 A</VALUE>
+    <VALUE Lang="tw" Index="1">類型 B</VALUE>
+    <VALUE Lang="tw" Index="2">類型 C</VALUE>
+    <VALUE Lang="tw" Index="3">類型 D</VALUE>
+    <VALUE Lang="tw" Index="4">類型 E</VALUE>
+    <VALUE Lang="tw" Index="5">類型 F</VALUE>
+    <VALUE Lang="tw" Index="6">類型 G</VALUE>
+    <VALUE Lang="tw" Index="7">類型 H</VALUE>
+    <VALUE Lang="tw" Index="8">類型 I</VALUE>
+    <VALUE Lang="tw" Index="9">類型 J</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="HAIR_NAME_ARMS_W">
+    <VALUE Lang="tw" Index="0">類型 A</VALUE>
+    <VALUE Lang="tw" Index="1">類型 B</VALUE>
+    <VALUE Lang="tw" Index="2">類型 C</VALUE>
+    <VALUE Lang="tw" Index="3">類型 D</VALUE>
+    <VALUE Lang="tw" Index="4">類型 E</VALUE>
+    <VALUE Lang="tw" Index="5">類型 F</VALUE>
+    <VALUE Lang="tw" Index="6">類型 G</VALUE>
+    <VALUE Lang="tw" Index="7">類型 H</VALUE>
+    <VALUE Lang="tw" Index="8">類型 I</VALUE>
+<VALUE Lang="tw" Index="9">類型J</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="HAIR_NAME_EXTREME_M">
+    <VALUE Lang="tw" Index="0">類型 A</VALUE>
+    <VALUE Lang="tw" Index="1">類型 B</VALUE>
+    <VALUE Lang="tw" Index="2">類型 C</VALUE>
+    <VALUE Lang="tw" Index="3">類型 D</VALUE>
+    <VALUE Lang="tw" Index="4">類型 E</VALUE>
+    <VALUE Lang="tw" Index="5">類型 F</VALUE>
+    <VALUE Lang="tw" Index="6">類型 G</VALUE>
+    <VALUE Lang="tw" Index="7">類型 H</VALUE>
+    <VALUE Lang="tw" Index="8">類型 I</VALUE>
+    <VALUE Lang="tw" Index="9">類型 J</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="HAIR_NAME_EXTREME_W">
+    <VALUE Lang="tw" Index="0">類型 A</VALUE>
+    <VALUE Lang="tw" Index="1">類型 B</VALUE>
+    <VALUE Lang="tw" Index="2">類型 C</VALUE>
+    <VALUE Lang="tw" Index="3">類型 D</VALUE>
+    <VALUE Lang="tw" Index="4">類型 E</VALUE>
+    <VALUE Lang="tw" Index="5">類型 F</VALUE>
+    <VALUE Lang="tw" Index="6">類型 G</VALUE>
+    <VALUE Lang="tw" Index="7">類型 H</VALUE>
+    <VALUE Lang="tw" Index="8">類型 I</VALUE>
+    <VALUE Lang="tw" Index="9">類型 J</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="HAIR_NAME_FIGHTER">
+    <VALUE Lang="tw" Index="0">類型 A</VALUE>
+    <VALUE Lang="tw" Index="1">類型 B</VALUE>
+    <VALUE Lang="tw" Index="2">類型 C</VALUE>
+    <VALUE Lang="tw" Index="3">類型 D</VALUE>
+    <VALUE Lang="tw" Index="4">類型 E</VALUE>
+    <VALUE Lang="tw" Index="5">類型 F</VALUE>
+    <VALUE Lang="tw" Index="6">類型 G</VALUE>
+    <VALUE Lang="tw" Index="7">類型 H</VALUE>
+    <VALUE Lang="tw" Index="8">類型 I</VALUE>
+    <VALUE Lang="tw" Index="9">類型 J</VALUE>
+    <VALUE Lang="tw" Index="10">類型 K</VALUE>
+    <VALUE Lang="tw" Index="11">類型 L</VALUE>
+    <VALUE Lang="tw" Index="12">類型 M</VALUE>
+    <VALUE Lang="tw" Index="13">類型 N</VALUE>
+    <VALUE Lang="tw" Index="14">類型 O</VALUE>
+    <VALUE Lang="tw" Index="15">類型 P</VALUE>
+    <VALUE Lang="tw" Index="16">類型 Q</VALUE>
+    <VALUE Lang="tw" Index="17">類型 R</VALUE>
+    <VALUE Lang="tw" Index="18">類型 S</VALUE>
+    <VALUE Lang="tw" Index="19">類型 T</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="HAIR_NAME_FIGHTER_W">
+    <VALUE Lang="tw" Index="0">類型 A</VALUE>
+    <VALUE Lang="tw" Index="1">類型 B</VALUE>
+    <VALUE Lang="tw" Index="2">類型 C</VALUE>
+    <VALUE Lang="tw" Index="3">類型 D</VALUE>
+    <VALUE Lang="tw" Index="4">類型 E</VALUE>
+    <VALUE Lang="tw" Index="5">類型 F</VALUE>
+    <VALUE Lang="tw" Index="6">類型 G</VALUE>
+    <VALUE Lang="tw" Index="7">類型 H</VALUE>
+    <VALUE Lang="tw" Index="8">類型 I</VALUE>
+    <VALUE Lang="tw" Index="9">類型 J</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="HAIR_NAME_SPIRIT">
+    <VALUE Lang="tw" Index="0">類型 A</VALUE>
+    <VALUE Lang="tw" Index="1">類型 B</VALUE>
+    <VALUE Lang="tw" Index="2">類型 C</VALUE>
+    <VALUE Lang="tw" Index="3">類型 D</VALUE>
+    <VALUE Lang="tw" Index="4">類型 E</VALUE>
+    <VALUE Lang="tw" Index="5">類型 F</VALUE>
+    <VALUE Lang="tw" Index="6">類型 G</VALUE>
+    <VALUE Lang="tw" Index="7">類型 H</VALUE>
+    <VALUE Lang="tw" Index="8">類型 I</VALUE>
+    <VALUE Lang="tw" Index="9">類型 J</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="HAIR_NAME_SPIRIT_M">
+    <VALUE Lang="tw" Index="0">類型 A</VALUE>
+    <VALUE Lang="tw" Index="1">類型 B</VALUE>
+    <VALUE Lang="tw" Index="2">類型 C</VALUE>
+    <VALUE Lang="tw" Index="3">類型 D</VALUE>
+    <VALUE Lang="tw" Index="4">類型 E</VALUE>
+    <VALUE Lang="tw" Index="5">類型 F</VALUE>
+    <VALUE Lang="tw" Index="6">類型 G</VALUE>
+    <VALUE Lang="tw" Index="7">類型 H</VALUE>
+    <VALUE Lang="tw" Index="8">類型 I</VALUE>
+    <VALUE Lang="tw" Index="9">類型 J</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="HAIRCOLORCARD_WINDOW_TITLE">
+    <VALUE Lang="tw" Index="0">染髮卡</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="HAIRSTYLECARD_WINDOW_TITLE">
+    <VALUE Lang="tw" Index="0">髮型卡</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="HELP_FILE">
+    <VALUE Lang="tw" Index="0">Ran_Help.hlp</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="HELP_WINDOW_STATIC">
+    <VALUE Lang="tw" Index="0">幫助</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="HOVERBOARD">
+    <VALUE Lang="tw" Index="0">Hover滑板</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="HWOPTION_APPLYOK">
+    <VALUE Lang="tw" Index="0">套用</VALUE>
+    <VALUE Lang="tw" Index="1">OK</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="HWOPTION_AUDIO">
+    <VALUE Lang="tw" Index="0">音效音量</VALUE>
+    <VALUE Lang="tw" Index="1">環境音量</VALUE>
+    <VALUE Lang="tw" Index="2">背景音量</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="HWOPTION_AV_NAME">
+    <VALUE Lang="tw" Index="0">Video</VALUE>
+    <VALUE Lang="tw" Index="1">音效</VALUE>
+    <VALUE Lang="tw" Index="2">遊戲 </VALUE>
+    <VALUE Lang="tw" Index="3">用戶界面</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="HWOPTION_DEFAULT_OPTION">
+    <VALUE Lang="tw" Index="0">用戶自定義</VALUE>
+    <VALUE Lang="tw" Index="1">低</VALUE>
+    <VALUE Lang="tw" Index="2">中</VALUE>
+    <VALUE Lang="tw" Index="3">高</VALUE>
+    <VALUE Lang="tw" Index="4">非常高</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="HWOPTION_GAMEPLAY_OPTION">
+    <VALUE Lang="tw" Index="0">拒絕對戰</VALUE>
+    <VALUE Lang="tw" Index="1">拒絕交易</VALUE>
+    <VALUE Lang="tw" Index="2">拒絕組隊</VALUE>
+    <VALUE Lang="tw" Index="3">HP迷你量表</VALUE>
+    <VALUE Lang="tw" Index="4">拒絕自動加入好友</VALUE>
+    <VALUE Lang="tw" Index="5">遊戲視窗基本位置</VALUE>
+    <VALUE Lang="tw" Index="6">傳送訊息</VALUE>
+    <VALUE Lang="tw" Index="7">顯示小幫手</VALUE>
+    <VALUE Lang="tw" Index="8">自動攻擊</VALUE>
+    <VALUE Lang="tw" Index="9">顯示名稱</VALUE>
+    <VALUE Lang="tw" Index="10">復活術禁止</VALUE>
+    <VALUE Lang="tw" Index="11">角色簡化 </VALUE>
+    <VALUE Lang="tw" Index="12">簡化召喚獸名稱</VALUE>
+    <VALUE Lang="tw" Index="13">顯示技能類型</VALUE>
+    <VALUE Lang="tw" Index="14">拒絕自動共乘邀請</VALUE>
+    <VALUE Lang="tw" Index="15">自動顯示怪物HP表</VALUE>
+    <VALUE Lang="tw" Index="16">資訊不公開</VALUE>
+    <VALUE Lang="tw" Index="17">拒絕群組聊天</VALUE>
+    <VALUE Lang="tw" Index="18">額外附加能力</VALUE>
+    <VALUE Lang="tw" Index="19">名稱可見性設置</VALUE>
+    <VALUE Lang="tw" Index="20">查看其他玩家傷害 </VALUE>
+    <VALUE Lang="tw" Index="21">解除名稱和傷害數量限制.</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="HWOPTION_GAMEPLAY_SIMPLE">
+    <VALUE Lang="tw" Index="0">觀看全部</VALUE>
+    <VALUE Lang="tw" Index="1">A 等級</VALUE>
+    <VALUE Lang="tw" Index="2">B 等級</VALUE>
+    <VALUE Lang="tw" Index="3">C 等級</VALUE>
+    <VALUE Lang="tw" Index="4">D等級</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="HWOPTION_GAMEPLAY_SKILLTYPE">
+    <VALUE Lang="tw" Index="0">隊伍</VALUE>
+    <VALUE Lang="tw" Index="1">全體</VALUE>
+    <VALUE Lang="tw" Index="2">隱藏</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="HWOPTION_VIDEO_OPTION">
+    <VALUE Lang="tw" Index="0">解析度</VALUE>
+    <VALUE Lang="tw" Index="1">世界畫質</VALUE>
+    <VALUE Lang="tw" Index="2">角色畫質</VALUE>
+    <VALUE Lang="tw" Index="3">視野</VALUE>
+    <VALUE Lang="tw" Index="4">Buff 效果</VALUE>
+    <VALUE Lang="tw" Index="5">地形影子</VALUE>
+    <VALUE Lang="tw" Index="6">即時反射</VALUE>
+    <VALUE Lang="tw" Index="7">畫面失真</VALUE>
+    <VALUE Lang="tw" Index="8">發光效果</VALUE>
+    <VALUE Lang="tw" Index="9">後處理</VALUE>
+    <VALUE Lang="tw" Index="10">基本設定</VALUE>
+    <VALUE Lang="tw" Index="11">畫格限制</VALUE>
+    <VALUE Lang="tw" Index="12">選擇對手效果 </VALUE>
+    <VALUE Lang="tw" Index="13">顯示道具效果</VALUE>
+    <VALUE Lang="tw" Index="14">顯示地標效果</VALUE>
+    <VALUE Lang="tw" Index="15">使用一般地圖</VALUE>
+<VALUE Lang="tw" Index="16">圖像過濾</VALUE>
+<VALUE Lang="tw" Index="17">物理適用範圍</VALUE>
+<VALUE Lang="tw" Index="18">圖像解析度</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="HWOPTION_VIDEO_PHYSXCLOTH">
+<VALUE Lang="tw" Index="0">關閉</VALUE>
+<VALUE Lang="tw" Index="1">低</VALUE>
+<VALUE Lang="tw" Index="2">高</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="HWOPTION_VIDEO_SHADOW">
+    <VALUE Lang="tw" Index="0">非常低</VALUE>
+    <VALUE Lang="tw" Index="1">低</VALUE>
+    <VALUE Lang="tw" Index="2">中</VALUE>
+    <VALUE Lang="tw" Index="3">高</VALUE>
+    <VALUE Lang="tw" Index="4">非常高</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="HWOPTION_VIDEO_SIGHT">
+    <VALUE Lang="tw" Index="0">沒有（UI 除外）</VALUE>
+    <VALUE Lang="tw" Index="1">近</VALUE>
+    <VALUE Lang="tw" Index="2">普通</VALUE>
+    <VALUE Lang="tw" Index="3">遠</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="HWOPTION_VIDEO_SKINDETAIL">
+    <VALUE Lang="tw" Index="0">低</VALUE>
+    <VALUE Lang="tw" Index="1">中</VALUE>
+    <VALUE Lang="tw" Index="2">高</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="HWOPTION_VIDEO_TEXFILTER">
+    <VALUE Lang="tw" Index="0">Trilinear</VALUE>
+    <VALUE Lang="tw" Index="1">Anisotropic 2</VALUE>
+    <VALUE Lang="tw" Index="2">Anisotropic 4</VALUE>
+    <VALUE Lang="tw" Index="3">Anisotropic 8</VALUE>
+    <VALUE Lang="tw" Index="4">Anisotropic 16</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="HWOPTION_WINDOW_NAME_STATIC">
+    <VALUE Lang="tw" Index="0">遊戲設定</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="INFO_CTF_DISPLAY_TEXT">
+    <VALUE Lang="tw" Index="0">勝利者</VALUE>
+    <VALUE Lang="tw" Index="1">學院殊死鬥進行中</VALUE>
+    <VALUE Lang="tw" Index="2">下一場學院殊死鬥</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="INVEN_TAB_BUTTON">
+    <VALUE Lang="tw" Index="0">A</VALUE>
+    <VALUE Lang="tw" Index="1">B</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="INVENTORY_BUTTON_TEXT">
+    <VALUE Lang="tw" Index="0">置物箱 </VALUE>
+    <VALUE Lang="tw" Index="1">擴充</VALUE>
+    <VALUE Lang="tw" Index="2">垃圾桶</VALUE>
+    <VALUE Lang="tw" Index="3">重新整理</VALUE>
+    <VALUE Lang="tw" Index="4">分解</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="INVENTORY_ITEM_SORT_BUTTON">
+    <VALUE Lang="tw" Index="0">整理</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="INVENTORY_NAME_STATIC">
+    <VALUE Lang="tw" Index="0">裝備道具欄</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="INVENTORY_TAP_NAME">
+    <VALUE Lang="tw" Index="0">背包</VALUE>
+    <VALUE Lang="tw" Index="1">銀行</VALUE>
+    <VALUE Lang="tw" Index="2">願望清單</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="INVITE_GROUP_CHAT_WINDOW_CLUB">
+    <VALUE Lang="tw" Index="0">公會清單</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="INVITE_GROUP_CHAT_WINDOW_FRIEND">
+    <VALUE Lang="tw" Index="0">好友清單</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="INVITE_GROUP_CHAT_WINDOW_INVITE_MSG">
+    <VALUE Lang="tw" Index="0">要邀請%1% 玩家加入聊天嗎?</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="INVITE_GROUP_CHAT_WINDOW_INVITE_MSG_REFUSAL">
+    <VALUE Lang="tw" Index="0">[%1%]拒絕群組聊天邀請</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="INVITE_GROUP_CHAT_WINDOW_MINIMIZE">
+    <VALUE Lang="tw" Index="0">群組聊天窗口最小化</VALUE>
+    <VALUE Lang="tw" Index="1">群組聊天窗口最大化</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="INVITE_GROUP_CHAT_WINDOW_TITLE">
+    <VALUE Lang="tw" Index="0">邀請加入群組聊天</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="IP_EVENT">
+    <VALUE Lang="tw" Index="0">IP活動開始.</VALUE>
+    <VALUE Lang="tw" Index="1">攻擊力 : %1%</VALUE>
+    <VALUE Lang="tw" Index="2">攻擊速度 : %1%</VALUE>
+    <VALUE Lang="tw" Index="3">移動速度 : %1%</VALUE>
+    <VALUE Lang="tw" Index="4">道具掉落率 : %1%</VALUE>
+    <VALUE Lang="tw" Index="5">金幣掉落率 : %1%</VALUE>
+    <VALUE Lang="tw" Index="6">經驗值加成 : %1%</VALUE>
+    <VALUE Lang="tw" Index="7">HP恢復率 : %1%</VALUE>
+    <VALUE Lang="tw" Index="8">MP恢復率 : %1%</VALUE>
+    <VALUE Lang="tw" Index="9">SP恢復率 : %1%</VALUE>
+    <VALUE Lang="tw" Index="10">恢復率 : %1%</VALUE>
+    <VALUE Lang="tw" Index="11">暴擊 : %1%</VALUE>
+    <VALUE Lang="tw" Index="12">IP活動結束.</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_ADDON_INFO">
+    <VALUE Lang="tw" Index="0">空格</VALUE>
+    <VALUE Lang="tw" Index="1">命中率</VALUE>
+    <VALUE Lang="tw" Index="2">迴避</VALUE>
+    <VALUE Lang="tw" Index="3">攻擊力</VALUE>
+    <VALUE Lang="tw" Index="4">防禦力</VALUE>
+    <VALUE Lang="tw" Index="5">HP</VALUE>
+    <VALUE Lang="tw" Index="6">MP</VALUE>
+    <VALUE Lang="tw" Index="7">SP</VALUE>
+    <VALUE Lang="tw" Index="8">力量</VALUE>
+    <VALUE Lang="tw" Index="9">體力</VALUE>
+    <VALUE Lang="tw" Index="10">精神</VALUE>
+    <VALUE Lang="tw" Index="11">敏捷</VALUE>
+    <VALUE Lang="tw" Index="12">智力</VALUE>
+    <VALUE Lang="tw" Index="13">耐力</VALUE>
+    <VALUE Lang="tw" Index="14">格鬥值</VALUE>
+    <VALUE Lang="tw" Index="15">射擊值</VALUE>
+    <VALUE Lang="tw" Index="16">氣力值</VALUE>
+    <VALUE Lang="tw" Index="17">無</VALUE>
+    <VALUE Lang="tw" Index="18">HP恢復率</VALUE>
+    <VALUE Lang="tw" Index="19">MP恢復率</VALUE>
+    <VALUE Lang="tw" Index="20">SP恢復率</VALUE>
+    <VALUE Lang="tw" Index="21">HP+MP+SP恢復率</VALUE>
+    <VALUE Lang="tw" Index="22">移動速度增加率</VALUE>
+    <VALUE Lang="tw" Index="23">攻擊速度增加率</VALUE>
+    <VALUE Lang="tw" Index="24">暴擊增加率</VALUE>
+    <VALUE Lang="tw" Index="25">強烈打擊率增加</VALUE>
+    <VALUE Lang="tw" Index="26">無</VALUE>
+    <VALUE Lang="tw" Index="27">HP恢復量</VALUE>
+    <VALUE Lang="tw" Index="28">MP恢復量</VALUE>
+    <VALUE Lang="tw" Index="29">SP恢復量</VALUE>
+    <VALUE Lang="tw" Index="30">HP+MP+SP恢復量</VALUE>
+    <VALUE Lang="tw" Index="31">移動速度增加量</VALUE>
+    <VALUE Lang="tw" Index="32">攻擊速度增加量</VALUE>
+    <VALUE Lang="tw" Index="33">暴擊增加率</VALUE>
+    <VALUE Lang="tw" Index="34">強烈打擊率增加</VALUE>
+    <VALUE Lang="tw" Index="35">減少Boss受到的傷害</VALUE>
+    <VALUE Lang="tw" Index="36">Boss固定傷害</VALUE>
+    <VALUE Lang="tw" Index="37">怪物虛弱狀態暴擊率</VALUE>
+    <VALUE Lang="tw" Index="38">Boss虛弱狀態暴擊率</VALUE>
+    <VALUE Lang="tw" Index="39">減少虛弱狀態時受到的傷害</VALUE>
+    <VALUE Lang="tw" Index="40">一般怪物經驗值</VALUE>
+    <VALUE Lang="tw" Index="41">擊殺怪物掉落金幣</VALUE>
+    <VALUE Lang="tw" Index="42">減少物理攻擊傷害</VALUE>
+    <VALUE Lang="tw" Index="43">減少物理射擊傷害</VALUE>
+    <VALUE Lang="tw" Index="44">減少魔法攻擊傷害</VALUE>
+    <VALUE Lang="tw" Index="45">單人模式時HP增加量</VALUE>
+    <VALUE Lang="tw" Index="46">小隊模式時HP增加量</VALUE>
+    <VALUE Lang="tw" Index="47">單人模式時攻擊速度</VALUE>
+    <VALUE Lang="tw" Index="48">小隊模式時攻擊速度</VALUE>
+    <VALUE Lang="tw" Index="49">額外效果：無法確認</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_ADVANCED_INFO">
+    <VALUE Lang="tw" Index="0">攻擊</VALUE>
+    <VALUE Lang="tw" Index="1">防禦力</VALUE>
+    <VALUE Lang="tw" Index="2">攻擊範圍</VALUE>
+    <VALUE Lang="tw" Index="3">命中率</VALUE>
+    <VALUE Lang="tw" Index="4">迴避率</VALUE>
+    <VALUE Lang="tw" Index="5">裝備位置</VALUE>
+    <VALUE Lang="tw" Index="6">攻擊屬性</VALUE>
+    <VALUE Lang="tw" Index="7">SP 消耗</VALUE>
+    <VALUE Lang="tw" Index="8">氣力值</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_ADVANCED_INFO_ABNORMAL">
+    <VALUE Lang="tw" Index="0">狀態異常</VALUE>
+    <VALUE Lang="tw" Index="1">持續時間(秒)</VALUE>
+    <VALUE Lang="tw" Index="2">發生頻率 (%)</VALUE>
+    <VALUE Lang="tw" Index="3">數值 1</VALUE>
+    <VALUE Lang="tw" Index="4">數值2</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_ADVANCED_INFO_CONDITION">
+    <VALUE Lang="tw" Index="0">等級</VALUE>
+    <VALUE Lang="tw" Index="1">格鬥</VALUE>
+    <VALUE Lang="tw" Index="2">射擊值</VALUE>
+    <VALUE Lang="tw" Index="3">榮譽點數</VALUE>
+    <VALUE Lang="tw" Index="4">貢獻度</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_ADVANCED_INFO_CONDITION_STATS">
+    <VALUE Lang="tw" Index="0">力量</VALUE>
+    <VALUE Lang="tw" Index="1">體力</VALUE>
+    <VALUE Lang="tw" Index="2">精神</VALUE>
+    <VALUE Lang="tw" Index="3">敏捷</VALUE>
+    <VALUE Lang="tw" Index="4">智力</VALUE>
+    <VALUE Lang="tw" Index="5">耐力</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_ADVANCED_INFO_RESIST">
+<VALUE Lang="tw" Index="0">電</VALUE>
+<VALUE Lang="tw" Index="1">火</VALUE>
+<VALUE Lang="tw" Index="2">冰</VALUE>
+<VALUE Lang="tw" Index="3">毒</VALUE>
+<VALUE Lang="tw" Index="4">氣</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_ADVANCED_INFO_SPECIAL">
+    <VALUE Lang="tw" Index="0">特殊功能</VALUE>
+    <VALUE Lang="tw" Index="1">可改造次數</VALUE>
+    <VALUE Lang="tw" Index="2">無法改造</VALUE>
+    <VALUE Lang="tw" Index="3">可改造</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_ADVANCED_INFO_SPECIAL_ADD">
+    <VALUE Lang="tw" Index="0">無</VALUE>
+    <VALUE Lang="tw" Index="1">Hp 恢復率</VALUE>
+    <VALUE Lang="tw" Index="2">MP 恢復率</VALUE>
+    <VALUE Lang="tw" Index="3">SP 恢復率</VALUE>
+    <VALUE Lang="tw" Index="4">HP+MP+SP 恢復率</VALUE>
+    <VALUE Lang="tw" Index="5">移動速度增加率</VALUE>
+    <VALUE Lang="tw" Index="6">攻擊速度增加率</VALUE>
+    <VALUE Lang="tw" Index="7">爆擊率增加率</VALUE>
+    <VALUE Lang="tw" Index="8">增加強烈打擊機率</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_ADVANCED_INFO_SPECIAL_ADD_VOL">
+    <VALUE Lang="tw" Index="0">無</VALUE>
+    <VALUE Lang="tw" Index="1">HP恢復量</VALUE>
+    <VALUE Lang="tw" Index="2">MP 恢復量</VALUE>
+    <VALUE Lang="tw" Index="3">SP 恢復量</VALUE>
+    <VALUE Lang="tw" Index="4">HP+MP+SP 恢復量</VALUE>
+    <VALUE Lang="tw" Index="5">移動速度增加量</VALUE>
+    <VALUE Lang="tw" Index="6">攻擊速度增加量</VALUE>
+    <VALUE Lang="tw" Index="7">爆擊率增加量</VALUE>
+    <VALUE Lang="tw" Index="8">增加強烈打擊機率</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_ADVANCED_INFO_SPECIAL_EX">
+    <VALUE Lang="tw" Index="0">經驗值</VALUE>
+<VALUE Lang="tw" Index="1">倍獲得</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_ALL_CLASS">
+    <VALUE Lang="tw" Index="0">所有職業</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_ARROW_INFO">
+    <VALUE Lang="tw" Index="0">攻擊力</VALUE>
+    <VALUE Lang="tw" Index="1">數量</VALUE>
+    <VALUE Lang="tw" Index="2">等級</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_BASIC_ACT_POINT">
+    <VALUE Lang="tw" Index="0">一般特殊任務點數</VALUE>
+    <VALUE Lang="tw" Index="1">中級特殊任務點數</VALUE>
+    <VALUE Lang="tw" Index="2">高級特殊任務點數</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_BASIC_INFO">
+    <VALUE Lang="tw" Index="0">名稱</VALUE>
+    <VALUE Lang="tw" Index="1">價格</VALUE>
+    <VALUE Lang="tw" Index="2">無法販售</VALUE>
+    <VALUE Lang="tw" Index="3">服飾 </VALUE>
+    <VALUE Lang="tw" Index="4">截止日</VALUE>
+    <VALUE Lang="tw" Index="5">單價</VALUE>
+    <VALUE Lang="tw" Index="6">稅額</VALUE>
+    <VALUE Lang="tw" Index="7">服飾結束日</VALUE>
+    <VALUE Lang="tw" Index="8">冷卻時間</VALUE>
+    <VALUE Lang="tw" Index="9">剩餘時間</VALUE>
+    <VALUE Lang="tw" Index="10">▼染色資訊 ▼</VALUE>
+    <VALUE Lang="tw" Index="11">武器類</VALUE>
+    <VALUE Lang="tw" Index="12">抵抗性</VALUE>
+    <VALUE Lang="tw" Index="13">購買價格</VALUE>
+    <VALUE Lang="tw" Index="14">價格</VALUE>
+    <VALUE Lang="tw" Index="15">每個販售價格</VALUE>
+    <VALUE Lang="tw" Index="16">每個購買價格</VALUE>
+    <VALUE Lang="tw" Index="17">[使用資訊]</VALUE>
+    <VALUE Lang="tw" Index="18">耐久度</VALUE>
+    <VALUE Lang="tw" Index="19">傳統</VALUE>
+    <VALUE Lang="tw" Index="20">屬性值截止日期</VALUE>
+    <VALUE Lang="tw" Index="21">解除效果</VALUE>
+    <VALUE Lang="tw" Index="22">臨時強化結束時間</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_BASIC_RANDOM_STAT_PREVIEW">
+    <VALUE Lang="tw" Index="0">未知</VALUE>
+    <VALUE Lang="tw" Index="1">可獲得一個技能</VALUE>
+    <VALUE Lang="tw" Index="2">可獲得%d~%d個 隨機屬性</VALUE>
+    <VALUE Lang="tw" Index="3">最多可獲得%d個 額外屬性</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_BASIC_TIME">
+    <VALUE Lang="tw" Index="0">時間限制</VALUE>
+    <VALUE Lang="tw" Index="1">分</VALUE>
+    <VALUE Lang="tw" Index="2">秒</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_CALL_MAP">
+    <VALUE Lang="tw" Index="0">傳回地圖</VALUE>
+    <VALUE Lang="tw" Index="1">地圖座標</VALUE>
+    <VALUE Lang="tw" Index="2">無位置資料</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_CATEGORY">
+    <VALUE Lang="tw" Index="0">基本資料</VALUE>
+    <VALUE Lang="tw" Index="1">基本屬性</VALUE>
+    <VALUE Lang="tw" Index="2">條件</VALUE>
+    <VALUE Lang="tw" Index="3">抵抗性</VALUE>
+    <VALUE Lang="tw" Index="4">▼狀態異常▼</VALUE>
+    <VALUE Lang="tw" Index="5">特殊功能</VALUE>
+    <VALUE Lang="tw" Index="6">改造資料</VALUE>
+    <VALUE Lang="tw" Index="7">恢復</VALUE>
+    <VALUE Lang="tw" Index="8">狀態</VALUE>
+    <VALUE Lang="tw" Index="9">說明</VALUE>
+    <VALUE Lang="tw" Index="10">附加數值</VALUE>
+    <VALUE Lang="tw" Index="11">隨機數值</VALUE>
+    <VALUE Lang="tw" Index="12">▼效果內容▼</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_CATEGORY_EX">
+    <VALUE Lang="tw" Index="0">可修練次數</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_CATEGORY_VIETNAM_EXP">
+    <VALUE Lang="tw" Index="0">▼經驗值：%1%▼</VALUE>
+    <VALUE Lang="tw" Index="1">▼經驗值%：%1%%%▼</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_CATEGORY_VIETNAM_ITEM">
+    <VALUE Lang="tw" Index="0">▼獲得道具的數目：%1%▼</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_EXP_COMPRESSOR">
+    <VALUE Lang="tw" Index="0">經驗值不足.</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_EXPIRE_DATE">
+    <VALUE Lang="tw" Index="0">%02d/%02d/%02d %02d:%02d</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_GARBAGE_BUTTON">
+    <VALUE Lang="tw" Index="0">確認</VALUE>
+    <VALUE Lang="tw" Index="1">取消</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_GRIND_ALL_RESIST">
+    <VALUE Lang="tw" Index="0">所有抵抗</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_INFO_LEVEL">
+    <VALUE Lang="tw" Index="1">一般</VALUE>
+    <VALUE Lang="tw" Index="2">高級</VALUE>
+    <VALUE Lang="tw" Index="3">稀有</VALUE>
+    <VALUE Lang="tw" Index="4">英雄</VALUE>
+<VALUE Lang="tw" Index="5">史詩</VALUE>
+    <VALUE Lang="tw" Index="6">傳說</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_INFO_SET">
+    <VALUE Lang="tw" Index="0">套裝：</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_INFO_SET_BONUS">
+    <VALUE Lang="tw" Index="1">昏厥</VALUE>
+    <VALUE Lang="tw" Index="2">反射傷害</VALUE>
+    <VALUE Lang="tw" Index="3">復活</VALUE>
+    <VALUE Lang="tw" Index="4">吸收HP</VALUE>
+    <VALUE Lang="tw" Index="5">吸收MP</VALUE>
+    <VALUE Lang="tw" Index="6">吸收SP</VALUE>
+    <VALUE Lang="tw" Index="7">補HP</VALUE>
+    <VALUE Lang="tw" Index="8">補MP</VALUE>
+    <VALUE Lang="tw" Index="9">補SP</VALUE>
+    <VALUE Lang="tw" Index="10">防止狀態異常</VALUE>
+    <VALUE Lang="tw" Index="11">狀態異常恢復</VALUE>
+    <VALUE Lang="tw" Index="12">貫穿程度</VALUE>
+    <VALUE Lang="tw" Index="13">攻擊範圍</VALUE>
+    <VALUE Lang="tw" Index="14">移動速度</VALUE>
+    <VALUE Lang="tw" Index="15">突擊</VALUE>
+    <VALUE Lang="tw" Index="16">隱形</VALUE>
+    <VALUE Lang="tw" Index="17">探測隱形</VALUE>
+    <VALUE Lang="tw" Index="18">攻擊速度</VALUE>
+    <VALUE Lang="tw" Index="19">技能延遲</VALUE>
+    <VALUE Lang="tw" Index="20">強烈打擊</VALUE>
+    <VALUE Lang="tw" Index="21">吸收物理傷害</VALUE>
+    <VALUE Lang="tw" Index="22">吸收法術傷害</VALUE>
+    <VALUE Lang="tw" Index="23">反射物理傷害</VALUE>
+    <VALUE Lang="tw" Index="24">反射法術傷害</VALUE>
+    <VALUE Lang="tw" Index="25">解除技能效果</VALUE>
+    <VALUE Lang="tw" Index="26">昏厥</VALUE>
+    <VALUE Lang="tw" Index="27">發動行技能</VALUE>
+    <VALUE Lang="tw" Index="28">拉近</VALUE>
+    <VALUE Lang="tw" Index="29">推開</VALUE>
+    <VALUE Lang="tw" Index="30">持續傷害</VALUE>
+    <VALUE Lang="tw" Index="31">詛咒</VALUE>
+    <VALUE Lang="tw" Index="32">變更攻擊範圍</VALUE>
+    <VALUE Lang="tw" Index="33">變更適用範圍</VALUE>
+    <VALUE Lang="tw" Index="34">禁止使用藥水</VALUE>
+    <VALUE Lang="tw" Index="35">禁止使用技能</VALUE>
+    <VALUE Lang="tw" Index="36">傷害吸收(無視)</VALUE>
+    <VALUE Lang="tw" Index="37">物品掉落率</VALUE>
+    <VALUE Lang="tw" Index="38">金幣掉落率</VALUE>
+    <VALUE Lang="tw" Index="39">經驗值獲得率</VALUE>
+    <VALUE Lang="tw" Index="40">特定 NPC 對話</VALUE>
+    <VALUE Lang="tw" Index="41">特定道具掉落率</VALUE>
+    <VALUE Lang="tw" Index="42">瞬間移動</VALUE>
+    <VALUE Lang="tw" Index="43">交換位置</VALUE>
+    <VALUE Lang="tw" Index="44">強化</VALUE>
+    <VALUE Lang="tw" Index="45">幻影</VALUE>
+    <VALUE Lang="tw" Index="46">下車</VALUE>
+    <VALUE Lang="tw" Index="47">增加/減少技能持續時間</VALUE>
+    <VALUE Lang="tw" Index="48">烙印</VALUE>
+    <VALUE Lang="tw" Index="49">轉換樣貌</VALUE>
+    <VALUE Lang="tw" Index="50">被攻擊時解除效果</VALUE>
+    <VALUE Lang="tw" Index="51">Mark</VALUE>
+    <VALUE Lang="tw" Index="52">Baitoxin</VALUE>
+    <VALUE Lang="tw" Index="53">免疫</VALUE>
+    <VALUE Lang="tw" Index="54">戰鬥狀態</VALUE>
+    <VALUE Lang="tw" Index="55">解除戰鬥狀態</VALUE>
+    <VALUE Lang="tw" Index="56">鎖定目標</VALUE>
+    <VALUE Lang="tw" Index="57">支配</VALUE>
+    <VALUE Lang="tw" Index="58">隨機經驗值獲得率</VALUE>
+    <VALUE Lang="tw" Index="59">連續技</VALUE>
+    <VALUE Lang="tw" Index="60">攻擊力</VALUE>
+    <VALUE Lang="tw" Index="61">攻擊力</VALUE>
+    <VALUE Lang="tw" Index="62">防禦力</VALUE>
+    <VALUE Lang="tw" Index="63">防禦力</VALUE>
+    <VALUE Lang="tw" Index="64">命中率</VALUE>
+    <VALUE Lang="tw" Index="65">命中率</VALUE>
+    <VALUE Lang="tw" Index="66">閃避</VALUE>
+    <VALUE Lang="tw" Index="67">閃避</VALUE>
+    <VALUE Lang="tw" Index="68">HP增加</VALUE>
+    <VALUE Lang="tw" Index="69">MP增加</VALUE>
+    <VALUE Lang="tw" Index="70">SP增加</VALUE>
+    <VALUE Lang="tw" Index="71">CP增加</VALUE>
+    <VALUE Lang="tw" Index="72">HP恢復率</VALUE>
+    <VALUE Lang="tw" Index="73">MP恢復率</VALUE>
+    <VALUE Lang="tw" Index="74">SP恢復率</VALUE>
+    <VALUE Lang="tw" Index="75">HP/MP/SP恢復率</VALUE>
+    <VALUE Lang="tw" Index="76">攻擊範圍</VALUE>
+    <VALUE Lang="tw" Index="77">SP消耗量</VALUE>
+    <VALUE Lang="tw" Index="78">抵抗</VALUE>
+    <VALUE Lang="tw" Index="79">力量</VALUE>
+    <VALUE Lang="tw" Index="80">體力</VALUE>
+    <VALUE Lang="tw" Index="81">精神</VALUE>
+    <VALUE Lang="tw" Index="82">敏捷</VALUE>
+    <VALUE Lang="tw" Index="83">耐力</VALUE>
+    <VALUE Lang="tw" Index="84">格鬥值</VALUE>
+    <VALUE Lang="tw" Index="85">射擊值</VALUE>
+    <VALUE Lang="tw" Index="86">氣力值</VALUE>
+    <VALUE Lang="tw" Index="87">HP恢復增加量</VALUE>
+    <VALUE Lang="tw" Index="88">MP恢復增加量</VALUE>
+    <VALUE Lang="tw" Index="89">SP恢復增加量</VALUE>
+    <VALUE Lang="tw" Index="90">獲得CP增加量</VALUE>
+    <VALUE Lang="tw" Index="91">移動速度</VALUE>
+    <VALUE Lang="tw" Index="92">攻擊力</VALUE>
+    <VALUE Lang="tw" Index="93">限制視野</VALUE>
+    <VALUE Lang="tw" Index="94">漂浮</VALUE>
+    <VALUE Lang="tw" Index="95">召喚獸(變更頁面)</VALUE>
+    <VALUE Lang="tw" Index="96">召喚獸(技能)</VALUE>
+    <VALUE Lang="tw" Index="97">召喚獸(攻擊)</VALUE>
+    <VALUE Lang="tw" Index="98">召喚獸(召回)</VALUE>
+    <VALUE Lang="tw" Index="99">技能延遲</VALUE>
+    <VALUE Lang="tw" Index="100">複製效果</VALUE>
+    <VALUE Lang="tw" Index="101">移動速度限制</VALUE>
+    <VALUE Lang="tw" Index="102">反擊</VALUE>
+    <VALUE Lang="tw" Index="103">畫面投擲</VALUE>
+    <VALUE Lang="tw" Index="104">召喚獸</VALUE>
+    <VALUE Lang="tw" Index="105">裝死</VALUE>
+    <VALUE Lang="tw" Index="106">致盲</VALUE>
+    <VALUE Lang="tw" Index="107">變裝</VALUE>
+    <VALUE Lang="tw" Index="108">嘲諷</VALUE>
+    <VALUE Lang="tw" Index="109">免疫特定效果</VALUE>
+    <VALUE Lang="tw" Index="110">發動傷害</VALUE>
+    <VALUE Lang="tw" Index="111">移除特定技能效果</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_INFO_SET_PARTS">
+    <VALUE Lang="tw" Index="0">帽子</VALUE>
+    <VALUE Lang="tw" Index="1">上衣</VALUE>
+    <VALUE Lang="tw" Index="2">褲子</VALUE>
+    <VALUE Lang="tw" Index="3">手套</VALUE>
+    <VALUE Lang="tw" Index="4">鞋子</VALUE>
+    <VALUE Lang="tw" Index="5">武器</VALUE>
+    <VALUE Lang="tw" Index="6">項鏈</VALUE>
+    <VALUE Lang="tw" Index="7">手鐲</VALUE>
+    <VALUE Lang="tw" Index="8">戒指</VALUE>
+<VALUE Lang="tw" Index="9">寵物A</VALUE>
+<VALUE Lang="tw" Index="10">寵物B</VALUE>
+<VALUE Lang="tw" Index="11">S.C</VALUE>
+<VALUE Lang="tw" Index="12">S.C 外觀</VALUE>
+<VALUE Lang="tw" Index="13">S.C 部位_A</VALUE>
+<VALUE Lang="tw" Index="14">S.C 部位_B</VALUE>
+<VALUE Lang="tw" Index="15">S.C 部位_C</VALUE>
+<VALUE Lang="tw" Index="16">S.C 部位_D</VALUE>
+<VALUE Lang="tw" Index="17">S.C 部位_E</VALUE>
+<VALUE Lang="tw" Index="18">S.C 部位_F</VALUE>
+    <VALUE Lang="tw" Index="19">腰帶</VALUE>
+    <VALUE Lang="tw" Index="20">耳環</VALUE>
+    <VALUE Lang="tw" Index="21">飾品</VALUE>
+    <VALUE Lang="tw" Index="22">飾品</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_INFO_TRADE">
+    <VALUE Lang="tw" Index="0">商店販賣</VALUE>
+    <VALUE Lang="tw" Index="1">丟棄地面</VALUE>
+    <VALUE Lang="tw" Index="2">放置倉庫保管</VALUE>
+    <VALUE Lang="tw" Index="3">玩家間的交易</VALUE>
+    <VALUE Lang="tw" Index="4">P幣交易</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_INFO_TRADE_OPTION">
+    <VALUE Lang="tw" Index="0">可 </VALUE>
+    <VALUE Lang="tw" Index="1">不可</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_INFO_TRADE_RN">
+    <VALUE Lang="tw" Index="0">販售商店</VALUE>
+    <VALUE Lang="tw" Index="1">丟棄</VALUE>
+    <VALUE Lang="tw" Index="2">置物箱</VALUE>
+    <VALUE Lang="tw" Index="3">玩家交易</VALUE>
+    <VALUE Lang="tw" Index="4">P幣交易</VALUE>
+    <VALUE Lang="tw" Index="5">可包裝</VALUE>
+    <VALUE Lang="tw" Index="6">倉庫（個人）</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_MIX_BUTTON">
+    <VALUE Lang="tw" Index="0">工匠系統</VALUE>
+    <VALUE Lang="tw" Index="1">取消</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_NEEDSP">
+    <VALUE Lang="tw" Index="0">SP 不足</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_PET_DUALSKILL">
+    <VALUE Lang="tw" Index="0">寵物雙修技能：尚未啟用</VALUE>
+    <VALUE Lang="tw" Index="1">寵物雙修技能：使用中 </VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_PET_FULL">
+    <VALUE Lang="tw" Index="0">寵物飽滿度：</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_PET_INFO">
+    <VALUE Lang="tw" Index="0">▼寵物資料▼</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_PET_NAME">
+    <VALUE Lang="tw" Index="0">寵物名字：</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_PET_SKILLS">
+    <VALUE Lang="tw" Index="0">[可使用技能]</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_PET_SLOTA">
+    <VALUE Lang="tw" Index="0">道具A：</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_PET_SLOTB">
+    <VALUE Lang="tw" Index="0">道具B：</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_PET_TYPE">
+    <VALUE Lang="tw" Index="0">寵物類型：</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_PET_USE_SKINPACK">
+    <VALUE Lang="tw" Index="0">使用寵物外形變更卡禮包</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_RANDOM_OPTION">
+    <VALUE Lang="tw" Index="0">道具隨機值-零</VALUE>
+    <VALUE Lang="tw" Index="1">攻擊力</VALUE>
+    <VALUE Lang="tw" Index="2">防禦力</VALUE>
+    <VALUE Lang="tw" Index="3">命中率</VALUE>
+    <VALUE Lang="tw" Index="4">迴避率</VALUE>
+    <VALUE Lang="tw" Index="5">HP 增加</VALUE>
+    <VALUE Lang="tw" Index="6">MP 增加</VALUE>
+    <VALUE Lang="tw" Index="7">SP 增加</VALUE>
+    <VALUE Lang="tw" Index="8">HP 恢復率</VALUE>
+    <VALUE Lang="tw" Index="9">MP 恢復率</VALUE>
+    <VALUE Lang="tw" Index="10">SP恢復率</VALUE>
+    <VALUE Lang="tw" Index="11">HP/MP/SP恢復率</VALUE>
+    <VALUE Lang="tw" Index="12">攻擊力修練</VALUE>
+    <VALUE Lang="tw" Index="13">防禦力修練</VALUE>
+    <VALUE Lang="tw" Index="14">攻擊範圍</VALUE>
+    <VALUE Lang="tw" Index="15">SP 消耗量</VALUE>
+    <VALUE Lang="tw" Index="16">抵抗</VALUE>
+    <VALUE Lang="tw" Index="17">移動速度</VALUE>
+    <VALUE Lang="tw" Index="18">攻擊力</VALUE>
+    <VALUE Lang="tw" Index="19">防禦力</VALUE>
+    <VALUE Lang="tw" Index="20">命中率</VALUE>
+    <VALUE Lang="tw" Index="21">迴避率</VALUE>
+    <VALUE Lang="tw" Index="22">力量</VALUE>
+    <VALUE Lang="tw" Index="23">體力</VALUE>
+    <VALUE Lang="tw" Index="24">精神</VALUE>
+    <VALUE Lang="tw" Index="25">敏捷</VALUE>
+    <VALUE Lang="tw" Index="26">耐力</VALUE>
+    <VALUE Lang="tw" Index="27">格鬥值</VALUE>
+    <VALUE Lang="tw" Index="28">射擊值</VALUE>
+    <VALUE Lang="tw" Index="29">氣力值</VALUE>
+    <VALUE Lang="tw" Index="30">HP 恢復量</VALUE>
+    <VALUE Lang="tw" Index="31">MP 恢復量</VALUE>
+    <VALUE Lang="tw" Index="32">SP 恢復量</VALUE>
+    <VALUE Lang="tw" Index="33">CP 增加量</VALUE>
+    <VALUE Lang="tw" Index="34">1號 技能持續時間</VALUE>
+    <VALUE Lang="tw" Index="35">2號 技能持續時間</VALUE>
+    <VALUE Lang="tw" Index="36">3號 技能持續時間</VALUE>
+    <VALUE Lang="tw" Index="37">4號 技能持續時間</VALUE>
+    <VALUE Lang="tw" Index="38">5號 技能持續時間</VALUE>
+    <VALUE Lang="tw" Index="39">6號 技能持續時間</VALUE>
+    <VALUE Lang="tw" Index="40">7號 技能持續時間</VALUE>
+    <VALUE Lang="tw" Index="41">8號 技能持續時間</VALUE>
+    <VALUE Lang="tw" Index="42">9號 技能持續時間</VALUE>
+    <VALUE Lang="tw" Index="43">10號 技能持續時間</VALUE>
+    <VALUE Lang="tw" Index="44">11號 技能持續時間</VALUE>
+    <VALUE Lang="tw" Index="45">12號 技能持續時間</VALUE>
+    <VALUE Lang="tw" Index="46">13號 技能持續時間</VALUE>
+    <VALUE Lang="tw" Index="47">14號 技能持續時間</VALUE>
+    <VALUE Lang="tw" Index="48">15號 技能持續時間</VALUE>
+    <VALUE Lang="tw" Index="49">16號 技能持續時間</VALUE>
+    <VALUE Lang="tw" Index="50">17號 技能持續時間</VALUE>
+    <VALUE Lang="tw" Index="51">18號 技能持續時間</VALUE>
+    <VALUE Lang="tw" Index="52">19號 技能持續時間</VALUE>
+    <VALUE Lang="tw" Index="53">20號 技能持續時間</VALUE>
+    <VALUE Lang="tw" Index="54">21號 技能持續時間</VALUE>
+    <VALUE Lang="tw" Index="55">22號 技能持續時間</VALUE>
+    <VALUE Lang="tw" Index="56">23號 技能持續時間</VALUE>
+    <VALUE Lang="tw" Index="57">24號 技能持續時間</VALUE>
+    <VALUE Lang="tw" Index="58">25號 技能持續時間</VALUE>
+    <VALUE Lang="tw" Index="59">1號 技能傷害增加率</VALUE>
+    <VALUE Lang="tw" Index="60">2號 技能傷害增加率</VALUE>
+    <VALUE Lang="tw" Index="61">3號 技能傷害增加率</VALUE>
+    <VALUE Lang="tw" Index="62">4號 技能傷害增加率</VALUE>
+    <VALUE Lang="tw" Index="63">5號 技能傷害增加率</VALUE>
+    <VALUE Lang="tw" Index="64">6號 技能傷害增加率</VALUE>
+    <VALUE Lang="tw" Index="65">7號 技能傷害增加率</VALUE>
+    <VALUE Lang="tw" Index="66">8號 技能傷害增加率</VALUE>
+    <VALUE Lang="tw" Index="67">9號 技能傷害增加率</VALUE>
+    <VALUE Lang="tw" Index="68">10號 技能傷害增加率</VALUE>
+    <VALUE Lang="tw" Index="69">11號 技能傷害增加率</VALUE>
+    <VALUE Lang="tw" Index="70">12號 技能傷害增加率</VALUE>
+    <VALUE Lang="tw" Index="71">13號 技能傷害增加率</VALUE>
+    <VALUE Lang="tw" Index="72">14號 技能傷害增加率</VALUE>
+    <VALUE Lang="tw" Index="73">15號 技能傷害增加率</VALUE>
+    <VALUE Lang="tw" Index="74">16號 技能傷害增加率</VALUE>
+    <VALUE Lang="tw" Index="75">17號 技能傷害增加率</VALUE>
+    <VALUE Lang="tw" Index="76">18號 技能傷害增加率</VALUE>
+    <VALUE Lang="tw" Index="77">19號 技能傷害增加率</VALUE>
+    <VALUE Lang="tw" Index="78">20號 技能傷害增加率</VALUE>
+    <VALUE Lang="tw" Index="79">21號 技能傷害增加率</VALUE>
+    <VALUE Lang="tw" Index="80">22號 技能傷害增加率</VALUE>
+    <VALUE Lang="tw" Index="81">23號 技能傷害增加率</VALUE>
+    <VALUE Lang="tw" Index="82">24號 技能傷害增加率</VALUE>
+    <VALUE Lang="tw" Index="83">25號 技能傷害增加率</VALUE>
+    <VALUE Lang="tw" Index="84">1號 減少技能延遲</VALUE>
+    <VALUE Lang="tw" Index="85">2號 減少技能延遲</VALUE>
+    <VALUE Lang="tw" Index="86">3號 減少技能延遲</VALUE>
+    <VALUE Lang="tw" Index="87">4號 減少技能延遲</VALUE>
+    <VALUE Lang="tw" Index="88">5號 減少技能延遲</VALUE>
+    <VALUE Lang="tw" Index="89">6號 減少技能延遲</VALUE>
+    <VALUE Lang="tw" Index="90">7號 減少技能延遲</VALUE>
+    <VALUE Lang="tw" Index="91">8號 減少技能延遲</VALUE>
+    <VALUE Lang="tw" Index="92">9號 減少技能延遲</VALUE>
+    <VALUE Lang="tw" Index="93">10號 減少技能延遲</VALUE>
+    <VALUE Lang="tw" Index="94">11號 減少技能延遲</VALUE>
+    <VALUE Lang="tw" Index="95">12號 減少技能延遲</VALUE>
+    <VALUE Lang="tw" Index="96">13號 減少技能延遲</VALUE>
+    <VALUE Lang="tw" Index="97">14號 減少技能延遲</VALUE>
+    <VALUE Lang="tw" Index="98">15號 減少技能延遲</VALUE>
+    <VALUE Lang="tw" Index="99">16號 減少技能延遲</VALUE>
+    <VALUE Lang="tw" Index="100">17號 減少技能延遲</VALUE>
+    <VALUE Lang="tw" Index="101">18號 減少技能延遲</VALUE>
+    <VALUE Lang="tw" Index="102">19號 減少技能延遲</VALUE>
+    <VALUE Lang="tw" Index="103">20號 減少技能延遲</VALUE>
+    <VALUE Lang="tw" Index="104">21號 減少技能延遲</VALUE>
+    <VALUE Lang="tw" Index="105">22號 減少技能延遲</VALUE>
+    <VALUE Lang="tw" Index="106">23號 減少技能延遲</VALUE>
+    <VALUE Lang="tw" Index="107">24號 減少技能延遲</VALUE>
+    <VALUE Lang="tw" Index="108">25號 減少技能延遲</VALUE>
+    <VALUE Lang="tw" Index="109">暴擊傷害值</VALUE>
+    <VALUE Lang="tw" Index="110">強烈打擊傷害值</VALUE>
+    <VALUE Lang="tw" Index="111">裝備等級</VALUE>
+    <VALUE Lang="tw" Index="112">消滅後HP恢復率</VALUE>
+    <VALUE Lang="tw" Index="113">消滅後MP恢復率</VALUE>
+    <VALUE Lang="tw" Index="114">消滅後SP恢復率</VALUE>
+    <VALUE Lang="tw" Index="115">消滅後HP+MP+SP恢復率</VALUE>
+    <VALUE Lang="tw" Index="116">增加相當自身MP量的攻擊力</VALUE>
+    <VALUE Lang="tw" Index="117">增加相當自身SP量的生命值</VALUE>
+    <VALUE Lang="tw" Index="118">增加相當於自身命中率的格鬥值</VALUE>
+    <VALUE Lang="tw" Index="119">增加相當於自身命中率的射擊值</VALUE>
+    <VALUE Lang="tw" Index="120">增加相當於自身命中率的氣力值</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_REPAIR_UI">
+    <VALUE Lang="tw" Index="0">修理道具</VALUE>
+    <VALUE Lang="tw" Index="1">請選擇要修理的道具</VALUE>
+    <VALUE Lang="tw" Index="2">全部修理費用</VALUE>
+    <VALUE Lang="tw" Index="3">修理</VALUE>
+    <VALUE Lang="tw" Index="4">全部修理</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_SEARCH_RESULT_BUTTON">
+    <VALUE Lang="tw" Index="0">返回</VALUE>
+    <VALUE Lang="tw" Index="1">下一個</VALUE>
+    <VALUE Lang="tw" Index="2">重新搜尋</VALUE>
+    <VALUE Lang="tw" Index="3">重新整理</VALUE>
+    <VALUE Lang="tw" Index="4">取消</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_SEARCH_RESULT_TEXT">
+    <VALUE Lang="tw" Index="0">搜尋道具名稱</VALUE>
+    <VALUE Lang="tw" Index="1">個人商店名稱</VALUE>
+    <VALUE Lang="tw" Index="2">座標</VALUE>
+    <VALUE Lang="tw" Index="3">販賣價格</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_SHOP_SEARCH_CLASS">
+    <VALUE Lang="tw" Index="0">格鬥部</VALUE>
+    <VALUE Lang="tw" Index="1">劍道部</VALUE>
+    <VALUE Lang="tw" Index="2">弓箭部</VALUE>
+    <VALUE Lang="tw" Index="3">氣功部</VALUE>
+    <VALUE Lang="tw" Index="4">終極部</VALUE>
+    <VALUE Lang="tw" Index="5">超能部</VALUE>
+    <VALUE Lang="tw" Index="6">忍術部</VALUE>
+    <VALUE Lang="tw" Index="7">魔術部</VALUE>
+    <VALUE Lang="tw" Index="8">其他</VALUE>
+    <VALUE Lang="tw" Index="9">變術部</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_SHOP_SEARCH_NONE">
+    <VALUE Lang="tw" Index="0">無</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_SHOP_SEARCH_STATIC">
+    <VALUE Lang="tw" Index="0">搜尋道具</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_SHOP_SEARCH_STATUS">
+    <VALUE Lang="tw" Index="0">敏捷</VALUE>
+    <VALUE Lang="tw" Index="1">力量</VALUE>
+    <VALUE Lang="tw" Index="2">精神</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_SHOP_SEARCH_TEXT">
+    <VALUE Lang="tw" Index="0">搜尋</VALUE>
+    <VALUE Lang="tw" Index="1">取消</VALUE>
+    <VALUE Lang="tw" Index="2">道具名稱</VALUE>
+    <VALUE Lang="tw" Index="3">職業裝備</VALUE>
+    <VALUE Lang="tw" Index="4">道具類型</VALUE>
+    <VALUE Lang="tw" Index="5">裝備等級</VALUE>
+    <VALUE Lang="tw" Index="6">裝備狀態</VALUE>
+    <VALUE Lang="tw" Index="7">搜尋道具條件</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_SHOP_SEARCH_TYPE">
+<VALUE Lang="tw" Index="0">劍</VALUE>
+<VALUE Lang="tw" Index="1">刀</VALUE>
+<VALUE Lang="tw" Index="2">箭</VALUE>
+<VALUE Lang="tw" Index="3">槍</VALUE>
+<VALUE Lang="tw" Index="4">短劍</VALUE>
+<VALUE Lang="tw" Index="5">木棒</VALUE>
+<VALUE Lang="tw" Index="6">拳</VALUE>
+<VALUE Lang="tw" Index="7">投擲</VALUE>
+<VALUE Lang="tw" Index="8">雙槍</VALUE>
+<VALUE Lang="tw" Index="9">狙擊槍</VALUE>
+<VALUE Lang="tw" Index="10">電子槍</VALUE>
+<VALUE Lang="tw" Index="11">鐮刃</VALUE>
+<VALUE Lang="tw" Index="12">雙刃</VALUE>
+<VALUE Lang="tw" Index="13">飛鏢</VALUE>
+<VALUE Lang="tw" Index="14">終極手套</VALUE>
+<VALUE Lang="tw" Index="15">魔術棒</VALUE>
+<VALUE Lang="tw" Index="16">魔方</VALUE>
+<VALUE Lang="tw" Index="17">鞭子</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_SKILL_CONDITION">
+    <VALUE Lang="tw" Index="0">已學會的技能文書</VALUE>
+    <VALUE Lang="tw" Index="1">需求點數</VALUE>
+    <VALUE Lang="tw" Index="2">技能</VALUE>
+    <VALUE Lang="tw" Index="3">[技能 學習 條件]</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_SUIT_COLOR_CHANGE">
+    <VALUE Lang="tw" Index="0">可染色</VALUE>
+    <VALUE Lang="tw" Index="1">無法染色</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_TELEPORT_MAP">
+    <VALUE Lang="tw" Index="0">召喚地圖</VALUE>
+    <VALUE Lang="tw" Index="1">地圖座標</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_TURN_INFO">
+    <VALUE Lang="tw" Index="0">數量</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_USABLE">
+    <VALUE Lang="tw" Index="0">可使用</VALUE>
+    <VALUE Lang="tw" Index="1">無法使用</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_VEHICLE_BATTERY">
+    <VALUE Lang="tw" Index="0">電池殘量：</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_VEHICLE_BOOST_LEARN">
+    <VALUE Lang="tw" Index="0">推進器：尚未學習</VALUE>
+    <VALUE Lang="tw" Index="1">推進器：已學習</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_VEHICLE_MODEL">
+    <VALUE Lang="tw" Index="0">機型名稱：</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_VEHICLE_NAME">
+    <VALUE Lang="tw" Index="0">類型：</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_VEHICLE_SLOT">
+    <VALUE Lang="tw" Index="0">外形膚色：</VALUE>
+    <VALUE Lang="tw" Index="1">第1部分：</VALUE>
+    <VALUE Lang="tw" Index="2">第2部分：</VALUE>
+    <VALUE Lang="tw" Index="3">第3部分：</VALUE>
+    <VALUE Lang="tw" Index="4">部位4：</VALUE>
+    <VALUE Lang="tw" Index="5">部位5：</VALUE>
+    <VALUE Lang="tw" Index="6">部位6：</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_VEHICLE_TYPE_INFO">
+    <VALUE Lang="tw" Index="0">▼%s 滑板資訊▼</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEMBANK_NAME_STATIC">
+    <VALUE Lang="tw" Index="0">道具銀行</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEMBANK_REFRESH_BUTTON">
+    <VALUE Lang="tw" Index="0">重新修改</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEMPREVIEW_TEXTBOX">
+    <VALUE Lang="tw" Index="0">帽子</VALUE>
+    <VALUE Lang="tw" Index="1">上衣</VALUE>
+    <VALUE Lang="tw" Index="2">褲子</VALUE>
+    <VALUE Lang="tw" Index="3">手套</VALUE>
+    <VALUE Lang="tw" Index="4">鞋子</VALUE>
+    <VALUE Lang="tw" Index="5">武器類</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEMSHOP_WINDOW_STATIC">
+    <VALUE Lang="tw" Index="0">道具商城</VALUE>
+  </WORD>
+  <WORD Ver="0" Id="KEY_SETTING_ATTACK">
+    <VALUE Lang="tw" Index="0">一般攻擊鍵</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="KEYSETTING_APPLYOK">
+    <VALUE Lang="tw" Index="0">基本設定</VALUE>
+    <VALUE Lang="tw" Index="1">套用 </VALUE>
+<VALUE Lang="tw" Index="2">確認</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="KEYSETTING_MENUSHOTCUT">
+    <VALUE Lang="tw" Index="0">背包欄</VALUE>
+    <VALUE Lang="tw" Index="1">角色視窗</VALUE>
+    <VALUE Lang="tw" Index="2">技能視窗</VALUE>
+    <VALUE Lang="tw" Index="3">隊伍 (P)</VALUE>
+    <VALUE Lang="tw" Index="4">任務快捷鍵</VALUE>
+    <VALUE Lang="tw" Index="5">公會資料</VALUE>
+    <VALUE Lang="tw" Index="6">好友清單</VALUE>
+    <VALUE Lang="tw" Index="7">迷你地圖</VALUE>
+    <VALUE Lang="tw" Index="8">聊天巨集</VALUE>
+    <VALUE Lang="tw" Index="9">道具銀行</VALUE>
+    <VALUE Lang="tw" Index="10">道具商城</VALUE>
+    <VALUE Lang="tw" Index="11">跑步/走路</VALUE>
+    <VALUE Lang="tw" Index="12">線上說明 快捷鍵</VALUE>
+    <VALUE Lang="tw" Index="13">寵物資訊</VALUE>
+    <VALUE Lang="tw" Index="14">攻擊模式 </VALUE>
+    <VALUE Lang="tw" Index="15">PK模式 </VALUE>
+    <VALUE Lang="tw" Index="16">工匠視窗快捷鍵</VALUE>
+    <VALUE Lang="tw" Index="17">坐騎 快捷鍵</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="KEYSETTING_QUICKSKILL">
+    <VALUE Lang="tw" Index="0">技能欄位1</VALUE>
+    <VALUE Lang="tw" Index="1">技能欄位2</VALUE>
+    <VALUE Lang="tw" Index="2">技能欄位3</VALUE>
+    <VALUE Lang="tw" Index="3">技能欄位4</VALUE>
+    <VALUE Lang="tw" Index="4">技能欄位5</VALUE>
+    <VALUE Lang="tw" Index="5">技能欄位6</VALUE>
+    <VALUE Lang="tw" Index="6">技能欄位7</VALUE>
+    <VALUE Lang="tw" Index="7">技能欄位8</VALUE>
+    <VALUE Lang="tw" Index="8">技能欄位9</VALUE>
+    <VALUE Lang="tw" Index="9">技能欄位0</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="KEYSETTING_QUICKSLOT">
+    <VALUE Lang="tw" Index="0">快捷欄位1</VALUE>
+    <VALUE Lang="tw" Index="1">快捷欄位2</VALUE>
+    <VALUE Lang="tw" Index="2">快捷欄位3</VALUE>
+    <VALUE Lang="tw" Index="3">快捷欄位4</VALUE>
+    <VALUE Lang="tw" Index="4">快捷欄位5</VALUE>
+    <VALUE Lang="tw" Index="5">快捷欄位6</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="KEYSETTING_WINDOW_NAME_STATIC">
+    <VALUE Lang="tw" Index="0">熱鍵設定</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="KEYSETTINGWINDOW_TAP_TYPE">
+    <VALUE Lang="tw" Index="0">鍵盤操作模式 A</VALUE>
+    <VALUE Lang="tw" Index="1">鍵盤操作模式 B</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="LARGEMAP_WINDOW_STATIC">
+    <VALUE Lang="tw" Index="0">地圖</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="LIMITDESERT_PVE_MAPNAME">
+<VALUE Lang="tw" Index="0">絕望沙漠</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="LINK_SKILL_TEXT">
+    <VALUE Lang="tw" Index="0">連鎖技能特效</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="LOBY_BGM">
+    <VALUE Lang="tw" Index="0">centerarea.ogg</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="LOCKBOX_TOOLTIP_LOCK">
+    <VALUE Lang="tw" Index="0">(以鎖住)</VALUE>
+    <VALUE Lang="tw" Index="1">(以解鎖)</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="LOGIN_PAGE">
+    <VALUE Lang="tw" Index="0">登入</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="LOGIN_PAGE_IDPW">
+<VALUE Lang="tw" Index="0">帳號</VALUE>
+    <VALUE Lang="tw" Index="1">密碼</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="LOGIN_PAGE_IDSAVE_BACK">
+<VALUE Lang="tw" Index="0">儲存帳號</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="LOGIN_PAGE_OKCANCEL">
+<VALUE Lang="tw" Index="0">確認</VALUE>
+    <VALUE Lang="tw" Index="1">取消</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="LOTTO_ACCUMULATED_MONEY">
+    <VALUE Lang="tw" Index="1">累積金額</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="LOTTO_BUY_LIST_INFO_BUTTON_TEXT">
+    <VALUE Lang="tw" Index="0">確定</VALUE>
+    <VALUE Lang="tw" Index="1">關閉</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="LOTTO_BUY_LOTTO_UI_BUTTON_TEXT">
+    <VALUE Lang="tw" Index="0">自動輸入</VALUE>
+    <VALUE Lang="tw" Index="1">購買</VALUE>
+    <VALUE Lang="tw" Index="2">關閉</VALUE>
+    <VALUE Lang="tw" Index="3">連續自動購買</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="LOTTO_BUY_LOTTO_UI_TEXT">
+    <VALUE Lang="tw" Index="0">連續購買功能已暫停使用</VALUE>
+    <VALUE Lang="tw" Index="1">.</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="LOTTO_BUY_TYPE_TEXT">
+    <VALUE Lang="tw" Index="0">手動 %1%</VALUE>
+    <VALUE Lang="tw" Index="1">自動 %1%</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="LOTTO_BUY_TYPE_TEXT_IDX">
+    <VALUE Lang="tw" Index="0">A</VALUE>
+    <VALUE Lang="tw" Index="1">B</VALUE>
+    <VALUE Lang="tw" Index="2">C</VALUE>
+    <VALUE Lang="tw" Index="3">D</VALUE>
+    <VALUE Lang="tw" Index="4">E</VALUE>
+    <VALUE Lang="tw" Index="5">F</VALUE>
+    <VALUE Lang="tw" Index="6">G</VALUE>
+    <VALUE Lang="tw" Index="7">H</VALUE>
+    <VALUE Lang="tw" Index="8">I</VALUE>
+    <VALUE Lang="tw" Index="9">J</VALUE>
+    <VALUE Lang="tw" Index="10">K</VALUE>
+    <VALUE Lang="tw" Index="11">L</VALUE>
+    <VALUE Lang="tw" Index="12">M</VALUE>
+    <VALUE Lang="tw" Index="13">N</VALUE>
+    <VALUE Lang="tw" Index="14">O</VALUE>
+    <VALUE Lang="tw" Index="15">P</VALUE>
+    <VALUE Lang="tw" Index="16">Q</VALUE>
+    <VALUE Lang="tw" Index="17">R</VALUE>
+    <VALUE Lang="tw" Index="18">S</VALUE>
+    <VALUE Lang="tw" Index="19">T</VALUE>
+    <VALUE Lang="tw" Index="20">U</VALUE>
+    <VALUE Lang="tw" Index="21">V</VALUE>
+    <VALUE Lang="tw" Index="22">W</VALUE>
+    <VALUE Lang="tw" Index="23">X</VALUE>
+    <VALUE Lang="tw" Index="24">Y</VALUE>
+    <VALUE Lang="tw" Index="25">Z</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="LOTTO_DRAWING_DATE_STATE">
+    <VALUE Lang="tw" Index="0">可購買</VALUE>
+    <VALUE Lang="tw" Index="1">等待開獎</VALUE>
+    <VALUE Lang="tw" Index="2">開獎中</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="LOTTO_DRAWING_DATE_TEXT">
+    <VALUE Lang="tw" Index="0">開獎日期</VALUE>
+    <VALUE Lang="tw" Index="1">開始時間</VALUE>
+    <VALUE Lang="tw" Index="2">結束時間</VALUE>
+    <VALUE Lang="tw" Index="3">進行狀態</VALUE>
+    <VALUE Lang="tw" Index="4">目前狀態</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="LOTTO_INPUTNUM_TEXT">
+    <VALUE Lang="tw" Index="0">樂透號碼</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="LOTTO_MAIN_UI_BUTTON_TEXT">
+    <VALUE Lang="tw" Index="0">查看前期結果</VALUE>
+    <VALUE Lang="tw" Index="1">確認得獎主</VALUE>
+    <VALUE Lang="tw" Index="2">關閉</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="LOTTO_MAIN_UI_TAB_NAME">
+    <VALUE Lang="tw" Index="0">勇校大金彩</VALUE>
+    <VALUE Lang="tw" Index="1">Lotto (Ran點數)</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="LOTTO_WIN_MAIN_LIST_INFO_BUTTON_TEXT">
+    <VALUE Lang="tw" Index="0">關閉</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="LOTTO_WIN_MAIN_LIST_INFO_COLUMN_NAME_TEXT">
+    <VALUE Lang="tw" Index="0">名次</VALUE>
+    <VALUE Lang="tw" Index="1">中獎人</VALUE>
+<VALUE Lang="tw" Index="2">中獎人數</VALUE>
+    <VALUE Lang="tw" Index="3">中獎金額</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MACRO_ACTIVETEXT">
+    <VALUE Lang="tw" Index="0">剩餘時間不足，無法激活.</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MACRO_RETURNTEXT">
+    <VALUE Lang="tw" Index="0">藥水少於%1%個, 自動返回.</VALUE>
+    <VALUE Lang="tw" Index="1">時間低於%1%秒, 自動返回.</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MACRO_STATETEXT">
+    <VALUE Lang="tw" Index="0">自動模式持續時間已延長%1% 秒.</VALUE>
+    <VALUE Lang="tw" Index="1">自動模式時間結束.</VALUE>
+    <VALUE Lang="tw" Index="2">由於超過最大可充值時間, 所以無法使用.</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MACRO_TEXT">
+    <VALUE Lang="tw" Index="0">已開啟自動模式</VALUE>
+    <VALUE Lang="tw" Index="1">已關閉自動模式</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MACROOPTION_TITLE_NAME">
+    <VALUE Lang="tw" Index="0">自動掛機</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MACROOPTIONWINDOW_COMPONENTNAME">
+    <VALUE Lang="tw" Index="0">掛機只讀取技能快捷欄 F</VALUE>
+    <VALUE Lang="tw" Index="1">藥水耗盡時返回</VALUE>
+    <VALUE Lang="tw" Index="2">時間結束後返回</VALUE>
+    <VALUE Lang="tw" Index="3">開始</VALUE>
+    <VALUE Lang="tw" Index="4">結束</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MAP_ACTION_SETTING">
+    <VALUE Lang="tw" Index="0">設定動作</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MAP_AUTO_RIDE_VEHICLE">
+    <VALUE Lang="tw" Index="0">搭乘交通工具來進行移動</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MAP_BADGE">
+    <VALUE Lang="tw" Index="0">勳章</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MAP_BUS_STATION_SIGN">
+    <VALUE Lang="tw" Index="0">公車站</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MAP_CHARACTER_VIEW">
+    <VALUE Lang="tw" Index="0">詳情</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MAP_CLASS">
+    <VALUE Lang="tw" Index="0">職業</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MAP_CLUB">
+    <VALUE Lang="tw" Index="0">公會</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MAP_CLUB_MANAGER_SIGN">
+    <VALUE Lang="tw" Index="0">公會-置物箱管理員</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MAP_CURRENT_PLAYERS">
+    <VALUE Lang="tw" Index="0">目前人數</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MAP_GATE_SIGN">
+<VALUE Lang="tw" Index="0">傳點</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MAP_HAVE_NO_PARTY">
+    <VALUE Lang="tw" Index="0">無隊伍</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MAP_HAVE_PARTY">
+    <VALUE Lang="tw" Index="0">組隊中</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MAP_INVITE_CLUB">
+    <VALUE Lang="tw" Index="0">公會</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MAP_LOCKER_MANAGER_SIGN">
+    <VALUE Lang="tw" Index="0">置物箱管理員</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MAP_MONSTER_INFO">
+    <VALUE Lang="tw" Index="0">怪物資訊</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MAP_MONSTER_REWARD_ITEM">
+    <VALUE Lang="tw" Index="0">獎勵道具</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MAP_NAME">
+    <VALUE Lang="tw" Index="0">名稱</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MAP_NORMAL_NPC_SIGN">
+    <VALUE Lang="tw" Index="0">NPC</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MAP_ONLY_CURRENT_REGION">
+    <VALUE Lang="tw" Index="0">只有目前顯示的區域</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MAP_PARTY">
+    <VALUE Lang="tw" Index="0">隊伍</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MAP_PARTY_INFO">
+    <VALUE Lang="tw" Index="0">隊伍</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MAP_PARTY_PLAYER_SIGN">
+    <VALUE Lang="tw" Index="0">隊伍成員</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MAP_PARTY_REGISTER">
+    <VALUE Lang="tw" Index="0">組隊招募清單</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MAP_PARTY_UNREGISTER">
+    <VALUE Lang="tw" Index="0">關閉組隊招募</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MAP_PLACE_NAME_SIGN">
+    <VALUE Lang="tw" Index="0">區域名稱</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MAP_POSTBOX_SIGN">
+<VALUE Lang="tw" Index="0">顯示郵筒</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MAP_REFRESH">
+    <VALUE Lang="tw" Index="0">重整</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MAP_REGISTER_FRIEND">
+    <VALUE Lang="tw" Index="0">好友</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MAP_SCHOOL">
+    <VALUE Lang="tw" Index="0">學院</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MAP_SEARCH">
+    <VALUE Lang="tw" Index="0">搜尋</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MAP_SEARCH_STUDENT">
+    <VALUE Lang="tw" Index="0">搜尋學生</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MAP_SEARCH_STUDENT_INFO">
+    <VALUE Lang="tw" Index="0">角色資料</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MAP_SHOW_MAP_POSITION">
+    <VALUE Lang="tw" Index="0">位置</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MAP_SIGN_SETTING">
+    <VALUE Lang="tw" Index="0">設定 </VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MAP_START_POSITION_SIGN">
+    <VALUE Lang="tw" Index="0">儲存開始位置-NPC</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MAP_WHISPER">
+    <VALUE Lang="tw" Index="0">密語</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MAP_WINDOW_MOB_RELATIONTIP">
+    <VALUE Lang="tw" Index="0">怪物等級低, 無法獲得經驗.</VALUE>
+    <VALUE Lang="tw" Index="1">低於%1%等級的怪物.</VALUE>
+    <VALUE Lang="tw" Index="2">高於%1%等級的怪物.</VALUE>
+    <VALUE Lang="tw" Index="3">怪物等級高, 請小心</VALUE>
+    <VALUE Lang="tw" Index="9">Skip</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MAP_WINDOW_MOB_SPECIFIC_RELATIONTIP">
+    <VALUE Lang="tw" Index="0">相同等級的怪物</VALUE>
+    <VALUE Lang="tw" Index="1">任務相關的怪物</VALUE>
+    <VALUE Lang="tw" Index="2">怪物首領</VALUE>
+    <VALUE Lang="tw" Index="3">Skip</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MAPMOVE_OKBUTTON">
+    <VALUE Lang="tw" Index="0">確認</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MARKET_NAME_STATIC">
+    <VALUE Lang="tw" Index="0">商店</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MARKET_RPPAGE_TEXT">
+    <VALUE Lang="tw" Index="0">日</VALUE>
+    <VALUE Lang="tw" Index="1">登錄中的物品</VALUE>
+    <VALUE Lang="tw" Index="2">登錄物品數：</VALUE>
+    <VALUE Lang="tw" Index="3">(擴充) : ~ %1%. %2%. %3%</VALUE>
+    <VALUE Lang="tw" Index="4">加入販售</VALUE>
+    <VALUE Lang="tw" Index="5">出售物品換P幣</VALUE>
+    <VALUE Lang="tw" Index="6">出售</VALUE>
+    <VALUE Lang="tw" Index="7">金幣</VALUE>
+    <VALUE Lang="tw" Index="8">出售價格 (單個)</VALUE>
+    <VALUE Lang="tw" Index="9">出售數量</VALUE>
+    <VALUE Lang="tw" Index="10">出售時間</VALUE>
+    <VALUE Lang="tw" Index="11">(1天：24小時)</VALUE>
+    <VALUE Lang="tw" Index="12">登錄費用</VALUE>
+    <VALUE Lang="tw" Index="13">手續費：%1%%%</VALUE>
+    <VALUE Lang="tw" Index="14">剩餘金額：</VALUE>
+    <VALUE Lang="tw" Index="15">取消登陸</VALUE>
+    <VALUE Lang="tw" Index="16">初始化</VALUE>
+    <VALUE Lang="tw" Index="17">登錄</VALUE>
+    <VALUE Lang="tw" Index="18">Icon</VALUE>
+    <VALUE Lang="tw" Index="19">物品名稱</VALUE>
+    <VALUE Lang="tw" Index="20">出售信息</VALUE>
+    <VALUE Lang="tw" Index="21">出售價格</VALUE>
+    <VALUE Lang="tw" Index="22">離結束還剩%1%小時.</VALUE>
+    <VALUE Lang="tw" Index="23">取消登錄</VALUE>
+    <VALUE Lang="tw" Index="24">出售遊戲幣換P幣</VALUE>
+    <VALUE Lang="tw" Index="25">截止日期</VALUE>
+    <VALUE Lang="tw" Index="26">無法再放入.</VALUE>
+    <VALUE Lang="tw" Index="27">時間結束</VALUE>
+    <VALUE Lang="tw" Index="28">已賣出</VALUE>
+    <VALUE Lang="tw" Index="29">確定要將物品收回嗎？</VALUE>
+    <VALUE Lang="tw" Index="30">確定要將金幣收回嗎？</VALUE>
+    <VALUE Lang="tw" Index="31">P幣交易市場</VALUE>
+    <VALUE Lang="tw" Index="32">貨幣種類</VALUE>
+    <VALUE Lang="tw" Index="33">P幣</VALUE>
+    <VALUE Lang="tw" Index="34">(擴充)：無</VALUE>
+    <VALUE Lang="tw" Index="35">服裝經過洗滌分解後才可販售。</VALUE>
+    <VALUE Lang="tw" Index="36">不能添加期限類型的物品.</VALUE>
+    <VALUE Lang="tw" Index="37">物品/費用將通過郵件發送.</VALUE>
+    <VALUE Lang="tw" Index="38">結束時間 小於%1%分鐘</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MARKET_SEARCH_BUY_ADD_RANDOM_OPTION">
+    <VALUE Lang="tw" Index="0">隨機能力值</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MARKET_SEARCH_BUY_ADD_WHISH_BUTTON">
+    <VALUE Lang="tw" Index="0">購物車</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MARKET_SEARCH_BUY_BASIC_OPTION">
+    <VALUE Lang="tw" Index="0">一般條件</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MARKET_SEARCH_BUY_BUTTON">
+    <VALUE Lang="tw" Index="0">購買</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MARKET_SEARCH_BUY_BUY">
+    <VALUE Lang="tw" Index="0">購買</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MARKET_SEARCH_BUY_BUY_AFTER_MONEY">
+    <VALUE Lang="tw" Index="0">餘額</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MARKET_SEARCH_BUY_BUY_CHECK">
+    <VALUE Lang="tw" Index="0">已勾選項目全部購買</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MARKET_SEARCH_BUY_BUY_CONFIRM">
+    <VALUE Lang="tw" Index="0">確定要花費[%2%]金幣購買[%1%] 道具嗎?</VALUE>
+    <VALUE Lang="tw" Index="1">確定要花費[%3%]金幣購買[%1%] 道具[%2%] 個嗎?</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MARKET_SEARCH_BUY_BUY_TIME">
+    <VALUE Lang="tw" Index="0">時間  </VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MARKET_SEARCH_BUY_CALCULATION">
+    <VALUE Lang="tw" Index="0">購物車</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MARKET_SEARCH_BUY_CONFIRM">
+<VALUE Lang="tw" Index="0">確定要購買已選擇的物品嗎?</VALUE>
+    <VALUE Lang="tw" Index="1">購買物品: %1% (%2% 個)</VALUE>
+<VALUE Lang="tw" Index="2">購買價格: %1%金幣</VALUE>
+<VALUE Lang="tw" Index="3">購買價格:%1%P幣</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MARKET_SEARCH_BUY_COUNT">
+    <VALUE Lang="tw" Index="0">數量</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MARKET_SEARCH_BUY_DATE">
+    <VALUE Lang="tw" Index="0">日期</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MARKET_SEARCH_BUY_HAVE_MONEY">
+<VALUE Lang="tw" Index="0">持有金幣</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MARKET_SEARCH_BUY_HISTORY">
+    <VALUE Lang="tw" Index="0">歷史紀錄</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MARKET_SEARCH_BUY_HISTORY_PAGE">
+    <VALUE Lang="tw" Index="0">歷史紀錄</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MARKET_SEARCH_BUY_IIEM_NAME_INPUT">
+    <VALUE Lang="tw" Index="0">請輸入道具名稱</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MARKET_SEARCH_BUY_INDIVIDUALLY_COST">
+    <VALUE Lang="tw" Index="0">單價</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MARKET_SEARCH_BUY_ITEM_COUNT">
+    <VALUE Lang="tw" Index="0">數量</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MARKET_SEARCH_BUY_ITEM_IMAGE">
+    <VALUE Lang="tw" Index="0">圖示</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MARKET_SEARCH_BUY_ITEM_NAME">
+    <VALUE Lang="tw" Index="0">道具名稱</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MARKET_SEARCH_BUY_ITEM_NOTUSED">
+    <VALUE Lang="tw" Index="0">(無法使用)</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MARKET_SEARCH_BUY_ITEM_PRICE">
+    <VALUE Lang="tw" Index="0">價格</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MARKET_SEARCH_BUY_ITEM_USED">
+    <VALUE Lang="tw" Index="0">(可使用)</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MARKET_SEARCH_BUY_ITEMCATEGORY">
+    <VALUE Lang="tw" Index="0">道具類型</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MARKET_SEARCH_BUY_NO_EXIST_RESULT">
+    <VALUE Lang="tw" Index="0">沒有搜尋的結果</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MARKET_SEARCH_BUY_NOMAL_STATS">
+    <VALUE Lang="tw" Index="0">基本能力值</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MARKET_SEARCH_BUY_PRIVATE_MAKET_SEARCH_BUY">
+    <VALUE Lang="tw" Index="0">搜尋個人商店</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MARKET_SEARCH_BUY_RESET_BUTTON">
+    <VALUE Lang="tw" Index="0">重整</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MARKET_SEARCH_BUY_SEARCH_BUTTON">
+    <VALUE Lang="tw" Index="0">搜尋</VALUE>
+    <VALUE Lang="tw" Index="1">冷卻時間 [%1%]秒</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MARKET_SEARCH_BUY_SEARCH_MIN_VALUE">
+    <VALUE Lang="tw" Index="0">最小值</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MARKET_SEARCH_BUY_SEARCH_OPTION">
+    <VALUE Lang="tw" Index="0">搜尋條件</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MARKET_SEARCH_BUY_SELL">
+    <VALUE Lang="tw" Index="0">販賣</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MARKET_SEARCH_BUY_SELLER_INFO">
+    <VALUE Lang="tw" Index="0">賣家資料</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MARKET_SEARCH_BUY_SELLER_NAME">
+    <VALUE Lang="tw" Index="0">賣家名稱</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MARKET_SEARCH_BUY_SHOW_INFO">
+    <VALUE Lang="tw" Index="0">顯示資料</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MARKET_SEARCH_BUY_TERM_ITEM">
+    <VALUE Lang="tw" Index="0">期限型</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MARKET_SEARCH_BUY_TITLE">
+    <VALUE Lang="tw" Index="0">搜尋結果</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MARKET_SEARCH_BUY_TOTAL_COST">
+    <VALUE Lang="tw" Index="0">總額</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MARKET_SEARCH_BUY_TRANSACTION">
+    <VALUE Lang="tw" Index="0">交易</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MARKET_SEARCH_BUY_WEAR_POS">
+    <VALUE Lang="tw" Index="0">佩戴欄位</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MARKET_SEARCH_BUY_WHISH_LIST">
+    <VALUE Lang="tw" Index="0">願望清單</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MARKET_SEARCH_BUY_WISH_PAGE">
+    <VALUE Lang="tw" Index="0">購物車</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MARKET_WINDOW_PAGE_BUTTON">
+    <VALUE Lang="tw" Index="0">武器類</VALUE>
+    <VALUE Lang="tw" Index="1">防具類</VALUE>
+    <VALUE Lang="tw" Index="2">消耗品</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MATCHING_CONTENTS_NAME">
+<VALUE Lang="tw" Index="0">次元實驗室</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MAX_GROUP_CHAT_INVITE">
+    <VALUE Lang="tw" Index="0">邀請</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MAX_GROUP_CHAT_INVITE_BUTTON_MSG">
+    <VALUE Lang="tw" Index="0">此功能限首長使用</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MAX_GROUP_CHAT_JOIN_MSG">
+    <VALUE Lang="tw" Index="0">%1% 已加入</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MAX_GROUP_CHAT_JOIN_SECURITY_MSG">
+    <VALUE Lang="tw" Index="0">GM不會主動詢問玩家帳號和密碼</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MAX_GROUP_CHAT_OUT_MSG">
+    <VALUE Lang="tw" Index="0">%1% 已離開</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MAX_GROUP_CHAT_ROOM_MASTER">
+    <VALUE Lang="tw" Index="0">%1%的聊天室 (%2%/%3%)</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MAX_GROUP_CHAT_STATE_BLOCK">
+    <VALUE Lang="tw" Index="0">封鎖</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MAX_GROUP_CHAT_STATE_CLUBMEMBER">
+    <VALUE Lang="tw" Index="0">成員</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MAX_GROUP_CHAT_STATE_FRIEND">
+    <VALUE Lang="tw" Index="0">好友目 </VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MAX_GROUP_CHAT_STATE_NORMAL">
+    <VALUE Lang="tw" Index="0">未登記</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MINI_EXPEDITION_INFO_TAP">
+    <VALUE Lang="tw" Index="0">G1</VALUE>
+    <VALUE Lang="tw" Index="1">G2</VALUE>
+    <VALUE Lang="tw" Index="2">G3</VALUE>
+    <VALUE Lang="tw" Index="3">G4</VALUE>
+    <VALUE Lang="tw" Index="4">G5</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MINIGAME_ODDEVEN_TEXT">
+    <VALUE Lang="tw" Index="0">單雙數遊戲</VALUE>
+    <VALUE Lang="tw" Index="1">進行中</VALUE>
+    <VALUE Lang="tw" Index="2">挑戰連勝</VALUE>
+    <VALUE Lang="tw" Index="3">投骰</VALUE>
+    <VALUE Lang="tw" Index="4">離開</VALUE>
+    <VALUE Lang="tw" Index="5">領取獎勵</VALUE>
+    <VALUE Lang="tw" Index="6">&lt;選擇&gt;</VALUE>
+    <VALUE Lang="tw" Index="7">[單數]</VALUE>
+    <VALUE Lang="tw" Index="8">[偶數]</VALUE>
+    <VALUE Lang="tw" Index="9">/ %d場</VALUE>
+    <VALUE Lang="tw" Index="10">%d勝</VALUE>
+    <VALUE Lang="tw" Index="11">是否進行</VALUE>
+    <VALUE Lang="tw" Index="12">選擇</VALUE>
+    <VALUE Lang="tw" Index="13">選擇獎勵</VALUE>
+    <VALUE Lang="tw" Index="14">剩餘時間</VALUE>
+<VALUE Lang="tw" Index="15">Skip</VALUE>
+<VALUE Lang="tw" Index="16">Skip</VALUE>
+<VALUE Lang="tw" Index="17">Skip</VALUE>
+<VALUE Lang="tw" Index="18">Skip</VALUE>
+<VALUE Lang="tw" Index="19">Skip</VALUE>
+<VALUE Lang="tw" Index="20">Skip</VALUE>
+<VALUE Lang="tw" Index="21">Skip</VALUE>
+<VALUE Lang="tw" Index="22">Skip</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MINIPARTY_NAME_STATIC">
+    <VALUE Lang="tw" Index="0">小隊</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MODAL_BUTTON">
+<VALUE Lang="tw" Index="0">確認</VALUE>
+<VALUE Lang="tw" Index="1">取消</VALUE>
+<VALUE Lang="tw" Index="2">是</VALUE>
+<VALUE Lang="tw" Index="3">否</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MODAL_TITLE">
+    <VALUE Lang="tw" Index="0">公告</VALUE>
+    <VALUE Lang="tw" Index="1">疑問</VALUE>
+    <VALUE Lang="tw" Index="2">警告</VALUE>
+    <VALUE Lang="tw" Index="3">錯誤</VALUE>
+    <VALUE Lang="tw" Index="4">嚴重</VALUE>
+    <VALUE Lang="tw" Index="5">輸入</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MOVABLE_ON_CHAT_WINDOW">
+    <VALUE Lang="tw" Index="0">可在聊天視窗上用滑鼠點選</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="NAME_DISPLAY_CONFIG">
+    <VALUE Lang="tw" Index="0">角色- 盟友（包括寵物）</VALUE>
+    <VALUE Lang="tw" Index="1">角色- 敵人（包括寵物）</VALUE>
+    <VALUE Lang="tw" Index="2">怪物</VALUE>
+    <VALUE Lang="tw" Index="3">NPC</VALUE>
+    <VALUE Lang="tw" Index="4">召喚獸</VALUE>
+    <VALUE Lang="tw" Index="5">掉落物品</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="NOT_USE_PREMIUM">
+    <VALUE Lang="tw" Index="0">無法使用</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="NOTE_WINDOW">
+    <VALUE Lang="tw" Index="0">收件者：</VALUE>
+    <VALUE Lang="tw" Index="1">寄件者：</VALUE>
+    <VALUE Lang="tw" Index="2">主題</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="NOTIFY_NAME">
+    <VALUE Lang="tw" Index="0">公告</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="NOTIFY_TYPE">
+    <VALUE Lang="tw" Index="1">加入好友</VALUE>
+    <VALUE Lang="tw" Index="2">聊天邀請</VALUE>
+    <VALUE Lang="tw" Index="3">公會邀請</VALUE>
+<VALUE Lang="tw" Index="4">邀請組隊</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="NOTIFY_WINDOW_TITLE">
+    <VALUE Lang="tw" Index="0">通知</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="NPC_EXCHANGE_SHOP">
+    <VALUE Lang="tw" Index="0">交換</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="OIL">
+    <VALUE Lang="tw" Index="0">燃料</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="P2PMENU">
+    <VALUE Lang="tw" Index="0">交易申請</VALUE>
+    <VALUE Lang="tw" Index="1">密語</VALUE>
+    <VALUE Lang="tw" Index="2">申請隊伍</VALUE>
+    <VALUE Lang="tw" Index="3">對戰申請</VALUE>
+    <VALUE Lang="tw" Index="4">申請加好友</VALUE>
+    <VALUE Lang="tw" Index="5">申請加入組織</VALUE>
+    <VALUE Lang="tw" Index="6">邀請入聯盟</VALUE>
+    <VALUE Lang="tw" Index="7">榮耀組織戰鬥</VALUE>
+    <VALUE Lang="tw" Index="8">申請同盟組織戰鬥</VALUE>
+    <VALUE Lang="tw" Index="9">邀請搭乘</VALUE>
+    <VALUE Lang="tw" Index="10">查看角色資訊</VALUE>
+    <VALUE Lang="tw" Index="11">群組聊天</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="PARTY_DICE_TENDER_WINDOW_TEXT">
+    <VALUE Lang="tw" Index="0">排隊等候</VALUE>
+    <VALUE Lang="tw" Index="1">投標或放棄</VALUE>
+    <VALUE Lang="tw" Index="2">拍賣投標</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="PARTY_DISTRIBUTION_WINDOW_TEXT">
+    <VALUE Lang="tw" Index="0">丟棄</VALUE>
+    <VALUE Lang="tw" Index="1">讓渡</VALUE>
+    <VALUE Lang="tw" Index="2">隊伍成員</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="PARTY_LINK_SECTION">
+    <VALUE Lang="tw" Index="0">M</VALUE>
+    <VALUE Lang="tw" Index="1">C</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="PARTY_LINK_WINDOW">
+    <VALUE Lang="tw" Index="0">召集隊伍</VALUE>
+    <VALUE Lang="tw" Index="1">分類</VALUE>
+    <VALUE Lang="tw" Index="2">職業</VALUE>
+    <VALUE Lang="tw" Index="3">名字</VALUE>
+    <VALUE Lang="tw" Index="4">申請組隊</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="PARTY_MODAL_CONDITION">
+    <VALUE Lang="tw" Index="0">道具分配</VALUE>
+    <VALUE Lang="tw" Index="1">金幣分配</VALUE>
+    <VALUE Lang="tw" Index="2">學院</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="PARTY_MODAL_ITEM_OPTION">
+    <VALUE Lang="tw" Index="0">貢獻者 優先</VALUE>
+    <VALUE Lang="tw" Index="1">無限免費</VALUE>
+    <VALUE Lang="tw" Index="2">隊長優先</VALUE>
+    <VALUE Lang="tw" Index="3">交替學習</VALUE>
+    <VALUE Lang="tw" Index="4">隊長分配</VALUE>
+    <VALUE Lang="tw" Index="5">擲篩子</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="PARTY_MODAL_ITEM_OPTION_FILTER">
+    <VALUE Lang="tw" Index="0">全部</VALUE>
+    <VALUE Lang="tw" Index="1">英雄</VALUE>
+    <VALUE Lang="tw" Index="2">古代</VALUE>
+    <VALUE Lang="tw" Index="3">傳說</VALUE>
+    <VALUE Lang="tw" Index="4">單一</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="PARTY_MODAL_ITEM_OPTION_TEXT">
+    <VALUE Lang="tw" Index="0">道具等級</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="PARTY_MODAL_MONEY_OPTION">
+    <VALUE Lang="tw" Index="0">貢獻者優先</VALUE>
+    <VALUE Lang="tw" Index="1">全體無限免費</VALUE>
+    <VALUE Lang="tw" Index="2">首長優先</VALUE>
+    <VALUE Lang="tw" Index="3">平均分配</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="PARTY_MODAL_OPTION">
+    <VALUE Lang="tw" Index="0">貢獻者優先</VALUE>
+    <VALUE Lang="tw" Index="1">全體無限免費</VALUE>
+    <VALUE Lang="tw" Index="2">首長優先</VALUE>
+    <VALUE Lang="tw" Index="3">輪流分配</VALUE>
+    <VALUE Lang="tw" Index="4">平均分配</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="PARTY_MODAL_TITLE">
+    <VALUE Lang="tw" Index="0">申請隊伍</VALUE>
+    <VALUE Lang="tw" Index="1">隊伍申請資料</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="PARTY_NAME_STATIC">
+    <VALUE Lang="tw" Index="0">隊伍</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="PARTY_RENEWAL_ICON_TOOLTIP">
+    <VALUE Lang="tw" Index="0">加入好友</VALUE>
+    <VALUE Lang="tw" Index="1">黑名單</VALUE>
+    <VALUE Lang="tw" Index="2">查看個人資訊</VALUE>
+    <VALUE Lang="tw" Index="3">首長</VALUE>
+    <VALUE Lang="tw" Index="4">副首長</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="PARTY_RENEWAL_INFO_TAP">
+    <VALUE Lang="tw" Index="0">隊伍 </VALUE>
+    <VALUE Lang="tw" Index="1">探險遠征隊</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="PARTY_RENEWAL_INFO_TEXT">
+    <VALUE Lang="tw" Index="0">道具</VALUE>
+    <VALUE Lang="tw" Index="1">篩選器</VALUE>
+<VALUE Lang="tw" Index="2">金幣</VALUE>
+    <VALUE Lang="tw" Index="3">解散隊伍</VALUE>
+    <VALUE Lang="tw" Index="4">增益效果Buff</VALUE>
+    <VALUE Lang="tw" Index="5">踢出</VALUE>
+    <VALUE Lang="tw" Index="6">委任</VALUE>
+    <VALUE Lang="tw" Index="7">探險隊員</VALUE>
+    <VALUE Lang="tw" Index="8">離開</VALUE>
+    <VALUE Lang="tw" Index="9">學院</VALUE>
+    <VALUE Lang="tw" Index="10">邀請</VALUE>
+    <VALUE Lang="tw" Index="11">遠征隊解散</VALUE>
+    <VALUE Lang="tw" Index="12">隊員資訊</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="PARTY_RENEWAL_POPUP_MENU_TEXT">
+    <VALUE Lang="tw" Index="0">委任</VALUE>
+    <VALUE Lang="tw" Index="1">密語</VALUE>
+    <VALUE Lang="tw" Index="2">詳情</VALUE>
+    <VALUE Lang="tw" Index="3">加好友</VALUE>
+    <VALUE Lang="tw" Index="4">封鎖</VALUE>
+    <VALUE Lang="tw" Index="5">解除</VALUE>
+    <VALUE Lang="tw" Index="6">踢出隊伍</VALUE>
+    <VALUE Lang="tw" Index="7">委任</VALUE>
+    <VALUE Lang="tw" Index="8">委任副隊長</VALUE>
+    <VALUE Lang="tw" Index="9">確認準備</VALUE>
+    <VALUE Lang="tw" Index="10">首長聊天 [ON]</VALUE>
+    <VALUE Lang="tw" Index="11">首長聊天 [OFF]</VALUE>
+    <VALUE Lang="tw" Index="12">移動</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="PARTY_TENDER_NOTIFY_TEXT">
+    <VALUE Lang="tw" Index="0">確認掉落物品</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="PARTY_WINDOW_MASTER_MEMBER_STATIC">
+    <VALUE Lang="tw" Index="0">隊長</VALUE>
+    <VALUE Lang="tw" Index="1">隊伍成員</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="PARTY_YES_NO_WINDOW_TEXT">
+    <VALUE Lang="tw" Index="0">通知</VALUE>
+    <VALUE Lang="tw" Index="1">Yes</VALUE>
+    <VALUE Lang="tw" Index="2">No</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="PASS_SET_TEXT">
+    <VALUE Lang="tw" Index="0">輸入密碼</VALUE>
+    <VALUE Lang="tw" Index="1">確認密碼</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="PET_NAME_STATIC">
+    <VALUE Lang="tw" Index="0">寵物 </VALUE>
+    <VALUE Lang="tw" Index="1">寵物技能</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="PET_REBIRTH_NAME_STATIC">
+    <VALUE Lang="tw" Index="0">創建寵物</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="PET_TEXT_STATIC">
+    <VALUE Lang="tw" Index="0">名稱</VALUE>
+    <VALUE Lang="tw" Index="1">類型</VALUE>
+    <VALUE Lang="tw" Index="2">飽滿</VALUE>
+    <VALUE Lang="tw" Index="3">忠誠</VALUE>
+    <VALUE Lang="tw" Index="4">技能</VALUE>
+    <VALUE Lang="tw" Index="5">無</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="PETCOLORCARD_WINDOW_TITLE">
+    <VALUE Lang="tw" Index="0">寵物顏色卡</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="PETSTYLECARD_WINDOW_TITLE">
+    <VALUE Lang="tw" Index="0">寵物類型卡</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="POINT_CARD_POINT_VOLUME">
+    <VALUE Lang="tw" Index="0">加值點數：%1%P</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="POINT_SHOP_ALL_CATEGORY">
+    <VALUE Lang="tw" Index="0">全選/取消</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="POINT_SHOP_BUY_BUTTON_TEXT">
+    <VALUE Lang="tw" Index="0">購買</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="POINT_SHOP_ETC_CATEGORY">
+    <VALUE Lang="tw" Index="0">其它</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="POINT_SHOP_POINT_TEXT">
+<VALUE Lang="tw" Index="0">P幣數量 :</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="POINT_SHOP_PRICE_ORDER_TEXT">
+    <VALUE Lang="tw" Index="0">降序排列</VALUE>
+    <VALUE Lang="tw" Index="1">遞升順序</VALUE>
+    <VALUE Lang="tw" Index="2">價格排序</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="POINT_SHOP_SEARCH_BUTTON">
+    <VALUE Lang="tw" Index="0">搜尋</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="POINT_SHOP_TAB_TEXT">
+    <VALUE Lang="tw" Index="0">一般商品</VALUE>
+    <VALUE Lang="tw" Index="1">團購</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="POSTBOX_BUTTON">
+    <VALUE Lang="tw" Index="0">收件箱</VALUE>
+    <VALUE Lang="tw" Index="1">撰寫</VALUE>
+    <VALUE Lang="tw" Index="2">記錄</VALUE>
+    <VALUE Lang="tw" Index="3">關閉</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="POSTBOX_EXPIRE_DATE">
+    <VALUE Lang="tw" Index="0">日</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="POSTBOX_PAGE_FRIENDFIND_BUTTON">
+<VALUE Lang="tw" Index="0">好友清單</VALUE>
+<VALUE Lang="tw" Index="1">組織清單</VALUE>
+    <VALUE Lang="tw" Index="2">附加</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="POSTBOX_PAGE_HISTORY_BUTTON">
+    <VALUE Lang="tw" Index="0">發送</VALUE>
+    <VALUE Lang="tw" Index="1">接受</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="POSTBOX_PAGE_HISTORY_TEXT">
+    <VALUE Lang="tw" Index="0">(退件)</VALUE>
+    <VALUE Lang="tw" Index="1">狀態：未讀取</VALUE>
+    <VALUE Lang="tw" Index="2">狀態：讀取</VALUE>
+    <VALUE Lang="tw" Index="3">(已刪除)</VALUE>
+    <VALUE Lang="tw" Index="4">(退件-刪除)</VALUE>
+    <VALUE Lang="tw" Index="5">(寄退回)</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="POSTBOX_PAGE_PREVIEW_TEXTBOX">
+    <VALUE Lang="tw" Index="0">剩餘金幣</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="POSTBOX_PAGE_READ_BUTTON">
+    <VALUE Lang="tw" Index="0">取回</VALUE>
+    <VALUE Lang="tw" Index="1">退件：</VALUE>
+    <VALUE Lang="tw" Index="2">刪除</VALUE>
+    <VALUE Lang="tw" Index="3">回復</VALUE>
+    <VALUE Lang="tw" Index="4">接受</VALUE>
+    <VALUE Lang="tw" Index="5">拒絕 </VALUE>
+  </WORD>
+  <WORD Ver="1" Id="POSTBOX_PAGE_READ_TEXTBOX">
+    <VALUE Lang="tw" Index="0">寄送日期：</VALUE>
+    <VALUE Lang="tw" Index="1">寄件者：</VALUE>
+    <VALUE Lang="tw" Index="2">道具 </VALUE>
+    <VALUE Lang="tw" Index="3">金幣：</VALUE>
+    <VALUE Lang="tw" Index="4">支付金額：</VALUE>
+    <VALUE Lang="tw" Index="5">持有金幣：</VALUE>
+    <VALUE Lang="tw" Index="6">無</VALUE>
+    <VALUE Lang="tw" Index="7">&lt;附加物品&gt;</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="POSTBOX_PAGE_RECEIVE_BUTTON">
+    <VALUE Lang="tw" Index="0">刪除</VALUE>
+    <VALUE Lang="tw" Index="1">接收物品</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="POSTBOX_PAGE_RECEIVE_SELECT_ALL">
+    <VALUE Lang="tw" Index="0">選擇全部</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="POSTBOX_PAGE_RECEIVE_TEXT">
+    <VALUE Lang="tw" Index="0">未讀取：%d</VALUE>
+    <VALUE Lang="tw" Index="1">郵件數量：%d</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="POSTBOX_PAGE_SEND_BUTTON">
+    <VALUE Lang="tw" Index="0">預覽</VALUE>
+    <VALUE Lang="tw" Index="1">送出</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="POSTBOX_PAGE_SEND_TEXTBOX">
+    <VALUE Lang="tw" Index="0">收件人</VALUE>
+    <VALUE Lang="tw" Index="1">樣式風格</VALUE>
+    <VALUE Lang="tw" Index="2">主旨</VALUE>
+    <VALUE Lang="tw" Index="3">內容</VALUE>
+    <VALUE Lang="tw" Index="4">金幣 </VALUE>
+    <VALUE Lang="tw" Index="5">請求付款</VALUE>
+    <VALUE Lang="tw" Index="6">道具 </VALUE>
+    <VALUE Lang="tw" Index="7">寄件費用：</VALUE>
+    <VALUE Lang="tw" Index="8">持有金幣 </VALUE>
+    <VALUE Lang="tw" Index="9">(%d/%d 字節)</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="POSTBOX_PAGE_TITLE">
+    <VALUE Lang="tw" Index="0">收件箱</VALUE>
+    <VALUE Lang="tw" Index="1">讀取</VALUE>
+    <VALUE Lang="tw" Index="2">書寫</VALUE>
+    <VALUE Lang="tw" Index="3">歷史紀錄</VALUE>
+    <VALUE Lang="tw" Index="4">尋找好友</VALUE>
+    <VALUE Lang="tw" Index="5">預覽 </VALUE>
+  </WORD>
+  <WORD Ver="1" Id="PRIVATE_MARKET">
+    <VALUE Lang="tw" Index="0">個人商店</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="PRIVATE_MARKET_BUTTON">
+    <VALUE Lang="tw" Index="0">開始</VALUE>
+    <VALUE Lang="tw" Index="1">結束</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="PRIVATE_MARKET_ITEM_ADDON_VAR_RANDOM">
+    <VALUE Lang="tw" Index="0">選擇</VALUE>
+    <VALUE Lang="tw" Index="1">命中</VALUE>
+    <VALUE Lang="tw" Index="2">迴避</VALUE>
+    <VALUE Lang="tw" Index="3">傷害</VALUE>
+    <VALUE Lang="tw" Index="4">防禦力</VALUE>
+    <VALUE Lang="tw" Index="5">HP</VALUE>
+    <VALUE Lang="tw" Index="6">MP</VALUE>
+    <VALUE Lang="tw" Index="7">SP</VALUE>
+    <VALUE Lang="tw" Index="8">力量能力點</VALUE>
+    <VALUE Lang="tw" Index="9">體力能力點</VALUE>
+    <VALUE Lang="tw" Index="10">精神能力點</VALUE>
+    <VALUE Lang="tw" Index="11">敏捷能力點</VALUE>
+    <VALUE Lang="tw" Index="12">耐力能力點</VALUE>
+    <VALUE Lang="tw" Index="13">格鬥值</VALUE>
+    <VALUE Lang="tw" Index="14">射擊值</VALUE>
+    <VALUE Lang="tw" Index="15">氣力值</VALUE>
+    <VALUE Lang="tw" Index="16">HP 恢復量</VALUE>
+    <VALUE Lang="tw" Index="17">MP 恢復量</VALUE>
+    <VALUE Lang="tw" Index="18">SP 恢復量</VALUE>
+    <VALUE Lang="tw" Index="19">HP+MP+SP 恢復量</VALUE>
+    <VALUE Lang="tw" Index="20">移動速度增加率</VALUE>
+    <VALUE Lang="tw" Index="21">攻擊速度增加率</VALUE>
+    <VALUE Lang="tw" Index="22">暴擊機率</VALUE>
+    <VALUE Lang="tw" Index="23">增加強烈的打擊機率</VALUE>
+    <VALUE Lang="tw" Index="24">HP 恢復量</VALUE>
+    <VALUE Lang="tw" Index="25">MP 恢復量</VALUE>
+    <VALUE Lang="tw" Index="26">SP 恢復量</VALUE>
+    <VALUE Lang="tw" Index="27">HP+MP+SP 恢復量</VALUE>
+    <VALUE Lang="tw" Index="28">移動速度增加量</VALUE>
+    <VALUE Lang="tw" Index="29">攻擊速度增加量</VALUE>
+    <VALUE Lang="tw" Index="30">暴擊機率</VALUE>
+    <VALUE Lang="tw" Index="31">狀態異常</VALUE>
+    <VALUE Lang="tw" Index="32">Skip</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="PRIVATE_MARKET_ITEM_ARMOR_TYPE">
+    <VALUE Lang="tw" Index="0">全部</VALUE>
+    <VALUE Lang="tw" Index="1">頭部</VALUE>
+    <VALUE Lang="tw" Index="2">上衣</VALUE>
+    <VALUE Lang="tw" Index="3">褲子</VALUE>
+    <VALUE Lang="tw" Index="4">手套</VALUE>
+    <VALUE Lang="tw" Index="5">鞋子</VALUE>
+    <VALUE Lang="tw" Index="6">項鏈</VALUE>
+    <VALUE Lang="tw" Index="7">手鐲</VALUE>
+    <VALUE Lang="tw" Index="8">戒指</VALUE>
+    <VALUE Lang="tw" Index="9">腰帶</VALUE>
+    <VALUE Lang="tw" Index="10">耳環</VALUE>
+    <VALUE Lang="tw" Index="11">飾品</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="PRIVATE_MARKET_ITEM_BASIC">
+    <VALUE Lang="tw" Index="0">選擇</VALUE>
+    <VALUE Lang="tw" Index="1">傷害</VALUE>
+    <VALUE Lang="tw" Index="2">SP需求</VALUE>
+    <VALUE Lang="tw" Index="3">防禦力</VALUE>
+    <VALUE Lang="tw" Index="4">命中</VALUE>
+    <VALUE Lang="tw" Index="5">迴避</VALUE>
+    <VALUE Lang="tw" Index="6">攻擊等級</VALUE>
+    <VALUE Lang="tw" Index="7">防禦等級</VALUE>
+    <VALUE Lang="tw" Index="8">經驗值</VALUE>
+    <VALUE Lang="tw" Index="9">全部抗性</VALUE>
+    <VALUE Lang="tw" Index="10">抵抗(火)</VALUE>
+    <VALUE Lang="tw" Index="11">抵抗(冰)</VALUE>
+    <VALUE Lang="tw" Index="12">抵抗(電)</VALUE>
+    <VALUE Lang="tw" Index="13">抵抗(毒)</VALUE>
+    <VALUE Lang="tw" Index="14">抵抗(氣)</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="PRIVATE_MARKET_ITEM_RANK">
+    <VALUE Lang="tw" Index="0">全部</VALUE>
+    <VALUE Lang="tw" Index="1">一般</VALUE>
+    <VALUE Lang="tw" Index="2">高級</VALUE>
+    <VALUE Lang="tw" Index="3">稀有</VALUE>
+    <VALUE Lang="tw" Index="4">英雄</VALUE>
+<VALUE Lang="tw" Index="5">史詩</VALUE>
+    <VALUE Lang="tw" Index="6">傳說</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="PRIVATE_MARKET_ITEM_REQUIRE">
+    <VALUE Lang="tw" Index="0">選擇</VALUE>
+    <VALUE Lang="tw" Index="1">等級</VALUE>
+    <VALUE Lang="tw" Index="2">力量</VALUE>
+    <VALUE Lang="tw" Index="3">敏捷</VALUE>
+    <VALUE Lang="tw" Index="4">精神</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="PRIVATE_MARKET_ITEM_REQUIRE_CLASS">
+    <VALUE Lang="tw" Index="0">全部職業</VALUE>
+    <VALUE Lang="tw" Index="1">格鬥部</VALUE>
+    <VALUE Lang="tw" Index="2">劍道部</VALUE>
+    <VALUE Lang="tw" Index="3">弓箭部</VALUE>
+    <VALUE Lang="tw" Index="4">氣功部</VALUE>
+    <VALUE Lang="tw" Index="5">終極部</VALUE>
+    <VALUE Lang="tw" Index="6">超能部</VALUE>
+    <VALUE Lang="tw" Index="7">忍術部</VALUE>
+    <VALUE Lang="tw" Index="8">魔術部</VALUE>
+    <VALUE Lang="tw" Index="9">變術部</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="PRIVATE_MARKET_ITEM_REQUIRE_SEX">
+    <VALUE Lang="tw" Index="0">全部</VALUE>
+    <VALUE Lang="tw" Index="1">男生</VALUE>
+    <VALUE Lang="tw" Index="2">女生</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="PRIVATE_MARKET_ITEM_STATE_BLOW">
+    <VALUE Lang="tw" Index="0">無法申請</VALUE>
+    <VALUE Lang="tw" Index="1">麻痺</VALUE>
+    <VALUE Lang="tw" Index="2">昏厥</VALUE>
+    <VALUE Lang="tw" Index="3">石化</VALUE>
+    <VALUE Lang="tw" Index="4">燃燒</VALUE>
+    <VALUE Lang="tw" Index="5">冰凍</VALUE>
+    <VALUE Lang="tw" Index="6">錯覺</VALUE>
+    <VALUE Lang="tw" Index="7">中毒</VALUE>
+    <VALUE Lang="tw" Index="8">詛咒</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="PRIVATE_MARKET_ITEM_TYPE">
+    <VALUE Lang="tw" Index="0">全部</VALUE>
+    <VALUE Lang="tw" Index="1">武器</VALUE>
+    <VALUE Lang="tw" Index="2">防具</VALUE>
+    <VALUE Lang="tw" Index="3">技能文書</VALUE>
+    <VALUE Lang="tw" Index="4">傳送類卡片</VALUE>
+    <VALUE Lang="tw" Index="5">強化劑</VALUE>
+    <VALUE Lang="tw" Index="6">寵物類</VALUE>
+    <VALUE Lang="tw" Index="7">座騎類</VALUE>
+    <VALUE Lang="tw" Index="8">便利性</VALUE>
+    <VALUE Lang="tw" Index="9">時裝(衣類)</VALUE>
+    <VALUE Lang="tw" Index="10">時裝(其它)</VALUE>
+    <VALUE Lang="tw" Index="11">禮盒</VALUE>
+    <VALUE Lang="tw" Index="12">合成文書</VALUE>
+    <VALUE Lang="tw" Index="13">卡片</VALUE>
+    <VALUE Lang="tw" Index="14">其他</VALUE>
+    <VALUE Lang="tw" Index="15">遊戲金幣 :</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="PRIVATE_MARKET_ITEM_WEAPON_TYPE">
+<VALUE Lang="tw" Index="0">全部</VALUE>
+<VALUE Lang="tw" Index="1">劍</VALUE>
+<VALUE Lang="tw" Index="2">刀</VALUE>
+<VALUE Lang="tw" Index="3">短劍</VALUE>
+<VALUE Lang="tw" Index="4">槍</VALUE>
+<VALUE Lang="tw" Index="5">木棒</VALUE>
+<VALUE Lang="tw" Index="6">拳</VALUE>
+<VALUE Lang="tw" Index="7">弓</VALUE>
+<VALUE Lang="tw" Index="8">投擲類</VALUE>
+<VALUE Lang="tw" Index="9">雙槍</VALUE>
+<VALUE Lang="tw" Index="10">狙擊槍</VALUE>
+<VALUE Lang="tw" Index="11">電子槍</VALUE>
+<VALUE Lang="tw" Index="12">鐮刃</VALUE>
+<VALUE Lang="tw" Index="13">雙刃</VALUE>
+<VALUE Lang="tw" Index="14">圓月輪</VALUE>
+<VALUE Lang="tw" Index="15">終極拳甲</VALUE>
+<VALUE Lang="tw" Index="16">魔術棒</VALUE>
+<VALUE Lang="tw" Index="17">魔方</VALUE>
+<VALUE Lang="tw" Index="18">鞭子</VALUE>
+    <VALUE Lang="tw" Index="19">盾</VALUE>
+    <VALUE Lang="tw" Index="20">錘</VALUE>
+    <VALUE Lang="tw" Index="21">傘</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="PRIVATE_MARKET_MAKE_BUTTON">
+<VALUE Lang="tw" Index="0">確認</VALUE>
+    <VALUE Lang="tw" Index="1">取消</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="PRIVATE_MARKET_NAME_STATIC">
+    <VALUE Lang="tw" Index="0">個人商店</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="PRIVATE_MARKET_SELL_WINDOW_STATICTEXT">
+    <VALUE Lang="tw" Index="0">單價</VALUE>
+    <VALUE Lang="tw" Index="1">販售數量</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="PRODUCT_BUTTON">
+    <VALUE Lang="tw" Index="0">開始製作</VALUE>
+    <VALUE Lang="tw" Index="1">取消</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="PRODUCT_GOODS_MESSAGE">
+    <VALUE Lang="tw" Index="0">製作所需物品不足，無法進行製作</VALUE>
+    <VALUE Lang="tw" Index="1">道具製作幾率：%1%%%.</VALUE>
+    <VALUE Lang="tw" Index="2">此道具為可製作的道具</VALUE>
+    <VALUE Lang="tw" Index="3">需要從怪物那裡得到合成書</VALUE>
+    <VALUE Lang="tw" Index="4">製作費用不足，無法進行製作</VALUE>
+    <VALUE Lang="tw" Index="5">製作所需等級條件太低，無法進行製作</VALUE>
+    <VALUE Lang="tw" Index="6">所需製作點數過低，無法進行製作。</VALUE>
+    <VALUE Lang="tw" Index="7">製作道具所需的製作等級和點數不足，無法製作。</VALUE>
+    <VALUE Lang="tw" Index="8">尚未學習此製作技能，無法開始製作道具。</VALUE>
+    <VALUE Lang="tw" Index="9">背包空間不足，無法製作</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="PRODUCT_LIST_FILTER">
+    <VALUE Lang="tw" Index="0">全部職業</VALUE>
+    <VALUE Lang="tw" Index="1">劍道部</VALUE>
+    <VALUE Lang="tw" Index="2">格鬥部</VALUE>
+    <VALUE Lang="tw" Index="3">弓箭部</VALUE>
+    <VALUE Lang="tw" Index="4">氣功部</VALUE>
+    <VALUE Lang="tw" Index="5">超能部</VALUE>
+    <VALUE Lang="tw" Index="6">終極部</VALUE>
+    <VALUE Lang="tw" Index="7">忍術部</VALUE>
+    <VALUE Lang="tw" Index="8">魔術部</VALUE>
+    <VALUE Lang="tw" Index="9">變術部</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="PRODUCT_TYPE_STRING">
+    <VALUE Lang="tw" Index="0">其它</VALUE>
+    <VALUE Lang="tw" Index="1">頭部</VALUE>
+    <VALUE Lang="tw" Index="2">上衣</VALUE>
+    <VALUE Lang="tw" Index="3">褲子</VALUE>
+    <VALUE Lang="tw" Index="4">手套</VALUE>
+    <VALUE Lang="tw" Index="5">鞋子</VALUE>
+    <VALUE Lang="tw" Index="6">武器</VALUE>
+    <VALUE Lang="tw" Index="7">項鏈+耳環</VALUE>
+    <VALUE Lang="tw" Index="8">戒指+腰帶</VALUE>
+    <VALUE Lang="tw" Index="9">戒指+飾品</VALUE>
+    <VALUE Lang="tw" Index="10">其它</VALUE>
+    <VALUE Lang="tw" Index="11">隨機樂透箱</VALUE>
+    <VALUE Lang="tw" Index="12">服裝</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="PRODUCT_TYPE_TEXT">
+    <VALUE Lang="tw" Index="0">全部</VALUE>
+    <VALUE Lang="tw" Index="1">頭飾清單</VALUE>
+    <VALUE Lang="tw" Index="2">上衣清單</VALUE>
+    <VALUE Lang="tw" Index="3">褲子/裙子清單</VALUE>
+    <VALUE Lang="tw" Index="4">手套清單</VALUE>
+    <VALUE Lang="tw" Index="5">鞋子清單</VALUE>
+    <VALUE Lang="tw" Index="6">武器清單</VALUE>
+    <VALUE Lang="tw" Index="7">項鏈清單</VALUE>
+    <VALUE Lang="tw" Index="8">手鐲清單</VALUE>
+    <VALUE Lang="tw" Index="9">戒指清單</VALUE>
+    <VALUE Lang="tw" Index="10">其它</VALUE>
+    <VALUE Lang="tw" Index="11">隨機樂透箱清單</VALUE>
+    <VALUE Lang="tw" Index="12">套裝清單</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="PRODUCT_WINDOW_TEXT">
+    <VALUE Lang="tw" Index="0">工匠系統</VALUE>
+    <VALUE Lang="tw" Index="1">道具種類</VALUE>
+    <VALUE Lang="tw" Index="2">顯示可製作的項目</VALUE>
+    <VALUE Lang="tw" Index="3">可製作</VALUE>
+    <VALUE Lang="tw" Index="4">未取得</VALUE>
+    <VALUE Lang="tw" Index="5">製作時間</VALUE>
+    <VALUE Lang="tw" Index="6">所需材料</VALUE>
+    <VALUE Lang="tw" Index="7">生產數量</VALUE>
+    <VALUE Lang="tw" Index="8">製作費用</VALUE>
+    <VALUE Lang="tw" Index="9">製作點數</VALUE>
+    <VALUE Lang="tw" Index="10">可學習 %1%(%2%/%3% )</VALUE>
+    <VALUE Lang="tw" Index="11">角色等級 %1%</VALUE>
+    <VALUE Lang="tw" Index="12">要求點數 %1%</VALUE>
+    <VALUE Lang="tw" Index="13">獲得點數+%1%(%2%%%)</VALUE>
+    <VALUE Lang="tw" Index="14">您要學習%1%嗎？</VALUE>
+    <VALUE Lang="tw" Index="15">製作概率</VALUE>
+  </WORD>
+<WORD Ver="1" Id="PUBLIC _CANCEL_ BUTTON">
+<VALUE Lang="tw" Index="0">取消</VALUE>
+</WORD>
+<WORD Ver="1" Id="PUBLIC _END_ BUTTON">
+<VALUE Lang="tw" Index="0">結束</VALUE>
+</WORD>
+<WORD Ver="1" Id="PUBLIC _NO_ BUTTON">
+<VALUE Lang="tw" Index="0">否</VALUE>
+</WORD>
+<WORD Ver="1" Id="PUBLIC _OK_BUTTON">
+<VALUE Lang="tw" Index="0">確認</VALUE>
+</WORD>
+<WORD Ver="1" Id="PUBLIC _START_ BUTTON">
+<VALUE Lang="tw" Index="0">開始</VALUE>
+</WORD>
+<WORD Ver="1" Id="PUBLIC _YES_ BUTTON">
+<VALUE Lang="tw" Index="0">是</VALUE>
+</WORD>
+<WORD Ver="1" Id="PUBLIC_WINDOW_CLOSE_ BUTTON">
+<VALUE Lang="tw" Index="0">關閉</VALUE>
+</WORD>
+  <WORD Ver="1" Id="PUBLIC_WINDOW_OPEN_ BUTTON">
+    <VALUE Lang="tw" Index="0">開啟</VALUE>
+  </WORD>
+<WORD Ver="1" Id="PVE_UNDERCAVE_UI_TEXT">
+<VALUE Lang="tw" Index="0">Skip</VALUE>
+<VALUE Lang="tw" Index="1">Skip</VALUE>
+<VALUE Lang="tw" Index="2">Skip</VALUE>
+<VALUE Lang="tw" Index="3">Skip</VALUE>
+<VALUE Lang="tw" Index="4">Skip</VALUE>
+</WORD>
+<WORD Ver="1" Id="PVE_UNDERGROUND_ALTAR_INFO">
+<VALUE Lang="tw" Index="0">Skip</VALUE>
+</WORD>
+<WORD Ver="1" Id="Pyramid1_PVE_MAPNAME">
+<VALUE Lang="tw" Index="0">Skip</VALUE>
+</WORD>
+<WORD Ver="1" Id="Pyramid2_PVE_MAPNAME">
+<VALUE Lang="tw" Index="0">Skip</VALUE>
+</WORD>
+  <WORD Ver="1" Id="QUEST_ALARM">
+    <VALUE Lang="tw" Index="0">06000196.wav</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="QUEST_BEGIN_MONEY">
+    <VALUE Lang="tw" Index="0">需求金幣</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="QUEST_COMPLETE">
+    <VALUE Lang="tw" Index="0">失敗</VALUE>
+    <VALUE Lang="tw" Index="1">成功</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="QUEST_CONDITION">
+    <VALUE Lang="tw" Index="0">條件</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="QUEST_CONDITION_TIME_UNIT">
+    <VALUE Lang="tw" Index="0">小時</VALUE>
+    <VALUE Lang="tw" Index="1">分</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="QUEST_GIFT">
+    <VALUE Lang="tw" Index="0">經驗值</VALUE>
+    <VALUE Lang="tw" Index="1">金幣 </VALUE>
+    <VALUE Lang="tw" Index="2">屬性</VALUE>
+    <VALUE Lang="tw" Index="3">生活點數</VALUE>
+    <VALUE Lang="tw" Index="4">PK 關閉</VALUE>
+    <VALUE Lang="tw" Index="5">技能點數</VALUE>
+    <VALUE Lang="tw" Index="6">能力點數</VALUE>
+    <VALUE Lang="tw" Index="7">道具 </VALUE>
+    <VALUE Lang="tw" Index="8">技能 </VALUE>
+    <VALUE Lang="tw" Index="9">獎勵</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="QUEST_HELPER_TEXT">
+    <VALUE Lang="tw" Index="0">任務</VALUE>
+    <VALUE Lang="tw" Index="1">狀態</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="QUEST_LIST_BUTTON">
+    <VALUE Lang="tw" Index="0">進行中任務</VALUE>
+    <VALUE Lang="tw" Index="1">已完成任務</VALUE>
+    <VALUE Lang="tw" Index="2">詳情</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="QUEST_LIST_EXPLAIN">
+    <VALUE Lang="tw" Index="0">內容</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="QUEST_LIST_MORE">
+    <VALUE Lang="tw" Index="0">詳情</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="QUEST_LIST_RESULT">
+    <VALUE Lang="tw" Index="0">進行結果</VALUE>
+    <VALUE Lang="tw" Index="1">成功</VALUE>
+    <VALUE Lang="tw" Index="2">失敗</VALUE>
+    <VALUE Lang="tw" Index="3">進行次數</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="QUEST_LIST_STEP_PLUS">
+    <VALUE Lang="tw" Index="0">+</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="QUEST_MAIN_BUTTON">
+    <VALUE Lang="tw" Index="0">放棄</VALUE>
+    <VALUE Lang="tw" Index="1">詳情</VALUE>
+    <VALUE Lang="tw" Index="2">返回</VALUE>
+    <VALUE Lang="tw" Index="3">完成</VALUE>
+    <VALUE Lang="tw" Index="4">獎勵</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="QUEST_MAIN_CONDITION">
+    <VALUE Lang="tw" Index="0">時間限制</VALUE>
+    <VALUE Lang="tw" Index="1">限制人數</VALUE>
+    <VALUE Lang="tw" Index="2">不死不朽</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="QUEST_MAIN_ITEM_TITLE">
+    <VALUE Lang="tw" Index="0">任務道具</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="QUEST_STEP_BUTTON">
+    <VALUE Lang="tw" Index="0">放棄</VALUE>
+    <VALUE Lang="tw" Index="1">返回</VALUE>
+    <VALUE Lang="tw" Index="2">註冊/解除</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="QUEST_STEP_ITEM_TITLE">
+    <VALUE Lang="tw" Index="0">任務道具</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="QUEST_TRYCOUNT">
+    <VALUE Lang="tw" Index="0">次數限制</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="QUEST_WINDOW_STATIC">
+    <VALUE Lang="tw" Index="0">任務</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="QUICK_POTION_SHORTCUT">
+    <VALUE Lang="tw" Index="0">Q</VALUE>
+    <VALUE Lang="tw" Index="1">W</VALUE>
+    <VALUE Lang="tw" Index="2">E</VALUE>
+    <VALUE Lang="tw" Index="3">A</VALUE>
+    <VALUE Lang="tw" Index="4">S</VALUE>
+    <VALUE Lang="tw" Index="5">D</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="QUIT_PARTY">
+    <VALUE Lang="tw" Index="0">解散</VALUE>
+    <VALUE Lang="tw" Index="1">退出</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RANDOM_TIME_BUTTON">
+    <VALUE Lang="tw" Index="0">限定時間</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RANMOBILE_ASSET">
+    <VALUE Lang="tw" Index="0">寶石傳送</VALUE>
+    <VALUE Lang="tw" Index="1">接受日常任務</VALUE>
+    <VALUE Lang="tw" Index="2">遊戲幣聯動</VALUE>
+    <VALUE Lang="tw" Index="3">暱稱</VALUE>
+    <VALUE Lang="tw" Index="4">剩餘聯動時間</VALUE>
+    <VALUE Lang="tw" Index="5">擴展金額</VALUE>
+    <VALUE Lang="tw" Index="6">延長</VALUE>
+    <VALUE Lang="tw" Index="7">M積分</VALUE>
+    <VALUE Lang="tw" Index="8">兌換</VALUE>
+    <VALUE Lang="tw" Index="9">移動至首頁</VALUE>
+    <VALUE Lang="tw" Index="10">移動至下載頁面</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RANMOBILE_TITLE">
+    <VALUE Lang="tw" Index="0">Ran In The Pocket</VALUE>
+    <VALUE Lang="tw" Index="1">Ran In The Pocket簡介</VALUE>
+    <VALUE Lang="tw" Index="2">角色信息</VALUE>
+    <VALUE Lang="tw" Index="3">兌換獎勵</VALUE>
+    <VALUE Lang="tw" Index="4">什麼是 Ran In The Pocket？</VALUE>
+    <VALUE Lang="tw" Index="5">提供優惠</VALUE>
+    <VALUE Lang="tw" Index="6">角色情報</VALUE>
+    <VALUE Lang="tw" Index="7">兌換獎勵</VALUE>
+    <VALUE Lang="tw" Index="8">聯動方式</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="REARCAR_COLOR_CHANGE_TEXT">
+    <VALUE Lang="tw" Index="0">車身</VALUE>
+    <VALUE Lang="tw" Index="1">車燈</VALUE>
+    <VALUE Lang="tw" Index="2">輪胎</VALUE>
+    <VALUE Lang="tw" Index="3">排氣管</VALUE>
+    <VALUE Lang="tw" Index="4">搭乘座墊</VALUE>
+    <VALUE Lang="tw" Index="5">配件</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="REBIRTH_BUTTON">
+    <VALUE Lang="tw" Index="0">復活</VALUE>
+    <VALUE Lang="tw" Index="1">使用歸魂珠</VALUE>
+    <VALUE Lang="tw" Index="2">經驗值恢復</VALUE>
+    <VALUE Lang="tw" Index="3">復活技能</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="REBIRTH_WINDOW_BUY_BUTTON_TEXT">
+    <VALUE Lang="tw" Index="0">購買 </VALUE>
+  </WORD>
+  <WORD Ver="1" Id="REBUILD_BTN_REVERTTOCACHE">
+    <VALUE Lang="tw" Index="0">選擇結果數值</VALUE>
+    <VALUE Lang="tw" Index="1">選擇上一個數值</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="REBUILD_ITEMTAG_APPLYRESULT">
+    <VALUE Lang="tw" Index="0">當前</VALUE>
+    <VALUE Lang="tw" Index="1">上一頁</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="REBUILD_ITEMTAG_KEEPORIGIN">
+    <VALUE Lang="tw" Index="0">當前</VALUE>
+    <VALUE Lang="tw" Index="1">結果</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="REFER_WEARTAB">
+    <VALUE Lang="tw" Index="0">配戴全部裝備</VALUE>
+    <VALUE Lang="tw" Index="1">試穿服裝</VALUE>
+    <VALUE Lang="tw" Index="2">與使用中的道具比較</VALUE>
+    <VALUE Lang="tw" Index="3">顯示研磨數值</VALUE>
+    <VALUE Lang="tw" Index="4">徽章</VALUE>
+    <VALUE Lang="tw" Index="5">等級</VALUE>
+    <VALUE Lang="tw" Index="6">加入</VALUE>
+    <VALUE Lang="tw" Index="7">密語</VALUE>
+    <VALUE Lang="tw" Index="8">加入好友</VALUE>
+    <VALUE Lang="tw" Index="9">組隊邀請</VALUE>
+    <VALUE Lang="tw" Index="10">重新整理</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="REFER_WINDOW">
+    <VALUE Lang="tw" Index="0">詳情</VALUE>
+    <VALUE Lang="tw" Index="1">服裝</VALUE>
+    <VALUE Lang="tw" Index="2">技能資訊</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RENEWAL_GUIDANCE_BATTLE_GATE_KEY">
+    <VALUE Lang="tw" Index="0">北邊入口</VALUE>
+    <VALUE Lang="tw" Index="1">東邊入口</VALUE>
+    <VALUE Lang="tw" Index="2">南邊入口</VALUE>
+    <VALUE Lang="tw" Index="3">西邊入口</VALUE>
+    <VALUE Lang="tw" Index="4">北邊入口方向</VALUE>
+    <VALUE Lang="tw" Index="5">東邊入口方向</VALUE>
+    <VALUE Lang="tw" Index="6">南邊入口方向</VALUE>
+    <VALUE Lang="tw" Index="7">西邊入口方向</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RENEWAL_GUIDANCE_INFO_NAME_WORD">
+<VALUE Lang="tw" Index="0">地下研究所 A</VALUE>
+<VALUE Lang="tw" Index="1">地下研究所 B</VALUE>
+<VALUE Lang="tw" Index="2">地下研究所 C</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RENEWAL_GUIDANCE_INFO_PROGRESS_WORD">
+    <VALUE Lang="tw" Index="0">進行中</VALUE>
+    <VALUE Lang="tw" Index="1">結束</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RENEWAL_GUIDANCE_INFO_WORD">
+    <VALUE Lang="tw" Index="0">目標點數：%1%P</VALUE>
+    <VALUE Lang="tw" Index="1">剩餘時間：%1%:%2%</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RENEWAL_GUIDANCE_RANK_WORD">
+    <VALUE Lang="tw" Index="0">排名</VALUE>
+    <VALUE Lang="tw" Index="1">組織</VALUE>
+    <VALUE Lang="tw" Index="2">點數</VALUE>
+    <VALUE Lang="tw" Index="3">================================</VALUE>
+    <VALUE Lang="tw" Index="4">%1%P</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RKET_SEARCH_BUY_WEAR_NUM">
+    <VALUE Lang="tw" Index="0">次數/數量</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RKET_SEARCH_BUY_WEAR_POS">
+    <VALUE Lang="tw" Index="0">裝備欄位</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RKET_SEARCH_BUY_WEAR_WEPON">
+    <VALUE Lang="tw" Index="0">裝備武器</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RN_CDM_CLUB_INFO_CHARACTER_NAME">
+    <VALUE Lang="tw" Index="0">角色名稱</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RN_CDM_CLUB_INFO_CLASS">
+    <VALUE Lang="tw" Index="0">職業</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RN_CDM_CLUB_MASTER_NAME_TEXT">
+    <VALUE Lang="tw" Index="0">公會名稱</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RN_CDM_CLUB_NAME_TEXT">
+    <VALUE Lang="tw" Index="0">公會徽章</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RN_CDM_DEATH_NUM_TEXT">
+    <VALUE Lang="tw" Index="0">死亡</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RN_CDM_GET_POINT_TEXT">
+    <VALUE Lang="tw" Index="0">獲得點數</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RN_CDM_KILL_NUM_TEXT">
+    <VALUE Lang="tw" Index="0">擊殺</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RN_CDM_POINT_TEXT">
+    <VALUE Lang="tw" Index="0">分數</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RN_CDM_PROEGSS_TEXT">
+    <VALUE Lang="tw" Index="0">組織生死鬥進行中</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RN_CDM_RANKING_TEXT">
+    <VALUE Lang="tw" Index="0">排行榜</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RN_CDM_REBIRTH_TEXT">
+    <VALUE Lang="tw" Index="0">復活</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RN_CDM_REWARD_TEXT">
+    <VALUE Lang="tw" Index="0">獎勵</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RN_CMD_RANK_RANKING_1">
+    <VALUE Lang="tw" Index="0">第一位</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RN_CMD_RANK_TEXT">
+    <VALUE Lang="tw" Index="0">排名</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RN_COMPETITION_REWARD">
+    <VALUE Lang="tw" Index="0">貢獻 :</VALUE>
+    <VALUE Lang="tw" Index="1">經驗值 :</VALUE>
+    <VALUE Lang="tw" Index="2">遊戲金幣 :</VALUE>
+<VALUE Lang="tw" Index="3">物品</VALUE>
+<VALUE Lang="tw" Index="4">增益效果</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RN_MAP_WINDOW_ALWAYS">
+    <VALUE Lang="tw" Index="0">無限制</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RN_MAP_WINDOW_CONDITON">
+    <VALUE Lang="tw" Index="0">地圖入場限制</VALUE>
+    <VALUE Lang="tw" Index="1">等級限制</VALUE>
+    <VALUE Lang="tw" Index="2">入場任務</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RN_MAP_WINDOW_FROMTO">
+    <VALUE Lang="tw" Index="0">開始</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RN_MAP_WINDOW_HIGHER">
+    <VALUE Lang="tw" Index="0">超過</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RN_MAP_WINDOW_LOW">
+    <VALUE Lang="tw" Index="0">低於</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RN_MAP_WINDOW_SAME_HIGHER">
+    <VALUE Lang="tw" Index="0">以上</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RN_MAP_WINDOW_SAME_LOW">
+    <VALUE Lang="tw" Index="0">低於</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RN_MAP_WINDOW_SEARCH_TYPE">
+    <VALUE Lang="tw" Index="0">搜尋</VALUE>
+    <VALUE Lang="tw" Index="1">只顯示目前所在區域</VALUE>
+    <VALUE Lang="tw" Index="2">搜尋學生</VALUE>
+    <VALUE Lang="tw" Index="3">個人資料</VALUE>
+    <VALUE Lang="tw" Index="4">位置</VALUE>
+    <VALUE Lang="tw" Index="5">密語</VALUE>
+    <VALUE Lang="tw" Index="6">加入好友</VALUE>
+    <VALUE Lang="tw" Index="7">詳情</VALUE>
+    <VALUE Lang="tw" Index="8">隊伍</VALUE>
+    <VALUE Lang="tw" Index="9">公會</VALUE>
+    <VALUE Lang="tw" Index="10">搜尋字數太少</VALUE>
+    <VALUE Lang="tw" Index="11">已加入隊伍</VALUE>
+    <VALUE Lang="tw" Index="12">非組隊狀態</VALUE>
+    <VALUE Lang="tw" Index="13">名稱</VALUE>
+    <VALUE Lang="tw" Index="14">學院</VALUE>
+    <VALUE Lang="tw" Index="15">勳章</VALUE>
+    <VALUE Lang="tw" Index="16">社團職業</VALUE>
+    <VALUE Lang="tw" Index="17">公會 </VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RNCDM_SHOPPING_GATE_KEY">
+<VALUE Lang="tw" Index="0">中央廣場(2F)</VALUE>
+<VALUE Lang="tw" Index="1">階梯(1F)</VALUE>
+<VALUE Lang="tw" Index="2">休息區(1F)</VALUE>
+<VALUE Lang="tw" Index="3">正門(1F)</VALUE>
+<VALUE Lang="tw" Index="4">咖啡廳(2F)</VALUE>
+<VALUE Lang="tw" Index="5">活動中心(2F)</VALUE>
+<VALUE Lang="tw" Index="6">西入口(2F)</VALUE>
+<VALUE Lang="tw" Index="7">精品店(2F)</VALUE>
+<VALUE Lang="tw" Index="8">休閒館(2F)</VALUE>
+<VALUE Lang="tw" Index="9">東入口(2F)</VALUE>
+<VALUE Lang="tw" Index="10">珠寶店(2F)</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RNCOMPETITION_BUFF_TEXT">
+    <VALUE Lang="tw" Index="0">Buff :</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RNCOMPETITION_CDM_BATTLE_INFO_MAXLEVEL">
+    <VALUE Lang="tw" Index="0">S等級以上的公會，需Lv %1%以上、組隊狀態。</VALUE>
+    <VALUE Lang="tw" Index="1">(公會權限：需具備參加CDM資格)</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RNCOMPETITION_CDM_BATTLE_INFO_OBJECTIVE_DESC">
+    <VALUE Lang="tw" Index="0">盡力在%1%分鐘內獲得最高分</VALUE>
+    <VALUE Lang="tw" Index="1">(注意! 不能使用寵物/座騎)</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RNCOMPETITION_CDM_BATTLE_INFO_PLAYERS">
+    <VALUE Lang="tw" Index="0">每個公會%1%位(沒有參賽人數限制)</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RNCOMPETITION_CDM_BATTLE_INFO_REWARD">
+    <VALUE Lang="tw" Index="0">第1名：CDM的第1名獎勵</VALUE>
+    <VALUE Lang="tw" Index="1">發送第1~10名的獎勵</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RNCOMPETITION_CDM_BATTLE_INFO_TEXT">
+    <VALUE Lang="tw" Index="0">&lt;情報&gt;</VALUE>
+    <VALUE Lang="tw" Index="1">目標 :</VALUE>
+    <VALUE Lang="tw" Index="2">名單 :</VALUE>
+    <VALUE Lang="tw" Index="3">參賽者 :</VALUE>
+    <VALUE Lang="tw" Index="4">參加條件 :</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RNCOMPETITION_CDM_BATTLE_INFO_VS">
+    <VALUE Lang="tw" Index="0">公會 vs 公會 vs 公會</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RNCOMPETITION_CONTRIBUTION_TEXT">
+    <VALUE Lang="tw" Index="0">貢獻度 :</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RNCOMPETITION_EXP_TEXT">
+    <VALUE Lang="tw" Index="0">經驗值 :</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RNCOMPETITION_INSTANCE_LIST">
+    <VALUE Lang="tw" Index="0">副本戰場清單</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RNCOMPETITION_ITEM_TEXT">
+    <VALUE Lang="tw" Index="0">道具 :</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RNCOMPETITION_MONEY_TEXT">
+    <VALUE Lang="tw" Index="0">金幣 :</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RNCOMPETITION_MORE_INFO">
+    <VALUE Lang="tw" Index="0">詳細資訊</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RNCOMPETITION_NEXT_WAR">
+    <VALUE Lang="tw" Index="0">下一場戰鬥</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RNCOMPETITION_OBJECT">
+    <VALUE Lang="tw" Index="0">目標</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RNCOMPETITION_RANK">
+    <VALUE Lang="tw" Index="0">排名</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RNCOMPETITION_REWARD">
+    <VALUE Lang="tw" Index="0">獎勵</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RNCOMPETITION_TYPE">
+    <VALUE Lang="tw" Index="0">P V P</VALUE>
+    <VALUE Lang="tw" Index="1">P V E</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RNCOMPETITION_TYPE_PVE_SUB">
+    <VALUE Lang="tw" Index="0">Forbidden Tower</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RNCOMPETITION_TYPE_PVP_SUB">
+    <VALUE Lang="tw" Index="0">殊死鬥</VALUE>
+    <VALUE Lang="tw" Index="1">組織生死鬥（CDM)</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RNFRIEND_BLOCKTAB">
+    <VALUE Lang="tw" Index="0">封鎖</VALUE>
+    <VALUE Lang="tw" Index="1">解除</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RNFRIEND_FRIENDTAB">
+    <VALUE Lang="tw" Index="0">申請加入好友</VALUE>
+    <VALUE Lang="tw" Index="1">群組</VALUE>
+    <VALUE Lang="tw" Index="2">選擇</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RNFRIEND_FRIENDTAB_BTN">
+    <VALUE Lang="tw" Index="0">加好友</VALUE>
+    <VALUE Lang="tw" Index="1">新群組</VALUE>
+    <VALUE Lang="tw" Index="2">隊伍邀請</VALUE>
+    <VALUE Lang="tw" Index="3">密語</VALUE>
+    <VALUE Lang="tw" Index="4">封鎖</VALUE>
+    <VALUE Lang="tw" Index="5">刪除</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RNFRIEND_FRIENDTAB_COMBO">
+    <VALUE Lang="tw" Index="0">全部</VALUE>
+    <VALUE Lang="tw" Index="1">線上</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RNFRIEND_FRIENDTAB_GPOPUP">
+    <VALUE Lang="tw" Index="0">修改名稱</VALUE>
+    <VALUE Lang="tw" Index="1">群組解散</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RNFRIEND_FRIENDTAB_POPUP">
+    <VALUE Lang="tw" Index="0">密語</VALUE>
+    <VALUE Lang="tw" Index="1">詳情</VALUE>
+    <VALUE Lang="tw" Index="2">邀請組隊</VALUE>
+    <VALUE Lang="tw" Index="3">編輯群組</VALUE>
+    <VALUE Lang="tw" Index="4">傳送至好友身旁（需使用傳送卡）</VALUE>
+    <VALUE Lang="tw" Index="5">封鎖</VALUE>
+    <VALUE Lang="tw" Index="6">刪除</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RNFRIEND_FRIENDTAB_SLOT_NORMAL">
+    <VALUE Lang="tw" Index="0">一般</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RNFRIEND_WINDOW">
+    <VALUE Lang="tw" Index="0">社群</VALUE>
+    <VALUE Lang="tw" Index="1">好友</VALUE>
+    <VALUE Lang="tw" Index="2">封鎖</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RNSKILL_SLOT_NEED">
+    <VALUE Lang="tw" Index="0">技能文書</VALUE>
+    <VALUE Lang="tw" Index="1">金幣</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RNSKILLWINDOW_SLOT">
+    <VALUE Lang="tw" Index="0">角色等級</VALUE>
+    <VALUE Lang="tw" Index="1">前置技能</VALUE>
+    <VALUE Lang="tw" Index="2">點數</VALUE>
+    <VALUE Lang="tw" Index="3">持有金幣不足</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="RNSKILLWINDOW_TITLE">
+    <VALUE Lang="tw" Index="0">技能 </VALUE>
+    <VALUE Lang="tw" Index="1">重置點數</VALUE>
+    <VALUE Lang="tw" Index="2">套用點數</VALUE>
+    <VALUE Lang="tw" Index="3">取消</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SECPASS_CHECKPAGE">
+    <VALUE Lang="tw" Index="0">2次密碼確認</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SECPASS_CHECKPAGE_IDPW">
+<VALUE Lang="tw" Index="0">帳號</VALUE>
+    <VALUE Lang="tw" Index="1">密碼</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SECPASS_CHECKPAGE_OKCANCEL">
+<VALUE Lang="tw" Index="0">確認</VALUE>
+    <VALUE Lang="tw" Index="1">取消</VALUE>
+    <VALUE Lang="tw" Index="2">確認</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SECPASS_SETPAGE">
+    <VALUE Lang="tw" Index="0">設定第2道密碼</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SECPASS_SETPAGE_OKCANCEL">
+<VALUE Lang="tw" Index="0">確認</VALUE>
+    <VALUE Lang="tw" Index="1">取消</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SECPASS_SETPAGE_PW">
+    <VALUE Lang="tw" Index="0">密碼</VALUE>
+    <VALUE Lang="tw" Index="1">重新確認</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SELECT_CHANNEL">
+<VALUE Lang="tw" Index="0">頻道</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SELECT_CHARACTER_CARD">
+    <VALUE Lang="tw" Index="0">角色卡</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SELECT_CHARACTER_CARD_STATIC">
+    <VALUE Lang="tw" Index="0">可創角色數</VALUE>
+    <VALUE Lang="tw" Index="1">卡片使用量</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SELECT_CHARACTER_PAGE">
+    <VALUE Lang="tw" Index="0">選擇角色</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SELECT_CHARACTER_PAGE_BUTTON">
+    <VALUE Lang="tw" Index="0">創角色</VALUE>
+    <VALUE Lang="tw" Index="1">開始遊戲</VALUE>
+    <VALUE Lang="tw" Index="2">刪除</VALUE>
+    <VALUE Lang="tw" Index="3">取消</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SELECT_CHARACTER_STATIC">
+    <VALUE Lang="tw" Index="0">經驗值</VALUE>
+    <VALUE Lang="tw" Index="1">屬性</VALUE>
+    <VALUE Lang="tw" Index="2">終點</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SELECT_CHINA_AREA">
+    <VALUE Lang="tw" Index="0">區域選擇</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SELECT_CLUB_FIELD">
+    <VALUE Lang="tw" Index="0">名稱</VALUE>
+    <VALUE Lang="tw" Index="1">排行</VALUE>
+    <VALUE Lang="tw" Index="2">等級</VALUE>
+    <VALUE Lang="tw" Index="3">首長 </VALUE>
+    <VALUE Lang="tw" Index="4">成員</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SELECT_CLUB_WINDOW_CLOSE_BTN">
+    <VALUE Lang="tw" Index="0">關閉</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SELECT_CLUB_WINDOW_JOINCLUB_BTN">
+    <VALUE Lang="tw" Index="0">加入公會</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SELECT_CLUB_WINDOW_MAKECLUB_BTN">
+    <VALUE Lang="tw" Index="0">建立新公會</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SELECT_COUNTRY_LIST_COMP">
+    <VALUE Lang="tw" Index="0">確認</VALUE>
+    <VALUE Lang="tw" Index="1">取消</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SELECT_COUNTRY_LIST_UI">
+    <VALUE Lang="tw" Index="0">選擇區域</VALUE>
+    <VALUE Lang="tw" Index="1">選擇國家</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SELECT_COUNTRY_MODAL_CANCEL_BUTTON">
+    <VALUE Lang="tw" Index="0">取消</VALUE>
+    <VALUE Lang="tw" Index="1">開始遊戲</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SELECT_COUNTRY_MODAL_OK_BUTTON">
+    <VALUE Lang="tw" Index="0">選擇國家</VALUE>
+    <VALUE Lang="tw" Index="1">完成</VALUE>
+    <VALUE Lang="tw" Index="2">選擇公會</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SELECT_COUNTRY_UI_TEXT">
+    <VALUE Lang="tw" Index="0">選擇國家</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SELECT_COUNTRY_WINDOW_OK_BUTTON">
+    <VALUE Lang="tw" Index="0">完成</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SELECT_COUNTRY_WINDOW_SEARCH_BUTTON">
+    <VALUE Lang="tw" Index="0">搜尋</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SELECT_SERVER">
+    <VALUE Lang="tw" Index="0">伺服器選單</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SELECT_SERVER_CONNECTQUIT">
+    <VALUE Lang="tw" Index="0">連線</VALUE>
+    <VALUE Lang="tw" Index="1">結束</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SELFORMBOX_MSG">
+    <VALUE Lang="tw" Index="0">無效的目標</VALUE>
+    <VALUE Lang="tw" Index="1">成功打開箱子</VALUE>
+    <VALUE Lang="tw" Index="2">背包空間不足</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SELFORMBOX_WINDOW_BTN">
+    <VALUE Lang="tw" Index="0">選擇</VALUE>
+    <VALUE Lang="tw" Index="1">取消</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SELFORMBOX_WINDOW_DESC_STATIC">
+    <VALUE Lang="tw" Index="0">您只能選擇一種道具</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SELFORMBOX_WINDOW_NAME_STATIC">
+    <VALUE Lang="tw" Index="0">選擇型禮盒</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SELFORMBOX_WINDOW_SELMODAL">
+    <VALUE Lang="tw" Index="0">確定要選擇嗎？</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SERVER_CHANNEL">
+    <VALUE Lang="tw" Index="0">分流</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SERVER_NAME">
+<VALUE Lang="tw" Index="0">伺服器 0</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SERVER_STATE">
+    <VALUE Lang="tw" Index="0">順暢</VALUE>
+    <VALUE Lang="tw" Index="1">普通</VALUE>
+    <VALUE Lang="tw" Index="2">壅塞</VALUE>
+<VALUE Lang="tw" Index="3">無法登入</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SERVER_TIME">
+    <VALUE Lang="tw" Index="0">伺服器時間</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SKILL_ADVANCED_INFO">
+    <VALUE Lang="tw" Index="0">技能</VALUE>
+    <VALUE Lang="tw" Index="1">技能等級</VALUE>
+    <VALUE Lang="tw" Index="2">技能點數</VALUE>
+    <VALUE Lang="tw" Index="3">角色等級</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SKILL_ADVANCED_INFO_STATS">
+    <VALUE Lang="tw" Index="0">力量</VALUE>
+<VALUE Lang="tw" Index="1">體力</VALUE>
+    <VALUE Lang="tw" Index="2">精神</VALUE>
+    <VALUE Lang="tw" Index="3">敏捷</VALUE>
+    <VALUE Lang="tw" Index="4">智力</VALUE>
+    <VALUE Lang="tw" Index="5">耐力</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SKILL_ADVANCED_INFO_STATS_OR_TEXT">
+    <VALUE Lang="tw" Index="0">或是</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SKILL_ADVANCED_SAPPLY">
+    <VALUE Lang="tw" Index="0">適用種類</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SKILL_ADVANCED_TARGET_RANGE">
+    <VALUE Lang="tw" Index="0">目標範圍</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SKILL_ADVANCED_USE_ITEM">
+    <VALUE Lang="tw" Index="0">沒有裝備武器</VALUE>
+    <VALUE Lang="tw" Index="1">劍類</VALUE>
+    <VALUE Lang="tw" Index="2">刀類</VALUE>
+    <VALUE Lang="tw" Index="3">劍/刀類</VALUE>
+    <VALUE Lang="tw" Index="4">短劍類</VALUE>
+    <VALUE Lang="tw" Index="5">長槍類</VALUE>
+    <VALUE Lang="tw" Index="6">棍類</VALUE>
+    <VALUE Lang="tw" Index="7">拳類</VALUE>
+    <VALUE Lang="tw" Index="8">弓類</VALUE>
+    <VALUE Lang="tw" Index="9">投擲類</VALUE>
+    <VALUE Lang="tw" Index="10">雙槍類</VALUE>
+    <VALUE Lang="tw" Index="11">狙擊槍類</VALUE>
+    <VALUE Lang="tw" Index="12">電子槍類</VALUE>
+    <VALUE Lang="tw" Index="13">槍類</VALUE>
+    <VALUE Lang="tw" Index="14">狙擊槍/電子槍</VALUE>
+    <VALUE Lang="tw" Index="15">鐮刀</VALUE>
+    <VALUE Lang="tw" Index="16">雙刃</VALUE>
+    <VALUE Lang="tw" Index="17">圓月輪類</VALUE>
+    <VALUE Lang="tw" Index="18">拳套類</VALUE>
+    <VALUE Lang="tw" Index="19">魔術棒</VALUE>
+    <VALUE Lang="tw" Index="20">魔方</VALUE>
+    <VALUE Lang="tw" Index="21">鞭子</VALUE>
+<VALUE Lang="tw" Index="22">堅盾</VALUE>
+<VALUE Lang="tw" Index="23">巨錘</VALUE>
+<VALUE Lang="tw" Index="24">魔傘</VALUE>
+    <VALUE Lang="tw" Index="25">無關</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SKILL_ADVANCED_USE_ITEM_LR_HAND">
+    <VALUE Lang="tw" Index="0">使用輔助工具</VALUE>
+    <VALUE Lang="tw" Index="1">使用主工具</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SKILL_APPLYTYPE_INDEX">
+    <VALUE Lang="tw" Index="0">HP</VALUE>
+    <VALUE Lang="tw" Index="1">MP</VALUE>
+    <VALUE Lang="tw" Index="2">SP</VALUE>
+    <VALUE Lang="tw" Index="3">HP 變化率</VALUE>
+    <VALUE Lang="tw" Index="4">MP 變化率</VALUE>
+    <VALUE Lang="tw" Index="5">SP 變化率</VALUE>
+<VALUE Lang="tw" Index="6">防禦值 變化</VALUE>
+    <VALUE Lang="tw" Index="7">解毒</VALUE>
+    <VALUE Lang="tw" Index="8">命中率 變化</VALUE>
+    <VALUE Lang="tw" Index="9">恢復率 變化</VALUE>
+    <VALUE Lang="tw" Index="10">HP+MP+SP 變化率</VALUE>
+    <VALUE Lang="tw" Index="11">攻擊力 變化量</VALUE>
+    <VALUE Lang="tw" Index="12">防禦力 變化量</VALUE>
+    <VALUE Lang="tw" Index="13">格鬥值</VALUE>
+    <VALUE Lang="tw" Index="14">射擊值</VALUE>
+    <VALUE Lang="tw" Index="15">氣力值</VALUE>
+    <VALUE Lang="tw" Index="16">HP 增加率</VALUE>
+    <VALUE Lang="tw" Index="17">MP 增加率</VALUE>
+    <VALUE Lang="tw" Index="18">SP 增加率</VALUE>
+    <VALUE Lang="tw" Index="19">寵物 自動拾取所有物品</VALUE>
+    <VALUE Lang="tw" Index="20">寵物 自動拾取稀有物品</VALUE>
+    <VALUE Lang="tw" Index="21">寵物 自動拾取藥水</VALUE>
+    <VALUE Lang="tw" Index="22">寵物 自動拾取金幣</VALUE>
+    <VALUE Lang="tw" Index="23">寵物 自動拾取研磨劑</VALUE>
+    <VALUE Lang="tw" Index="24">寵物 HP 恢復率</VALUE>
+    <VALUE Lang="tw" Index="25">寵物 HP+MP+SP 恢復率</VALUE>
+    <VALUE Lang="tw" Index="26">寵物 提高攻擊力</VALUE>
+    <VALUE Lang="tw" Index="27">寵物 提高防禦力</VALUE>
+    <VALUE Lang="tw" Index="28">寵物 自動使用藥水</VALUE>
+    <VALUE Lang="tw" Index="29">寵物 道具保護</VALUE>
+    <VALUE Lang="tw" Index="30">抗性 變化</VALUE>
+    <VALUE Lang="tw" Index="31">增加召喚時間</VALUE>
+    <VALUE Lang="tw" Index="32">可僱傭召喚獸</VALUE>
+    <VALUE Lang="tw" Index="33">寵物 命運之盒</VALUE>
+    <VALUE Lang="tw" Index="34">寵物材料物品</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SKILL_ATTRIBUTE_ELEMENT">
+    <VALUE Lang="tw" Index="0">氣</VALUE>
+    <VALUE Lang="tw" Index="1">火</VALUE>
+    <VALUE Lang="tw" Index="2">冰</VALUE>
+    <VALUE Lang="tw" Index="3">電</VALUE>
+    <VALUE Lang="tw" Index="4">毒</VALUE>
+    <VALUE Lang="tw" Index="5">石化</VALUE>
+    <VALUE Lang="tw" Index="6">錯亂</VALUE>
+    <VALUE Lang="tw" Index="7">昏厥</VALUE>
+    <VALUE Lang="tw" Index="8">詛咒</VALUE>
+    <VALUE Lang="tw" Index="9">裝備綁定</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SKILL_BASIC_INFO">
+    <VALUE Lang="tw" Index="0">名稱</VALUE>
+<VALUE Lang="tw" Index="1">級</VALUE>
+    <VALUE Lang="tw" Index="2">特有屬性</VALUE>
+    <VALUE Lang="tw" Index="3">職業</VALUE>
+    <VALUE Lang="tw" Index="4">角色等級</VALUE>
+    <VALUE Lang="tw" Index="5">類型</VALUE>
+    <VALUE Lang="tw" Index="6">物理攻擊技能</VALUE>
+    <VALUE Lang="tw" Index="7">法術攻擊技能</VALUE>
+    <VALUE Lang="tw" Index="8">被動技能</VALUE>
+    <VALUE Lang="tw" Index="9">適用武器</VALUE>
+    <VALUE Lang="tw" Index="10">消耗條件</VALUE>
+    <VALUE Lang="tw" Index="11">技能學習條件</VALUE>
+    <VALUE Lang="tw" Index="12">[技能範圍]</VALUE>
+    <VALUE Lang="tw" Index="13">[技能效果]</VALUE>
+    <VALUE Lang="tw" Index="14">[連鎖技能特效]</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SKILL_BRAND_INDEX">
+    <VALUE Lang="tw" Index="0">無</VALUE>
+    <VALUE Lang="tw" Index="1">一般傷害</VALUE>
+    <VALUE Lang="tw" Index="2">技能傷害</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SKILL_CA_EFFECT_SETTING">
+    <VALUE Lang="tw" Index="0">所有技能傷害</VALUE>
+    <VALUE Lang="tw" Index="1">所有技能效果</VALUE>
+    <VALUE Lang="tw" Index="2">所有技能傷害, 效果</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SKILL_CATEGORY">
+<VALUE Lang="tw" Index="0">▼基本資料▼</VALUE>
+<VALUE Lang="tw" Index="1">▼使用道具▼</VALUE>
+<VALUE Lang="tw" Index="2">▼基本屬性▼</VALUE>
+<VALUE Lang="tw" Index="3">▼使用時消耗量▼</VALUE>
+<VALUE Lang="tw" Index="4">▼狀態異常▼</VALUE>
+<VALUE Lang="tw" Index="5">▼附加效果▼</VALUE>
+<VALUE Lang="tw" Index="6">▼特殊效果▼</VALUE>
+<VALUE Lang="tw" Index="7">▼升級條件▼</VALUE>
+<VALUE Lang="tw" Index="8">▼說明▼</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SKILL_CDATA_CVL_BASIC">
+    <VALUE Lang="tw" Index="0">延遲</VALUE>
+    <VALUE Lang="tw" Index="1">持續時間</VALUE>
+    <VALUE Lang="tw" Index="2">套用範圍</VALUE>
+    <VALUE Lang="tw" Index="3">適用數量</VALUE>
+    <VALUE Lang="tw" Index="4">適用角度</VALUE>
+    <VALUE Lang="tw" Index="5">貫穿程度</VALUE>
+    <VALUE Lang="tw" Index="6">目標數量</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SKILL_CDATA_CVL_BASIC_USE_VALUE">
+    <VALUE Lang="tw" Index="0">消耗箭數</VALUE>
+    <VALUE Lang="tw" Index="1">消耗符咒數</VALUE>
+    <VALUE Lang="tw" Index="2">經驗值消耗量</VALUE>
+    <VALUE Lang="tw" Index="3">HP 消耗量</VALUE>
+    <VALUE Lang="tw" Index="4">MP 消耗量</VALUE>
+    <VALUE Lang="tw" Index="5">SP 消耗量</VALUE>
+    <VALUE Lang="tw" Index="6">CP 消耗量</VALUE>
+<VALUE Lang="tw" Index="7">所消耗的中子彈數量</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SKILL_DISABLE_LEARN">
+    <VALUE Lang="tw" Index="0">無法學習</VALUE>
+    <VALUE Lang="tw" Index="2">Skip</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SKILL_ETC_MASTER">
+    <VALUE Lang="tw" Index="0">首長</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SKILL_NAME_STATIC">
+    <VALUE Lang="tw" Index="0">技能</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SKILL_NEXTLEVEL">
+    <VALUE Lang="tw" Index="0">下一級</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SKILL_SIDEEFFECT_INDEX">
+    <VALUE Lang="tw" Index="0">無</VALUE>
+    <VALUE Lang="tw" Index="1">命中率 變化量</VALUE>
+    <VALUE Lang="tw" Index="2">迴避率 變化量</VALUE>
+<VALUE Lang="tw" Index="3">攻擊值 變化量</VALUE>
+<VALUE Lang="tw" Index="4">防禦值 變化量</VALUE>
+    <VALUE Lang="tw" Index="5">HP 變化率</VALUE>
+    <VALUE Lang="tw" Index="6">MP 變化率</VALUE>
+    <VALUE Lang="tw" Index="7">SP 變化率</VALUE>
+    <VALUE Lang="tw" Index="8">HP+MP+SP 變化率</VALUE>
+    <VALUE Lang="tw" Index="9">攻擊率 變化率</VALUE>
+    <VALUE Lang="tw" Index="10">防禦力 變化率</VALUE>
+    <VALUE Lang="tw" Index="11">格鬥值</VALUE>
+    <VALUE Lang="tw" Index="12">射擊值</VALUE>
+    <VALUE Lang="tw" Index="13">氣力值</VALUE>
+    <VALUE Lang="tw" Index="14">HP 增加率</VALUE>
+    <VALUE Lang="tw" Index="15">MP 增加率</VALUE>
+    <VALUE Lang="tw" Index="16">SP 增加率</VALUE>
+    <VALUE Lang="tw" Index="17">抗性 變化</VALUE>
+    <VALUE Lang="tw" Index="18">能力值 變化</VALUE>
+    <VALUE Lang="tw" Index="19">HP</VALUE>
+    <VALUE Lang="tw" Index="20">MP</VALUE>
+    <VALUE Lang="tw" Index="21">SP</VALUE>
+    <VALUE Lang="tw" Index="22">CP</VALUE>
+    <VALUE Lang="tw" Index="23">CP</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SKILL_SLOT">
+    <VALUE Lang="tw" Index="0">號</VALUE>
+    <VALUE Lang="tw" Index="1">被動</VALUE>
+    <VALUE Lang="tw" Index="2">需求點數</VALUE>
+    <VALUE Lang="tw" Index="3">等級</VALUE>
+    <VALUE Lang="tw" Index="4">精通</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SKILL_SPEC_TYPE">
+    <VALUE Lang="tw" Index="0">功能</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SKILL_STAT_SKILL_RESET">
+    <VALUE Lang="tw" Index="0">重置屬性, 技能</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SKILL_STATE_BLOW">
+    <VALUE Lang="tw" Index="0">發生機率</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SKILL_TAB_INFO">
+    <VALUE Lang="tw" Index="0">F1</VALUE>
+    <VALUE Lang="tw" Index="1">F2</VALUE>
+    <VALUE Lang="tw" Index="2">F3</VALUE>
+    <VALUE Lang="tw" Index="3">F4</VALUE>
+  </WORD>
+<WORD Ver="1" Id="SKILL_TAB_TITLE_ACTOR_M">
+<VALUE Lang="tw" Index="0">迅捷系</VALUE>
+<VALUE Lang="tw" Index="1">狂暴系</VALUE>
+<VALUE Lang="tw" Index="2">異能系</VALUE>
+<VALUE Lang="tw" Index="3">共通系</VALUE>
+</WORD>
+<WORD Ver="1" Id="SKILL_TAB_TITLE_ACTOR_W">
+<VALUE Lang="tw" Index="0">迅捷系</VALUE>
+<VALUE Lang="tw" Index="1">狂暴系</VALUE>
+<VALUE Lang="tw" Index="2">異能系</VALUE>
+<VALUE Lang="tw" Index="3">共通系</VALUE>
+</WORD>
+<WORD Ver="1" Id="SKILL_TAB_TITLE_ARCHER">
+<VALUE Lang="tw" Index="0">速射</VALUE>
+<VALUE Lang="tw" Index="1">強弓</VALUE>
+<VALUE Lang="tw" Index="2">氣功</VALUE>
+<VALUE Lang="tw" Index="3">共通</VALUE>
+</WORD>
+<WORD Ver="1" Id="SKILL_TAB_TITLE_ARMS">
+<VALUE Lang="tw" Index="0">劍術</VALUE>
+<VALUE Lang="tw" Index="1">劍氣術</VALUE>
+<VALUE Lang="tw" Index="2">刀術</VALUE>
+<VALUE Lang="tw" Index="3">共通</VALUE>
+</WORD>
+<WORD Ver="1" Id="SKILL_TAB_TITLE_ASSASSIN">
+<VALUE Lang="tw" Index="0">鐮刃</VALUE>
+<VALUE Lang="tw" Index="1">雙刃</VALUE>
+<VALUE Lang="tw" Index="2">圓月輪</VALUE>
+<VALUE Lang="tw" Index="3">共通</VALUE>
+</WORD>
+<WORD Ver="1" Id="SKILL_TAB_TITLE_ETC">
+<VALUE Lang="tw" Index="0">Skip</VALUE>
+<VALUE Lang="tw" Index="1">Skip</VALUE>
+<VALUE Lang="tw" Index="2">Skip</VALUE>
+<VALUE Lang="tw" Index="3">Skip</VALUE>
+</WORD>
+<WORD Ver="1" Id="SKILL_TAB_TITLE_EXTREME_M">
+<VALUE Lang="tw" Index="0">射擊類</VALUE>
+<VALUE Lang="tw" Index="1">近戰類</VALUE>
+<VALUE Lang="tw" Index="2">法術類</VALUE>
+<VALUE Lang="tw" Index="3">共用</VALUE>
+</WORD>
+<WORD Ver="1" Id="SKILL_TAB_TITLE_EXTREME_W">
+<VALUE Lang="tw" Index="0">射擊系</VALUE>
+<VALUE Lang="tw" Index="1">戰鬥系</VALUE>
+<VALUE Lang="tw" Index="2">法術系</VALUE>
+<VALUE Lang="tw" Index="3">通用系</VALUE>
+</WORD>
+<WORD Ver="1" Id="SKILL_TAB_TITLE_FIGHTER">
+<VALUE Lang="tw" Index="0">格鬥術</VALUE>
+<VALUE Lang="tw" Index="1">搏擊術</VALUE>
+<VALUE Lang="tw" Index="2">練氣術</VALUE>
+<VALUE Lang="tw" Index="3">共通</VALUE>
+</WORD>
+<WORD Ver="1" Id="SKILL_TAB_TITLE_SCIENTIST">
+<VALUE Lang="tw" Index="0">化學</VALUE>
+<VALUE Lang="tw" Index="1">生物</VALUE>
+<VALUE Lang="tw" Index="2">物理</VALUE>
+<VALUE Lang="tw" Index="3">共通</VALUE>
+</WORD>
+<WORD Ver="1" Id="SKILL_TAB_TITLE_SPIRIT">
+<VALUE Lang="tw" Index="0">破法</VALUE>
+<VALUE Lang="tw" Index="1">巧勁</VALUE>
+<VALUE Lang="tw" Index="2">念能</VALUE>
+<VALUE Lang="tw" Index="3">共通</VALUE>
+</WORD>
+<WORD Ver="1" Id="SKILL_TAB_TITLE_TRICKER">
+<VALUE Lang="tw" Index="0">特技系</VALUE>
+<VALUE Lang="tw" Index="1">馴獸系</VALUE>
+<VALUE Lang="tw" Index="2">障眼法系</VALUE>
+<VALUE Lang="tw" Index="3">共通系</VALUE>
+</WORD>
+<WORD Ver="1" Id="SKILL_TEXTURE">
+<VALUE Lang="tw" Index="0">4</VALUE>
+<VALUE Lang="tw" Index="1">skill_Archer.dds</VALUE>
+<VALUE Lang="tw" Index="2">skill_Fighter.dds</VALUE>
+<VALUE Lang="tw" Index="3">skill_Knight.dds</VALUE>
+<VALUE Lang="tw" Index="4">skill_Magic.dds</VALUE>
+</WORD>
+<WORD Ver="1" Id="SKILL_TOOLTIP_BASIC_TYPE">
+<VALUE Lang="tw" Index="0">無</VALUE>
+<VALUE Lang="tw" Index="1">一般</VALUE>
+<VALUE Lang="tw" Index="2">Buff</VALUE>
+<VALUE Lang="tw" Index="3">Debuff</VALUE>
+<VALUE Lang="tw" Index="4">極限</VALUE>
+<VALUE Lang="tw" Index="5">物理打擊</VALUE>
+<VALUE Lang="tw" Index="6">物理射擊</VALUE>
+<VALUE Lang="tw" Index="7">魔法作用</VALUE>
+<VALUE Lang="tw" Index="8">魔法打擊</VALUE>
+</WORD>
+<WORD Ver="1" Id="SKILL_TOOLTIP_DISGUISE_TYPE">
+<VALUE Lang="tw" Index="0">無</VALUE>
+<VALUE Lang="tw" Index="1">主要技能</VALUE>
+<VALUE Lang="tw" Index="2">變身技能</VALUE>
+</WORD>
+<WORD Ver="1" Id="SKILL_WINDOW_REST_POINT_STATIC">
+<VALUE Lang="tw" Index="0">所得技能點數</VALUE>
+</WORD>
+<WORD Ver="1" Id="SNS_FACEBOOK_PAGE_BUTTON">
+<VALUE Lang="tw" Index="0">分享個人近況</VALUE>
+<VALUE Lang="tw" Index="1">分享相片至相簿</VALUE>
+<VALUE Lang="tw" Index="2">邀請</VALUE>
+</WORD>
+<WORD Ver="1" Id="SNS_FACEBOOK_PAGE_TEXT">
+<VALUE Lang="tw" Index="0">塗鴉牆</VALUE>
+<VALUE Lang="tw" Index="1">截圖相簿</VALUE>
+<VALUE Lang="tw" Index="2">加入好友</VALUE>
+<VALUE Lang="tw" Index="3">無</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SNS_PAGE_BUTTON">
+    <VALUE Lang="tw" Index="0">SNS 選單</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SNS_PAGE_TITLE">
+    <VALUE Lang="tw" Index="0">SNS 選單</VALUE>
+    <VALUE Lang="tw" Index="1">使用 Facebook</VALUE>
+    <VALUE Lang="tw" Index="2">使用 Twitter</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SNS_TITLE">
+    <VALUE Lang="tw" Index="0">Facebook</VALUE>
+    <VALUE Lang="tw" Index="1">Twitter</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SNS_TWITTER_PAGE_BUTTON">
+    <VALUE Lang="tw" Index="0">Twitter發表文章</VALUE>
+    <VALUE Lang="tw" Index="1">關注跟隨</VALUE>
+    <VALUE Lang="tw" Index="2">取消關注</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SNS_TWITTER_PAGE_TEXT">
+    <VALUE Lang="tw" Index="0">Tweets</VALUE>
+    <VALUE Lang="tw" Index="1">跟隨注意</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SPEC_ACT_LIST_BUTTON">
+    <VALUE Lang="tw" Index="0">全部</VALUE>
+    <VALUE Lang="tw" Index="1">進行中</VALUE>
+    <VALUE Lang="tw" Index="2">完成目錄</VALUE>
+    <VALUE Lang="tw" Index="3">無法進行</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SPEC_ACT_PAGE_TEXT">
+    <VALUE Lang="tw" Index="0">名額</VALUE>
+    <VALUE Lang="tw" Index="1">現況</VALUE>
+    <VALUE Lang="tw" Index="2">獎勵</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SPEC_ACT_REPORT_GRADE">
+    <VALUE Lang="tw" Index="0">高級 特殊任務</VALUE>
+    <VALUE Lang="tw" Index="1">中級 特殊任務</VALUE>
+    <VALUE Lang="tw" Index="2">初級 特殊任務</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SPEC_ACT_REPORT_TYPE">
+<VALUE Lang="tw" Index="0">所有現況</VALUE>
+<VALUE Lang="tw" Index="1">達成現況</VALUE>
+<VALUE Lang="tw" Index="2">消滅現況</VALUE>
+<VALUE Lang="tw" Index="3">蒐集現況</VALUE>
+<VALUE Lang="tw" Index="4">探險現況</VALUE>
+<VALUE Lang="tw" Index="5">使用現況</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SPEC_ACT_SLOT_TEXT">
+    <VALUE Lang="tw" Index="0">全部</VALUE>
+    <VALUE Lang="tw" Index="1">進行中</VALUE>
+    <VALUE Lang="tw" Index="2">無法進行</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SPEC_ACT_WINDOW_RESULT">
+<VALUE Lang="tw" Index="0">特殊榮譽點數總和</VALUE>
+<VALUE Lang="tw" Index="1">高級 特殊任務數 : %1%</VALUE>
+<VALUE Lang="tw" Index="2">高級榮譽點數 : %1%</VALUE>
+<VALUE Lang="tw" Index="3">中級 特殊任務數 : %1%</VALUE>
+<VALUE Lang="tw" Index="4">中級榮譽點數 : %1%</VALUE>
+<VALUE Lang="tw" Index="5">初級 特殊任務數 : %1%</VALUE>
+<VALUE Lang="tw" Index="6">初級榮譽點數 : %1%</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SPECIAL_ACTIVITY_WINDOW">
+    <VALUE Lang="tw" Index="0">榮譽活動</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="STATSRESET_BUTTON">
+<VALUE Lang="tw" Index="0">是</VALUE>
+<VALUE Lang="tw" Index="1">否</VALUE>
+    <VALUE Lang="tw" Index="2">重整</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="STATSRESET_NAME_STATIC">
+    <VALUE Lang="tw" Index="0">屬性初始化</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="STATSRESET_RETURN_ITEM_TEXT_NUM">
+    <VALUE Lang="tw" Index="0">個數</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="STORAGE_CARD_NUMBER">
+    <VALUE Lang="tw" Index="0">2號</VALUE>
+    <VALUE Lang="tw" Index="1">3號</VALUE>
+    <VALUE Lang="tw" Index="2">4號</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="STORAGE_NAME_STATIC">
+    <VALUE Lang="tw" Index="0">置物箱/倉庫</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="STORAGE_TIMELEFT_ONELINE">
+    <VALUE Lang="tw" Index="0">%1% 年 %2% 月 %3% 日 %4% 點 %5% 分止</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="STORAGE_USABLE">
+    <VALUE Lang="tw" Index="0">使用中</VALUE>
+    <VALUE Lang="tw" Index="1">無法使用</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="STUDENTRECORD_WINDOW_TITLE">
+    <VALUE Lang="tw" Index="0">活動記錄簿</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SUBMASTER_OPTION">
+    <VALUE Lang="tw" Index="0">權限</VALUE>
+    <VALUE Lang="tw" Index="1">新加入</VALUE>
+    <VALUE Lang="tw" Index="2">驅逐</VALUE>
+    <VALUE Lang="tw" Index="3">公告</VALUE>
+    <VALUE Lang="tw" Index="4">更改徽章</VALUE>
+    <VALUE Lang="tw" Index="5">領導組織認證</VALUE>
+<VALUE Lang="tw" Index="6">組織生死鬥</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SUMMON_WINDOW_STATIC">
+    <VALUE Lang="tw" Index="0">召喚獸</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SUMMON_WINDOW_TEXT">
+    <VALUE Lang="tw" Index="0">基本資料</VALUE>
+    <VALUE Lang="tw" Index="1">名字</VALUE>
+    <VALUE Lang="tw" Index="2">等級</VALUE>
+    <VALUE Lang="tw" Index="3">狀態</VALUE>
+    <VALUE Lang="tw" Index="4">HP</VALUE>
+    <VALUE Lang="tw" Index="5">攻擊力</VALUE>
+    <VALUE Lang="tw" Index="6">防禦力</VALUE>
+    <VALUE Lang="tw" Index="7">命中率</VALUE>
+    <VALUE Lang="tw" Index="8">迴避率</VALUE>
+    <VALUE Lang="tw" Index="9">抵抗性</VALUE>
+    <VALUE Lang="tw" Index="10">火抗性</VALUE>
+    <VALUE Lang="tw" Index="11">冰抗性</VALUE>
+    <VALUE Lang="tw" Index="12">電抗性</VALUE>
+    <VALUE Lang="tw" Index="13">毒抗性</VALUE>
+    <VALUE Lang="tw" Index="14">氣抗性</VALUE>
+    <VALUE Lang="tw" Index="15">體力恢復藥水</VALUE>
+    <VALUE Lang="tw" Index="16">確認</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SYSTEM_MESSAGE_FADE">
+    <VALUE Lang="tw" Index="0">9</VALUE>
+    <VALUE Lang="tw" Index="1">3</VALUE>
+    <VALUE Lang="tw" Index="2">120</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="TAXI_TITLE">
+    <VALUE Lang="tw" Index="0">區域類別</VALUE>
+    <VALUE Lang="tw" Index="1">計程車站</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="TAXI_WINDOW_NAME_STATIC">
+    <VALUE Lang="tw" Index="0">計程車 </VALUE>
+  </WORD>
+  <WORD Ver="1" Id="TEMPINVEN_TYPE">
+    <VALUE Lang="tw" Index="0">無</VALUE>
+    <VALUE Lang="tw" Index="1">收件箱</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="TEXASHOLDEM_EXCHANGE_WINDOW_TEXT">
+    <VALUE Lang="tw" Index="0">兌換籌碼</VALUE>
+    <VALUE Lang="tw" Index="1">購買</VALUE>
+    <VALUE Lang="tw" Index="2">取消</VALUE>
+<VALUE Lang="tw" Index="3">金幣</VALUE>
+    <VALUE Lang="tw" Index="4">Ran點數</VALUE>
+    <VALUE Lang="tw" Index="5">籌碼 販售清單</VALUE>
+    <VALUE Lang="tw" Index="6">剩餘金額</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="TEXASHOLDEM_WINDOW_TEXT">
+    <VALUE Lang="tw" Index="0">迷你小遊戲</VALUE>
+    <VALUE Lang="tw" Index="1">剩餘籌碼</VALUE>
+    <VALUE Lang="tw" Index="2">購買籌碼</VALUE>
+    <VALUE Lang="tw" Index="3">遊戲開始</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="TIP_FILE">
+    <VALUE Lang="tw" Index="0">tip.txt</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="TOUR_TOTO_CHRNAME_TITLE_TEXT">
+    <VALUE Lang="tw" Index="0">角色(隊伍)名稱</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="TOUR_TOTO_GOLD_BOX_TEXT">
+    <VALUE Lang="tw" Index="0">金額 :</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="TOUR_TOTO_INFO_TITLE_TEXT">
+    <VALUE Lang="tw" Index="0">詳細資訊</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="TOUR_TOTO_JO_TEXTBOX_TEXT">
+    <VALUE Lang="tw" Index="0">%d 組</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="TOUR_TOTO_KANG_TEXTBOX_TEXT">
+    <VALUE Lang="tw" Index="0">%d 輪</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="TOUR_TOTO_WINDOW_TEXT">
+    <VALUE Lang="tw" Index="0">預測優勝者</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="TOURNAMENT_BATTLE_STATIC">
+    <VALUE Lang="tw" Index="0">活動日期</VALUE>
+    <VALUE Lang="tw" Index="1">開始時間</VALUE>
+    <VALUE Lang="tw" Index="2">結束時間</VALUE>
+    <VALUE Lang="tw" Index="3">進行狀態</VALUE>
+    <VALUE Lang="tw" Index="4">申請狀態</VALUE>
+    <VALUE Lang="tw" Index="5">觀戰</VALUE>
+    <VALUE Lang="tw" Index="6">預測優勝者</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="TOURNAMENT_EM_TORNAMENT_STATUS">
+    <VALUE Lang="tw" Index="0">可申請</VALUE>
+    <VALUE Lang="tw" Index="1">無法套用</VALUE>
+    <VALUE Lang="tw" Index="2">等待入場</VALUE>
+    <VALUE Lang="tw" Index="3">進行中</VALUE>
+    <VALUE Lang="tw" Index="4">程序</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="TOURNAMENT_EM_TORNAMENT_TYPE">
+    <VALUE Lang="tw" Index="0">定期</VALUE>
+    <VALUE Lang="tw" Index="1">經常</VALUE>
+    <VALUE Lang="tw" Index="2">暫時</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="TOURNAMENT_INFO">
+    <VALUE Lang="tw" Index="0">對戰資訊</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="TOURNAMENT_INFO_NEXT">
+<VALUE Lang="tw" Index="0">&lt;下一場&gt;</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="TOURNAMENT_INFO_TABLE">
+    <VALUE Lang="tw" Index="0">錦標賽- 對戰表</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="TOURNAMENT_INFOMATION">
+    <VALUE Lang="tw" Index="0">&lt;情報&gt;</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="TOURNAMENT_OBJECT_ROUND_VIEW_TEXT">
+    <VALUE Lang="tw" Index="0">%d 輪</VALUE>
+    <VALUE Lang="tw" Index="1">最終</VALUE>
+    <VALUE Lang="tw" Index="2">半決賽</VALUE>
+    <VALUE Lang="tw" Index="3">勝利者</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="TOURNAMENT_REWARD">
+    <VALUE Lang="tw" Index="0">&lt;獎勵&gt;</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="TOURNAMENT_START_DATE">
+    <VALUE Lang="tw" Index="0">%d 號</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="TOURNAMENT_TOTO_SELECT">
+    <VALUE Lang="tw" Index="0">選擇</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="TOURNAMENT_UI_TEXT_BETTING_BUTTON">
+    <VALUE Lang="tw" Index="0">預測優勝者</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="TOURNAMENT_UI_TEXT_INFO_BUTTON">
+    <VALUE Lang="tw" Index="0">查看資訊</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="TOURNAMENT_UI_TEXT_JOIN_BUTTON">
+    <VALUE Lang="tw" Index="0">參加 </VALUE>
+    <VALUE Lang="tw" Index="1">取消</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="TOURNAMENT_UI_TEXT_WATCHING_BUTTON">
+    <VALUE Lang="tw" Index="0">觀戰</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="TOURNAMENT_WORD">
+    <VALUE Lang="tw" Index="0">錦標賽</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="TRADE_BTN_NAME_MONEYINPUT">
+    <VALUE Lang="tw" Index="0">輸入金額</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="TRADE_ITEM_CONDITION">
+    <VALUE Lang="tw" Index="0">交換所需條件:</VALUE>
+<VALUE Lang="tw" Index="1">P幣數量：</VALUE>
+    <VALUE Lang="tw" Index="2">生活點數:</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="TRADE_LOCK_BUTTON">
+    <VALUE Lang="tw" Index="0">先點我鎖定</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="TRADE_NAME_STATIC">
+    <VALUE Lang="tw" Index="0">交易</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="TRADE_OKCANCEL_BUTTON">
+    <VALUE Lang="tw" Index="0">接受</VALUE>
+    <VALUE Lang="tw" Index="1">拒絕</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="TRADEINVENTORY_NAME_STATIC">
+    <VALUE Lang="tw" Index="0">背包</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="TUNING_PARTS">
+    <VALUE Lang="tw" Index="0">微調零件</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="UNLIMITED">
+    <VALUE Lang="tw" Index="0">無限</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="VEHICLE_NAME_STATIC">
+    <VALUE Lang="tw" Index="0">S.C</VALUE>
+    <VALUE Lang="tw" Index="1">S.C</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="VEHICLE_TEXT_STATIC">
+    <VALUE Lang="tw" Index="0">名稱</VALUE>
+    <VALUE Lang="tw" Index="1">機型 </VALUE>
+    <VALUE Lang="tw" Index="2">燃料</VALUE>
+<VALUE Lang="tw" Index="3">沒有</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="VNGAINSYSTEM_3TIME_STATIC">
+    <VALUE Lang="tw" Index="0">3 小時</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="VNGAINSYSTEM_5TIME_STATIC">
+    <VALUE Lang="tw" Index="0">5 小時</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="VNGAINSYSTEM_EXP_STATIC">
+    <VALUE Lang="tw" Index="0">經驗值</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="VNGAINSYSTEM_ITEMCNT_STATIC">
+    <VALUE Lang="tw" Index="0">道具已使用</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="VNGAINSYSTEM_ITEMRESET_BUTTON">
+    <VALUE Lang="tw" Index="0">道具重新排列</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="VNGAINSYSTEM_NAME_STATIC">
+    <VALUE Lang="tw" Index="0">安全背包</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="WAITSERVER_CANCELBUTTON">
+    <VALUE Lang="tw" Index="0">取消</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="WAITSERVER_OKBUTTON">
+<VALUE Lang="tw" Index="0">確認</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="WAITSERVER_TIMELEFT_UNIT">
+    <VALUE Lang="tw" Index="0">秒</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="WB_CLUB_BASIC_INFO_BTN">
+    <VALUE Lang="tw" Index="0">驅逐</VALUE>
+    <VALUE Lang="tw" Index="1">委任</VALUE>
+    <VALUE Lang="tw" Index="2">CD認證權限</VALUE>
+    <VALUE Lang="tw" Index="3">修改階級</VALUE>
+    <VALUE Lang="tw" Index="4">取消CD認證權限</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="WB_CLUB_BASIC_INFO_CLASS">
+    <VALUE Lang="tw" Index="0">Br</VALUE>
+    <VALUE Lang="tw" Index="1">Sw</VALUE>
+    <VALUE Lang="tw" Index="2">Ar</VALUE>
+    <VALUE Lang="tw" Index="3">Sh</VALUE>
+    <VALUE Lang="tw" Index="4">Ex</VALUE>
+    <VALUE Lang="tw" Index="5">Sc</VALUE>
+    <VALUE Lang="tw" Index="6">As</VALUE>
+    <VALUE Lang="tw" Index="7">Tr</VALUE>
+    <VALUE Lang="tw" Index="8">T</VALUE>
+    <VALUE Lang="tw" Index="9">Ac</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="WB_CLUB_BASIC_INFO_GARDE_POPUP_BTN">
+<VALUE Lang="tw" Index="0">確認</VALUE>
+    <VALUE Lang="tw" Index="1">取消</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="WB_CLUB_BASIC_INFO_MASTER_MARK">
+    <VALUE Lang="tw" Index="0">[M]</VALUE>
+    <VALUE Lang="tw" Index="1">[S]</VALUE>
+    <VALUE Lang="tw" Index="2">[CD]</VALUE>
+    <VALUE Lang="tw" Index="3">公會首長</VALUE>
+    <VALUE Lang="tw" Index="4">副首長</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="WB_CLUB_BASIC_INFO_TAB_FIELD">
+    <VALUE Lang="tw" Index="0">職業</VALUE>
+    <VALUE Lang="tw" Index="1">等級</VALUE>
+    <VALUE Lang="tw" Index="2">名稱</VALUE>
+    <VALUE Lang="tw" Index="3">分流</VALUE>
+    <VALUE Lang="tw" Index="4">位置</VALUE>
+    <VALUE Lang="tw" Index="5">階級</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="WB_CLUB_WIDNOW_RADIO_BASICTAB">
+    <VALUE Lang="tw" Index="0">建立時間：%1%</VALUE>
+    <VALUE Lang="tw" Index="1">特別榮譽活動：%1%</VALUE>
+    <VALUE Lang="tw" Index="2">對戰：%1%-%2%-%3%</VALUE>
+    <VALUE Lang="tw" Index="3">世界爭鬥戰：%1%(%2%)</VALUE>
+    <VALUE Lang="tw" Index="4">排名：%1%</VALUE>
+<VALUE Lang="tw" Index="5">組織生死鬥:%1%-%2%-%3%</VALUE>
+    <VALUE Lang="tw" Index="6">領導公會</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="WB_CLUB_WIDNOW_RADIO_RELATIONTAB">
+    <VALUE Lang="tw" Index="0">擊殺：%1%/死亡：%2%</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="WB_CLUB_WINDOW_AUTHORITY_EDIT_TITLE">
+    <VALUE Lang="tw" Index="0">公會權限設定</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="WB_CLUB_WINDOW_BASIC_RADIO">
+    <VALUE Lang="tw" Index="0">基本資訊</VALUE>
+    <VALUE Lang="tw" Index="1">同盟</VALUE>
+    <VALUE Lang="tw" Index="2">敵對</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="WB_CLUB_WINDOW_INFO_NOTICE_EDIT">
+    <VALUE Lang="tw" Index="0">編輯</VALUE>
+    <VALUE Lang="tw" Index="1">編輯公會公告</VALUE>
+    <VALUE Lang="tw" Index="2">編輯公會介紹</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="WB_CLUB_WINDOW_INFO_RIGHT_SIDE">
+    <VALUE Lang="tw" Index="0">公告</VALUE>
+    <VALUE Lang="tw" Index="1">近期公會動態</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="WB_CLUB_WINDOW_MANAGEMENT_TAB">
+    <VALUE Lang="tw" Index="0">暱稱</VALUE>
+    <VALUE Lang="tw" Index="1">編輯</VALUE>
+    <VALUE Lang="tw" Index="2">公會暱稱</VALUE>
+    <VALUE Lang="tw" Index="3">階級</VALUE>
+    <VALUE Lang="tw" Index="4">修改名稱</VALUE>
+    <VALUE Lang="tw" Index="5">更改權限</VALUE>
+    <VALUE Lang="tw" Index="6">編輯頭銜名稱</VALUE>
+    <VALUE Lang="tw" Index="7">關閉</VALUE>
+    <VALUE Lang="tw" Index="8">儲存</VALUE>
+    <VALUE Lang="tw" Index="9">公開</VALUE>
+    <VALUE Lang="tw" Index="10">退出</VALUE>
+    <VALUE Lang="tw" Index="11">退出</VALUE>
+    <VALUE Lang="tw" Index="12">小於</VALUE>
+    <VALUE Lang="tw" Index="13">大於1天</VALUE>
+    <VALUE Lang="tw" Index="14">標識</VALUE>
+    <VALUE Lang="tw" Index="15">介紹</VALUE>
+    <VALUE Lang="tw" Index="16">解散 </VALUE>
+    <VALUE Lang="tw" Index="17">取消解散</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="WB_CLUB_WINDOW_RADIO_RELATION_BTN">
+    <VALUE Lang="tw" Index="0">解除同盟</VALUE>
+    <VALUE Lang="tw" Index="1">休戰</VALUE>
+    <VALUE Lang="tw" Index="2">投降 </VALUE>
+  </WORD>
+  <WORD Ver="1" Id="WB_CLUB_WINDOW_STORAGE_INPUT_EDIT">
+    <VALUE Lang="tw" Index="0">確認</VALUE>
+    <VALUE Lang="tw" Index="1">取消</VALUE>
+    <VALUE Lang="tw" Index="2">存款</VALUE>
+    <VALUE Lang="tw" Index="3">持有金額</VALUE>
+    <VALUE Lang="tw" Index="4">存入金額</VALUE>
+    <VALUE Lang="tw" Index="5">提領</VALUE>
+<VALUE Lang="tw" Index="6">提領金額</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="WB_CLUB_WINDOW_STORAGE_LABEL">
+    <VALUE Lang="tw" Index="0">E</VALUE>
+    <VALUE Lang="tw" Index="1">D</VALUE>
+    <VALUE Lang="tw" Index="2">C</VALUE>
+    <VALUE Lang="tw" Index="3">B</VALUE>
+    <VALUE Lang="tw" Index="4">A</VALUE>
+    <VALUE Lang="tw" Index="5">S</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="WB_CLUB_WINDOW_STORAGE_MONEY">
+    <VALUE Lang="tw" Index="0">稅收</VALUE>
+    <VALUE Lang="tw" Index="1">保管費</VALUE>
+    <VALUE Lang="tw" Index="2">領取稅收</VALUE>
+    <VALUE Lang="tw" Index="3">存入 </VALUE>
+    <VALUE Lang="tw" Index="4">提領</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="WB_CLUB_WINDOW_STORAGE_USE_RECORD">
+    <VALUE Lang="tw" Index="0">紀錄</VALUE>
+    <VALUE Lang="tw" Index="1">返回</VALUE>
+    <VALUE Lang="tw" Index="2">下一頁</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="WB_CLUB_WINDOW_TAB">
+    <VALUE Lang="tw" Index="0">基本資訊</VALUE>
+    <VALUE Lang="tw" Index="1">公會活動</VALUE>
+    <VALUE Lang="tw" Index="2">公會倉庫</VALUE>
+    <VALUE Lang="tw" Index="3">公會管理</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="WEAR_ITEM">
+    <VALUE Lang="tw" Index="0">目前裝備</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="WISHLIST_TOOLTIP">
+    <VALUE Lang="tw" Index="0">[道具位置]</VALUE>
+    <VALUE Lang="tw" Index="1">P幣商店(快捷鍵：\)</VALUE>
+    <VALUE Lang="tw" Index="2">[%1%]的個人商店</VALUE>
+    <VALUE Lang="tw" Index="3">[%1%]的聊天內容</VALUE>
+    <VALUE Lang="tw" Index="4">與[%1%]進行個人交易</VALUE>
+    <VALUE Lang="tw" Index="5">[%1%]的裝備</VALUE>
+    <VALUE Lang="tw" Index="6">我的背包</VALUE>
+    <VALUE Lang="tw" Index="7">我的銀行</VALUE>
+    <VALUE Lang="tw" Index="8">我的置物箱</VALUE>
+  </WORD>
+</TEXT>
