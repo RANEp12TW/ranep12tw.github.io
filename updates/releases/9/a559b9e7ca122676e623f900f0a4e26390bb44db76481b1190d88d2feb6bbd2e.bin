@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<TEXT>
+<SENTENSE Ver="1" Id="0">
+<VALUE Lang="tw">單點滑鼠左鍵，即可進行攻擊。</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="1">
+<VALUE Lang="tw">按住滑鼠滾輪的狀態下移動，即可旋轉視角。</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="10">
+<VALUE Lang="tw">按住重疊的道具拖曳到空格上，即可將該道具分開。</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="11">
+<VALUE Lang="tw">在裝備道具視窗將藥品放置到畫面左上方的道具快捷欄後，</VALUE>
+<VALUE Lang="tw">按該快捷鍵即可使用該特定的藥品。</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="12">
+<VALUE Lang="tw">按住'Alt'鍵的狀態下移動，即可不受怪物或個人商店的影響。</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="13">
+<VALUE Lang="tw">按住'Alt'鍵，即可不受週遭的影響撿拾道具。</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="14">
+<VALUE Lang="tw">按'C'鍵，即可顯示角色資料視窗。</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="15">
+<VALUE Lang="tw">按'K'鍵，即可顯示技能資料視窗。</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="16">
+<VALUE Lang="tw">若想要學習技能，須先向各社團指導教師購買技能書。</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="17">
+<VALUE Lang="tw">點選技能視窗中的技能圖示，</VALUE>
+<VALUE Lang="tw">將圖示拖曳至遊戲畫面左側的技能快捷列，</VALUE>
+<VALUE Lang="tw">點選Atype(1~0),Btype(1~5,Q~T)施放技能。</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="18">
+<VALUE Lang="tw">單點滑鼠右鍵，即可使用技能。</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="19">
+<VALUE Lang="tw">按住'Shift'鍵+滑鼠左鍵點選其它角色，</VALUE>
+<VALUE Lang="tw">即可顯示玩家對該角色的系統目錄視窗。</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="2">
+<VALUE Lang="tw">滾動滑鼠滾輪，即可將視野拉遠/拉近。</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="20">
+<VALUE Lang="tw">按'X'鍵，即可轉換戰鬥/非戰鬥狀態。</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="21">
+<VALUE Lang="tw">按住'Ctrl'鍵的狀態下購買道具，即可不需經過確認提示，</VALUE>
+<VALUE Lang="tw">快速簡便地購買道具。</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="22">
+<VALUE Lang="tw">按空白鍵，即可撿拾道具。</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="23">
+<VALUE Lang="tw">Skip</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="24">
+<VALUE Lang="tw">Skip</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="25">
+<VALUE Lang="tw">Skip</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="26">
+<VALUE Lang="tw">Skip</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="27">
+<VALUE Lang="tw">Skip</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="28">
+<VALUE Lang="tw">Skip</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="29">
+<VALUE Lang="tw">Skip</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="3">
+<VALUE Lang="tw">點選快捷鍵'T'和'D'可顯示任務資訊視窗</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="30">
+<VALUE Lang="tw">Skip</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="31">
+<VALUE Lang="tw">Skip</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="32">
+<VALUE Lang="tw">Skip</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="33">
+<VALUE Lang="tw">Skip</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="34">
+<VALUE Lang="tw">Skip</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="35">
+<VALUE Lang="tw">Skip</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="4">
+<VALUE Lang="tw">按'M'鍵，即可顯示地圖視窗。</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="5">
+<VALUE Lang="tw">點選快捷鍵'R'和'NumLock'可切換跑步/走路狀態</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="6">
+<VALUE Lang="tw">按'Tab'鍵，即可縮放畫面左上方的道具快捷欄。</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="7">
+<VALUE Lang="tw">按'`'鍵，即可縮放畫面左方的技能快捷欄。</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="8">
+<VALUE Lang="tw">按'H'鍵，即可顯示線上說明視窗。</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="9">
+<VALUE Lang="tw">按'I'鍵，即可顯示裝備道具視窗。</VALUE>
+</SENTENSE>
+</TEXT>
