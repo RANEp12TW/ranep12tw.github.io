@@ -1,0 +1,426 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TEXT>
+  <WORD Ver="1" Id="EMOTICON_0001_MOTION">
+    <VALUE Lang="tw" Index="0">greeting1</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0001_TERM">
+    <VALUE Lang="tw" Index="0">Hello</VALUE>
+    <VALUE Lang="tw" Index="1">how</VALUE>
+    <VALUE Lang="tw" Index="2">greet</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0002_MOTION">
+    <VALUE Lang="tw" Index="0">greeting2</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0002_TERM">
+    <VALUE Lang="tw" Index="0">Hi</VALUE>
+    <VALUE Lang="tw" Index="1">yo</VALUE>
+    <VALUE Lang="tw" Index="2">what`sup</VALUE>
+    <VALUE Lang="tw" Index="3">hey</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0003_MOTION">
+    <VALUE Lang="tw" Index="0">lauph</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0003_TERM">
+    <VALUE Lang="tw" Index="0">^^</VALUE>
+    <VALUE Lang="tw" Index="1">^0^</VALUE>
+    <VALUE Lang="tw" Index="2">haha</VALUE>
+    <VALUE Lang="tw" Index="3">smile</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0004_MOTION">
+    <VALUE Lang="tw" Index="0">skip</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0004_TERM">
+    <VALUE Lang="tw" Index="0">skip</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0005_MOTION">
+    <VALUE Lang="tw" Index="0">provocation</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0005_TERM">
+    <VALUE Lang="tw" Index="0">comeon</VALUE>
+    <VALUE Lang="tw" Index="1">chicken</VALUE>
+    <VALUE Lang="tw" Index="2">fool</VALUE>
+    <VALUE Lang="tw" Index="3">idiot</VALUE>
+    <VALUE Lang="tw" Index="4">provocat</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0006_MOTION">
+    <VALUE Lang="tw" Index="0">skip</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0006_TERM">
+    <VALUE Lang="tw" Index="0">skip</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0007_MOTION">
+    <VALUE Lang="tw" Index="0">warming</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0007_TERM">
+    <VALUE Lang="tw" Index="0">hm</VALUE>
+    <VALUE Lang="tw" Index="1">ready</VALUE>
+    <VALUE Lang="tw" Index="2">warm</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0008_MOTION">
+    <VALUE Lang="tw" Index="0">handclap</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0008_TERM">
+    <VALUE Lang="tw" Index="0">clap</VALUE>
+    <VALUE Lang="tw" Index="1">congratulation</VALUE>
+    <VALUE Lang="tw" Index="2">celebration</VALUE>
+    <VALUE Lang="tw" Index="3">greeting</VALUE>
+    <VALUE Lang="tw" Index="4">hanclap</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0009_MOTION">
+    <VALUE Lang="tw" Index="0">cheers</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0009_TERM">
+    <VALUE Lang="tw" Index="0">wao</VALUE>
+    <VALUE Lang="tw" Index="1">cheer</VALUE>
+    <VALUE Lang="tw" Index="2">joyful</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0010_MOTION">
+    <VALUE Lang="tw" Index="0">trouble</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0010_TERM">
+    <VALUE Lang="tw" Index="0">worry</VALUE>
+    <VALUE Lang="tw" Index="1">agnony</VALUE>
+    <VALUE Lang="tw" Index="2">trouble</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0011_MOTION">
+    <VALUE Lang="tw" Index="0">direction1</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0011_TERM">
+    <VALUE Lang="tw" Index="0">there</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0012_MOTION">
+    <VALUE Lang="tw" Index="0">direction2</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0012_TERM">
+    <VALUE Lang="tw" Index="0">here</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0013_MOTION">
+    <VALUE Lang="tw" Index="0">awaward</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0013_TERM">
+    <VALUE Lang="tw" Index="0">^^;</VALUE>
+    <VALUE Lang="tw" Index="1">;</VALUE>
+    <VALUE Lang="tw" Index="2">-_-</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0014_MOTION">
+    <VALUE Lang="tw" Index="0">breakdown</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0014_TERM">
+    <VALUE Lang="tw" Index="0">mygod</VALUE>
+    <VALUE Lang="tw" Index="1">discourage</VALUE>
+    <VALUE Lang="tw" Index="2">frustrat</VALUE>
+    <VALUE Lang="tw" Index="3">breakdown</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0015_MOTION">
+    <VALUE Lang="tw" Index="0">question</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0015_TERM">
+    <VALUE Lang="tw" Index="0">?</VALUE>
+    <VALUE Lang="tw" Index="1">well</VALUE>
+    <VALUE Lang="tw" Index="2">question</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0016_MOTION">
+    <VALUE Lang="tw" Index="0">crying</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0016_TERM">
+    <VALUE Lang="tw" Index="0">tt</VALUE>
+    <VALUE Lang="tw" Index="1">t.t</VALUE>
+    <VALUE Lang="tw" Index="2">t^t</VALUE>
+    <VALUE Lang="tw" Index="3">weeping</VALUE>
+    <VALUE Lang="tw" Index="4">cry</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0017_MOTION">
+    <VALUE Lang="tw" Index="0">yawning</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0017_TERM">
+    <VALUE Lang="tw" Index="0">yawn</VALUE>
+    <VALUE Lang="tw" Index="1">sleep</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0018_MOTION">
+    <VALUE Lang="tw" Index="0">no</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0018_TERM">
+    <VALUE Lang="tw" Index="0">no</VALUE>
+    <VALUE Lang="tw" Index="1">sorry</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0019_MOTION">
+    <VALUE Lang="tw" Index="0">hungry</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0019_TERM">
+    <VALUE Lang="tw" Index="0">hungry</VALUE>
+    <VALUE Lang="tw" Index="1">hunger</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0020_MOTION">
+    <VALUE Lang="tw" Index="0">kiss</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0020_TERM">
+    <VALUE Lang="tw" Index="0">kiss</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0021_MOTION">
+    <VALUE Lang="tw" Index="0">yes</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0021_TERM">
+    <VALUE Lang="tw" Index="0">yes</VALUE>
+    <VALUE Lang="tw" Index="1">ok</VALUE>
+    <VALUE Lang="tw" Index="2">good</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0022_MOTION">
+    <VALUE Lang="tw" Index="0">dance</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0022_TERM">
+    <VALUE Lang="tw" Index="0">dance</VALUE>
+    <VALUE Lang="tw" Index="1">oye</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0023_MOTION">
+    <VALUE Lang="tw" Index="0">standrock</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0023_TERM">
+    <VALUE Lang="tw" Index="0">stanrock</VALUE>
+    <VALUE Lang="tw" Index="1">rock</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0024_MOTION">
+    <VALUE Lang="tw" Index="0">music</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0024_TERM">
+    <VALUE Lang="tw" Index="0">music</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0025_MOTION">
+    <VALUE Lang="tw" Index="0">mystep</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0025_TERM">
+    <VALUE Lang="tw" Index="0">mystep</VALUE>
+    <VALUE Lang="tw" Index="1">step</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0026_MOTION">
+    <VALUE Lang="tw" Index="0">lala</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0026_TERM">
+    <VALUE Lang="tw" Index="0">lala</VALUE>
+    <VALUE Lang="tw" Index="1">round</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0027_MOTION">
+    <VALUE Lang="tw" Index="0">tech1</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0027_TERM">
+    <VALUE Lang="tw" Index="0">tech1</VALUE>
+    <VALUE Lang="tw" Index="1">1tech</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0028_MOTION">
+    <VALUE Lang="tw" Index="0">tech2</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0028_TERM">
+    <VALUE Lang="tw" Index="0">tech2</VALUE>
+    <VALUE Lang="tw" Index="1">2tech</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0029_MOTION">
+    <VALUE Lang="tw" Index="0">sit</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0029_TERM">
+    <VALUE Lang="tw" Index="0">sit</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0030_MOTION">
+    <VALUE Lang="tw" Index="0">monkey</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0030_TERM">
+    <VALUE Lang="tw" Index="0">monkey</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0031_MOTION">
+    <VALUE Lang="tw" Index="0">tai1</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0031_TERM">
+    <VALUE Lang="tw" Index="0">tai1</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0032_MOTION">
+    <VALUE Lang="tw" Index="0">tai2</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0032_TERM">
+    <VALUE Lang="tw" Index="0">tai2</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0033_MOTION">
+    <VALUE Lang="tw" Index="0">tai3</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0033_TERM">
+    <VALUE Lang="tw" Index="0">tai3</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0034_MOTION">
+    <VALUE Lang="tw" Index="0">tai4</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0034_TERM">
+    <VALUE Lang="tw" Index="0">tai4</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0035_MOTION">
+    <VALUE Lang="tw" Index="0">remorse</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0035_TERM">
+    <VALUE Lang="tw" Index="0">remorse</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0036_MOTION">
+    <VALUE Lang="tw" Index="0">encourage</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0036_TERM">
+    <VALUE Lang="tw" Index="0">encourage</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0037_MOTION">
+    <VALUE Lang="tw" Index="0">horror</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0037_TERM">
+    <VALUE Lang="tw" Index="0">horror</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0038_MOTION">
+    <VALUE Lang="tw" Index="0">cheese</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0038_TERM">
+    <VALUE Lang="tw" Index="0">cheese</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0039_MOTION">
+    <VALUE Lang="tw" Index="0">chut</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0039_TERM">
+    <VALUE Lang="tw" Index="0">chut</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0040_MOTION">
+    <VALUE Lang="tw" Index="0">love</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0040_TERM">
+    <VALUE Lang="tw" Index="0">love</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0041_MOTION">
+    <VALUE Lang="tw" Index="0">come</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0041_TERM">
+    <VALUE Lang="tw" Index="0">come</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0042_MOTION">
+    <VALUE Lang="tw" Index="0">ass</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0042_TERM">
+    <VALUE Lang="tw" Index="0">ass</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0043_MOTION">
+    <VALUE Lang="tw" Index="0">sleep</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0043_TERM">
+    <VALUE Lang="tw" Index="0">sleep</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0044_MOTION">
+    <VALUE Lang="tw" Index="0">angry</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0044_TERM">
+    <VALUE Lang="tw" Index="0">angry</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0045_MOTION">
+    <VALUE Lang="tw" Index="0">pose1</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0045_TERM">
+    <VALUE Lang="tw" Index="0">pose1</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0046_MOTION">
+    <VALUE Lang="tw" Index="0">pose2</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0046_TERM">
+    <VALUE Lang="tw" Index="0">pose2</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0047_MOTION">
+    <VALUE Lang="tw" Index="0">pose3</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0047_TERM">
+    <VALUE Lang="tw" Index="0">pose3</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0048_MOTION">
+    <VALUE Lang="tw" Index="0">kangnam1</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0048_TERM">
+    <VALUE Lang="tw" Index="0">kangnam1</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0049_MOTION">
+    <VALUE Lang="tw" Index="0">kangnam2</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0049_TERM">
+    <VALUE Lang="tw" Index="0">kangnam2</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0050_MOTION">
+    <VALUE Lang="tw" Index="0">kangnam3</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0050_TERM">
+    <VALUE Lang="tw" Index="0">kangnam3</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0051_MOTION">
+    <VALUE Lang="tw" Index="0">kangnam</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0051_TERM">
+    <VALUE Lang="tw" Index="0">kangnam</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0052_MOTION">
+    <VALUE Lang="tw" Index="0">gentleman</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0052_TERM">
+    <VALUE Lang="tw" Index="0">gentleman</VALUE>
+    <VALUE Lang="tw" Index="1">gentle</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0053_MOTION">
+    <VALUE Lang="tw" Index="0">victory</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0053_TERM">
+    <VALUE Lang="tw" Index="0">victory</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0054_MOTION">
+    <VALUE Lang="tw" Index="0">challenge</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_0054_TERM">
+    <VALUE Lang="tw" Index="0">challenge</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMOTICON_LIST">
+    <VALUE Lang="tw" Index="1">EMOTICON_0001</VALUE>
+    <VALUE Lang="tw" Index="2">EMOTICON_0002</VALUE>
+    <VALUE Lang="tw" Index="3">EMOTICON_0003</VALUE>
+    <VALUE Lang="tw" Index="5">EMOTICON_0005</VALUE>
+    <VALUE Lang="tw" Index="7">EMOTICON_0007</VALUE>
+    <VALUE Lang="tw" Index="8">EMOTICON_0008</VALUE>
+    <VALUE Lang="tw" Index="9">EMOTICON_0009</VALUE>
+    <VALUE Lang="tw" Index="10">EMOTICON_0010</VALUE>
+    <VALUE Lang="tw" Index="11">EMOTICON_0011</VALUE>
+    <VALUE Lang="tw" Index="12">EMOTICON_0012</VALUE>
+    <VALUE Lang="tw" Index="13">EMOTICON_0013</VALUE>
+    <VALUE Lang="tw" Index="14">EMOTICON_0014</VALUE>
+    <VALUE Lang="tw" Index="15">EMOTICON_0015</VALUE>
+    <VALUE Lang="tw" Index="16">EMOTICON_0016</VALUE>
+    <VALUE Lang="tw" Index="17">EMOTICON_0017</VALUE>
+    <VALUE Lang="tw" Index="18">EMOTICON_0018</VALUE>
+    <VALUE Lang="tw" Index="19">EMOTICON_0019</VALUE>
+    <VALUE Lang="tw" Index="20">EMOTICON_0020</VALUE>
+    <VALUE Lang="tw" Index="21">EMOTICON_0021</VALUE>
+    <VALUE Lang="tw" Index="22">EMOTICON_0022</VALUE>
+    <VALUE Lang="tw" Index="23">EMOTICON_0023</VALUE>
+    <VALUE Lang="tw" Index="24">EMOTICON_0024</VALUE>
+    <VALUE Lang="tw" Index="25">EMOTICON_0025</VALUE>
+    <VALUE Lang="tw" Index="26">EMOTICON_0026</VALUE>
+    <VALUE Lang="tw" Index="27">EMOTICON_0027</VALUE>
+    <VALUE Lang="tw" Index="28">EMOTICON_0028</VALUE>
+    <VALUE Lang="tw" Index="29">EMOTICON_0029</VALUE>
+    <VALUE Lang="tw" Index="30">EMOTICON_0030</VALUE>
+    <VALUE Lang="tw" Index="31">EMOTICON_0031</VALUE>
+    <VALUE Lang="tw" Index="32">EMOTICON_0032</VALUE>
+    <VALUE Lang="tw" Index="33">EMOTICON_0033</VALUE>
+    <VALUE Lang="tw" Index="34">EMOTICON_0034</VALUE>
+    <VALUE Lang="tw" Index="35">EMOTICON_0035</VALUE>
+    <VALUE Lang="tw" Index="36">EMOTICON_0036</VALUE>
+    <VALUE Lang="tw" Index="37">EMOTICON_0037</VALUE>
+    <VALUE Lang="tw" Index="38">EMOTICON_0038</VALUE>
+    <VALUE Lang="tw" Index="39">EMOTICON_0039</VALUE>
+    <VALUE Lang="tw" Index="40">EMOTICON_0040</VALUE>
+    <VALUE Lang="tw" Index="41">EMOTICON_0041</VALUE>
+    <VALUE Lang="tw" Index="42">EMOTICON_0042</VALUE>
+    <VALUE Lang="tw" Index="43">EMOTICON_0043</VALUE>
+    <VALUE Lang="tw" Index="44">EMOTICON_0044</VALUE>
+    <VALUE Lang="tw" Index="45">EMOTICON_0045</VALUE>
+    <VALUE Lang="tw" Index="46">EMOTICON_0046</VALUE>
+    <VALUE Lang="tw" Index="47">EMOTICON_0047</VALUE>
+    <VALUE Lang="tw" Index="49">EMOTICON_0048</VALUE>
+    <VALUE Lang="tw" Index="50">EMOTICON_0049</VALUE>
+    <VALUE Lang="tw" Index="51">EMOTICON_0050</VALUE>
+    <VALUE Lang="tw" Index="52">EMOTICON_0051</VALUE>
+    <VALUE Lang="tw" Index="53">EMOTICON_0053</VALUE>
+    <VALUE Lang="tw" Index="54">EMOTICON_0054</VALUE>
+    <VALUE Lang="tw" Index="55">EMOTICON_0052</VALUE>
+  </WORD>
+</TEXT>
