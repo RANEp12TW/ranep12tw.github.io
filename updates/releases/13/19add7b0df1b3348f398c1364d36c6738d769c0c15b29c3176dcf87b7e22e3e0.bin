@@ -1,0 +1,2245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TEXT>
+  <WORD Ver="1" Id="ACTIVITY_CATEGORY">
+    <VALUE Lang="tw" Index="0">達成等級</VALUE>
+    <VALUE Lang="tw" Index="1">破壞任務</VALUE>
+    <VALUE Lang="tw" Index="2">現有活動</VALUE>
+    <VALUE Lang="tw" Index="3">探索活動</VALUE>
+    <VALUE Lang="tw" Index="4">消費活動</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ACTIVITY_CLASS">
+    <VALUE Lang="tw" Index="0">初級活動</VALUE>
+    <VALUE Lang="tw" Index="1">中級活動</VALUE>
+    <VALUE Lang="tw" Index="2">高級活動</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ACTIVITY_MID">
+    <VALUE Lang="tw" Index="0">等級達成</VALUE>
+    <VALUE Lang="tw" Index="1">怪物殺害</VALUE>
+    <VALUE Lang="tw" Index="2">玩家殺敵</VALUE>
+    <VALUE Lang="tw" Index="3">抵達的地圖</VALUE>
+    <VALUE Lang="tw" Index="4">取得物品</VALUE>
+    <VALUE Lang="tw" Index="5">使用物品</VALUE>
+    <VALUE Lang="tw" Index="6">達成任務</VALUE>
+    <VALUE Lang="tw" Index="7">完成任務</VALUE>
+    <VALUE Lang="tw" Index="8">活動點數</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ACTIVITY_NOTIFY">
+    <VALUE Lang="tw" Index="0">無</VALUE>
+    <VALUE Lang="tw" Index="1">圍繞</VALUE>
+    <VALUE Lang="tw" Index="2">全伺服</VALUE>
+    <VALUE Lang="tw" Index="3">公會</VALUE>
+    <VALUE Lang="tw" Index="4">ClubAround</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ADDON_NO">
+    <VALUE Lang="tw" Index="0">0</VALUE>
+    <VALUE Lang="tw" Index="1">1</VALUE>
+    <VALUE Lang="tw" Index="2">2</VALUE>
+    <VALUE Lang="tw" Index="3">3</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ANI_MAINTYPE">
+    <VALUE Lang="tw" Index="0">休息</VALUE>
+    <VALUE Lang="tw" Index="1">走路</VALUE>
+    <VALUE Lang="tw" Index="2">跑步</VALUE>
+    <VALUE Lang="tw" Index="3">攻擊</VALUE>
+    <VALUE Lang="tw" Index="4">傷害衝擊</VALUE>
+    <VALUE Lang="tw" Index="5">昏倒</VALUE>
+    <VALUE Lang="tw" Index="6">產生</VALUE>
+    <VALUE Lang="tw" Index="7">對話</VALUE>
+    <VALUE Lang="tw" Index="8">技能</VALUE>
+    <VALUE Lang="tw" Index="9">動作</VALUE>
+    <VALUE Lang="tw" Index="10">傷害衝擊[MIX]</VALUE>
+    <VALUE Lang="tw" Index="11">SP不足</VALUE>
+    <VALUE Lang="tw" Index="12">對戰勝利</VALUE>
+    <VALUE Lang="tw" Index="13">對戰戰敗</VALUE>
+    <VALUE Lang="tw" Index="14">特殊</VALUE>
+    <VALUE Lang="tw" Index="15">SKILL-B</VALUE>
+    <VALUE Lang="tw" Index="16">SKILL-C</VALUE>
+    <VALUE Lang="tw" Index="17">SKILL-D</VALUE>
+    <VALUE Lang="tw" Index="18">SKILL-E</VALUE>
+    <VALUE Lang="tw" Index="19">採集</VALUE>
+    <VALUE Lang="tw" Index="20">BIKE_A</VALUE>
+    <VALUE Lang="tw" Index="21">BIKE_B</VALUE>
+    <VALUE Lang="tw" Index="22">BIKE_C</VALUE>
+    <VALUE Lang="tw" Index="23">BIKE_EV1</VALUE>
+    <VALUE Lang="tw" Index="24">戰鬥</VALUE>
+    <VALUE Lang="tw" Index="25">SKILL-F</VALUE>
+    <VALUE Lang="tw" Index="26">Skill-G</VALUE>
+    <VALUE Lang="tw" Index="27">Skill-H</VALUE>
+    <VALUE Lang="tw" Index="28">Car</VALUE>
+    <VALUE Lang="tw" Index="29">Rear Car</VALUE>
+    <VALUE Lang="tw" Index="30">-----TEMP-----</VALUE>
+    <VALUE Lang="tw" Index="31">-----TEMP-----</VALUE>
+    <VALUE Lang="tw" Index="32">-----TEMP-----</VALUE>
+    <VALUE Lang="tw" Index="33">-----TEMP-----</VALUE>
+    <VALUE Lang="tw" Index="34">-----TEMP-----</VALUE>
+    <VALUE Lang="tw" Index="35">-----TEMP-----</VALUE>
+    <VALUE Lang="tw" Index="37">--TEMP--</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ANI_SUBTYPE">
+    <VALUE Lang="tw" Index="0">00 空手</VALUE>
+    <VALUE Lang="tw" Index="1">01 單手劍</VALUE>
+    <VALUE Lang="tw" Index="2">02 雙手劍</VALUE>
+    <VALUE Lang="tw" Index="3">03 雙劍</VALUE>
+    <VALUE Lang="tw" Index="4">04 短劍</VALUE>
+    <VALUE Lang="tw" Index="5">05 矛槍</VALUE>
+    <VALUE Lang="tw" Index="6">06 弓</VALUE>
+    <VALUE Lang="tw" Index="7">07 投擲</VALUE>
+    <VALUE Lang="tw" Index="8">08 魔法</VALUE>
+    <VALUE Lang="tw" Index="9">09雙手劍隊形</VALUE>
+    <VALUE Lang="tw" Index="10">10 棍杖</VALUE>
+    <VALUE Lang="tw" Index="11">11單手刀</VALUE>
+    <VALUE Lang="tw" Index="12">12雙手刀</VALUE>
+    <VALUE Lang="tw" Index="13">13雙手刀隊形</VALUE>
+    <VALUE Lang="tw" Index="14">14雙刀</VALUE>
+    <VALUE Lang="tw" Index="15">15拳法</VALUE>
+    <VALUE Lang="tw" Index="16">16掃把</VALUE>
+    <VALUE Lang="tw" Index="17">17 Hover滑板</VALUE>
+    <VALUE Lang="tw" Index="18">SUB_18</VALUE>
+    <VALUE Lang="tw" Index="19">SUB_19</VALUE>
+    <VALUE Lang="tw" Index="20">SUB_20</VALUE>
+    <VALUE Lang="tw" Index="21">SUB_21</VALUE>
+    <VALUE Lang="tw" Index="22">SUB_22</VALUE>
+    <VALUE Lang="tw" Index="23">SUB_23</VALUE>
+    <VALUE Lang="tw" Index="24">SUB_24</VALUE>
+    <VALUE Lang="tw" Index="25">SUB_25</VALUE>
+    <VALUE Lang="tw" Index="26">SUB_26</VALUE>
+    <VALUE Lang="tw" Index="27">SUB_27</VALUE>
+    <VALUE Lang="tw" Index="28">SUB_28</VALUE>
+    <VALUE Lang="tw" Index="29">SUB_29</VALUE>
+    <VALUE Lang="tw" Index="30">SUB_30</VALUE>
+    <VALUE Lang="tw" Index="31">SUB_31</VALUE>
+    <VALUE Lang="tw" Index="32">SUB_32</VALUE>
+    <VALUE Lang="tw" Index="33">SUB_33</VALUE>
+    <VALUE Lang="tw" Index="34">SUB_34</VALUE>
+    <VALUE Lang="tw" Index="35">SUB_35</VALUE>
+    <VALUE Lang="tw" Index="36">SUB_36</VALUE>
+    <VALUE Lang="tw" Index="37">SUB_37</VALUE>
+    <VALUE Lang="tw" Index="38">SUB_38</VALUE>
+    <VALUE Lang="tw" Index="39">SUB_39</VALUE>
+    <VALUE Lang="tw" Index="40">SUB_40</VALUE>
+    <VALUE Lang="tw" Index="41">SUB_41</VALUE>
+    <VALUE Lang="tw" Index="42">SUB_42</VALUE>
+    <VALUE Lang="tw" Index="43">SUB_43</VALUE>
+    <VALUE Lang="tw" Index="44">SUB_44</VALUE>
+    <VALUE Lang="tw" Index="45">SUB_45</VALUE>
+    <VALUE Lang="tw" Index="46">SUB_46</VALUE>
+    <VALUE Lang="tw" Index="47">SUB_47</VALUE>
+    <VALUE Lang="tw" Index="48">SUB_48</VALUE>
+    <VALUE Lang="tw" Index="49">SUB_49</VALUE>
+    <VALUE Lang="tw" Index="50">SUB_50</VALUE>
+    <VALUE Lang="tw" Index="51">SUB_51</VALUE>
+    <VALUE Lang="tw" Index="52">SUB_52</VALUE>
+    <VALUE Lang="tw" Index="53">SUB_53</VALUE>
+    <VALUE Lang="tw" Index="54">SUB_54</VALUE>
+    <VALUE Lang="tw" Index="55">SUB_55</VALUE>
+    <VALUE Lang="tw" Index="56">SUB_56</VALUE>
+    <VALUE Lang="tw" Index="57">SUB_57</VALUE>
+    <VALUE Lang="tw" Index="58">SUB_58</VALUE>
+    <VALUE Lang="tw" Index="59">SUB_59</VALUE>
+    <VALUE Lang="tw" Index="60">SUB_60</VALUE>
+    <VALUE Lang="tw" Index="61">SUB_61</VALUE>
+    <VALUE Lang="tw" Index="62">SUB_62</VALUE>
+    <VALUE Lang="tw" Index="63">SUB_63</VALUE>
+    <VALUE Lang="tw" Index="64">SUB_64</VALUE>
+    <VALUE Lang="tw" Index="65">SUB_65</VALUE>
+    <VALUE Lang="tw" Index="66">SUB_66</VALUE>
+    <VALUE Lang="tw" Index="67">SUB_67</VALUE>
+    <VALUE Lang="tw" Index="68">SUB_68</VALUE>
+    <VALUE Lang="tw" Index="69">SUB_69</VALUE>
+    <VALUE Lang="tw" Index="70">SUB_70</VALUE>
+    <VALUE Lang="tw" Index="71">SUB_71</VALUE>
+    <VALUE Lang="tw" Index="72">SUB_72</VALUE>
+    <VALUE Lang="tw" Index="73">SUB_73</VALUE>
+    <VALUE Lang="tw" Index="74">SUB_74</VALUE>
+    <VALUE Lang="tw" Index="75">SUB_75</VALUE>
+    <VALUE Lang="tw" Index="76">SUB_76</VALUE>
+    <VALUE Lang="tw" Index="77">SUB_77</VALUE>
+    <VALUE Lang="tw" Index="78">SUB_78</VALUE>
+    <VALUE Lang="tw" Index="79">SUB_79</VALUE>
+    <VALUE Lang="tw" Index="80">SUB_80</VALUE>
+    <VALUE Lang="tw" Index="81">SUB_81</VALUE>
+    <VALUE Lang="tw" Index="82">SUB_82</VALUE>
+    <VALUE Lang="tw" Index="83">SUB_83</VALUE>
+    <VALUE Lang="tw" Index="84">SUB_84</VALUE>
+    <VALUE Lang="tw" Index="85">SUB_85</VALUE>
+    <VALUE Lang="tw" Index="86">SUB_86</VALUE>
+    <VALUE Lang="tw" Index="87">SUB_87</VALUE>
+    <VALUE Lang="tw" Index="88">SUB_88</VALUE>
+    <VALUE Lang="tw" Index="89">SUB_89</VALUE>
+    <VALUE Lang="tw" Index="90">SUB_90</VALUE>
+    <VALUE Lang="tw" Index="91">SUB_91</VALUE>
+    <VALUE Lang="tw" Index="92">SUB_92</VALUE>
+    <VALUE Lang="tw" Index="93">SUB_93</VALUE>
+    <VALUE Lang="tw" Index="94">SUB_94</VALUE>
+    <VALUE Lang="tw" Index="95">SUB_95</VALUE>
+    <VALUE Lang="tw" Index="96">SUB_96</VALUE>
+    <VALUE Lang="tw" Index="97">SUB_97</VALUE>
+    <VALUE Lang="tw" Index="98">SUB_98</VALUE>
+    <VALUE Lang="tw" Index="99">SUB_99</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ANI_SUBTYPE_00">
+    <VALUE Lang="tw" Index="0">SUB_00</VALUE>
+    <VALUE Lang="tw" Index="1">SUB_01</VALUE>
+    <VALUE Lang="tw" Index="2">SUB_02</VALUE>
+    <VALUE Lang="tw" Index="3">SUB_03</VALUE>
+    <VALUE Lang="tw" Index="4">SUB_04</VALUE>
+    <VALUE Lang="tw" Index="5">SUB_05</VALUE>
+    <VALUE Lang="tw" Index="6">SUB_06</VALUE>
+    <VALUE Lang="tw" Index="7">SUB_07</VALUE>
+    <VALUE Lang="tw" Index="8">SUB_08</VALUE>
+    <VALUE Lang="tw" Index="9">SUB_09</VALUE>
+    <VALUE Lang="tw" Index="10">SUB_10</VALUE>
+    <VALUE Lang="tw" Index="11">SUB_11</VALUE>
+    <VALUE Lang="tw" Index="12">SUB_12</VALUE>
+    <VALUE Lang="tw" Index="13">SUB_13</VALUE>
+    <VALUE Lang="tw" Index="14">SUB_14</VALUE>
+    <VALUE Lang="tw" Index="15">SUB_15</VALUE>
+    <VALUE Lang="tw" Index="16">SUB_16</VALUE>
+    <VALUE Lang="tw" Index="17">SUB_17</VALUE>
+    <VALUE Lang="tw" Index="18">SUB_18</VALUE>
+    <VALUE Lang="tw" Index="19">SUB_19</VALUE>
+    <VALUE Lang="tw" Index="20">SUB_20</VALUE>
+    <VALUE Lang="tw" Index="21">SUB_21</VALUE>
+    <VALUE Lang="tw" Index="22">SUB_22</VALUE>
+    <VALUE Lang="tw" Index="23">SUB_23</VALUE>
+    <VALUE Lang="tw" Index="24">SUB_24</VALUE>
+    <VALUE Lang="tw" Index="25">SUB_25</VALUE>
+    <VALUE Lang="tw" Index="26">SUB_26</VALUE>
+    <VALUE Lang="tw" Index="27">SUB_27</VALUE>
+    <VALUE Lang="tw" Index="28">SUB_28</VALUE>
+    <VALUE Lang="tw" Index="29">SUB_29</VALUE>
+    <VALUE Lang="tw" Index="30">SUB_30</VALUE>
+    <VALUE Lang="tw" Index="31">SUB_31</VALUE>
+    <VALUE Lang="tw" Index="32">SUB_32</VALUE>
+    <VALUE Lang="tw" Index="33">SUB_33</VALUE>
+    <VALUE Lang="tw" Index="34">SUB_34</VALUE>
+    <VALUE Lang="tw" Index="35">SUB_35</VALUE>
+    <VALUE Lang="tw" Index="36">SUB_36</VALUE>
+    <VALUE Lang="tw" Index="37">SUB_37</VALUE>
+    <VALUE Lang="tw" Index="38">SUB_38</VALUE>
+    <VALUE Lang="tw" Index="39">SUB_39</VALUE>
+    <VALUE Lang="tw" Index="40">SUB_40</VALUE>
+    <VALUE Lang="tw" Index="41">SUB_41</VALUE>
+    <VALUE Lang="tw" Index="42">SUB_42</VALUE>
+    <VALUE Lang="tw" Index="43">SUB_43</VALUE>
+    <VALUE Lang="tw" Index="44">SUB_44</VALUE>
+    <VALUE Lang="tw" Index="45">SUB_45</VALUE>
+    <VALUE Lang="tw" Index="46">SUB_46</VALUE>
+    <VALUE Lang="tw" Index="47">SUB_47</VALUE>
+    <VALUE Lang="tw" Index="48">SUB_48</VALUE>
+    <VALUE Lang="tw" Index="49">SUB_49</VALUE>
+    <VALUE Lang="tw" Index="50">SUB_50</VALUE>
+    <VALUE Lang="tw" Index="51">SUB_51</VALUE>
+    <VALUE Lang="tw" Index="52">SUB_52</VALUE>
+    <VALUE Lang="tw" Index="53">SUB_53</VALUE>
+    <VALUE Lang="tw" Index="54">SUB_54</VALUE>
+    <VALUE Lang="tw" Index="55">SUB_55</VALUE>
+    <VALUE Lang="tw" Index="56">SUB_56</VALUE>
+    <VALUE Lang="tw" Index="57">SUB_57</VALUE>
+    <VALUE Lang="tw" Index="58">SUB_58</VALUE>
+    <VALUE Lang="tw" Index="59">SUB_59</VALUE>
+    <VALUE Lang="tw" Index="60">SUB_60</VALUE>
+    <VALUE Lang="tw" Index="61">SUB_61</VALUE>
+    <VALUE Lang="tw" Index="62">SUB_62</VALUE>
+    <VALUE Lang="tw" Index="63">SUB_63</VALUE>
+    <VALUE Lang="tw" Index="64">SUB_64</VALUE>
+    <VALUE Lang="tw" Index="65">SUB_65</VALUE>
+    <VALUE Lang="tw" Index="66">SUB_66</VALUE>
+    <VALUE Lang="tw" Index="67">SUB_67</VALUE>
+    <VALUE Lang="tw" Index="68">SUB_68</VALUE>
+    <VALUE Lang="tw" Index="69">SUB_69</VALUE>
+    <VALUE Lang="tw" Index="70">SUB_70</VALUE>
+    <VALUE Lang="tw" Index="71">SUB_71</VALUE>
+    <VALUE Lang="tw" Index="72">SUB_72</VALUE>
+    <VALUE Lang="tw" Index="73">SUB_73</VALUE>
+    <VALUE Lang="tw" Index="74">SUB_74</VALUE>
+    <VALUE Lang="tw" Index="75">SUB_75</VALUE>
+    <VALUE Lang="tw" Index="76">SUB_76</VALUE>
+    <VALUE Lang="tw" Index="77">SUB_77</VALUE>
+    <VALUE Lang="tw" Index="78">SUB_78</VALUE>
+    <VALUE Lang="tw" Index="79">SUB_79</VALUE>
+    <VALUE Lang="tw" Index="80">SUB_80</VALUE>
+    <VALUE Lang="tw" Index="81">SUB_81</VALUE>
+    <VALUE Lang="tw" Index="82">SUB_82</VALUE>
+    <VALUE Lang="tw" Index="83">SUB_83</VALUE>
+    <VALUE Lang="tw" Index="84">SUB_84</VALUE>
+    <VALUE Lang="tw" Index="85">SUB_85</VALUE>
+    <VALUE Lang="tw" Index="86">SUB_86</VALUE>
+    <VALUE Lang="tw" Index="87">SUB_87</VALUE>
+    <VALUE Lang="tw" Index="88">SUB_88</VALUE>
+    <VALUE Lang="tw" Index="89">SUB_89</VALUE>
+    <VALUE Lang="tw" Index="90">SUB_90</VALUE>
+    <VALUE Lang="tw" Index="91">SUB_91</VALUE>
+    <VALUE Lang="tw" Index="92">SUB_92</VALUE>
+    <VALUE Lang="tw" Index="93">SUB_93</VALUE>
+    <VALUE Lang="tw" Index="94">SUB_94</VALUE>
+    <VALUE Lang="tw" Index="95">SUB_95</VALUE>
+    <VALUE Lang="tw" Index="96">SUB_96</VALUE>
+    <VALUE Lang="tw" Index="97">SUB_97</VALUE>
+    <VALUE Lang="tw" Index="98">SUB_98</VALUE>
+    <VALUE Lang="tw" Index="99">SUB_99</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ANI_SUBTYPE_01">
+    <VALUE Lang="tw" Index="0">成功</VALUE>
+    <VALUE Lang="tw" Index="1">失敗</VALUE>
+    <VALUE Lang="tw" Index="2">SUB_02</VALUE>
+    <VALUE Lang="tw" Index="3">SUB_03</VALUE>
+    <VALUE Lang="tw" Index="4">SUB_04</VALUE>
+    <VALUE Lang="tw" Index="5">SUB_05</VALUE>
+    <VALUE Lang="tw" Index="6">SUB_06</VALUE>
+    <VALUE Lang="tw" Index="7">SUB_07</VALUE>
+    <VALUE Lang="tw" Index="8">SUB_08</VALUE>
+    <VALUE Lang="tw" Index="9">SUB_09</VALUE>
+    <VALUE Lang="tw" Index="10">SUB_10</VALUE>
+    <VALUE Lang="tw" Index="11">SUB_11</VALUE>
+    <VALUE Lang="tw" Index="12">SUB_12</VALUE>
+    <VALUE Lang="tw" Index="13">SUB_13</VALUE>
+    <VALUE Lang="tw" Index="14">SUB_14</VALUE>
+    <VALUE Lang="tw" Index="15">SUB_15</VALUE>
+    <VALUE Lang="tw" Index="16">SUB_16</VALUE>
+    <VALUE Lang="tw" Index="17">SUB_17</VALUE>
+    <VALUE Lang="tw" Index="18">SUB_18</VALUE>
+    <VALUE Lang="tw" Index="19">SUB_19</VALUE>
+    <VALUE Lang="tw" Index="20">SUB_20</VALUE>
+    <VALUE Lang="tw" Index="21">SUB_21</VALUE>
+    <VALUE Lang="tw" Index="22">SUB_22</VALUE>
+    <VALUE Lang="tw" Index="23">SUB_23</VALUE>
+    <VALUE Lang="tw" Index="24">SUB_24</VALUE>
+    <VALUE Lang="tw" Index="25">SUB_25</VALUE>
+    <VALUE Lang="tw" Index="26">SUB_26</VALUE>
+    <VALUE Lang="tw" Index="27">SUB_27</VALUE>
+    <VALUE Lang="tw" Index="28">SUB_28</VALUE>
+    <VALUE Lang="tw" Index="29">SUB_29</VALUE>
+    <VALUE Lang="tw" Index="30">SUB_30</VALUE>
+    <VALUE Lang="tw" Index="31">SUB_31</VALUE>
+    <VALUE Lang="tw" Index="32">SUB_32</VALUE>
+    <VALUE Lang="tw" Index="33">SUB_33</VALUE>
+    <VALUE Lang="tw" Index="34">SUB_34</VALUE>
+    <VALUE Lang="tw" Index="35">SUB_35</VALUE>
+    <VALUE Lang="tw" Index="36">SUB_36</VALUE>
+    <VALUE Lang="tw" Index="37">SUB_37</VALUE>
+    <VALUE Lang="tw" Index="38">SUB_38</VALUE>
+    <VALUE Lang="tw" Index="39">SUB_39</VALUE>
+    <VALUE Lang="tw" Index="40">SUB_40</VALUE>
+    <VALUE Lang="tw" Index="41">SUB_41</VALUE>
+    <VALUE Lang="tw" Index="42">SUB_42</VALUE>
+    <VALUE Lang="tw" Index="43">SUB_43</VALUE>
+    <VALUE Lang="tw" Index="44">SUB_44</VALUE>
+    <VALUE Lang="tw" Index="45">SUB_45</VALUE>
+    <VALUE Lang="tw" Index="46">SUB_46</VALUE>
+    <VALUE Lang="tw" Index="47">SUB_47</VALUE>
+    <VALUE Lang="tw" Index="48">SUB_48</VALUE>
+    <VALUE Lang="tw" Index="49">SUB_49</VALUE>
+    <VALUE Lang="tw" Index="50">SUB_50</VALUE>
+    <VALUE Lang="tw" Index="51">SUB_51</VALUE>
+    <VALUE Lang="tw" Index="52">SUB_52</VALUE>
+    <VALUE Lang="tw" Index="53">SUB_53</VALUE>
+    <VALUE Lang="tw" Index="54">SUB_54</VALUE>
+    <VALUE Lang="tw" Index="55">SUB_55</VALUE>
+    <VALUE Lang="tw" Index="56">SUB_56</VALUE>
+    <VALUE Lang="tw" Index="57">SUB_57</VALUE>
+    <VALUE Lang="tw" Index="58">SUB_58</VALUE>
+    <VALUE Lang="tw" Index="59">SUB_59</VALUE>
+    <VALUE Lang="tw" Index="60">SUB_60</VALUE>
+    <VALUE Lang="tw" Index="61">SUB_61</VALUE>
+    <VALUE Lang="tw" Index="62">SUB_62</VALUE>
+    <VALUE Lang="tw" Index="63">SUB_63</VALUE>
+    <VALUE Lang="tw" Index="64">SUB_64</VALUE>
+    <VALUE Lang="tw" Index="65">SUB_65</VALUE>
+    <VALUE Lang="tw" Index="66">SUB_66</VALUE>
+    <VALUE Lang="tw" Index="67">SUB_67</VALUE>
+    <VALUE Lang="tw" Index="68">SUB_68</VALUE>
+    <VALUE Lang="tw" Index="69">SUB_69</VALUE>
+    <VALUE Lang="tw" Index="70">SUB_70</VALUE>
+    <VALUE Lang="tw" Index="71">SUB_71</VALUE>
+    <VALUE Lang="tw" Index="72">SUB_72</VALUE>
+    <VALUE Lang="tw" Index="73">SUB_73</VALUE>
+    <VALUE Lang="tw" Index="74">SUB_74</VALUE>
+    <VALUE Lang="tw" Index="75">SUB_75</VALUE>
+    <VALUE Lang="tw" Index="76">SUB_76</VALUE>
+    <VALUE Lang="tw" Index="77">SUB_77</VALUE>
+    <VALUE Lang="tw" Index="78">SUB_78</VALUE>
+    <VALUE Lang="tw" Index="79">SUB_79</VALUE>
+    <VALUE Lang="tw" Index="80">SUB_80</VALUE>
+    <VALUE Lang="tw" Index="81">SUB_81</VALUE>
+    <VALUE Lang="tw" Index="82">SUB_82</VALUE>
+    <VALUE Lang="tw" Index="83">SUB_83</VALUE>
+    <VALUE Lang="tw" Index="84">SUB_84</VALUE>
+    <VALUE Lang="tw" Index="85">SUB_85</VALUE>
+    <VALUE Lang="tw" Index="86">SUB_86</VALUE>
+    <VALUE Lang="tw" Index="87">SUB_87</VALUE>
+    <VALUE Lang="tw" Index="88">SUB_88</VALUE>
+    <VALUE Lang="tw" Index="89">SUB_89</VALUE>
+    <VALUE Lang="tw" Index="90">SUB_90</VALUE>
+    <VALUE Lang="tw" Index="91">SUB_91</VALUE>
+    <VALUE Lang="tw" Index="92">SUB_92</VALUE>
+    <VALUE Lang="tw" Index="93">SUB_93</VALUE>
+    <VALUE Lang="tw" Index="94">SUB_94</VALUE>
+    <VALUE Lang="tw" Index="95">SUB_95</VALUE>
+    <VALUE Lang="tw" Index="96">SUB_96</VALUE>
+    <VALUE Lang="tw" Index="97">SUB_97</VALUE>
+    <VALUE Lang="tw" Index="98">SUB_98</VALUE>
+    <VALUE Lang="tw" Index="99">SUB_99</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ANI_SUBTYPE_03">
+    <VALUE Lang="tw" Index="0">DriverBoard</VALUE>
+    <VALUE Lang="tw" Index="1">DriverStand</VALUE>
+    <VALUE Lang="tw" Index="2">DriverWalk</VALUE>
+    <VALUE Lang="tw" Index="3">DriverRun</VALUE>
+    <VALUE Lang="tw" Index="4">DriverBoost</VALUE>
+    <VALUE Lang="tw" Index="5">DriverDeath</VALUE>
+    <VALUE Lang="tw" Index="6">PassengerBoard</VALUE>
+    <VALUE Lang="tw" Index="7">PassengerStand</VALUE>
+    <VALUE Lang="tw" Index="8">PassengerWalk</VALUE>
+    <VALUE Lang="tw" Index="9">PassengerRun</VALUE>
+    <VALUE Lang="tw" Index="10">PassengerBoost</VALUE>
+    <VALUE Lang="tw" Index="11">PassengerDeath</VALUE>
+    <VALUE Lang="tw" Index="12">SUB_12</VALUE>
+    <VALUE Lang="tw" Index="13">SUB_13</VALUE>
+    <VALUE Lang="tw" Index="14">SUB_14</VALUE>
+    <VALUE Lang="tw" Index="15">SUB_15</VALUE>
+    <VALUE Lang="tw" Index="16">SUB_16</VALUE>
+    <VALUE Lang="tw" Index="17">SUB_17</VALUE>
+    <VALUE Lang="tw" Index="18">SUB_18</VALUE>
+    <VALUE Lang="tw" Index="19">SUB_19</VALUE>
+    <VALUE Lang="tw" Index="20">SUB_20</VALUE>
+    <VALUE Lang="tw" Index="21">SUB_21</VALUE>
+    <VALUE Lang="tw" Index="22">SUB_22</VALUE>
+    <VALUE Lang="tw" Index="23">SUB_23</VALUE>
+    <VALUE Lang="tw" Index="24">SUB_24</VALUE>
+    <VALUE Lang="tw" Index="25">SUB_25</VALUE>
+    <VALUE Lang="tw" Index="26">SUB_26</VALUE>
+    <VALUE Lang="tw" Index="27">SUB_27</VALUE>
+    <VALUE Lang="tw" Index="28">SUB_28</VALUE>
+    <VALUE Lang="tw" Index="29">SUB_29</VALUE>
+    <VALUE Lang="tw" Index="30">SUB_30</VALUE>
+    <VALUE Lang="tw" Index="31">SUB_31</VALUE>
+    <VALUE Lang="tw" Index="32">SUB_32</VALUE>
+    <VALUE Lang="tw" Index="33">SUB_33</VALUE>
+    <VALUE Lang="tw" Index="34">SUB_34</VALUE>
+    <VALUE Lang="tw" Index="35">SUB_35</VALUE>
+    <VALUE Lang="tw" Index="36">SUB_36</VALUE>
+    <VALUE Lang="tw" Index="37">SUB_37</VALUE>
+    <VALUE Lang="tw" Index="38">SUB_38</VALUE>
+    <VALUE Lang="tw" Index="39">SUB_39</VALUE>
+    <VALUE Lang="tw" Index="40">SUB_40</VALUE>
+    <VALUE Lang="tw" Index="41">SUB_41</VALUE>
+    <VALUE Lang="tw" Index="42">SUB_42</VALUE>
+    <VALUE Lang="tw" Index="43">SUB_43</VALUE>
+    <VALUE Lang="tw" Index="44">SUB_44</VALUE>
+    <VALUE Lang="tw" Index="45">SUB_45</VALUE>
+    <VALUE Lang="tw" Index="46">SUB_46</VALUE>
+    <VALUE Lang="tw" Index="47">SUB_47</VALUE>
+    <VALUE Lang="tw" Index="48">SUB_48</VALUE>
+    <VALUE Lang="tw" Index="49">SUB_49</VALUE>
+    <VALUE Lang="tw" Index="50">SUB_50</VALUE>
+    <VALUE Lang="tw" Index="51">SUB_51</VALUE>
+    <VALUE Lang="tw" Index="52">SUB_52</VALUE>
+    <VALUE Lang="tw" Index="53">SUB_53</VALUE>
+    <VALUE Lang="tw" Index="54">SUB_54</VALUE>
+    <VALUE Lang="tw" Index="55">SUB_55</VALUE>
+    <VALUE Lang="tw" Index="56">SUB_56</VALUE>
+    <VALUE Lang="tw" Index="57">SUB_57</VALUE>
+    <VALUE Lang="tw" Index="58">SUB_58</VALUE>
+    <VALUE Lang="tw" Index="59">SUB_59</VALUE>
+    <VALUE Lang="tw" Index="60">SUB_60</VALUE>
+    <VALUE Lang="tw" Index="61">SUB_61</VALUE>
+    <VALUE Lang="tw" Index="62">SUB_62</VALUE>
+    <VALUE Lang="tw" Index="63">SUB_63</VALUE>
+    <VALUE Lang="tw" Index="64">SUB_64</VALUE>
+    <VALUE Lang="tw" Index="65">SUB_65</VALUE>
+    <VALUE Lang="tw" Index="66">SUB_66</VALUE>
+    <VALUE Lang="tw" Index="67">SUB_67</VALUE>
+    <VALUE Lang="tw" Index="68">SUB_68</VALUE>
+    <VALUE Lang="tw" Index="69">SUB_69</VALUE>
+    <VALUE Lang="tw" Index="70">SUB_70</VALUE>
+    <VALUE Lang="tw" Index="71">SUB_71</VALUE>
+    <VALUE Lang="tw" Index="72">SUB_72</VALUE>
+    <VALUE Lang="tw" Index="73">SUB_73</VALUE>
+    <VALUE Lang="tw" Index="74">SUB_74</VALUE>
+    <VALUE Lang="tw" Index="75">SUB_75</VALUE>
+    <VALUE Lang="tw" Index="76">SUB_76</VALUE>
+    <VALUE Lang="tw" Index="77">SUB_77</VALUE>
+    <VALUE Lang="tw" Index="78">SUB_78</VALUE>
+    <VALUE Lang="tw" Index="79">SUB_79</VALUE>
+    <VALUE Lang="tw" Index="80">SUB_80</VALUE>
+    <VALUE Lang="tw" Index="81">SUB_81</VALUE>
+    <VALUE Lang="tw" Index="82">SUB_82</VALUE>
+    <VALUE Lang="tw" Index="83">SUB_83</VALUE>
+    <VALUE Lang="tw" Index="84">SUB_84</VALUE>
+    <VALUE Lang="tw" Index="85">SUB_85</VALUE>
+    <VALUE Lang="tw" Index="86">SUB_86</VALUE>
+    <VALUE Lang="tw" Index="87">SUB_87</VALUE>
+    <VALUE Lang="tw" Index="88">SUB_88</VALUE>
+    <VALUE Lang="tw" Index="89">SUB_89</VALUE>
+    <VALUE Lang="tw" Index="90">SUB_90</VALUE>
+    <VALUE Lang="tw" Index="91">SUB_91</VALUE>
+    <VALUE Lang="tw" Index="92">SUB_92</VALUE>
+    <VALUE Lang="tw" Index="93">SUB_93</VALUE>
+    <VALUE Lang="tw" Index="94">SUB_94</VALUE>
+    <VALUE Lang="tw" Index="95">SUB_95</VALUE>
+    <VALUE Lang="tw" Index="96">SUB_96</VALUE>
+    <VALUE Lang="tw" Index="97">SUB_97</VALUE>
+    <VALUE Lang="tw" Index="98">SUB_98</VALUE>
+    <VALUE Lang="tw" Index="99">SUB_99</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ANI_VEHICLE_MAINTYPE">
+    <VALUE Lang="tw" Index="0">停留</VALUE>
+    <VALUE Lang="tw" Index="1">走路</VALUE>
+    <VALUE Lang="tw" Index="2">推進器上檔</VALUE>
+    <VALUE Lang="tw" Index="3">跑步</VALUE>
+    <VALUE Lang="tw" Index="4">暈倒</VALUE>
+    <VALUE Lang="tw" Index="5">衝擊</VALUE>
+    <VALUE Lang="tw" Index="6">攻擊</VALUE>
+    <VALUE Lang="tw" Index="7">Skill_A</VALUE>
+    <VALUE Lang="tw" Index="8">Skill_B</VALUE>
+    <VALUE Lang="tw" Index="9">Skill_C</VALUE>
+    <VALUE Lang="tw" Index="10">Skill_D</VALUE>
+    <VALUE Lang="tw" Index="11">Anim_001</VALUE>
+    <VALUE Lang="tw" Index="12">Anim_002</VALUE>
+    <VALUE Lang="tw" Index="13">Anim_003</VALUE>
+    <VALUE Lang="tw" Index="14">Anim_004</VALUE>
+    <VALUE Lang="tw" Index="15">Anim_005</VALUE>
+    <VALUE Lang="tw" Index="16">Anim_None</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ATTACK_RGTYPE">
+    <VALUE Lang="tw" Index="0">短距離</VALUE>
+    <VALUE Lang="tw" Index="1">長距離</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="BIKETYPE">
+    <VALUE Lang="tw" Index="0">BT-5</VALUE>
+    <VALUE Lang="tw" Index="1">BT-7</VALUE>
+    <VALUE Lang="tw" Index="2">BT-9</VALUE>
+    <VALUE Lang="tw" Index="3">EV-1</VALUE>
+    <VALUE Lang="tw" Index="4">No</VALUE>
+    <VALUE Lang="tw" Index="5">No</VALUE>
+    <VALUE Lang="tw" Index="6">No</VALUE>
+    <VALUE Lang="tw" Index="7">No</VALUE>
+    <VALUE Lang="tw" Index="8">No</VALUE>
+    <VALUE Lang="tw" Index="9">No</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="BLOW">
+    <VALUE Lang="tw" Index="0">無</VALUE>
+    <VALUE Lang="tw" Index="1">麻痺</VALUE>
+    <VALUE Lang="tw" Index="2">昏厥</VALUE>
+    <VALUE Lang="tw" Index="3">石化</VALUE>
+    <VALUE Lang="tw" Index="4">燃燒</VALUE>
+    <VALUE Lang="tw" Index="5">冰凍</VALUE>
+    <VALUE Lang="tw" Index="6">錯亂</VALUE>
+    <VALUE Lang="tw" Index="7">中毒</VALUE>
+    <VALUE Lang="tw" Index="8">詛咒</VALUE>
+    <VALUE Lang="tw" Index="9">--TEMP--</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="BLOW_VAR1">
+    <VALUE Lang="tw" Index="0">No</VALUE>
+    <VALUE Lang="tw" Index="1">移動速度率</VALUE>
+    <VALUE Lang="tw" Index="2">No</VALUE>
+    <VALUE Lang="tw" Index="3">移動速度率</VALUE>
+    <VALUE Lang="tw" Index="4">No</VALUE>
+    <VALUE Lang="tw" Index="5">移動速度率</VALUE>
+    <VALUE Lang="tw" Index="6">No</VALUE>
+    <VALUE Lang="tw" Index="7">No</VALUE>
+    <VALUE Lang="tw" Index="8">No</VALUE>
+    <VALUE Lang="tw" Index="9">--TEMP--</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="BLOW_VAR2">
+    <VALUE Lang="tw" Index="0">No</VALUE>
+    <VALUE Lang="tw" Index="1">延遲率</VALUE>
+    <VALUE Lang="tw" Index="2">No</VALUE>
+    <VALUE Lang="tw" Index="3">No</VALUE>
+    <VALUE Lang="tw" Index="4">持續傷害</VALUE>
+    <VALUE Lang="tw" Index="5">攻擊增加率</VALUE>
+    <VALUE Lang="tw" Index="6">No</VALUE>
+    <VALUE Lang="tw" Index="7">持續傷害</VALUE>
+    <VALUE Lang="tw" Index="8">持續傷害</VALUE>
+    <VALUE Lang="tw" Index="9">--TEMP--</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="BOARDTYPE">
+    <VALUE Lang="tw" Index="0">Hover滑板</VALUE>
+    <VALUE Lang="tw" Index="1">No</VALUE>
+    <VALUE Lang="tw" Index="2">No</VALUE>
+    <VALUE Lang="tw" Index="3">No</VALUE>
+    <VALUE Lang="tw" Index="4">No</VALUE>
+    <VALUE Lang="tw" Index="5">No</VALUE>
+    <VALUE Lang="tw" Index="6">No</VALUE>
+    <VALUE Lang="tw" Index="7">No</VALUE>
+    <VALUE Lang="tw" Index="8">No</VALUE>
+    <VALUE Lang="tw" Index="9">No</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="BRIGHT">
+    <VALUE Lang="tw" Index="0">親善</VALUE>
+    <VALUE Lang="tw" Index="1">邪惡</VALUE>
+    <VALUE Lang="tw" Index="2">中性</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CARTYPE">
+    <VALUE Lang="tw" Index="0">FERRARI</VALUE>
+    <VALUE Lang="tw" Index="1">CAR_B</VALUE>
+    <VALUE Lang="tw" Index="2">CAR_C</VALUE>
+    <VALUE Lang="tw" Index="3">CAR_D</VALUE>
+    <VALUE Lang="tw" Index="4">無</VALUE>
+    <VALUE Lang="tw" Index="5">無</VALUE>
+    <VALUE Lang="tw" Index="6">無</VALUE>
+    <VALUE Lang="tw" Index="7">無</VALUE>
+    <VALUE Lang="tw" Index="8">無</VALUE>
+    <VALUE Lang="tw" Index="9">無</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CDT_SIGN">
+    <VALUE Lang="tw" Index="0">=</VALUE>
+    <VALUE Lang="tw" Index="1">&lt;</VALUE>
+    <VALUE Lang="tw" Index="2">&gt;</VALUE>
+    <VALUE Lang="tw" Index="3">&lt;=</VALUE>
+    <VALUE Lang="tw" Index="4">&gt;=</VALUE>
+    <VALUE Lang="tw" Index="5">無論是什麼</VALUE>
+    <VALUE Lang="tw" Index="6">~</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CDT_SIGN_ID">
+    <VALUE Lang="tw" Index="0">EMSIGN_SAME</VALUE>
+    <VALUE Lang="tw" Index="1">EMSIGN_HIGHER</VALUE>
+    <VALUE Lang="tw" Index="2">EMSIGN_LOWER</VALUE>
+    <VALUE Lang="tw" Index="3">EMSIGN_SAMEHIGHER</VALUE>
+    <VALUE Lang="tw" Index="4">EMSIGN_SAMELOWER</VALUE>
+    <VALUE Lang="tw" Index="5">EMSIGN_ALWAYS</VALUE>
+    <VALUE Lang="tw" Index="6">EMSIGN_FROMTO</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CHARCLASS">
+    <VALUE Lang="tw" Index="0">格鬥家(男)</VALUE>
+    <VALUE Lang="tw" Index="1">劍道士(男)</VALUE>
+    <VALUE Lang="tw" Index="2">弓箭手(女)</VALUE>
+    <VALUE Lang="tw" Index="3">氣功師(女)</VALUE>
+    <VALUE Lang="tw" Index="4">終極者(男)</VALUE>
+    <VALUE Lang="tw" Index="5">終極者(女)</VALUE>
+    <VALUE Lang="tw" Index="6">格鬥家(女)</VALUE>
+    <VALUE Lang="tw" Index="7">劍道士(女)</VALUE>
+    <VALUE Lang="tw" Index="8">弓箭手(男)</VALUE>
+    <VALUE Lang="tw" Index="9">氣功師(男)</VALUE>
+    <VALUE Lang="tw" Index="10">超能者(男)</VALUE>
+    <VALUE Lang="tw" Index="11">超能者(女)</VALUE>
+    <VALUE Lang="tw" Index="12">忍術者(男)</VALUE>
+    <VALUE Lang="tw" Index="13">忍術者(女)</VALUE>
+    <VALUE Lang="tw" Index="14">魔術部(男)</VALUE>
+    <VALUE Lang="tw" Index="15">魔術部(女)</VALUE>
+    <VALUE Lang="tw" Index="16">ETC(M)</VALUE>
+    <VALUE Lang="tw" Index="17">ETC(W)</VALUE>
+    <VALUE Lang="tw" Index="18">變術部(男)</VALUE>
+    <VALUE Lang="tw" Index="19">變術部(女)</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CHARCLASSINDEX">
+    <VALUE Lang="tw" Index="0">格鬥部</VALUE>
+    <VALUE Lang="tw" Index="1">劍道部</VALUE>
+    <VALUE Lang="tw" Index="2">弓箭部</VALUE>
+    <VALUE Lang="tw" Index="3">氣功部</VALUE>
+    <VALUE Lang="tw" Index="4">終極部</VALUE>
+    <VALUE Lang="tw" Index="5">超能部</VALUE>
+    <VALUE Lang="tw" Index="6">忍術部</VALUE>
+    <VALUE Lang="tw" Index="7">魔術部</VALUE>
+    <VALUE Lang="tw" Index="8">ETC</VALUE>
+    <VALUE Lang="tw" Index="9">變術部</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CHARCOMMENT">
+    <VALUE Lang="tw" Index="0">零值</VALUE>
+    <VALUE Lang="tw" Index="1">零值</VALUE>
+    <VALUE Lang="tw" Index="2">零值</VALUE>
+    <VALUE Lang="tw" Index="3">零值</VALUE>
+    <VALUE Lang="tw" Index="4">零值</VALUE>
+    <VALUE Lang="tw" Index="5">零值</VALUE>
+    <VALUE Lang="tw" Index="6">零值</VALUE>
+    <VALUE Lang="tw" Index="7">零值</VALUE>
+    <VALUE Lang="tw" Index="8">零值</VALUE>
+    <VALUE Lang="tw" Index="9">零值</VALUE>
+    <VALUE Lang="tw" Index="10">零值</VALUE>
+    <VALUE Lang="tw" Index="11">零值</VALUE>
+    <VALUE Lang="tw" Index="12">零值</VALUE>
+    <VALUE Lang="tw" Index="13">零值</VALUE>
+    <VALUE Lang="tw" Index="14">零值</VALUE>
+    <VALUE Lang="tw" Index="15">零值</VALUE>
+    <VALUE Lang="tw" Index="16">null</VALUE>
+    <VALUE Lang="tw" Index="17">null</VALUE>
+    <VALUE Lang="tw" Index="18">null</VALUE>
+    <VALUE Lang="tw" Index="19">null</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="COOLTYPE">
+    <VALUE Lang="tw" Index="0">物品MID/SID</VALUE>
+    <VALUE Lang="tw" Index="1">道具類型</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CROW">
+    <VALUE Lang="tw" Index="0">CROW_PC</VALUE>
+    <VALUE Lang="tw" Index="1">CROW_NPC</VALUE>
+    <VALUE Lang="tw" Index="2">CROW_MOB</VALUE>
+    <VALUE Lang="tw" Index="3">CROW_ITEM</VALUE>
+    <VALUE Lang="tw" Index="4">CROW_MONEY</VALUE>
+    <VALUE Lang="tw" Index="5">CROW_PET</VALUE>
+    <VALUE Lang="tw" Index="6">CROW_SUMMON</VALUE>
+    <VALUE Lang="tw" Index="7">CROW_MATERIAL</VALUE>
+    <VALUE Lang="tw" Index="8">CROW_ZONE_NAME</VALUE>
+    <VALUE Lang="tw" Index="9">CROW_GATE_NAME</VALUE>
+    <VALUE Lang="tw" Index="10">-----TEMP-----</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CROWACT_DN">
+    <VALUE Lang="tw" Index="0">無變化</VALUE>
+    <VALUE Lang="tw" Index="1">尋找低弱HP</VALUE>
+    <VALUE Lang="tw" Index="2">逃跑</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CROWACT_UP">
+    <VALUE Lang="tw" Index="0">準備</VALUE>
+    <VALUE Lang="tw" Index="1">主動攻擊關閉</VALUE>
+    <VALUE Lang="tw" Index="2">攻擊低等者</VALUE>
+    <VALUE Lang="tw" Index="3">攻擊低HP者</VALUE>
+    <VALUE Lang="tw" Index="4">攻擊光屬性者</VALUE>
+    <VALUE Lang="tw" Index="5">攻擊暗屬性者</VALUE>
+    <VALUE Lang="tw" Index="6">攻擊狀態異常者</VALUE>
+    <VALUE Lang="tw" Index="7">攻擊手持武器者</VALUE>
+    <VALUE Lang="tw" Index="8">攻擊跑步者</VALUE>
+    <VALUE Lang="tw" Index="9">逃跑</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="CROWSALE_SALETYPE">
+    <VALUE Lang="tw" Index="0">其它</VALUE>
+    <VALUE Lang="tw" Index="1">防具</VALUE>
+    <VALUE Lang="tw" Index="2">武器</VALUE>
+    <VALUE Lang="tw" Index="3">S.R.C</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ELEMENT">
+    <VALUE Lang="tw" Index="0">正氣</VALUE>
+    <VALUE Lang="tw" Index="1">火焰</VALUE>
+    <VALUE Lang="tw" Index="2">冰凍</VALUE>
+    <VALUE Lang="tw" Index="3">電氣</VALUE>
+    <VALUE Lang="tw" Index="4">毒</VALUE>
+    <VALUE Lang="tw" Index="5">石化</VALUE>
+    <VALUE Lang="tw" Index="6">錯亂</VALUE>
+    <VALUE Lang="tw" Index="7">暈眩</VALUE>
+    <VALUE Lang="tw" Index="8">詛咒</VALUE>
+    <VALUE Lang="tw" Index="9">全數道具</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="EMREACTION">
+    <VALUE Lang="tw" Index="0">REACT_NULL</VALUE>
+    <VALUE Lang="tw" Index="1">REACT_TRACE</VALUE>
+    <VALUE Lang="tw" Index="2">REACT_MOB</VALUE>
+    <VALUE Lang="tw" Index="3">REACT_NPC</VALUE>
+    <VALUE Lang="tw" Index="4">REACT_P2P</VALUE>
+    <VALUE Lang="tw" Index="5">REACT_PVP</VALUE>
+    <VALUE Lang="tw" Index="6">REACT_ITEM</VALUE>
+    <VALUE Lang="tw" Index="7">REACT_SKILL</VALUE>
+    <VALUE Lang="tw" Index="8">REACT_GATHERING</VALUE>
+    <VALUE Lang="tw" Index="9">REACT_TOGGLE_VEHICLE</VALUE>
+    <VALUE Lang="tw" Index="10">REACT_SWAP_ARMS</VALUE>
+    <VALUE Lang="tw" Index="11">REACT_SIZE</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="FONTSYS">
+    <VALUE Lang="tw" Index="0">D3DFONT</VALUE>
+    <VALUE Lang="tw" Index="1">D3DXFONT</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="GRINDING_LEVEL">
+    <VALUE Lang="tw" Index="0">低級</VALUE>
+    <VALUE Lang="tw" Index="1">高級</VALUE>
+    <VALUE Lang="tw" Index="2">最高位</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="GRINDING_RESIST">
+    <VALUE Lang="tw" Index="0">火</VALUE>
+    <VALUE Lang="tw" Index="1">冰</VALUE>
+    <VALUE Lang="tw" Index="2">電</VALUE>
+    <VALUE Lang="tw" Index="3">毒</VALUE>
+    <VALUE Lang="tw" Index="4">空氣</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="GRINDING_TYPE">
+    <VALUE Lang="tw" Index="0">No</VALUE>
+    <VALUE Lang="tw" Index="1">Attack Power</VALUE>
+    <VALUE Lang="tw" Index="2">Defend Power</VALUE>
+    <VALUE Lang="tw" Index="3">Resistance(Fire)</VALUE>
+    <VALUE Lang="tw" Index="4">ResistanceI(Ice)</VALUE>
+    <VALUE Lang="tw" Index="5">Resistance(Eletric)</VALUE>
+    <VALUE Lang="tw" Index="6">Resistance(Poison)</VALUE>
+    <VALUE Lang="tw" Index="7">Resistance(air)</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="IMPACT_ADDON">
+    <VALUE Lang="tw" Index="0">無</VALUE>
+    <VALUE Lang="tw" Index="1">命中率變化量</VALUE>
+    <VALUE Lang="tw" Index="2">迴避值變化量</VALUE>
+    <VALUE Lang="tw" Index="3">攻擊值變化量</VALUE>
+    <VALUE Lang="tw" Index="4">防禦值變化量</VALUE>
+    <VALUE Lang="tw" Index="5">HP 變化率</VALUE>
+    <VALUE Lang="tw" Index="6">MP 變化率</VALUE>
+    <VALUE Lang="tw" Index="7">SP 變化率</VALUE>
+    <VALUE Lang="tw" Index="8">HP+MP+SP 變化率</VALUE>
+    <VALUE Lang="tw" Index="9">攻擊值變化率</VALUE>
+    <VALUE Lang="tw" Index="10">防禦值變化率</VALUE>
+    <VALUE Lang="tw" Index="11">近攻率</VALUE>
+    <VALUE Lang="tw" Index="12">射擊率</VALUE>
+    <VALUE Lang="tw" Index="13">氣力值</VALUE>
+    <VALUE Lang="tw" Index="14">HP 增加率</VALUE>
+    <VALUE Lang="tw" Index="15">MP 增加率</VALUE>
+    <VALUE Lang="tw" Index="16">SP 增加率</VALUE>
+    <VALUE Lang="tw" Index="17">抵抗性變化</VALUE>
+    <VALUE Lang="tw" Index="18">能力值變化</VALUE>
+    <VALUE Lang="tw" Index="19">HP 恢復量增減</VALUE>
+    <VALUE Lang="tw" Index="20">MP 恢復量增減</VALUE>
+    <VALUE Lang="tw" Index="21">SP 恢復量增減</VALUE>
+    <VALUE Lang="tw" Index="22">CP 恢復量增減</VALUE>
+    <VALUE Lang="tw" Index="23">CP 自動增減</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="IMPACT_REALM">
+    <VALUE Lang="tw" Index="0">目標自己</VALUE>
+    <VALUE Lang="tw" Index="1">目標區域</VALUE>
+    <VALUE Lang="tw" Index="2">連續的目標區域</VALUE>
+    <VALUE Lang="tw" Index="3">面對目標</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="IMPACT_SIDE">
+    <VALUE Lang="tw" Index="0">向我方</VALUE>
+    <VALUE Lang="tw" Index="1">向敵人</VALUE>
+    <VALUE Lang="tw" Index="2">向所有人</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="IMPACT_TAR">
+    <VALUE Lang="tw" Index="0">自己</VALUE>
+    <VALUE Lang="tw" Index="1">目標</VALUE>
+    <VALUE Lang="tw" Index="2">從自己到目標</VALUE>
+    <VALUE Lang="tw" Index="3">指定位置</VALUE>
+    <VALUE Lang="tw" Index="4">指定</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_QUE_TYPE">
+    <VALUE Lang="tw" Index="0">無</VALUE>
+    <VALUE Lang="tw" Index="1">Speed Up</VALUE>
+    <VALUE Lang="tw" Index="2">Crazy</VALUE>
+    <VALUE Lang="tw" Index="3">Attack Up</VALUE>
+    <VALUE Lang="tw" Index="4">Exp Up</VALUE>
+    <VALUE Lang="tw" Index="5">Exp Get</VALUE>
+    <VALUE Lang="tw" Index="6">Lucky</VALUE>
+    <VALUE Lang="tw" Index="7">Bomb!!</VALUE>
+    <VALUE Lang="tw" Index="8">召喚</VALUE>
+    <VALUE Lang="tw" Index="9">Speed Up Max</VALUE>
+    <VALUE Lang="tw" Index="10">Madness</VALUE>
+    <VALUE Lang="tw" Index="11">速度增強</VALUE>
+    <VALUE Lang="tw" Index="12">痊癒</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_QUE_VAR1">
+    <VALUE Lang="tw" Index="0">無</VALUE>
+    <VALUE Lang="tw" Index="1">移動速度</VALUE>
+    <VALUE Lang="tw" Index="2">移動速度</VALUE>
+    <VALUE Lang="tw" Index="3">傷害</VALUE>
+    <VALUE Lang="tw" Index="4">經驗</VALUE>
+    <VALUE Lang="tw" Index="5">No</VALUE>
+    <VALUE Lang="tw" Index="6">發生率</VALUE>
+    <VALUE Lang="tw" Index="7">傷害</VALUE>
+    <VALUE Lang="tw" Index="8">MID</VALUE>
+    <VALUE Lang="tw" Index="9">移動速度</VALUE>
+    <VALUE Lang="tw" Index="10">移動速度</VALUE>
+    <VALUE Lang="tw" Index="11">傷害</VALUE>
+    <VALUE Lang="tw" Index="12">hp</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_QUE_VAR2">
+    <VALUE Lang="tw" Index="0">No</VALUE>
+    <VALUE Lang="tw" Index="1">No</VALUE>
+    <VALUE Lang="tw" Index="2">攻擊速度</VALUE>
+    <VALUE Lang="tw" Index="3">No</VALUE>
+    <VALUE Lang="tw" Index="4">No</VALUE>
+    <VALUE Lang="tw" Index="5">No</VALUE>
+    <VALUE Lang="tw" Index="6">No</VALUE>
+    <VALUE Lang="tw" Index="7">No</VALUE>
+    <VALUE Lang="tw" Index="8">SID</VALUE>
+    <VALUE Lang="tw" Index="9">No</VALUE>
+    <VALUE Lang="tw" Index="10">攻擊速度</VALUE>
+    <VALUE Lang="tw" Index="11">No</VALUE>
+    <VALUE Lang="tw" Index="12">No</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEM_RANDOM_OPT">
+    <VALUE Lang="tw" Index="0">無</VALUE>
+    <VALUE Lang="tw" Index="1">攻擊率(%)</VALUE>
+    <VALUE Lang="tw" Index="2">防禦率(%)</VALUE>
+    <VALUE Lang="tw" Index="3">命中率(%)</VALUE>
+    <VALUE Lang="tw" Index="4">迴避率(%)</VALUE>
+    <VALUE Lang="tw" Index="5">HP增加量</VALUE>
+    <VALUE Lang="tw" Index="6">MP增加量</VALUE>
+    <VALUE Lang="tw" Index="7">SP增加量</VALUE>
+    <VALUE Lang="tw" Index="8">HP恢復率(%)</VALUE>
+    <VALUE Lang="tw" Index="9">MP 恢復率(%)</VALUE>
+    <VALUE Lang="tw" Index="10">SP 恢復率(%)</VALUE>
+    <VALUE Lang="tw" Index="11">HP+MP+SP恢復率(%)</VALUE>
+    <VALUE Lang="tw" Index="12">攻擊等級</VALUE>
+    <VALUE Lang="tw" Index="13">防禦等級</VALUE>
+    <VALUE Lang="tw" Index="14">範圍</VALUE>
+    <VALUE Lang="tw" Index="15">SP消耗量</VALUE>
+    <VALUE Lang="tw" Index="16">抵抗力</VALUE>
+    <VALUE Lang="tw" Index="17">移動速度</VALUE>
+    <VALUE Lang="tw" Index="18">攻擊力</VALUE>
+    <VALUE Lang="tw" Index="19">防禦力</VALUE>
+    <VALUE Lang="tw" Index="20">命中率</VALUE>
+    <VALUE Lang="tw" Index="21">迴避率</VALUE>
+    <VALUE Lang="tw" Index="22">力量</VALUE>
+    <VALUE Lang="tw" Index="23">體力</VALUE>
+    <VALUE Lang="tw" Index="24">精神</VALUE>
+    <VALUE Lang="tw" Index="25">敏捷</VALUE>
+    <VALUE Lang="tw" Index="26">耐力</VALUE>
+    <VALUE Lang="tw" Index="27">格鬥值</VALUE>
+    <VALUE Lang="tw" Index="28">射擊值</VALUE>
+    <VALUE Lang="tw" Index="29">氣力值</VALUE>
+    <VALUE Lang="tw" Index="30">HP恢復量</VALUE>
+    <VALUE Lang="tw" Index="31">MP恢復量</VALUE>
+    <VALUE Lang="tw" Index="32">SP恢復量</VALUE>
+    <VALUE Lang="tw" Index="33">殺敵CP增加量</VALUE>
+    <VALUE Lang="tw" Index="34">1號 技能持續時間</VALUE>
+    <VALUE Lang="tw" Index="35">2號 技能持續時間</VALUE>
+    <VALUE Lang="tw" Index="36">3號 技能持續時間</VALUE>
+    <VALUE Lang="tw" Index="37">4號 技能持續時間</VALUE>
+    <VALUE Lang="tw" Index="38">5號 技能持續時間</VALUE>
+    <VALUE Lang="tw" Index="39">6號 技能持續時間</VALUE>
+    <VALUE Lang="tw" Index="40">7號 技能持續時間</VALUE>
+    <VALUE Lang="tw" Index="41">8號 技能持續時間</VALUE>
+    <VALUE Lang="tw" Index="42">9號 技能持續時間</VALUE>
+    <VALUE Lang="tw" Index="43">10號 技能持續時間</VALUE>
+    <VALUE Lang="tw" Index="44">11號 技能持續時間</VALUE>
+    <VALUE Lang="tw" Index="45">12號 技能持續時間</VALUE>
+    <VALUE Lang="tw" Index="46">13號 技能持續時間</VALUE>
+    <VALUE Lang="tw" Index="47">14號 技能持續時間</VALUE>
+    <VALUE Lang="tw" Index="48">15號 技能持續時間</VALUE>
+    <VALUE Lang="tw" Index="49">16號 技能持續時間</VALUE>
+    <VALUE Lang="tw" Index="50">17號 技能持續時間</VALUE>
+    <VALUE Lang="tw" Index="51">18號 技能持續時間</VALUE>
+    <VALUE Lang="tw" Index="52">19號 技能持續時間</VALUE>
+    <VALUE Lang="tw" Index="53">20號 技能持續時間</VALUE>
+    <VALUE Lang="tw" Index="54">21號 技能持續時間</VALUE>
+    <VALUE Lang="tw" Index="55">22號 技能持續時間</VALUE>
+    <VALUE Lang="tw" Index="56">23號 技能持續時間</VALUE>
+    <VALUE Lang="tw" Index="57">24號 技能持續時間</VALUE>
+    <VALUE Lang="tw" Index="58">25號 技能持續時間</VALUE>
+    <VALUE Lang="tw" Index="59">1號 技能傷害增加率</VALUE>
+    <VALUE Lang="tw" Index="60">2號 技能傷害增加率</VALUE>
+    <VALUE Lang="tw" Index="61">3號 技能傷害增加率</VALUE>
+    <VALUE Lang="tw" Index="62">4號 技能傷害增加率</VALUE>
+    <VALUE Lang="tw" Index="63">5號 技能傷害增加率</VALUE>
+    <VALUE Lang="tw" Index="64">6號 技能傷害增加率</VALUE>
+    <VALUE Lang="tw" Index="65">7號 技能傷害增加率</VALUE>
+    <VALUE Lang="tw" Index="66">8號 技能傷害增加率</VALUE>
+    <VALUE Lang="tw" Index="67">9號 技能傷害增加率</VALUE>
+    <VALUE Lang="tw" Index="68">10號 技能傷害增加率</VALUE>
+    <VALUE Lang="tw" Index="69">11號 技能傷害增加率</VALUE>
+    <VALUE Lang="tw" Index="70">12號 技能傷害增加率</VALUE>
+    <VALUE Lang="tw" Index="71">13號 技能傷害增加率</VALUE>
+    <VALUE Lang="tw" Index="72">14號 技能傷害增加率</VALUE>
+    <VALUE Lang="tw" Index="73">15號 技能傷害增加率</VALUE>
+    <VALUE Lang="tw" Index="74">16號 技能傷害增加率</VALUE>
+    <VALUE Lang="tw" Index="75">17號 技能傷害增加率</VALUE>
+    <VALUE Lang="tw" Index="76">18號 技能傷害增加率</VALUE>
+    <VALUE Lang="tw" Index="77">19號 技能傷害增加率</VALUE>
+    <VALUE Lang="tw" Index="78">20號 技能傷害增加率</VALUE>
+    <VALUE Lang="tw" Index="79">21號 技能傷害增加率</VALUE>
+    <VALUE Lang="tw" Index="80">22號 技能傷害增加率</VALUE>
+    <VALUE Lang="tw" Index="81">23號 技能傷害增加率</VALUE>
+    <VALUE Lang="tw" Index="82">24號 技能傷害增加率</VALUE>
+    <VALUE Lang="tw" Index="83">25號 技能傷害增加率</VALUE>
+    <VALUE Lang="tw" Index="84">1號 技能延遲減少</VALUE>
+    <VALUE Lang="tw" Index="85">2號 技能延遲減少</VALUE>
+    <VALUE Lang="tw" Index="86">3號 技能延遲減少</VALUE>
+    <VALUE Lang="tw" Index="87">4號 技能延遲減少</VALUE>
+    <VALUE Lang="tw" Index="88">5號 技能延遲減少</VALUE>
+    <VALUE Lang="tw" Index="89">6號 技能延遲減少</VALUE>
+    <VALUE Lang="tw" Index="90">7號 技能延遲減少</VALUE>
+    <VALUE Lang="tw" Index="91">8號 技能延遲減少</VALUE>
+    <VALUE Lang="tw" Index="92">9號 技能延遲減少</VALUE>
+    <VALUE Lang="tw" Index="93">10號 技能延遲減少</VALUE>
+    <VALUE Lang="tw" Index="94">11號 技能延遲減少</VALUE>
+    <VALUE Lang="tw" Index="95">12號 技能延遲減少</VALUE>
+    <VALUE Lang="tw" Index="96">13號 技能延遲減少</VALUE>
+    <VALUE Lang="tw" Index="97">14號 技能延遲減少</VALUE>
+    <VALUE Lang="tw" Index="98">15號 技能延遲減少</VALUE>
+    <VALUE Lang="tw" Index="99">16號 技能延遲減少</VALUE>
+    <VALUE Lang="tw" Index="100">17號 技能延遲減少</VALUE>
+    <VALUE Lang="tw" Index="101">18號 技能延遲減少</VALUE>
+    <VALUE Lang="tw" Index="102">19號 技能延遲減少</VALUE>
+    <VALUE Lang="tw" Index="103">20號 技能延遲減少</VALUE>
+    <VALUE Lang="tw" Index="104">21號 技能延遲減少</VALUE>
+    <VALUE Lang="tw" Index="105">22號 技能延遲減少</VALUE>
+    <VALUE Lang="tw" Index="106">23號 技能延遲減少</VALUE>
+    <VALUE Lang="tw" Index="107">24號 技能延遲減少</VALUE>
+    <VALUE Lang="tw" Index="108">25號 技能延遲減少</VALUE>
+    <VALUE Lang="tw" Index="109">暴擊傷害</VALUE>
+    <VALUE Lang="tw" Index="110">強烈打擊傷害</VALUE>
+    <VALUE Lang="tw" Index="111">道具裝備等級減少</VALUE>
+    <VALUE Lang="tw" Index="112">消滅時 HP恢復率</VALUE>
+    <VALUE Lang="tw" Index="113">消滅時 MP恢復率</VALUE>
+    <VALUE Lang="tw" Index="114">消滅時 SP恢復率</VALUE>
+    <VALUE Lang="tw" Index="115">消滅時 HP+MP+SP恢復率</VALUE>
+    <VALUE Lang="tw" Index="116">增加相當於全部MP比例的攻擊力</VALUE>
+    <VALUE Lang="tw" Index="117">增加相當於全部SP比例的體力</VALUE>
+    <VALUE Lang="tw" Index="118">增加相當於全部命中比例的格鬥值</VALUE>
+    <VALUE Lang="tw" Index="119">增加相當於全部命中比例的射擊值</VALUE>
+    <VALUE Lang="tw" Index="120">增加相當於全部命中比例的氣力值</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEMADDON">
+    <VALUE Lang="tw" Index="0">無</VALUE>
+    <VALUE Lang="tw" Index="1">命中率</VALUE>
+    <VALUE Lang="tw" Index="2">迴避率</VALUE>
+    <VALUE Lang="tw" Index="3">殺傷力</VALUE>
+    <VALUE Lang="tw" Index="4">防禦力</VALUE>
+    <VALUE Lang="tw" Index="5">(HP)體力</VALUE>
+    <VALUE Lang="tw" Index="6">(MP)魔力</VALUE>
+    <VALUE Lang="tw" Index="7">(SP)耐力</VALUE>
+    <VALUE Lang="tw" Index="8">力量點數</VALUE>
+    <VALUE Lang="tw" Index="9">體力點數</VALUE>
+    <VALUE Lang="tw" Index="10">精神點數</VALUE>
+    <VALUE Lang="tw" Index="11">敏捷點數</VALUE>
+    <VALUE Lang="tw" Index="12">智力點數</VALUE>
+    <VALUE Lang="tw" Index="13">耐力點數</VALUE>
+    <VALUE Lang="tw" Index="14">格鬥值</VALUE>
+    <VALUE Lang="tw" Index="15">射擊值</VALUE>
+    <VALUE Lang="tw" Index="16">氣力值</VALUE>
+    <VALUE Lang="tw" Index="17">無</VALUE>
+    <VALUE Lang="tw" Index="18">HP 增加率</VALUE>
+    <VALUE Lang="tw" Index="19">MP 增加率</VALUE>
+    <VALUE Lang="tw" Index="20">SP 增加率</VALUE>
+    <VALUE Lang="tw" Index="21">HP+MP+SP 增加率</VALUE>
+    <VALUE Lang="tw" Index="22">移動速度 增加率</VALUE>
+    <VALUE Lang="tw" Index="23">攻擊速度 增加率</VALUE>
+    <VALUE Lang="tw" Index="24">暴擊幾率</VALUE>
+    <VALUE Lang="tw" Index="25">強烈打擊率</VALUE>
+    <VALUE Lang="tw" Index="26">無</VALUE>
+    <VALUE Lang="tw" Index="27">HP 增加量</VALUE>
+    <VALUE Lang="tw" Index="28">MP 增加量</VALUE>
+    <VALUE Lang="tw" Index="29">SP 增加量</VALUE>
+    <VALUE Lang="tw" Index="30">HP+MP+SP 增加量</VALUE>
+    <VALUE Lang="tw" Index="31">移動速度 增加量</VALUE>
+    <VALUE Lang="tw" Index="32">攻擊速度 增加量</VALUE>
+    <VALUE Lang="tw" Index="33">暴擊</VALUE>
+    <VALUE Lang="tw" Index="34">無</VALUE>
+    <VALUE Lang="tw" Index="35">Boss受到的傷害減少率</VALUE>
+    <VALUE Lang="tw" Index="36">Boss固定傷害值</VALUE>
+    <VALUE Lang="tw" Index="37">怪物危急狀態暴擊率</VALUE>
+    <VALUE Lang="tw" Index="38">Boss危急狀態暴擊率</VALUE>
+    <VALUE Lang="tw" Index="39">自身危機狀態時受到的傷害減少</VALUE>
+    <VALUE Lang="tw" Index="40">怪物經驗值</VALUE>
+    <VALUE Lang="tw" Index="41">怪物金幣掉落率</VALUE>
+    <VALUE Lang="tw" Index="42">角色受到的物理近戰傷害減少</VALUE>
+    <VALUE Lang="tw" Index="43">角色受到的物理射擊傷害減少</VALUE>
+    <VALUE Lang="tw" Index="44">角色受到的魔法傷害減少</VALUE>
+    <VALUE Lang="tw" Index="45">單人模式時 HP增加</VALUE>
+    <VALUE Lang="tw" Index="46">小隊模式時 HP增加</VALUE>
+    <VALUE Lang="tw" Index="47">單人模式時 攻擊速度增加</VALUE>
+    <VALUE Lang="tw" Index="48">單人模式時 攻擊速度增加</VALUE>
+    <VALUE Lang="tw" Index="49">隨機</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEMATTACK">
+    <VALUE Lang="tw" Index="0">不需安裝</VALUE>
+    <VALUE Lang="tw" Index="1">劍</VALUE>
+    <VALUE Lang="tw" Index="2">刀</VALUE>
+    <VALUE Lang="tw" Index="3">短劍</VALUE>
+    <VALUE Lang="tw" Index="4">矛槍</VALUE>
+    <VALUE Lang="tw" Index="5">棍</VALUE>
+    <VALUE Lang="tw" Index="6">拳</VALUE>
+    <VALUE Lang="tw" Index="7">弓</VALUE>
+    <VALUE Lang="tw" Index="8">投擲</VALUE>
+    <VALUE Lang="tw" Index="9">雙槍</VALUE>
+    <VALUE Lang="tw" Index="10">狙擊槍</VALUE>
+    <VALUE Lang="tw" Index="11">電子槍</VALUE>
+    <VALUE Lang="tw" Index="12">鐮刀</VALUE>
+    <VALUE Lang="tw" Index="13">雙刃</VALUE>
+    <VALUE Lang="tw" Index="14">飛鏢</VALUE>
+    <VALUE Lang="tw" Index="15">終極拳套</VALUE>
+    <VALUE Lang="tw" Index="16">魔術棒</VALUE>
+    <VALUE Lang="tw" Index="17">魔方</VALUE>
+    <VALUE Lang="tw" Index="18">鞭子</VALUE>
+    <VALUE Lang="tw" Index="19">盾牌</VALUE>
+    <VALUE Lang="tw" Index="20">大錘</VALUE>
+    <VALUE Lang="tw" Index="21">傘</VALUE>
+    <VALUE Lang="tw" Index="22">力量武器</VALUE>
+    <VALUE Lang="tw" Index="23">敏捷武器</VALUE>
+    <VALUE Lang="tw" Index="24">精神武器</VALUE>
+    <VALUE Lang="tw" Index="25">不檢查類型</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEMDRUG">
+    <VALUE Lang="tw" Index="0">無</VALUE>
+    <VALUE Lang="tw" Index="1">HP 恢復</VALUE>
+    <VALUE Lang="tw" Index="2">MP 恢復</VALUE>
+    <VALUE Lang="tw" Index="3">SP 恢復</VALUE>
+    <VALUE Lang="tw" Index="4">HP+MP 恢復</VALUE>
+    <VALUE Lang="tw" Index="5">HP+SP 恢復</VALUE>
+    <VALUE Lang="tw" Index="6">HP+MP+SP 恢復</VALUE>
+    <VALUE Lang="tw" Index="7">治療異常</VALUE>
+    <VALUE Lang="tw" Index="8">回到學院</VALUE>
+    <VALUE Lang="tw" Index="9">回到開始點</VALUE>
+    <VALUE Lang="tw" Index="10">回到先前</VALUE>
+    <VALUE Lang="tw" Index="11">復活功能</VALUE>
+    <VALUE Lang="tw" Index="12">HP 恢復+治療異常</VALUE>
+    <VALUE Lang="tw" Index="13">HP+MP+SP 恢復+治療異常</VALUE>
+    <VALUE Lang="tw" Index="14">移動至特別空間</VALUE>
+    <VALUE Lang="tw" Index="15">獲取戰鬥點數</VALUE>
+    <VALUE Lang="tw" Index="16">通過關卡</VALUE>
+    <VALUE Lang="tw" Index="17">副本使用次數儲值券</VALUE>
+    <VALUE Lang="tw" Index="18">恢復屬性</VALUE>
+    <VALUE Lang="tw" Index="19">服飾的能力值注入設定</VALUE>
+    <VALUE Lang="tw" Index="20">效果解除</VALUE>
+    <VALUE Lang="tw" Index="21">解除已注入的能力值</VALUE>
+    <VALUE Lang="tw" Index="22">經驗值壓縮(100億)</VALUE>
+    <VALUE Lang="tw" Index="23">經驗值壓縮(1000億)</VALUE>
+    <VALUE Lang="tw" Index="24">經驗值膠囊(100億)</VALUE>
+    <VALUE Lang="tw" Index="25">經驗值膠囊(1000億)</VALUE>
+    <VALUE Lang="tw" Index="26">限時強化</VALUE>
+    <VALUE Lang="tw" Index="27">充值時間</VALUE>
+    <VALUE Lang="tw" Index="28">時間延長</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEMDRUG_VAR">
+    <VALUE Lang="tw" Index="0">容量</VALUE>
+    <VALUE Lang="tw" Index="1">容量</VALUE>
+    <VALUE Lang="tw" Index="2">容量</VALUE>
+    <VALUE Lang="tw" Index="3">容量</VALUE>
+    <VALUE Lang="tw" Index="4">容量</VALUE>
+    <VALUE Lang="tw" Index="5">容量</VALUE>
+    <VALUE Lang="tw" Index="6">容量</VALUE>
+    <VALUE Lang="tw" Index="7">容量</VALUE>
+    <VALUE Lang="tw" Index="8">容量</VALUE>
+    <VALUE Lang="tw" Index="9">容量</VALUE>
+    <VALUE Lang="tw" Index="10">容量</VALUE>
+    <VALUE Lang="tw" Index="11">容量</VALUE>
+    <VALUE Lang="tw" Index="12">容量</VALUE>
+    <VALUE Lang="tw" Index="13">容量</VALUE>
+    <VALUE Lang="tw" Index="14">容量</VALUE>
+    <VALUE Lang="tw" Index="15">容量</VALUE>
+    <VALUE Lang="tw" Index="16">階級</VALUE>
+    <VALUE Lang="tw" Index="17">等級</VALUE>
+    <VALUE Lang="tw" Index="18">容量</VALUE>
+    <VALUE Lang="tw" Index="19">等級</VALUE>
+    <VALUE Lang="tw" Index="20">容量</VALUE>
+    <VALUE Lang="tw" Index="21">容量</VALUE>
+    <VALUE Lang="tw" Index="22">百分比(%)</VALUE>
+    <VALUE Lang="tw" Index="23">百分比(%)</VALUE>
+    <VALUE Lang="tw" Index="24">百分比(%)</VALUE>
+    <VALUE Lang="tw" Index="25">百分比(%)</VALUE>
+    <VALUE Lang="tw" Index="26">次數</VALUE>
+    <VALUE Lang="tw" Index="27">容量</VALUE>
+    <VALUE Lang="tw" Index="28">容量</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEMLEVEL">
+    <VALUE Lang="tw" Index="0">一般 - 白色</VALUE>
+    <VALUE Lang="tw" Index="1">高級 - 藍色</VALUE>
+    <VALUE Lang="tw" Index="2">稀有 - 黃色</VALUE>
+    <VALUE Lang="tw" Index="3">英雄 - 粉色</VALUE>
+    <VALUE Lang="tw" Index="4">古代 - 橙色</VALUE>
+    <VALUE Lang="tw" Index="5">傳說 - 暗紅色</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEMSUIT">
+    <VALUE Lang="tw" Index="0">帽子</VALUE>
+    <VALUE Lang="tw" Index="1">上衣</VALUE>
+    <VALUE Lang="tw" Index="2">褲子</VALUE>
+    <VALUE Lang="tw" Index="3">手套</VALUE>
+    <VALUE Lang="tw" Index="4">鞋子</VALUE>
+    <VALUE Lang="tw" Index="5">武器</VALUE>
+    <VALUE Lang="tw" Index="6">項鏈</VALUE>
+    <VALUE Lang="tw" Index="7">手鐲</VALUE>
+    <VALUE Lang="tw" Index="8">戒指&amp;飾品</VALUE>
+    <VALUE Lang="tw" Index="9">Pet 套裝 A</VALUE>
+    <VALUE Lang="tw" Index="10">Pet 套裝 B</VALUE>
+    <VALUE Lang="tw" Index="11">S.R.C</VALUE>
+    <VALUE Lang="tw" Index="12">S.R.C 外形</VALUE>
+    <VALUE Lang="tw" Index="13">S.R.C 零件 A</VALUE>
+    <VALUE Lang="tw" Index="14">S.R.C 零件 B</VALUE>
+    <VALUE Lang="tw" Index="15">S.R.C 零件 C</VALUE>
+    <VALUE Lang="tw" Index="16">S.R.C 零件 D</VALUE>
+    <VALUE Lang="tw" Index="17">S.R.C 零件 E</VALUE>
+    <VALUE Lang="tw" Index="18">S.R.C 零件 F</VALUE>
+    <VALUE Lang="tw" Index="19">腰帶</VALUE>
+    <VALUE Lang="tw" Index="20">耳環</VALUE>
+    <VALUE Lang="tw" Index="21">飾品</VALUE>
+    <VALUE Lang="tw" Index="22">飾品</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEMTYPE">
+    <VALUE Lang="tw" Index="0">Weapon Tool</VALUE>
+    <VALUE Lang="tw" Index="1">箭矢</VALUE>
+    <VALUE Lang="tw" Index="2">藥品</VALUE>
+    <VALUE Lang="tw" Index="3">技能文書</VALUE>
+    <VALUE Lang="tw" Index="4">傳送卡</VALUE>
+    <VALUE Lang="tw" Index="5">認證書</VALUE>
+    <VALUE Lang="tw" Index="6">研磨劑</VALUE>
+    <VALUE Lang="tw" Index="7">魔法咒語</VALUE>
+    <VALUE Lang="tw" Index="8">公車卡</VALUE>
+    <VALUE Lang="tw" Index="9">忘卻藥水 (不使用)</VALUE>
+    <VALUE Lang="tw" Index="10">忘卻藥水 (不使用)</VALUE>
+    <VALUE Lang="tw" Index="11">忘卻藥水</VALUE>
+    <VALUE Lang="tw" Index="12">禮盒</VALUE>
+    <VALUE Lang="tw" Index="13">忘卻洗滌劑</VALUE>
+    <VALUE Lang="tw" Index="14">擴音器</VALUE>
+    <VALUE Lang="tw" Index="15">煙火</VALUE>
+    <VALUE Lang="tw" Index="16">角色新增卡</VALUE>
+    <VALUE Lang="tw" Index="17">背包擴充卡</VALUE>
+    <VALUE Lang="tw" Index="18">置物箱租賃卡</VALUE>
+    <VALUE Lang="tw" Index="19">緊急置物箱連接卡</VALUE>
+    <VALUE Lang="tw" Index="20">高級禮盒</VALUE>
+    <VALUE Lang="tw" Index="21">商店營業許可證</VALUE>
+    <VALUE Lang="tw" Index="22">隨機禮盒</VALUE>
+    <VALUE Lang="tw" Index="23">服裝洗滌劑</VALUE>
+    <VALUE Lang="tw" Index="24">髮型卡</VALUE>
+    <VALUE Lang="tw" Index="25">變更臉卡</VALUE>
+    <VALUE Lang="tw" Index="26">? 道具</VALUE>
+    <VALUE Lang="tw" Index="27">認證CD</VALUE>
+    <VALUE Lang="tw" Index="28">好友連結卡</VALUE>
+    <VALUE Lang="tw" Index="29">開啟公會視窗</VALUE>
+    <VALUE Lang="tw" Index="30">美發院使用卡</VALUE>
+    <VALUE Lang="tw" Index="31">更名卡</VALUE>
+    <VALUE Lang="tw" Index="32">髮型卡</VALUE>
+    <VALUE Lang="tw" Index="33">East Shopping Region</VALUE>
+    <VALUE Lang="tw" Index="34">歸魂珠</VALUE>
+    <VALUE Lang="tw" Index="35">寵物卡</VALUE>
+    <VALUE Lang="tw" Index="36">寵物飼料</VALUE>
+    <VALUE Lang="tw" Index="37">寵物名稱變更卡</VALUE>
+    <VALUE Lang="tw" Index="38">寵物顏色變更卡</VALUE>
+    <VALUE Lang="tw" Index="39">寵物造型變更卡</VALUE>
+    <VALUE Lang="tw" Index="40">寵物技能書</VALUE>
+    <VALUE Lang="tw" Index="41">傳送SMS</VALUE>
+    <VALUE Lang="tw" Index="42">寵物復活卡</VALUE>
+    <VALUE Lang="tw" Index="43">防爆項鏈</VALUE>
+    <VALUE Lang="tw" Index="44">隨機改造卡</VALUE>
+    <VALUE Lang="tw" Index="45">S.R.C</VALUE>
+    <VALUE Lang="tw" Index="46">S.R.C燃料</VALUE>
+    <VALUE Lang="tw" Index="47">道具獲得卡</VALUE>
+    <VALUE Lang="tw" Index="48">經驗值獲得卡</VALUE>
+    <VALUE Lang="tw" Index="49">角色性別變更卡</VALUE>
+    <VALUE Lang="tw" Index="50">道具刪除卡</VALUE>
+    <VALUE Lang="tw" Index="51">通過地圖</VALUE>
+    <VALUE Lang="tw" Index="52">寵物外觀變更卡</VALUE>
+    <VALUE Lang="tw" Index="53">臉型變更卡</VALUE>
+    <VALUE Lang="tw" Index="54">計程車卡</VALUE>
+    <VALUE Lang="tw" Index="55">材料道具</VALUE>
+    <VALUE Lang="tw" Index="56">NPC傳送卡</VALUE>
+    <VALUE Lang="tw" Index="57">Neutron Bullet</VALUE>
+    <VALUE Lang="tw" Index="58">便當</VALUE>
+    <VALUE Lang="tw" Index="59">寵物技能雙修</VALUE>
+    <VALUE Lang="tw" Index="60">強化珠</VALUE>
+    <VALUE Lang="tw" Index="61">絕零手鐲</VALUE>
+    <VALUE Lang="tw" Index="62">摩托車染色卡</VALUE>
+    <VALUE Lang="tw" Index="63">摩托車推進卡</VALUE>
+    <VALUE Lang="tw" Index="64">新式忘卻藥水</VALUE>
+    <VALUE Lang="tw" Index="65">服裝染色卡</VALUE>
+    <VALUE Lang="tw" Index="66">信件連結卡</VALUE>
+    <VALUE Lang="tw" Index="67">P幣點數卡(可退還)</VALUE>
+    <VALUE Lang="tw" Index="68">P幣點數卡(無法退還)</VALUE>
+    <VALUE Lang="tw" Index="69">合成</VALUE>
+    <VALUE Lang="tw" Index="70">重制工匠</VALUE>
+    <VALUE Lang="tw" Index="71">個人商店搜尋卡</VALUE>
+    <VALUE Lang="tw" Index="72">修理工具 連結卡</VALUE>
+    <VALUE Lang="tw" Index="73">隨機屬性鎖定卡</VALUE>
+    <VALUE Lang="tw" Index="74">通過關卡</VALUE>
+    <VALUE Lang="tw" Index="75">副本使用次數儲值券</VALUE>
+    <VALUE Lang="tw" Index="76">Game Card Link Card</VALUE>
+    <VALUE Lang="tw" Index="77">Ran Game Money</VALUE>
+    <VALUE Lang="tw" Index="78">Expansion Card</VALUE>
+    <VALUE Lang="tw" Index="79">Mystery Box</VALUE>
+    <VALUE Lang="tw" Index="80">鑰匙</VALUE>
+    <VALUE Lang="tw" Index="81">包裝紙</VALUE>
+    <VALUE Lang="tw" Index="82">包裝紙禮盒</VALUE>
+    <VALUE Lang="tw" Index="83">學院轉移卡(聖門)</VALUE>
+    <VALUE Lang="tw" Index="84">學院轉移卡(玄嚴)</VALUE>
+    <VALUE Lang="tw" Index="85">學院轉移卡(鳳凰)</VALUE>
+    <VALUE Lang="tw" Index="86">國籍變更卡</VALUE>
+    <VALUE Lang="tw" Index="87">Costume Blessed Paper</VALUE>
+    <VALUE Lang="tw" Index="88">Debuff Potion</VALUE>
+    <VALUE Lang="tw" Index="89">Terminate Paper</VALUE>
+    <VALUE Lang="tw" Index="90">經驗卡</VALUE>
+    <VALUE Lang="tw" Index="91">Choice Box</VALUE>
+    <VALUE Lang="tw" Index="92">經驗壓縮</VALUE>
+    <VALUE Lang="tw" Index="93">經驗膠囊</VALUE>
+    <VALUE Lang="tw" Index="94">Duration Upgrade</VALUE>
+    <VALUE Lang="tw" Index="95">延長時間</VALUE>
+    <VALUE Lang="tw" Index="96">Skip</VALUE>
+    <VALUE Lang="tw" Index="97">Skip</VALUE>
+    <VALUE Lang="tw" Index="98">變術部偽裝服飾</VALUE>
+    <VALUE Lang="tw" Index="99">組織名稱變更卡</VALUE>
+    <VALUE Lang="tw" Index="100">道具技能變更卡</VALUE>
+    <VALUE Lang="tw" Index="101">道具基礎屬性變更卡</VALUE>
+    <VALUE Lang="tw" Index="102">道具額外屬性變更卡</VALUE>
+    <VALUE Lang="tw" Index="103">角色欄擴張卡</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEMVAR">
+    <VALUE Lang="tw" Index="0">無</VALUE>
+    <VALUE Lang="tw" Index="1">HP 增加率</VALUE>
+    <VALUE Lang="tw" Index="2">MP 增加率</VALUE>
+    <VALUE Lang="tw" Index="3">Sp 增加率</VALUE>
+    <VALUE Lang="tw" Index="4">HP+MP+SP 增加率</VALUE>
+    <VALUE Lang="tw" Index="5">增加率</VALUE>
+    <VALUE Lang="tw" Index="6">攻速增加</VALUE>
+    <VALUE Lang="tw" Index="7">爆擊增加</VALUE>
+    <VALUE Lang="tw" Index="8">強打發生機率</VALUE>
+    <VALUE Lang="tw" Index="9">Boss受到的傷害減少率</VALUE>
+    <VALUE Lang="tw" Index="10">無</VALUE>
+    <VALUE Lang="tw" Index="11">怪物危機狀態暴擊率</VALUE>
+    <VALUE Lang="tw" Index="12">Boss危機狀態暴擊率</VALUE>
+    <VALUE Lang="tw" Index="13">無</VALUE>
+    <VALUE Lang="tw" Index="14">怪物經驗值</VALUE>
+    <VALUE Lang="tw" Index="15">怪物金幣掉落率</VALUE>
+    <VALUE Lang="tw" Index="16">角色受到的物理近戰傷害減少</VALUE>
+    <VALUE Lang="tw" Index="17">角色受到的物理射擊傷害減少</VALUE>
+    <VALUE Lang="tw" Index="18">角色受到的魔法傷害減少</VALUE>
+    <VALUE Lang="tw" Index="19">無</VALUE>
+    <VALUE Lang="tw" Index="20">無</VALUE>
+    <VALUE Lang="tw" Index="21">單人模式時 攻擊速度增加</VALUE>
+    <VALUE Lang="tw" Index="22">小隊模式時 攻擊速度增加</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="ITEMVOL">
+    <VALUE Lang="tw" Index="0">無</VALUE>
+    <VALUE Lang="tw" Index="1">HP 增加率</VALUE>
+    <VALUE Lang="tw" Index="2">MP 增加率</VALUE>
+    <VALUE Lang="tw" Index="3">Sp 增加率</VALUE>
+    <VALUE Lang="tw" Index="4">HP+MP+SP 增加率</VALUE>
+    <VALUE Lang="tw" Index="5">速度增加</VALUE>
+    <VALUE Lang="tw" Index="6">攻速增加</VALUE>
+    <VALUE Lang="tw" Index="7">爆擊率增加</VALUE>
+    <VALUE Lang="tw" Index="8">無</VALUE>
+    <VALUE Lang="tw" Index="9">無</VALUE>
+    <VALUE Lang="tw" Index="10">Boss固定傷害量</VALUE>
+    <VALUE Lang="tw" Index="11">無</VALUE>
+    <VALUE Lang="tw" Index="12">無</VALUE>
+    <VALUE Lang="tw" Index="13">自身危機狀態時受到的傷害減少</VALUE>
+    <VALUE Lang="tw" Index="14">無</VALUE>
+    <VALUE Lang="tw" Index="15">無</VALUE>
+    <VALUE Lang="tw" Index="16">無</VALUE>
+    <VALUE Lang="tw" Index="17">無</VALUE>
+    <VALUE Lang="tw" Index="18">無</VALUE>
+    <VALUE Lang="tw" Index="19">單人模式時 HP增加</VALUE>
+    <VALUE Lang="tw" Index="20">小隊模式時 HP增加</VALUE>
+    <VALUE Lang="tw" Index="21">無</VALUE>
+    <VALUE Lang="tw" Index="22">無</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="LANDEFFECT_TYPE">
+    <VALUE Lang="tw" Index="0">攻擊速度</VALUE>
+    <VALUE Lang="tw" Index="1">移動速度</VALUE>
+    <VALUE Lang="tw" Index="2">HP變化率</VALUE>
+    <VALUE Lang="tw" Index="3">MP變化率</VALUE>
+    <VALUE Lang="tw" Index="4">復原率</VALUE>
+    <VALUE Lang="tw" Index="5">傷害變化率</VALUE>
+    <VALUE Lang="tw" Index="6">防禦變化率</VALUE>
+    <VALUE Lang="tw" Index="7">抵抗</VALUE>
+    <VALUE Lang="tw" Index="8">取消全部增益效果</VALUE>
+    <VALUE Lang="tw" Index="9">安全區域</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MOBACTIONS">
+    <VALUE Lang="tw" Index="0">EMACTION_MOVE</VALUE>
+    <VALUE Lang="tw" Index="1">EMACTION_ACTSTAY</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="MOVETYPE">
+    <VALUE Lang="tw" Index="0">地面移動</VALUE>
+    <VALUE Lang="tw" Index="1">空中移動</VALUE>
+    <VALUE Lang="tw" Index="2">水面移動</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="NPC_ACTIONTYPE">
+    <VALUE Lang="tw" Index="0">無選擇的</VALUE>
+    <VALUE Lang="tw" Index="1">下一個</VALUE>
+    <VALUE Lang="tw" Index="2">機能</VALUE>
+    <VALUE Lang="tw" Index="3">開始任務</VALUE>
+    <VALUE Lang="tw" Index="4">任務進行</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="NPC_BASICDESC">
+    <VALUE Lang="tw" Index="0">使用置物箱</VALUE>
+    <VALUE Lang="tw" Index="1">商店</VALUE>
+    <VALUE Lang="tw" Index="2">治癒</VALUE>
+    <VALUE Lang="tw" Index="3">P幣點數儲存</VALUE>
+    <VALUE Lang="tw" Index="4">能力點重設</VALUE>
+    <VALUE Lang="tw" Index="5">交易物品</VALUE>
+    <VALUE Lang="tw" Index="6">公車站</VALUE>
+    <VALUE Lang="tw" Index="7">創組織</VALUE>
+    <VALUE Lang="tw" Index="8">組織升級</VALUE>
+    <VALUE Lang="tw" Index="9">驗證CD</VALUE>
+    <VALUE Lang="tw" Index="10">改變稅金匯率</VALUE>
+    <VALUE Lang="tw" Index="11">使用組織置物箱</VALUE>
+    <VALUE Lang="tw" Index="12">物品復原</VALUE>
+    <VALUE Lang="tw" Index="13">簡易賭局</VALUE>
+    <VALUE Lang="tw" Index="14">EXP恢復</VALUE>
+    <VALUE Lang="tw" Index="15">隨機NPC對話</VALUE>
+    <VALUE Lang="tw" Index="16">搜尋物品</VALUE>
+    <VALUE Lang="tw" Index="17">出席機能</VALUE>
+    <VALUE Lang="tw" Index="18">物品結合</VALUE>
+    <VALUE Lang="tw" Index="19">僱用寵物</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="NPC_TYPE">
+    <VALUE Lang="tw" Index="0">一般NPC</VALUE>
+    <VALUE Lang="tw" Index="1">郵箱</VALUE>
+    <VALUE Lang="tw" Index="2">認證機器</VALUE>
+    <VALUE Lang="tw" Index="3">賭博遊戲</VALUE>
+    <VALUE Lang="tw" Index="4">-----TEMP-----</VALUE>
+    <VALUE Lang="tw" Index="5">-----TEMP-----</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="PET_DEFINE">
+    <VALUE Lang="tw" Index="0">Pet Type_Siberian Hu</VALUE>
+    <VALUE Lang="tw" Index="1">Pet Type_Turtle</VALUE>
+    <VALUE Lang="tw" Index="2">Pet Type_White Baby</VALUE>
+    <VALUE Lang="tw" Index="3">Pet Type_Ranny Bear</VALUE>
+    <VALUE Lang="tw" Index="4">Pet Type_Ranny Owl</VALUE>
+    <VALUE Lang="tw" Index="5">Pet Type_Ranny Parro</VALUE>
+    <VALUE Lang="tw" Index="6">Pet Type_Rani Stone</VALUE>
+    <VALUE Lang="tw" Index="7">Pet Type_Wooden Doll</VALUE>
+    <VALUE Lang="tw" Index="8">Pet Type_Monkey</VALUE>
+    <VALUE Lang="tw" Index="9">Pet Type_Fairy</VALUE>
+    <VALUE Lang="tw" Index="10">Pet Type_Fox</VALUE>
+    <VALUE Lang="tw" Index="11">Pet Type_Leopard</VALUE>
+    <VALUE Lang="tw" Index="12">Pet Type_Dinosaur</VALUE>
+    <VALUE Lang="tw" Index="13">Pet Type_Snake</VALUE>
+    <VALUE Lang="tw" Index="14">Pet Type_Phoenix</VALUE>
+    <VALUE Lang="tw" Index="15">Pet Type_Fafnir</VALUE>
+    <VALUE Lang="tw" Index="16">Pet Type_Jormungand</VALUE>
+    <VALUE Lang="tw" Index="17">Pet Type_Sphinx</VALUE>
+    <VALUE Lang="tw" Index="18">Pet Type_Behemoth</VALUE>
+    <VALUE Lang="tw" Index="19">Pet Type_Gaia</VALUE>
+    <VALUE Lang="tw" Index="20">Pet Type_Dragon</VALUE>
+    <VALUE Lang="tw" Index="21">Pet Type_Love Choco</VALUE>
+    <VALUE Lang="tw" Index="22">Pet Type_Lollipop</VALUE>
+    <VALUE Lang="tw" Index="23">Pet Type_Vampire</VALUE>
+    <VALUE Lang="tw" Index="24">Pet Type_Chloe</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="PET_INITFILE">
+    <VALUE Lang="tw" Index="0">pet_01.charset</VALUE>
+    <VALUE Lang="tw" Index="1">pet_02.charset</VALUE>
+    <VALUE Lang="tw" Index="2">pet_03.charset</VALUE>
+    <VALUE Lang="tw" Index="3">pet_04.charset</VALUE>
+    <VALUE Lang="tw" Index="4">pet_05.charset</VALUE>
+    <VALUE Lang="tw" Index="5">pet_06.charset</VALUE>
+    <VALUE Lang="tw" Index="6">pet_07.charset</VALUE>
+    <VALUE Lang="tw" Index="7">pet_08.charset</VALUE>
+    <VALUE Lang="tw" Index="8">pet_09.charset</VALUE>
+    <VALUE Lang="tw" Index="9">pet_10.charset</VALUE>
+    <VALUE Lang="tw" Index="10">pet_11.charset</VALUE>
+    <VALUE Lang="tw" Index="11">pet_12.charset</VALUE>
+    <VALUE Lang="tw" Index="12">pet_13.charset</VALUE>
+    <VALUE Lang="tw" Index="13">pet_14.charset</VALUE>
+    <VALUE Lang="tw" Index="14">pet_15.charset</VALUE>
+    <VALUE Lang="tw" Index="15">pet_16.charset</VALUE>
+    <VALUE Lang="tw" Index="16">pet_17.charset</VALUE>
+    <VALUE Lang="tw" Index="17">pet_18.charset</VALUE>
+    <VALUE Lang="tw" Index="18">pet_19.charset</VALUE>
+    <VALUE Lang="tw" Index="19">pet_20.charset</VALUE>
+    <VALUE Lang="tw" Index="20">pet_21.charset</VALUE>
+    <VALUE Lang="tw" Index="21">pet_22.charset</VALUE>
+    <VALUE Lang="tw" Index="22">pet_23.charset</VALUE>
+    <VALUE Lang="tw" Index="23">pet_24.charset</VALUE>
+    <VALUE Lang="tw" Index="24">pet_25.charset</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="PET_STYLECARDTEXT">
+    <VALUE Lang="tw" Index="0">PETSTYLECARD_NAME_A</VALUE>
+    <VALUE Lang="tw" Index="1">PETSTYLECARD_NAME_B</VALUE>
+    <VALUE Lang="tw" Index="2">PETSTYLECARD_NAME_C</VALUE>
+    <VALUE Lang="tw" Index="3">PETSTYLECARD_NAME_D</VALUE>
+    <VALUE Lang="tw" Index="4">PETSTYLECARD_NAME_E</VALUE>
+    <VALUE Lang="tw" Index="5">PETSTYLECARD_NAME_F</VALUE>
+    <VALUE Lang="tw" Index="6">PETSTYLECARD_NAME_G</VALUE>
+    <VALUE Lang="tw" Index="7">PETSTYLECARD_NAME_H</VALUE>
+    <VALUE Lang="tw" Index="8">PETSTYLECARD_NAME_I</VALUE>
+    <VALUE Lang="tw" Index="9">PETSTYLECARD_NAME_J</VALUE>
+    <VALUE Lang="tw" Index="10">PETSTYLECARD_NAME_K</VALUE>
+    <VALUE Lang="tw" Index="11">PETSTYLECARD_NAME_L</VALUE>
+    <VALUE Lang="tw" Index="12">PETSTYLECARD_NAME_M</VALUE>
+    <VALUE Lang="tw" Index="13">PETSTYLECARD_NAME_N</VALUE>
+    <VALUE Lang="tw" Index="14">PETSTYLECARD_NAME_O</VALUE>
+    <VALUE Lang="tw" Index="15">PETSTYLECARD_NAME_P</VALUE>
+    <VALUE Lang="tw" Index="16">PETSTYLECARD_NAME_Q</VALUE>
+    <VALUE Lang="tw" Index="17">PETSTYLECARD_NAME_R</VALUE>
+    <VALUE Lang="tw" Index="18">PETSTYLECARD_NAME_S</VALUE>
+    <VALUE Lang="tw" Index="19">PETSTYLECARD_NAME_T</VALUE>
+    <VALUE Lang="tw" Index="20">PETSTYLECARD_NAME_U</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="PET_STYLECARDUI">
+    <VALUE Lang="tw" Index="0">pet_style.dds</VALUE>
+    <VALUE Lang="tw" Index="1">pet_style.dds</VALUE>
+    <VALUE Lang="tw" Index="2">pet_style.dds</VALUE>
+    <VALUE Lang="tw" Index="3">pet_style.dds</VALUE>
+    <VALUE Lang="tw" Index="4">pet_style.dds</VALUE>
+    <VALUE Lang="tw" Index="5">pet_style.dds</VALUE>
+    <VALUE Lang="tw" Index="6">pet_style.dds</VALUE>
+    <VALUE Lang="tw" Index="7">pet_style.dds</VALUE>
+    <VALUE Lang="tw" Index="8">pet_style.dds</VALUE>
+    <VALUE Lang="tw" Index="9">pet_style.dds</VALUE>
+    <VALUE Lang="tw" Index="10">pet_style.dds</VALUE>
+    <VALUE Lang="tw" Index="11">pet_style.dds</VALUE>
+    <VALUE Lang="tw" Index="12">pet_style.dds</VALUE>
+    <VALUE Lang="tw" Index="13">pet_style.dds</VALUE>
+    <VALUE Lang="tw" Index="14">pet_style.dds</VALUE>
+    <VALUE Lang="tw" Index="15">pet_style.dds</VALUE>
+    <VALUE Lang="tw" Index="16">pet_style.dds</VALUE>
+    <VALUE Lang="tw" Index="17">pet_style.dds</VALUE>
+    <VALUE Lang="tw" Index="18">pet_style.dds</VALUE>
+    <VALUE Lang="tw" Index="19">pet_style.dds</VALUE>
+    <VALUE Lang="tw" Index="20">pet_style02.dds</VALUE>
+    <VALUE Lang="tw" Index="21">pet_style02.dds</VALUE>
+    <VALUE Lang="tw" Index="22">pet_style02.dds</VALUE>
+    <VALUE Lang="tw" Index="23">pet_style02.dds</VALUE>
+    <VALUE Lang="tw" Index="24">pet_style02.dds</VALUE>
+    <VALUE Lang="tw" Index="25">pet_style02.dds</VALUE>
+    <VALUE Lang="tw" Index="26">pet_style02.dds</VALUE>
+    <VALUE Lang="tw" Index="27">pet_style02.dds</VALUE>
+    <VALUE Lang="tw" Index="28">pet_style02.dds</VALUE>
+    <VALUE Lang="tw" Index="29">pet_style02.dds</VALUE>
+    <VALUE Lang="tw" Index="30">pet_style02.dds</VALUE>
+    <VALUE Lang="tw" Index="31">pet_style02.dds</VALUE>
+    <VALUE Lang="tw" Index="32">pet_style02.dds</VALUE>
+    <VALUE Lang="tw" Index="33">pet_style02.dds</VALUE>
+    <VALUE Lang="tw" Index="34">pet_style02.dds</VALUE>
+    <VALUE Lang="tw" Index="35">pet_style02.dds</VALUE>
+    <VALUE Lang="tw" Index="36">pet_style02.dds</VALUE>
+    <VALUE Lang="tw" Index="37">pet_style02.dds</VALUE>
+    <VALUE Lang="tw" Index="38">pet_style02.dds</VALUE>
+    <VALUE Lang="tw" Index="39">pet_style03.dds</VALUE>
+    <VALUE Lang="tw" Index="40">pet_style03.dds</VALUE>
+    <VALUE Lang="tw" Index="41">pet_style03.dds</VALUE>
+    <VALUE Lang="tw" Index="42">pet_style03.dds</VALUE>
+    <VALUE Lang="tw" Index="43">pet_style02.dds</VALUE>
+    <VALUE Lang="tw" Index="44">pet_style02.dds</VALUE>
+    <VALUE Lang="tw" Index="45">pet_style02.dds</VALUE>
+    <VALUE Lang="tw" Index="46">pet_style02.dds</VALUE>
+    <VALUE Lang="tw" Index="47">pet_style02.dds</VALUE>
+    <VALUE Lang="tw" Index="48">pet_style02.dds</VALUE>
+    <VALUE Lang="tw" Index="49">pet_style02.dds</VALUE>
+    <VALUE Lang="tw" Index="50">pet_style02.dds</VALUE>
+    <VALUE Lang="tw" Index="51">pet_style02.dds</VALUE>
+    <VALUE Lang="tw" Index="52">pet_style03.dds</VALUE>
+    <VALUE Lang="tw" Index="53">pet_style03.dds</VALUE>
+    <VALUE Lang="tw" Index="54">pet_style03.dds</VALUE>
+    <VALUE Lang="tw" Index="55">pet_style03.dds</VALUE>
+    <VALUE Lang="tw" Index="56">pet_style03.dds</VALUE>
+    <VALUE Lang="tw" Index="57">pet_style02.dds</VALUE>
+    <VALUE Lang="tw" Index="58">pet_style02.dds</VALUE>
+    <VALUE Lang="tw" Index="59">pet_style02.dds</VALUE>
+    <VALUE Lang="tw" Index="60">pet_style02.dds</VALUE>
+    <VALUE Lang="tw" Index="61">pet_style02.dds</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="PET_TYPE">
+    <VALUE Lang="tw" Index="0">Pet Type_Siberian Husky</VALUE>
+    <VALUE Lang="tw" Index="1">Pet Type_Turtle</VALUE>
+    <VALUE Lang="tw" Index="2">Pet Type_White Baby Tiger</VALUE>
+    <VALUE Lang="tw" Index="3">Pet Type_Ranny Bear</VALUE>
+    <VALUE Lang="tw" Index="4">Pet Type_Ranny Owl</VALUE>
+    <VALUE Lang="tw" Index="5">Pet Type_Ranny Parrot</VALUE>
+    <VALUE Lang="tw" Index="6">Pet Type_Rani Stone</VALUE>
+    <VALUE Lang="tw" Index="7">Pet Type_Wooden Doll</VALUE>
+    <VALUE Lang="tw" Index="8">Pet Type_Monkey</VALUE>
+    <VALUE Lang="tw" Index="9">Pet Type_Fairy</VALUE>
+    <VALUE Lang="tw" Index="10">Pet Type_Fox</VALUE>
+    <VALUE Lang="tw" Index="11">Pet Type_Leopard</VALUE>
+    <VALUE Lang="tw" Index="12">Pet Type_Dinosaur</VALUE>
+    <VALUE Lang="tw" Index="13">Pet Type_Snake</VALUE>
+    <VALUE Lang="tw" Index="14">Pet Type_Phoenix</VALUE>
+    <VALUE Lang="tw" Index="15">Pet Type_Fafnir</VALUE>
+    <VALUE Lang="tw" Index="16">Pet Type_Jormungandr</VALUE>
+    <VALUE Lang="tw" Index="17">Pet Type_Sphinx</VALUE>
+    <VALUE Lang="tw" Index="18">Pet Type_Behemoth</VALUE>
+    <VALUE Lang="tw" Index="19">Pet Type_Gaia</VALUE>
+    <VALUE Lang="tw" Index="20">Pet Type_Dragon</VALUE>
+    <VALUE Lang="tw" Index="21">Pet Type_Love Choco</VALUE>
+    <VALUE Lang="tw" Index="22">Pet Type_Lollipop</VALUE>
+    <VALUE Lang="tw" Index="23">Pet Type_Vampire</VALUE>
+    <VALUE Lang="tw" Index="24">Pet Type_Chloe</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="POSTBOX_DESIGN_TYPE">
+    <VALUE Lang="tw" Index="0">None</VALUE>
+    <VALUE Lang="tw" Index="1">Gift Card</VALUE>
+    <VALUE Lang="tw" Index="2">Club Message</VALUE>
+    <VALUE Lang="tw" Index="3">Happy Birthday Card 1</VALUE>
+    <VALUE Lang="tw" Index="4">Happy Birthday Card 2</VALUE>
+    <VALUE Lang="tw" Index="5">Christmas Card 1</VALUE>
+    <VALUE Lang="tw" Index="6">Christmas Card 2</VALUE>
+    <VALUE Lang="tw" Index="7">Happy New Year Card</VALUE>
+    <VALUE Lang="tw" Index="8">Character Card 1</VALUE>
+    <VALUE Lang="tw" Index="9">Character Card 2</VALUE>
+    <VALUE Lang="tw" Index="10">Character Card 3</VALUE>
+    <VALUE Lang="tw" Index="11">Character Card 4</VALUE>
+    <VALUE Lang="tw" Index="12">Character Card 5</VALUE>
+    <VALUE Lang="tw" Index="13">Character Card 6</VALUE>
+    <VALUE Lang="tw" Index="14">Character Card 7</VALUE>
+    <VALUE Lang="tw" Index="15">Character Card 8</VALUE>
+    <VALUE Lang="tw" Index="16">Character Card 9</VALUE>
+    <VALUE Lang="tw" Index="17">Character Card 10</VALUE>
+    <VALUE Lang="tw" Index="18">Character Card 11</VALUE>
+    <VALUE Lang="tw" Index="19">Character Card 12</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="PRODUCT_TYPE_NAME">
+    <VALUE Lang="tw" Index="0">帽子/髮型</VALUE>
+    <VALUE Lang="tw" Index="1">襯衫/馬甲</VALUE>
+    <VALUE Lang="tw" Index="2">裙子/褲子</VALUE>
+    <VALUE Lang="tw" Index="3">手套</VALUE>
+    <VALUE Lang="tw" Index="4">鞋子</VALUE>
+    <VALUE Lang="tw" Index="5">武器</VALUE>
+    <VALUE Lang="tw" Index="6">項鏈&amp;耳環</VALUE>
+    <VALUE Lang="tw" Index="7">手鐲&amp;腰帶</VALUE>
+    <VALUE Lang="tw" Index="8">戒指&amp;飾品</VALUE>
+    <VALUE Lang="tw" Index="9">其它</VALUE>
+    <VALUE Lang="tw" Index="10">禮盒物品</VALUE>
+    <VALUE Lang="tw" Index="11">服飾</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="QUEST_AREA">
+    <VALUE Lang="tw" Index="0">聖門 玄巖 鳳凰學院</VALUE>
+    <VALUE Lang="tw" Index="1">聖門 玄巖 鳳凰洞</VALUE>
+    <VALUE Lang="tw" Index="2">宿舍</VALUE>
+    <VALUE Lang="tw" Index="3">基礎修練院</VALUE>
+    <VALUE Lang="tw" Index="4">本洞</VALUE>
+    <VALUE Lang="tw" Index="5">聖財團</VALUE>
+    <VALUE Lang="tw" Index="6">鳳凰洞</VALUE>
+    <VALUE Lang="tw" Index="7">鳳凰學院</VALUE>
+    <VALUE Lang="tw" Index="8">商洞</VALUE>
+    <VALUE Lang="tw" Index="9">商洞4號隧道</VALUE>
+    <VALUE Lang="tw" Index="10">聖門洞</VALUE>
+    <VALUE Lang="tw" Index="11">聖門學院</VALUE>
+    <VALUE Lang="tw" Index="12">聖財團私立監獄</VALUE>
+    <VALUE Lang="tw" Index="13">聖財團研究院</VALUE>
+    <VALUE Lang="tw" Index="14">研究院B1F</VALUE>
+    <VALUE Lang="tw" Index="15">綜合修煉院</VALUE>
+    <VALUE Lang="tw" Index="16">中洞</VALUE>
+    <VALUE Lang="tw" Index="17">綜合碼頭</VALUE>
+    <VALUE Lang="tw" Index="18">學院廣場</VALUE>
+    <VALUE Lang="tw" Index="19">玄巖洞</VALUE>
+    <VALUE Lang="tw" Index="20">玄巖學院</VALUE>
+    <VALUE Lang="tw" Index="21">虎令本館1F</VALUE>
+    <VALUE Lang="tw" Index="22">虎令學院</VALUE>
+    <VALUE Lang="tw" Index="23">前置任務</VALUE>
+    <VALUE Lang="tw" Index="24">活動任務</VALUE>
+    <VALUE Lang="tw" Index="25">跨區任務</VALUE>
+    <VALUE Lang="tw" Index="26">等級達成任務</VALUE>
+    <VALUE Lang="tw" Index="27">未開放任務</VALUE>
+    <VALUE Lang="tw" Index="28">聖財團發電廠</VALUE>
+    <VALUE Lang="tw" Index="29">巴洞 & 浮游島</VALUE>
+    <VALUE Lang="tw" Index="30">VIP地圖</VALUE>
+    <VALUE Lang="tw" Index="31">每日限定</VALUE>
+    <VALUE Lang="tw" Index="32">大新洞</VALUE>
+    <VALUE Lang="tw" Index="33">西門町</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="QUEST_PROGRESS">
+    <VALUE Lang="tw" Index="0">無活動</VALUE>
+    <VALUE Lang="tw" Index="1">角色死亡</VALUE>
+    <VALUE Lang="tw" Index="2">回到起點位置</VALUE>
+    <VALUE Lang="tw" Index="3">移動到指定位置</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="QUEST_STEP_COMMENT_TEXT">
+    <VALUE Lang="tw" Index="0">去拜訪</VALUE>
+    <VALUE Lang="tw" Index="1">需要獲取的物品</VALUE>
+    <VALUE Lang="tw" Index="2">消滅</VALUE>
+    <VALUE Lang="tw" Index="3">保護</VALUE>
+    <VALUE Lang="tw" Index="4">請到達</VALUE>
+    <VALUE Lang="tw" Index="5">請守護</VALUE>
+    <VALUE Lang="tw" Index="6">需要使用的物品</VALUE>
+    <VALUE Lang="tw" Index="7">需要研磨的物品</VALUE>
+    <VALUE Lang="tw" Index="8">升級</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="REARCARTYPE">
+    <VALUE Lang="tw" Index="0">REARCAR_A</VALUE>
+    <VALUE Lang="tw" Index="1">REARCAR_B</VALUE>
+    <VALUE Lang="tw" Index="2">REARCAR_C</VALUE>
+    <VALUE Lang="tw" Index="3">REARCAR_D</VALUE>
+    <VALUE Lang="tw" Index="4">無</VALUE>
+    <VALUE Lang="tw" Index="5">無</VALUE>
+    <VALUE Lang="tw" Index="6">無</VALUE>
+    <VALUE Lang="tw" Index="7">無</VALUE>
+    <VALUE Lang="tw" Index="8">無</VALUE>
+    <VALUE Lang="tw" Index="9">無</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SCHOOLNAME">
+    <VALUE Lang="tw" Index="0">Sacred Gate</VALUE>
+    <VALUE Lang="tw" Index="1">Mystic Peak</VALUE>
+    <VALUE Lang="tw" Index="2">Phoenix</VALUE>
+    <VALUE Lang="tw" Index="3">--TEMP--</VALUE>
+    <VALUE Lang="tw" Index="4">--TEMP--</VALUE>
+    <VALUE Lang="tw" Index="5">--TEMP--</VALUE>
+    <VALUE Lang="tw" Index="6">--TEMP--</VALUE>
+    <VALUE Lang="tw" Index="7">--TEMP--</VALUE>
+    <VALUE Lang="tw" Index="8">--TEMP--</VALUE>
+    <VALUE Lang="tw" Index="9">--TEMP--</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SKILL_ACTION_TYPE">
+    <VALUE Lang="tw" Index="0">一般型</VALUE>
+    <VALUE Lang="tw" Index="1">Buff 型</VALUE>
+    <VALUE Lang="tw" Index="2">Debuff 型</VALUE>
+    <VALUE Lang="tw" Index="3">限制型</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SKILL_APPLY">
+    <VALUE Lang="tw" Index="0">打擊型</VALUE>
+    <VALUE Lang="tw" Index="1">射擊型</VALUE>
+    <VALUE Lang="tw" Index="2">法術型</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SKILL_EFFECT_TYPE">
+    <VALUE Lang="tw" Index="0">無</VALUE>
+    <VALUE Lang="tw" Index="1">附加效果</VALUE>
+    <VALUE Lang="tw" Index="2">特殊效果</VALUE>
+    <VALUE Lang="tw" Index="3">特殊能力</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SKILL_EFFPOS">
+    <VALUE Lang="tw" Index="0">地面位置</VALUE>
+    <VALUE Lang="tw" Index="1">打擊位置</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SKILL_EFFTIME">
+    <VALUE Lang="tw" Index="0">發動中</VALUE>
+    <VALUE Lang="tw" Index="1">打擊時</VALUE>
+    <VALUE Lang="tw" Index="2">效果結束時</VALUE>
+    <VALUE Lang="tw" Index="3">目標的安裝</VALUE>
+    <VALUE Lang="tw" Index="4">零值</VALUE>
+    <VALUE Lang="tw" Index="5">效果套用時</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SKILL_KEYWORD">
+    <VALUE Lang="tw" Index="0">Can be overlapped</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SKILL_LEVEL">
+    <VALUE Lang="tw" Index="0">等級 01</VALUE>
+    <VALUE Lang="tw" Index="1">等級 02</VALUE>
+    <VALUE Lang="tw" Index="2">等級 03</VALUE>
+    <VALUE Lang="tw" Index="3">等級 04</VALUE>
+    <VALUE Lang="tw" Index="4">等級 05</VALUE>
+    <VALUE Lang="tw" Index="5">等級 06</VALUE>
+    <VALUE Lang="tw" Index="6">等級 07</VALUE>
+    <VALUE Lang="tw" Index="7">等級 08</VALUE>
+    <VALUE Lang="tw" Index="8">等級 09</VALUE>
+    <VALUE Lang="tw" Index="9">等級 10</VALUE>
+    <VALUE Lang="tw" Index="10">等級 11</VALUE>
+    <VALUE Lang="tw" Index="11">等級 12</VALUE>
+    <VALUE Lang="tw" Index="12">等級 13</VALUE>
+    <VALUE Lang="tw" Index="13">等級 14</VALUE>
+    <VALUE Lang="tw" Index="14">等級 15</VALUE>
+    <VALUE Lang="tw" Index="15">等級 16</VALUE>
+    <VALUE Lang="tw" Index="16">等級 17</VALUE>
+    <VALUE Lang="tw" Index="17">等級 18</VALUE>
+    <VALUE Lang="tw" Index="18">等級 19</VALUE>
+    <VALUE Lang="tw" Index="19">等級 20</VALUE>
+    <VALUE Lang="tw" Index="20">等級 21</VALUE>
+    <VALUE Lang="tw" Index="21">等級 22</VALUE>
+    <VALUE Lang="tw" Index="22">等級 23</VALUE>
+    <VALUE Lang="tw" Index="23">等級 24</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SKILL_LINK_APPLY_TYPE">
+    <VALUE Lang="tw" Index="0">所有</VALUE>
+    <VALUE Lang="tw" Index="1">自身</VALUE>
+    <VALUE Lang="tw" Index="2">對方</VALUE>
+    <VALUE Lang="tw" Index="3">怪物</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SKILL_ROLE">
+    <VALUE Lang="tw" Index="0">基本型</VALUE>
+    <VALUE Lang="tw" Index="1">輔助型</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SKILL_TYPES">
+    <VALUE Lang="tw" Index="0">HP 變化</VALUE>
+    <VALUE Lang="tw" Index="1">MP 變化</VALUE>
+    <VALUE Lang="tw" Index="2">SP 變化</VALUE>
+    <VALUE Lang="tw" Index="3">HP 變化率</VALUE>
+    <VALUE Lang="tw" Index="4">MP 變化率</VALUE>
+    <VALUE Lang="tw" Index="5">SP 變化率</VALUE>
+    <VALUE Lang="tw" Index="6">防禦值變化</VALUE>
+    <VALUE Lang="tw" Index="7">解毒</VALUE>
+    <VALUE Lang="tw" Index="8">命中率變化</VALUE>
+    <VALUE Lang="tw" Index="9">迴避率變化</VALUE>
+    <VALUE Lang="tw" Index="10">HP+MP+SP 變化率</VALUE>
+    <VALUE Lang="tw" Index="11">攻擊力變化量</VALUE>
+    <VALUE Lang="tw" Index="12">防禦力變化量</VALUE>
+    <VALUE Lang="tw" Index="13">格鬥值</VALUE>
+    <VALUE Lang="tw" Index="14">射擊值</VALUE>
+    <VALUE Lang="tw" Index="15">魔力值</VALUE>
+    <VALUE Lang="tw" Index="16">HP 增幅率</VALUE>
+    <VALUE Lang="tw" Index="17">MP 增幅率</VALUE>
+    <VALUE Lang="tw" Index="18">SP 增幅率</VALUE>
+    <VALUE Lang="tw" Index="19">寵物道具</VALUE>
+    <VALUE Lang="tw" Index="20">寵物屬性裝備</VALUE>
+    <VALUE Lang="tw" Index="21">寵物(藥水)</VALUE>
+    <VALUE Lang="tw" Index="22">寵物幣</VALUE>
+    <VALUE Lang="tw" Index="23">寵物研磨器道具</VALUE>
+    <VALUE Lang="tw" Index="24">寵物主人HP恢復速度</VALUE>
+    <VALUE Lang="tw" Index="25">寵物主人 HP+MP+SP恢復率</VALUE>
+    <VALUE Lang="tw" Index="26">寵物主人攻擊力</VALUE>
+    <VALUE Lang="tw" Index="27">寵物主人防禦力</VALUE>
+    <VALUE Lang="tw" Index="28">寵物自動使用藥水</VALUE>
+    <VALUE Lang="tw" Index="29">寵物主人道具保護</VALUE>
+    <VALUE Lang="tw" Index="30">抵抗值 增加</VALUE>
+    <VALUE Lang="tw" Index="31">召喚時間增加</VALUE>
+    <VALUE Lang="tw" Index="32">可僱用召喚數</VALUE>
+    <VALUE Lang="tw" Index="33">寵物Qbox</VALUE>
+    <VALUE Lang="tw" Index="34">寵物飼料</VALUE>
+    <VALUE Lang="tw" Index="35">寵物紅色裝備</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SKILLATTACK">
+    <VALUE Lang="tw" Index="0">無穿戴</VALUE>
+    <VALUE Lang="tw" Index="1">劍</VALUE>
+    <VALUE Lang="tw" Index="2">刀</VALUE>
+    <VALUE Lang="tw" Index="3">劍/刀</VALUE>
+    <VALUE Lang="tw" Index="4">短劍</VALUE>
+    <VALUE Lang="tw" Index="5">矛槍</VALUE>
+    <VALUE Lang="tw" Index="6">棍</VALUE>
+    <VALUE Lang="tw" Index="7">拳</VALUE>
+    <VALUE Lang="tw" Index="8">弓</VALUE>
+    <VALUE Lang="tw" Index="9">投擲</VALUE>
+    <VALUE Lang="tw" Index="10">雙槍</VALUE>
+    <VALUE Lang="tw" Index="11">狙擊槍</VALUE>
+    <VALUE Lang="tw" Index="12">電子槍</VALUE>
+    <VALUE Lang="tw" Index="13">槍類</VALUE>
+    <VALUE Lang="tw" Index="14">狙擊槍/電子槍</VALUE>
+    <VALUE Lang="tw" Index="15">鐮刀</VALUE>
+    <VALUE Lang="tw" Index="16">雙刃</VALUE>
+    <VALUE Lang="tw" Index="17">飛鏢</VALUE>
+    <VALUE Lang="tw" Index="18">終極拳套</VALUE>
+    <VALUE Lang="tw" Index="19">魔術棒</VALUE>
+    <VALUE Lang="tw" Index="20">魔方</VALUE>
+    <VALUE Lang="tw" Index="21">鞭子</VALUE>
+    <VALUE Lang="tw" Index="22">盾牌</VALUE>
+    <VALUE Lang="tw" Index="23">大錘</VALUE>
+    <VALUE Lang="tw" Index="24">傘</VALUE>
+    <VALUE Lang="tw" Index="25">不檢查類型</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SKILLCLASS">
+    <VALUE Lang="tw" Index="0">格鬥部-class1</VALUE>
+    <VALUE Lang="tw" Index="1">格鬥部-class2</VALUE>
+    <VALUE Lang="tw" Index="2">格鬥部-class3</VALUE>
+    <VALUE Lang="tw" Index="3">格鬥部-class4</VALUE>
+    <VALUE Lang="tw" Index="4">劍道部-class1</VALUE>
+    <VALUE Lang="tw" Index="5">劍道部-class2</VALUE>
+    <VALUE Lang="tw" Index="6">劍道部-class3</VALUE>
+    <VALUE Lang="tw" Index="7">劍道部 -class4</VALUE>
+    <VALUE Lang="tw" Index="8">弓箭部-class1</VALUE>
+    <VALUE Lang="tw" Index="9">弓箭部-class2</VALUE>
+    <VALUE Lang="tw" Index="10">弓箭部-class3</VALUE>
+    <VALUE Lang="tw" Index="11">弓箭部-class4</VALUE>
+    <VALUE Lang="tw" Index="12">氣功部-class1</VALUE>
+    <VALUE Lang="tw" Index="13">氣功部-class2</VALUE>
+    <VALUE Lang="tw" Index="14">氣功部-class3</VALUE>
+    <VALUE Lang="tw" Index="15">氣功部-class4</VALUE>
+    <VALUE Lang="tw" Index="16">NPC_01</VALUE>
+    <VALUE Lang="tw" Index="17">NPC_02</VALUE>
+    <VALUE Lang="tw" Index="18">NPC_03</VALUE>
+    <VALUE Lang="tw" Index="19">NPC_04</VALUE>
+    <VALUE Lang="tw" Index="20">NPC_05</VALUE>
+    <VALUE Lang="tw" Index="21">NPC_06</VALUE>
+    <VALUE Lang="tw" Index="22">NPC_07</VALUE>
+    <VALUE Lang="tw" Index="23">NPC_08</VALUE>
+    <VALUE Lang="tw" Index="24">NPC_09</VALUE>
+    <VALUE Lang="tw" Index="25">NPC_10</VALUE>
+    <VALUE Lang="tw" Index="26">寵物</VALUE>
+    <VALUE Lang="tw" Index="27">NPC_12</VALUE>
+    <VALUE Lang="tw" Index="28">NPC_13</VALUE>
+    <VALUE Lang="tw" Index="29">NPC_14</VALUE>
+    <VALUE Lang="tw" Index="30">新職業1</VALUE>
+    <VALUE Lang="tw" Index="31">新職業2</VALUE>
+    <VALUE Lang="tw" Index="32">新職業3</VALUE>
+    <VALUE Lang="tw" Index="33">新職業4</VALUE>
+    <VALUE Lang="tw" Index="34">NPC_19</VALUE>
+    <VALUE Lang="tw" Index="35">NPC_20</VALUE>
+    <VALUE Lang="tw" Index="36">科學部1</VALUE>
+    <VALUE Lang="tw" Index="37">科學部2</VALUE>
+    <VALUE Lang="tw" Index="38">科學部3</VALUE>
+    <VALUE Lang="tw" Index="39">科學部4</VALUE>
+    <VALUE Lang="tw" Index="40">食物（便當）</VALUE>
+    <VALUE Lang="tw" Index="41">召喚</VALUE>
+    <VALUE Lang="tw" Index="42">魔術師的寵物</VALUE>
+    <VALUE Lang="tw" Index="43">忍術部1</VALUE>
+    <VALUE Lang="tw" Index="44">忍術部2</VALUE>
+    <VALUE Lang="tw" Index="45">忍術部3</VALUE>
+    <VALUE Lang="tw" Index="46">忍術部4</VALUE>
+    <VALUE Lang="tw" Index="47">其它職業1</VALUE>
+    <VALUE Lang="tw" Index="48">其它職業2</VALUE>
+    <VALUE Lang="tw" Index="49">其它職業3</VALUE>
+    <VALUE Lang="tw" Index="50">其它職業4</VALUE>
+    <VALUE Lang="tw" Index="51">奪取此地</VALUE>
+    <VALUE Lang="tw" Index="52">活動</VALUE>
+    <VALUE Lang="tw" Index="53">其它</VALUE>
+    <VALUE Lang="tw" Index="54">測試</VALUE>
+    <VALUE Lang="tw" Index="55">Magician-multi</VALUE>
+    <VALUE Lang="tw" Index="56">Magician-class1</VALUE>
+    <VALUE Lang="tw" Index="57">Magician-class2</VALUE>
+    <VALUE Lang="tw" Index="58">Magician-class3</VALUE>
+    <VALUE Lang="tw" Index="59">Magician-class4</VALUE>
+    <VALUE Lang="tw" Index="60">Shaper---Additional Skills</VALUE>
+    <VALUE Lang="tw" Index="61">Shaper---DEX</VALUE>
+    <VALUE Lang="tw" Index="62">Shaper---POW</VALUE>
+    <VALUE Lang="tw" Index="63">Shaper---INT</VALUE>
+    <VALUE Lang="tw" Index="64">Shaper---Basic</VALUE>
+    <VALUE Lang="tw" Index="65">Shaper---Disguised DEX</VALUE>
+    <VALUE Lang="tw" Index="66">Shaper---Disguised POW</VALUE>
+    <VALUE Lang="tw" Index="67">Shaper---Disguised INT</VALUE>
+    <VALUE Lang="tw" Index="68">Shaper---Disguised Basic</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SPEC_ADDON">
+    <VALUE Lang="tw" Index="0">無</VALUE>
+    <VALUE Lang="tw" Index="1">驚嚇</VALUE>
+    <VALUE Lang="tw" Index="2">反射殺傷力</VALUE>
+    <VALUE Lang="tw" Index="3">復活</VALUE>
+    <VALUE Lang="tw" Index="4">偷取Hp</VALUE>
+    <VALUE Lang="tw" Index="5">偷取MP</VALUE>
+    <VALUE Lang="tw" Index="6">偷取SP</VALUE>
+    <VALUE Lang="tw" Index="7">分享HP</VALUE>
+    <VALUE Lang="tw" Index="8">分享MP</VALUE>
+    <VALUE Lang="tw" Index="9">分享SP</VALUE>
+    <VALUE Lang="tw" Index="10">迴避異常狀態</VALUE>
+    <VALUE Lang="tw" Index="11">恢復異常狀態</VALUE>
+    <VALUE Lang="tw" Index="12">貫穿程度</VALUE>
+    <VALUE Lang="tw" Index="13">射擊速度</VALUE>
+    <VALUE Lang="tw" Index="14">移動速度</VALUE>
+    <VALUE Lang="tw" Index="15">衝刺攻擊</VALUE>
+    <VALUE Lang="tw" Index="16">隱身</VALUE>
+    <VALUE Lang="tw" Index="17">感應隱身</VALUE>
+    <VALUE Lang="tw" Index="18">攻擊速度</VALUE>
+    <VALUE Lang="tw" Index="19">技能延遲</VALUE>
+    <VALUE Lang="tw" Index="20">強烈打擊</VALUE>
+    <VALUE Lang="tw" Index="21">吸收物理傷害</VALUE>
+    <VALUE Lang="tw" Index="22">吸收魔法傷害</VALUE>
+    <VALUE Lang="tw" Index="23">反射物理傷害</VALUE>
+    <VALUE Lang="tw" Index="24">反射魔法傷害</VALUE>
+    <VALUE Lang="tw" Index="25">解除技能效果</VALUE>
+    <VALUE Lang="tw" Index="26">昏厥</VALUE>
+    <VALUE Lang="tw" Index="27">發動行技能</VALUE>
+    <VALUE Lang="tw" Index="28">引怪</VALUE>
+    <VALUE Lang="tw" Index="29">重推</VALUE>
+    <VALUE Lang="tw" Index="30">持續攻擊</VALUE>
+    <VALUE Lang="tw" Index="31">詛咒</VALUE>
+    <VALUE Lang="tw" Index="32">改變攻擊距離</VALUE>
+    <VALUE Lang="tw" Index="33">改變套用地區</VALUE>
+    <VALUE Lang="tw" Index="34">禁止使用藥水</VALUE>
+    <VALUE Lang="tw" Index="35">禁止使用技能</VALUE>
+    <VALUE Lang="tw" Index="36">吸收傷害（無視）</VALUE>
+    <VALUE Lang="tw" Index="37">掉寶率</VALUE>
+    <VALUE Lang="tw" Index="38">金幣掉落率</VALUE>
+    <VALUE Lang="tw" Index="39">經驗值加倍</VALUE>
+    <VALUE Lang="tw" Index="40">與特定NPC對話</VALUE>
+    <VALUE Lang="tw" Index="41">掉落特定道具</VALUE>
+    <VALUE Lang="tw" Index="42">瞬間移動</VALUE>
+    <VALUE Lang="tw" Index="43">位置交換</VALUE>
+    <VALUE Lang="tw" Index="44">強化</VALUE>
+    <VALUE Lang="tw" Index="45">虛幻影像</VALUE>
+    <VALUE Lang="tw" Index="46">解除騎乘</VALUE>
+    <VALUE Lang="tw" Index="47">持續時間增減</VALUE>
+    <VALUE Lang="tw" Index="48">落印</VALUE>
+    <VALUE Lang="tw" Index="49">還毒</VALUE>
+    <VALUE Lang="tw" Index="50">遭攻擊時效果解除</VALUE>
+    <VALUE Lang="tw" Index="51">孤離</VALUE>
+    <VALUE Lang="tw" Index="52">水毒</VALUE>
+    <VALUE Lang="tw" Index="53">免疫</VALUE>
+    <VALUE Lang="tw" Index="54">戰鬥狀態</VALUE>
+    <VALUE Lang="tw" Index="55">解除戰鬥狀態</VALUE>
+    <VALUE Lang="tw" Index="56">目標鎖定</VALUE>
+    <VALUE Lang="tw" Index="57">支配</VALUE>
+    <VALUE Lang="tw" Index="58">隨機經驗值獲取率</VALUE>
+    <VALUE Lang="tw" Index="59">技能連結</VALUE>
+    <VALUE Lang="tw" Index="60">공격력(정수)</VALUE>
+    <VALUE Lang="tw" Index="61">공격력(비율)</VALUE>
+    <VALUE Lang="tw" Index="62">방어력(정수)</VALUE>
+    <VALUE Lang="tw" Index="63">방어력(비율)</VALUE>
+    <VALUE Lang="tw" Index="64">명중률(정수)</VALUE>
+    <VALUE Lang="tw" Index="65">명중률(비율)</VALUE>
+    <VALUE Lang="tw" Index="66">회피율(정수)</VALUE>
+    <VALUE Lang="tw" Index="67">회피율(비율)</VALUE>
+    <VALUE Lang="tw" Index="68">hp증가</VALUE>
+    <VALUE Lang="tw" Index="69">mp증가</VALUE>
+    <VALUE Lang="tw" Index="70">sp증가</VALUE>
+    <VALUE Lang="tw" Index="71">cp 증가</VALUE>
+    <VALUE Lang="tw" Index="72">hp회복율</VALUE>
+    <VALUE Lang="tw" Index="73">mp회복율</VALUE>
+    <VALUE Lang="tw" Index="74">sp회복율</VALUE>
+    <VALUE Lang="tw" Index="75">hp, mp, sp 회복율</VALUE>
+    <VALUE Lang="tw" Index="76">공격 영역</VALUE>
+    <VALUE Lang="tw" Index="77">sp 소모량</VALUE>
+    <VALUE Lang="tw" Index="78">저항</VALUE>
+    <VALUE Lang="tw" Index="79">힘(정수)</VALUE>
+    <VALUE Lang="tw" Index="80">체력(정수)</VALUE>
+    <VALUE Lang="tw" Index="81">정신(정수)</VALUE>
+    <VALUE Lang="tw" Index="82">민첩(정수)</VALUE>
+    <VALUE Lang="tw" Index="83">근력(정수)</VALUE>
+    <VALUE Lang="tw" Index="84">격투치(정수)</VALUE>
+    <VALUE Lang="tw" Index="85">사격치(정수)</VALUE>
+    <VALUE Lang="tw" Index="86">마력치(정수)</VALUE>
+    <VALUE Lang="tw" Index="87">포션 hp증가(정수)</VALUE>
+    <VALUE Lang="tw" Index="88">포션 mp증가(정수)</VALUE>
+    <VALUE Lang="tw" Index="89">포션 sp증가(정수)</VALUE>
+    <VALUE Lang="tw" Index="90">cp증가(정수)</VALUE>
+    <VALUE Lang="tw" Index="91">이동속도(정수)</VALUE>
+    <VALUE Lang="tw" Index="92">데미지(비율)</VALUE>
+    <VALUE Lang="tw" Index="93">시야제한(비율)</VALUE>
+    <VALUE Lang="tw" Index="94">에어본</VALUE>
+    <VALUE Lang="tw" Index="95">소환수(페이지변경)</VALUE>
+    <VALUE Lang="tw" Index="96">소환수(스킬)</VALUE>
+    <VALUE Lang="tw" Index="97">소환수(타겟팅)</VALUE>
+    <VALUE Lang="tw" Index="98">소환수(퇴각)</VALUE>
+    <VALUE Lang="tw" Index="99">지연발동</VALUE>
+    <VALUE Lang="tw" Index="100">복제효과</VALUE>
+    <VALUE Lang="tw" Index="101">이속제한</VALUE>
+    <VALUE Lang="tw" Index="102">反擊</VALUE>
+    <VALUE Lang="tw" Index="103">畫面投擲</VALUE>
+    <VALUE Lang="tw" Index="104">召喚獸</VALUE>
+    <VALUE Lang="tw" Index="105">裝死</VALUE>
+    <VALUE Lang="tw" Index="106">致盲</VALUE>
+    <VALUE Lang="tw" Index="107">變裝</VALUE>
+    <VALUE Lang="tw" Index="108">嘲諷</VALUE>
+    <VALUE Lang="tw" Index="109">免疫特定效果</VALUE>
+    <VALUE Lang="tw" Index="110">發動傷害</VALUE>
+    <VALUE Lang="tw" Index="111">移除特定技能效果</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SPEC_ADDON_VAR1">
+    <VALUE Lang="tw" Index="0">無</VALUE>
+    <VALUE Lang="tw" Index="1">範圍</VALUE>
+    <VALUE Lang="tw" Index="2">無</VALUE>
+    <VALUE Lang="tw" Index="3">恢復率</VALUE>
+    <VALUE Lang="tw" Index="4">吸收率</VALUE>
+    <VALUE Lang="tw" Index="5">吸收率</VALUE>
+    <VALUE Lang="tw" Index="6">吸收率</VALUE>
+    <VALUE Lang="tw" Index="7">無</VALUE>
+    <VALUE Lang="tw" Index="8">無</VALUE>
+    <VALUE Lang="tw" Index="9">無</VALUE>
+    <VALUE Lang="tw" Index="10">無</VALUE>
+    <VALUE Lang="tw" Index="11">無</VALUE>
+    <VALUE Lang="tw" Index="12">增加滲透</VALUE>
+    <VALUE Lang="tw" Index="13">攻擊範圍</VALUE>
+    <VALUE Lang="tw" Index="14">移動率</VALUE>
+    <VALUE Lang="tw" Index="15">範圍</VALUE>
+    <VALUE Lang="tw" Index="16">隱藏 Lv</VALUE>
+    <VALUE Lang="tw" Index="17">偵查 Lv</VALUE>
+    <VALUE Lang="tw" Index="18">攻擊速度</VALUE>
+    <VALUE Lang="tw" Index="19">變化率</VALUE>
+    <VALUE Lang="tw" Index="20">範圍</VALUE>
+    <VALUE Lang="tw" Index="21">吸收率</VALUE>
+    <VALUE Lang="tw" Index="22">吸收率</VALUE>
+    <VALUE Lang="tw" Index="23">反射率</VALUE>
+    <VALUE Lang="tw" Index="24">反射率</VALUE>
+    <VALUE Lang="tw" Index="25">無</VALUE>
+    <VALUE Lang="tw" Index="26">無</VALUE>
+    <VALUE Lang="tw" Index="27">率</VALUE>
+    <VALUE Lang="tw" Index="28">率</VALUE>
+    <VALUE Lang="tw" Index="29">率</VALUE>
+    <VALUE Lang="tw" Index="30">時效性</VALUE>
+    <VALUE Lang="tw" Index="31">反射率</VALUE>
+    <VALUE Lang="tw" Index="32">範圍</VALUE>
+    <VALUE Lang="tw" Index="33">範圍</VALUE>
+    <VALUE Lang="tw" Index="34">無</VALUE>
+    <VALUE Lang="tw" Index="35">無</VALUE>
+    <VALUE Lang="tw" Index="36">次數</VALUE>
+    <VALUE Lang="tw" Index="37">增加率</VALUE>
+    <VALUE Lang="tw" Index="38">增加率</VALUE>
+    <VALUE Lang="tw" Index="39">增加率</VALUE>
+    <VALUE Lang="tw" Index="40">無</VALUE>
+    <VALUE Lang="tw" Index="41">無</VALUE>
+    <VALUE Lang="tw" Index="42">機率</VALUE>
+    <VALUE Lang="tw" Index="43">機率</VALUE>
+    <VALUE Lang="tw" Index="44">強打機率</VALUE>
+    <VALUE Lang="tw" Index="45">距離</VALUE>
+    <VALUE Lang="tw" Index="46">成功率</VALUE>
+    <VALUE Lang="tw" Index="47">增減比率1</VALUE>
+    <VALUE Lang="tw" Index="48">有效距離</VALUE>
+    <VALUE Lang="tw" Index="49">變身ID</VALUE>
+    <VALUE Lang="tw" Index="50">機率</VALUE>
+    <VALUE Lang="tw" Index="51">無</VALUE>
+    <VALUE Lang="tw" Index="52">機率</VALUE>
+    <VALUE Lang="tw" Index="53">套用類型</VALUE>
+    <VALUE Lang="tw" Index="54">機率</VALUE>
+    <VALUE Lang="tw" Index="55">無</VALUE>
+    <VALUE Lang="tw" Index="56">機率</VALUE>
+    <VALUE Lang="tw" Index="57">機率</VALUE>
+    <VALUE Lang="tw" Index="58">索引</VALUE>
+    <VALUE Lang="tw" Index="59">機率</VALUE>
+    <VALUE Lang="tw" Index="60">값</VALUE>
+    <VALUE Lang="tw" Index="61">비율</VALUE>
+    <VALUE Lang="tw" Index="62">값</VALUE>
+    <VALUE Lang="tw" Index="63">비율</VALUE>
+    <VALUE Lang="tw" Index="64">값</VALUE>
+    <VALUE Lang="tw" Index="65">비율</VALUE>
+    <VALUE Lang="tw" Index="66">값</VALUE>
+    <VALUE Lang="tw" Index="67">비율</VALUE>
+    <VALUE Lang="tw" Index="68">값</VALUE>
+    <VALUE Lang="tw" Index="69">값</VALUE>
+    <VALUE Lang="tw" Index="70">값</VALUE>
+    <VALUE Lang="tw" Index="71">값</VALUE>
+    <VALUE Lang="tw" Index="72">비율</VALUE>
+    <VALUE Lang="tw" Index="73">비율</VALUE>
+    <VALUE Lang="tw" Index="74">비율</VALUE>
+    <VALUE Lang="tw" Index="75">비율</VALUE>
+    <VALUE Lang="tw" Index="76">값</VALUE>
+    <VALUE Lang="tw" Index="77">값</VALUE>
+    <VALUE Lang="tw" Index="78">값</VALUE>
+    <VALUE Lang="tw" Index="79">값</VALUE>
+    <VALUE Lang="tw" Index="80">값</VALUE>
+    <VALUE Lang="tw" Index="81">값</VALUE>
+    <VALUE Lang="tw" Index="82">값</VALUE>
+    <VALUE Lang="tw" Index="83">값</VALUE>
+    <VALUE Lang="tw" Index="84">값</VALUE>
+    <VALUE Lang="tw" Index="85">값</VALUE>
+    <VALUE Lang="tw" Index="86">값</VALUE>
+    <VALUE Lang="tw" Index="87">값</VALUE>
+    <VALUE Lang="tw" Index="88">값</VALUE>
+    <VALUE Lang="tw" Index="89">값</VALUE>
+    <VALUE Lang="tw" Index="90">값</VALUE>
+    <VALUE Lang="tw" Index="91">값</VALUE>
+    <VALUE Lang="tw" Index="92">비율</VALUE>
+    <VALUE Lang="tw" Index="93">비율</VALUE>
+    <VALUE Lang="tw" Index="94">부양시간</VALUE>
+    <VALUE Lang="tw" Index="95">기본슬롯</VALUE>
+    <VALUE Lang="tw" Index="96">기본슬롯</VALUE>
+    <VALUE Lang="tw" Index="97">없음</VALUE>
+    <VALUE Lang="tw" Index="98">없음</VALUE>
+    <VALUE Lang="tw" Index="99">스킬Mid</VALUE>
+    <VALUE Lang="tw" Index="100">마리수</VALUE>
+    <VALUE Lang="tw" Index="101">최저 이속</VALUE>
+    <VALUE Lang="tw" Index="102">技能Mid</VALUE>
+    <VALUE Lang="tw" Index="103">Effect</VALUE>
+    <VALUE Lang="tw" Index="104">MobMID</VALUE>
+    <VALUE Lang="tw" Index="105">無</VALUE>
+    <VALUE Lang="tw" Index="106">Effect</VALUE>
+    <VALUE Lang="tw" Index="107">ChangeSki</VALUE>
+    <VALUE Lang="tw" Index="108">有效距離</VALUE>
+    <VALUE Lang="tw" Index="109">效果ID</VALUE>
+    <VALUE Lang="tw" Index="110">打擊數</VALUE>
+    <VALUE Lang="tw" Index="111">EffectID</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SPEC_ADDON_VAR2">
+    <VALUE Lang="tw" Index="0">無</VALUE>
+    <VALUE Lang="tw" Index="1">機會</VALUE>
+    <VALUE Lang="tw" Index="2">無</VALUE>
+    <VALUE Lang="tw" Index="3">無</VALUE>
+    <VALUE Lang="tw" Index="4">無</VALUE>
+    <VALUE Lang="tw" Index="5">無</VALUE>
+    <VALUE Lang="tw" Index="6">無</VALUE>
+    <VALUE Lang="tw" Index="7">無</VALUE>
+    <VALUE Lang="tw" Index="8">無</VALUE>
+    <VALUE Lang="tw" Index="9">無</VALUE>
+    <VALUE Lang="tw" Index="10">無</VALUE>
+    <VALUE Lang="tw" Index="11">無</VALUE>
+    <VALUE Lang="tw" Index="12">無</VALUE>
+    <VALUE Lang="tw" Index="13">無</VALUE>
+    <VALUE Lang="tw" Index="14">無</VALUE>
+    <VALUE Lang="tw" Index="15">速度</VALUE>
+    <VALUE Lang="tw" Index="16">動畫</VALUE>
+    <VALUE Lang="tw" Index="17">範圍</VALUE>
+    <VALUE Lang="tw" Index="18">無</VALUE>
+    <VALUE Lang="tw" Index="19">率</VALUE>
+    <VALUE Lang="tw" Index="20">變化</VALUE>
+    <VALUE Lang="tw" Index="21">無</VALUE>
+    <VALUE Lang="tw" Index="22">無</VALUE>
+    <VALUE Lang="tw" Index="23">機會</VALUE>
+    <VALUE Lang="tw" Index="24">機會</VALUE>
+    <VALUE Lang="tw" Index="25">無</VALUE>
+    <VALUE Lang="tw" Index="26">無</VALUE>
+    <VALUE Lang="tw" Index="27">無</VALUE>
+    <VALUE Lang="tw" Index="28">移動速度</VALUE>
+    <VALUE Lang="tw" Index="29">範圍</VALUE>
+    <VALUE Lang="tw" Index="30">傷害</VALUE>
+    <VALUE Lang="tw" Index="31">無</VALUE>
+    <VALUE Lang="tw" Index="32">無</VALUE>
+    <VALUE Lang="tw" Index="33">無</VALUE>
+    <VALUE Lang="tw" Index="34">無</VALUE>
+    <VALUE Lang="tw" Index="35">無</VALUE>
+    <VALUE Lang="tw" Index="36">吸收量</VALUE>
+    <VALUE Lang="tw" Index="37">無</VALUE>
+    <VALUE Lang="tw" Index="38">無</VALUE>
+    <VALUE Lang="tw" Index="39">無</VALUE>
+    <VALUE Lang="tw" Index="40">無</VALUE>
+    <VALUE Lang="tw" Index="41">無</VALUE>
+    <VALUE Lang="tw" Index="42">無</VALUE>
+    <VALUE Lang="tw" Index="43">移動速度</VALUE>
+    <VALUE Lang="tw" Index="44">傷害增減</VALUE>
+    <VALUE Lang="tw" Index="45">次數</VALUE>
+    <VALUE Lang="tw" Index="46">持續</VALUE>
+    <VALUE Lang="tw" Index="47">增減比率2</VALUE>
+    <VALUE Lang="tw" Index="48">值率</VALUE>
+    <VALUE Lang="tw" Index="49">特效ID</VALUE>
+    <VALUE Lang="tw" Index="50">附加解除條件</VALUE>
+    <VALUE Lang="tw" Index="51">無</VALUE>
+    <VALUE Lang="tw" Index="52">無</VALUE>
+    <VALUE Lang="tw" Index="53">行為類型</VALUE>
+    <VALUE Lang="tw" Index="54">持續時間</VALUE>
+    <VALUE Lang="tw" Index="55">無</VALUE>
+    <VALUE Lang="tw" Index="56">有效距離</VALUE>
+    <VALUE Lang="tw" Index="57">範圍</VALUE>
+    <VALUE Lang="tw" Index="58">重疊次數</VALUE>
+    <VALUE Lang="tw" Index="59">無</VALUE>
+    <VALUE Lang="tw" Index="60">없음</VALUE>
+    <VALUE Lang="tw" Index="61">없음</VALUE>
+    <VALUE Lang="tw" Index="62">없음</VALUE>
+    <VALUE Lang="tw" Index="63">없음</VALUE>
+    <VALUE Lang="tw" Index="64">없음</VALUE>
+    <VALUE Lang="tw" Index="65">없음</VALUE>
+    <VALUE Lang="tw" Index="66">없음</VALUE>
+    <VALUE Lang="tw" Index="67">범위</VALUE>
+    <VALUE Lang="tw" Index="68">없음</VALUE>
+    <VALUE Lang="tw" Index="69">없음</VALUE>
+    <VALUE Lang="tw" Index="70">없음</VALUE>
+    <VALUE Lang="tw" Index="71">없음</VALUE>
+    <VALUE Lang="tw" Index="72">없음</VALUE>
+    <VALUE Lang="tw" Index="73">없음</VALUE>
+    <VALUE Lang="tw" Index="74">없음</VALUE>
+    <VALUE Lang="tw" Index="75">없음</VALUE>
+    <VALUE Lang="tw" Index="76">없음</VALUE>
+    <VALUE Lang="tw" Index="77">범위</VALUE>
+    <VALUE Lang="tw" Index="78">없음</VALUE>
+    <VALUE Lang="tw" Index="79">없음</VALUE>
+    <VALUE Lang="tw" Index="80">없음</VALUE>
+    <VALUE Lang="tw" Index="81">없음</VALUE>
+    <VALUE Lang="tw" Index="82">없음</VALUE>
+    <VALUE Lang="tw" Index="83">없음</VALUE>
+    <VALUE Lang="tw" Index="84">없음</VALUE>
+    <VALUE Lang="tw" Index="85">없음</VALUE>
+    <VALUE Lang="tw" Index="86">없음</VALUE>
+    <VALUE Lang="tw" Index="87">범위</VALUE>
+    <VALUE Lang="tw" Index="88">없음</VALUE>
+    <VALUE Lang="tw" Index="89">없음</VALUE>
+    <VALUE Lang="tw" Index="90">없음</VALUE>
+    <VALUE Lang="tw" Index="91">없음</VALUE>
+    <VALUE Lang="tw" Index="92">없음</VALUE>
+    <VALUE Lang="tw" Index="93">없음</VALUE>
+    <VALUE Lang="tw" Index="94">높이</VALUE>
+    <VALUE Lang="tw" Index="95">없음</VALUE>
+    <VALUE Lang="tw" Index="96">없음</VALUE>
+    <VALUE Lang="tw" Index="97">없음</VALUE>
+    <VALUE Lang="tw" Index="98">없음</VALUE>
+    <VALUE Lang="tw" Index="99">스킬Sid</VALUE>
+    <VALUE Lang="tw" Index="100">공격력 계승</VALUE>
+    <VALUE Lang="tw" Index="101">최고 이속</VALUE>
+    <VALUE Lang="tw" Index="102">技能Sid</VALUE>
+    <VALUE Lang="tw" Index="103">無</VALUE>
+    <VALUE Lang="tw" Index="104">MobSID</VALUE>
+    <VALUE Lang="tw" Index="105">無</VALUE>
+    <VALUE Lang="tw" Index="106">無</VALUE>
+    <VALUE Lang="tw" Index="107">變身ID</VALUE>
+    <VALUE Lang="tw" Index="108">無</VALUE>
+    <VALUE Lang="tw" Index="109">無</VALUE>
+    <VALUE Lang="tw" Index="110">傷害量</VALUE>
+    <VALUE Lang="tw" Index="111">無</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SPEC_ASIGN_TYPE">
+    <VALUE Lang="tw" Index="0">套用前</VALUE>
+    <VALUE Lang="tw" Index="1">套用後</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SPEC_DOMINATE_TYPE">
+    <VALUE Lang="tw" Index="0">自身</VALUE>
+    <VALUE Lang="tw" Index="1">施展者</VALUE>
+    <VALUE Lang="tw" Index="2">隨機</VALUE>
+    <VALUE Lang="tw" Index="3">固定</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SPEC_HALLUCINATE_TYPE">
+    <VALUE Lang="tw" Index="0">變身</VALUE>
+    <VALUE Lang="tw" Index="1">強制特效</VALUE>
+    <VALUE Lang="tw" Index="2">-----TEMP-----</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SPEC_INC_TYPE">
+    <VALUE Lang="tw" Index="0">增加</VALUE>
+    <VALUE Lang="tw" Index="1">減少</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SPEC_INVISIBLE_ANI_TYPE">
+    <VALUE Lang="tw" Index="0">無</VALUE>
+    <VALUE Lang="tw" Index="1">走路</VALUE>
+    <VALUE Lang="tw" Index="2">跑步</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SPEC_INVISIBLE_USE_TYPE">
+    <VALUE Lang="tw" Index="0">戰鬥時使用</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SPEC_STIGMA_TYPE">
+    <VALUE Lang="tw" Index="0">一般傷害</VALUE>
+    <VALUE Lang="tw" Index="1">技能傷害</VALUE>
+    <VALUE Lang="tw" Index="2">增益效果</VALUE>
+    <VALUE Lang="tw" Index="3">減益效果</VALUE>
+    <VALUE Lang="tw" Index="4">限制</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SPEC_SWAPPOS_DIR_TYPE">
+    <VALUE Lang="tw" Index="0">全部</VALUE>
+    <VALUE Lang="tw" Index="1">自身</VALUE>
+    <VALUE Lang="tw" Index="2">目標</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="SPECIAL_SKILL_TYPE">
+    <VALUE Lang="tw" Index="0">無</VALUE>
+    <VALUE Lang="tw" Index="1">變身</VALUE>
+    <VALUE Lang="tw" Index="2">召喚</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="STRIKE_EFF">
+    <VALUE Lang="tw" Index="0">無</VALUE>
+    <VALUE Lang="tw" Index="1">自身</VALUE>
+    <VALUE Lang="tw" Index="2">目標</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="TRIBE">
+    <VALUE Lang="tw" Index="0">人</VALUE>
+    <VALUE Lang="tw" Index="1">妖</VALUE>
+    <VALUE Lang="tw" Index="2">天使</VALUE>
+    <VALUE Lang="tw" Index="3">惡魔</VALUE>
+    <VALUE Lang="tw" Index="4">精靈</VALUE>
+    <VALUE Lang="tw" Index="5">妖精</VALUE>
+    <VALUE Lang="tw" Index="6">龍</VALUE>
+  </WORD>
+  <WORD Ver="1" Id="VEHICLE_TYPE">
+    <VALUE Lang="tw" Index="0">滑板</VALUE>
+    <VALUE Lang="tw" Index="1">機車</VALUE>
+    <VALUE Lang="tw" Index="2">汽車</VALUE>
+    <VALUE Lang="tw" Index="3">人力車</VALUE>
+  </WORD>
+</TEXT>
