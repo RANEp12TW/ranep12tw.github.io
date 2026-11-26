@@ -1,0 +1,6 @@
+; Search distance uses the original native radius (100 world units). SearchGrid is ignored.
+[AutoHunt]
+SearchGrid=0
+RetargetSeconds=3
+SkipSeconds=10
+ScanMilliseconds=500
